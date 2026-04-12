@@ -9,16 +9,30 @@ export class ApiError extends Error {
   }
 }
 
+function mergeFetchHeaders(
+  lsToken: string | null,
+  extra?: HeadersInit
+): Headers {
+  const h = new Headers();
+  h.set('Content-Type', 'application/json');
+  if (lsToken) h.set('Authorization', `Bearer ${lsToken}`);
+  if (extra) {
+    const incoming = new Headers(extra);
+    incoming.forEach((value, key) => {
+      h.set(key, value);
+    });
+  }
+  return h;
+}
+
 export async function apiFetch<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const token = typeof window !== 'undefined' ? localStorage.getItem(GATEWAY_TOKEN_KEY) : null;
+  const lsToken = typeof window !== 'undefined' ? localStorage.getItem(GATEWAY_TOKEN_KEY) : null;
+  const { headers: optHeaders, ...rest } = options ?? {};
+  const headers = mergeFetchHeaders(lsToken, optHeaders);
 
   const res = await fetch(`${API_URL}${endpoint}`, {
-    ...options,
-    headers: {
-      'Content-Type': 'application/json',
-      ...(token && { Authorization: `Bearer ${token}` }),
-      ...options?.headers,
-    },
+    ...rest,
+    headers,
   });
 
   if (res.status === 401) {
