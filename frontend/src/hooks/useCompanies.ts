@@ -1,6 +1,7 @@
 'use client';
 import useSWR from 'swr';
-import { api } from '@/lib/api';
+import { apiFetch } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
 
 export interface CompanyOption {
   id: string;
@@ -12,8 +13,14 @@ interface CompaniesResponse {
 }
 
 export function useCompanies(search?: string) {
+  const { session, loading: authLoading } = useAuth();
   const endpoint = search
     ? `/api/companies?search=${encodeURIComponent(search)}`
     : '/api/companies';
-  return useSWR<CompaniesResponse>(endpoint, api.get);
+  const token = session?.access_token;
+  const key = authLoading || !token ? null : ([endpoint, token] as const);
+
+  return useSWR<CompaniesResponse>(key, ([url, tok]) =>
+    apiFetch(url, { headers: { Authorization: `Bearer ${tok}` } })
+  );
 }

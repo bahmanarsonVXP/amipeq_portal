@@ -9,7 +9,8 @@ import { Input } from '@/components/ui/Input';
 import { Card } from '@/components/ui/Card';
 import { useCompanies } from '@/hooks/useCompanies';
 import { useDebouncedValue } from '@/hooks/useDebouncedValue';
-import { api, ApiError } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
+import { apiFetch, ApiError } from '@/lib/api';
 import { cn } from '@/lib/utils';
 import type { Prestation } from '@/types';
 import { Search } from 'lucide-react';
@@ -42,6 +43,7 @@ const selectClass =
 
 export default function NewOpportunityPage() {
   const router = useRouter();
+  const { session } = useAuth();
   const [companyQuery, setCompanyQuery] = useState('');
   const debouncedQuery = useDebouncedValue(companyQuery, 300);
   const { data: companiesData, isLoading: companiesLoading } = useCompanies(
@@ -89,6 +91,11 @@ export default function NewOpportunityPage() {
       return;
     }
     const title = name.trim() || `Devis ${yearDefault}`;
+    const tok = session?.access_token;
+    if (!tok) {
+      setError('Session expirée. Reconnectez-vous.');
+      return;
+    }
     setSubmitting(true);
     try {
       const payload: Record<string, unknown> = {
@@ -109,7 +116,11 @@ export default function NewOpportunityPage() {
         if (!Number.isNaN(y)) payload.anneeDevis = y;
       }
 
-      const res = await api.post<{ id?: string }>('/api/opportunities', payload);
+      const res = await apiFetch<{ id?: string }>('/api/opportunities', {
+        method: 'POST',
+        body: JSON.stringify(payload),
+        headers: { Authorization: `Bearer ${tok}` },
+      });
       if (res.id) {
         router.push('/opportunities');
         router.refresh();
