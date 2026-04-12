@@ -1,4 +1,5 @@
 import { GATEWAY_TOKEN_KEY } from './gatewayToken';
+import { supabase } from './supabase';
 
 /** En `next dev`, base vide → fetch vers /api/... (même origine :3000), rewrite vers le gateway. */
 function getApiBaseUrl(): string {
@@ -15,20 +16,34 @@ export class ApiError extends Error {
   }
 }
 
-function mergeFetchHeaders(
-  lsToken: string | null,
-  extra?: HeadersInit
-): Headers {
+/** D’abord les en-têtes explicites (dont Authorization), puis repli sur localStorage. */
+function mergeFetchHeaders(lsToken: string | null, extra?: HeadersInit): Headers {
   const h = new Headers();
   h.set('Content-Type', 'application/json');
-  if (lsToken) h.set('Authorization', `Bearer ${lsToken}`);
   if (extra) {
-    const incoming = new Headers(extra);
-    incoming.forEach((value, key) => {
+    new Headers(extra).forEach((value, key) => {
       h.set(key, value);
     });
   }
+  if (!h.has('Authorization') && lsToken) {
+    h.set('Authorization', `Bearer ${lsToken}`);
+  }
   return h;
+}
+
+/** JWT lu depuis Supabase au moment de l’appel (évite tout décalage avec React / SWR). */
+export async function apiFetchWithSession<T>(endpoint: string, options?: RequestInit): Promise<T> {
+  const { data, error } = await supabase.auth.getSession();
+  if (error) throw new ApiError(401, error.message);
+  const token = data.session?.access_token;
+  if (!token) throw new ApiError(401, 'Session requise');
+  return apiFetch<T>(endpoint, {
+    ...options,
+    headers: {
+      ...((options?.headers as Record<string, string>) || {}),
+      Authorization: `Bearer ${token}`,
+    },
+  });
 }
 
 export async function apiFetch<T>(endpoint: string, options?: RequestInit): Promise<T> {
