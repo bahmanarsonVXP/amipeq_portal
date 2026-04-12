@@ -1,0 +1,150 @@
+{
+  "date": "2026-03-03T10:33:45.535Z",
+  "totalErrors": 9,
+  "errors": [
+    {
+      "type": "DATE_INVALIDE",
+      "sheet": "2023",
+      "row": 344,
+      "data": {
+        "numeroSociete": "105081",
+        "client": "COLLEGE MAURICE SATINEAU",
+        "contact": "ALBICE",
+        "numeroDevis": "105081-CL-23343",
+        "dateDevis": 45168,
+        "offre1": 1980,
+        "offre2": 1584,
+        "norme": "MAJ DUERP",
+        "dateDocsEnvoyes": "BAIE MAHAULT"
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2024",
+      "row": 106,
+      "data": {
+        "numeroSociete": "108496",
+        "client": "CENTRAL HOTEL ",
+        "contact": " LACHIHEB Mohamed",
+        "numeroDevis": "108496",
+        "dateDevis": 45356,
+        "offre1": 890,
+        "offre2": 700,
+        "norme": "DUERP",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2024",
+      "row": 107,
+      "data": {
+        "numeroSociete": "108497",
+        "client": "CFQIPS",
+        "contact": "GREIS Christophe",
+        "numeroDevis": "108497",
+        "dateDevis": 45357,
+        "offre1": 950,
+        "offre2": 760,
+        "norme": "DUERP",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2024",
+      "row": 108,
+      "data": {
+        "numeroSociete": "108498",
+        "client": "IME LEOPOLD HEDER",
+        "contact": "CORDOVAL",
+        "numeroDevis": "108498",
+        "dateDevis": 45358,
+        "offre1": 3990,
+        "offre2": 3192,
+        "norme": "DUERP",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2024",
+      "row": 109,
+      "data": {
+        "numeroSociete": "105718",
+        "client": "LYCEE LUMINA SOPHIE",
+        "contact": "STATTNER Marie Joseph",
+        "numeroDevis": "105718",
+        "dateDevis": 45362,
+        "offre1": 945,
+        "offre2": "",
+        "norme": "MAJ DUERP",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2024",
+      "row": 110,
+      "data": {
+        "numeroSociete": "104925",
+        "client": "LYCEE PRO. CHATEAUBOEUF",
+        "contact": "RIOL",
+        "numeroDevis": "104925",
+        "dateDevis": 45362,
+        "offre1": 2000,
+        "offre2": "",
+        "norme": "MAJ DU + PPMS",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "COMPANY_MANQUANTE",
+      "sheet": "2024",
+      "row": 362,
+      "data": {
+        "numeroSociete": "108621",
+        "client": "EKOPLAST",
+        "contact": "PHILIP Thomas",
+        "numeroDevis": "108621-CL-24347",
+        "dateDevis": 45586,
+        "offre1": 1150,
+        "offre2": "",
+        "norme": "DU à Distance",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "COMPANY_MANQUANTE",
+      "sheet": "2025",
+      "row": 33,
+      "data": {
+        "numeroSociete": "108673",
+        "client": "ISIS SARL",
+        "contact": "MARTIGNONI",
+        "numeroDevis": "108673-CL-25031",
+        "dateDevis": 45673,
+        "offre1": 290,
+        "offre2": "",
+        "norme": "DU à Distance",
+        "dateDocsEnvoyes": ""
+      }
+    },
+    {
+      "type": "NUMERO_INVALIDE",
+      "sheet": "2025",
+      "row": 114,
+      "data": {
+        "numeroSociete": "105718",
+        "client": "LYCEE LUMINA SOPHIE",
+        "contact": "STATTNER Marie Joseph",
+        "numeroDevis": "105718-CL-25112",
+        "dateDevis": 45701,
+        "offre1": 945,
+        "offre2": "",
+        "norme": "MAJ DUERP",
+        "dateDocsEnvoyes": ""
+      }
+    }
+  ]
+}

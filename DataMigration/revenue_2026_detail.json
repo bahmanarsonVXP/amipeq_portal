@@ -1,0 +1,168 @@
+{
+  "total": 48098.5,
+  "average": 1503.078125,
+  "count": 32,
+  "countWithAmount": 32,
+  "details": [
+    {
+      "numeroDevis": "109101-CL-26067",
+      "company": "INSTITUTION JEANNE D'ARC",
+      "amount": 5100
+    },
+    {
+      "numeroDevis": "109132-CL-26100",
+      "company": "COLLEGE AGNES BARDURY",
+      "amount": 3592
+    },
+    {
+      "numeroDevis": "109073-CL-26013",
+      "company": "ENSEMBLE SCOLAIRE SACRE CŒUR",
+      "amount": 3276
+    },
+    {
+      "numeroDevis": "108229-CL-26030",
+      "company": "LYCEE VICTOR GRIGNARD",
+      "amount": 2880
+    },
+    {
+      "numeroDevis": "109115-CL-26081",
+      "company": "ENSEMBLE SCOLAIRE SAINT DRUON",
+      "amount": 2720
+    },
+    {
+      "numeroDevis": "109103-CL-26069",
+      "company": "ENSEMBLE SCOLAIRE JEANNE D'ARC - ST MAUR",
+      "amount": 2516
+    },
+    {
+      "numeroDevis": "109081-CL-26021",
+      "company": "LYCEE GUSTAVE EIFFEL",
+      "amount": 2020
+    },
+    {
+      "numeroDevis": "109150-CL-26127",
+      "company": "ABP MENUISERIES",
+      "amount": 2000
+    },
+    {
+      "numeroDevis": "109106-CL-26072",
+      "company": "ENSEMBLE SCOLAIRE JEANNE D'ARC - KREMLIN BICETRE",
+      "amount": 1972
+    },
+    {
+      "numeroDevis": "109097-CL-26052",
+      "company": "COLLEGE SAINT DOMINIQUE",
+      "amount": 1860
+    },
+    {
+      "numeroDevis": "105359-CL-26121",
+      "company": "GROUPE SCOLAIRE ST JOSEPH LA SALLE",
+      "amount": 1690
+    },
+    {
+      "numeroDevis": "109092-CL-26043",
+      "company": "COLLEGE ARTHUR RIMBAUD",
+      "amount": 1680
+    },
+    {
+      "numeroDevis": "106772-CL-26063",
+      "company": "COLLEGE JEAN BULLANT",
+      "amount": 1635
+    },
+    {
+      "numeroDevis": "109114-CL-26080",
+      "company": "ENSEMBLE SCOLAIRE SAINT FRANCOIS - MAISON SALFORT",
+      "amount": 1428
+    },
+    {
+      "numeroDevis": "109125-CL-26091",
+      "company": "COLLEGE LYCEE SAINT TREMEUR",
+      "amount": 1428
+    },
+    {
+      "numeroDevis": "109098-CL-26058",
+      "company": "COLLEGE MARCEL MARCERON",
+      "amount": 1150
+    },
+    {
+      "numeroDevis": "105440-CL-26055",
+      "company": "LEPAP MAURICE CLAVEL ",
+      "amount": 1050
+    },
+    {
+      "numeroDevis": "109067-CL-26007",
+      "company": "ECOLE NOTRE DAME - LANGUEUX",
+      "amount": 1040
+    },
+    {
+      "numeroDevis": "106695-CL-26001",
+      "company": "COLLEGE JEAN JAURES",
+      "amount": 992
+    },
+    {
+      "numeroDevis": "106865-CL-26053",
+      "company": "EXTERNAT DE LA JAILLE",
+      "amount": 945
+    },
+    {
+      "numeroDevis": "106318-CL-26035",
+      "company": "COLLEGE JACQUELINE JULIUS",
+      "amount": 945
+    },
+    {
+      "numeroDevis": "109126-CL-26092",
+      "company": "COLLEGE NOTRE DAME DES PORTES",
+      "amount": 884
+    },
+    {
+      "numeroDevis": "109099-CL-26059",
+      "company": "EFC",
+      "amount": 807.5
+    },
+    {
+      "numeroDevis": "107482-CL-26036",
+      "company": "EMA SRL",
+      "amount": 750
+    },
+    {
+      "numeroDevis": "107754-CL-26125",
+      "company": "RESIDENCE LA SOURCE",
+      "amount": 600
+    },
+    {
+      "numeroDevis": "109107-CL-26073",
+      "company": "ECOLE JEANNE D'ARC - WIMEREUX",
+      "amount": 598.4
+    },
+    {
+      "numeroDevis": "109076-CL-26016",
+      "company": "ECOLE NOTRE DAME - VEZIN LE COQUET",
+      "amount": 550
+    },
+    {
+      "numeroDevis": "107755-CL-26028",
+      "company": "L'ESCALIER BOIS",
+      "amount": 490
+    },
+    {
+      "numeroDevis": "109108-CL-26074",
+      "company": "ECOLE SAINTE THERESE - ST ETIENNE AU MONT",
+      "amount": 489.6
+    },
+    {
+      "numeroDevis": "109077-CL-26017",
+      "company": "ECOLE FREDERIC OZANAM",
+      "amount": 360
+    },
+    {
+      "numeroDevis": "109111-CL-26077",
+      "company": "ECOLE SAINTE THERESE - NEUVIREUIL",
+      "amount": 360
+    },
+    {
+      "numeroDevis": "105440-CL-26054",
+      "company": "LEPAP MAURICE CLAVEL ",
+      "amount": 290
+    }
+  ]
+}

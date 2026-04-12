@@ -1,0 +1,1624 @@
+{
+  "newCompanies": [
+    {
+      "numero": "109081",
+      "nom": "LYCEE GUSTAVE EIFFEL"
+    },
+    {
+      "numero": "109082",
+      "nom": "FORMATSUD"
+    },
+    {
+      "numero": "109083",
+      "nom": "LV RENOVATION "
+    },
+    {
+      "numero": "109084",
+      "nom": "MAIRIE DE SAINT BRICE"
+    },
+    {
+      "numero": "109085",
+      "nom": "LYCEE SAINT VINCENT DE PAUL"
+    },
+    {
+      "numero": "109086",
+      "nom": "ERIC AUTO ECOLE"
+    },
+    {
+      "numero": "109087",
+      "nom": "LYCEE JEAN MOULIN GRETA-CFA ROL TANGUY"
+    },
+    {
+      "numero": "109088",
+      "nom": "COLLEGE DESCARTES-MONTAIGNE"
+    },
+    {
+      "numero": "109089",
+      "nom": "LA FERME DE LA CHEVROCHERE"
+    },
+    {
+      "numero": "109090",
+      "nom": "CDEF DE HAUTE GARONNE"
+    },
+    {
+      "numero": "109091",
+      "nom": "AXA ASSURANCES ET BANQUE LASSERRE RAT"
+    },
+    {
+      "numero": "109092",
+      "nom": "COLLEGE ARTHUR RIMBAUD"
+    },
+    {
+      "numero": "109093",
+      "nom": "ECOLE LA PROVIDENCE - LA GUERCHE DE BRETAGNE"
+    },
+    {
+      "numero": "109094",
+      "nom": "COLLEGE SAINT JOSEPH - LA GUERCHE DE BRETAGNE"
+    },
+    {
+      "numero": "109095",
+      "nom": "ENSEMBLE SCOLAIRE THERESE D'AVILA"
+    },
+    {
+      "numero": "109096",
+      "nom": "ETS PRIVE DU GUIERS VAL D'AINAN"
+    },
+    {
+      "numero": "109097",
+      "nom": "COLLEGE SAINT DOMINIQUE"
+    },
+    {
+      "numero": "109098",
+      "nom": "COLLEGE MARCEL MARCERON"
+    },
+    {
+      "numero": "109099",
+      "nom": "EFC"
+    },
+    {
+      "numero": "109100",
+      "nom": "SAS JAUMOUILLE"
+    },
+    {
+      "numero": "109101",
+      "nom": "INSTITUTION JEANNE D'ARC"
+    },
+    {
+      "numero": "109102",
+      "nom": "ECOLE SAINT JOSEPH - GUERANDE"
+    },
+    {
+      "numero": "109103",
+      "nom": "ENSEMBLE SCOLAIRE JEANNE D'ARC - ST MAUR"
+    },
+    {
+      "numero": "109104",
+      "nom": "ENSEMBLE SCOLAIRE DE MAILLÉ"
+    },
+    {
+      "numero": "109105",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME DU VIEUX COURS"
+    },
+    {
+      "numero": "109106",
+      "nom": "ENSEMBLE SCOLAIRE JEANNE D'ARC - KREMLIN BICETRE"
+    },
+    {
+      "numero": "109107",
+      "nom": "ECOLE JEANNE D'ARC - WIMEREUX"
+    },
+    {
+      "numero": "109108",
+      "nom": "ECOLE SAINTE THERESE - ST ETIENNE AU MONT"
+    },
+    {
+      "numero": "109109",
+      "nom": "ENSEMBLE SCOLAIRE JEANNE D'ARC - SEVRES"
+    },
+    {
+      "numero": "109110",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME SAINT LOUIS - LOUVIERS"
+    },
+    {
+      "numero": "109111",
+      "nom": "ECOLE SAINTE THERESE - NEUVIREUIL"
+    },
+    {
+      "numero": "109112",
+      "nom": "ECOLE SAINT JOSEPH - SAINTE CROIX"
+    },
+    {
+      "numero": "109113",
+      "nom": "ENSEMBLE SCOLAIRE SAINT CHARLES - SAINT AUBRIN"
+    },
+    {
+      "numero": "109114",
+      "nom": "ENSEMBLE SCOLAIRE SAINT FRANCOIS - MAISON SALFORT"
+    },
+    {
+      "numero": "109115",
+      "nom": "ENSEMBLE SCOLAIRE SAINT DRUON"
+    },
+    {
+      "numero": "109116",
+      "nom": "ENSEMBLE SCOLAIRE SAINT RIQUIER"
+    },
+    {
+      "numero": "109117",
+      "nom": "LYCEE SAINT JOSEPH - AVIGNON"
+    },
+    {
+      "numero": "109118",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME - FLIXECOURT"
+    },
+    {
+      "numero": "109119",
+      "nom": "ECOLE SAINT JACQUES - AMIENS"
+    },
+    {
+      "numero": "109120",
+      "nom": "ENSEMBLE SCOLAIRE SAINTE FAMILLE"
+    },
+    {
+      "numero": "109121",
+      "nom": "ENSEMBLE SCOLAIRE LE RONDEAU-MONTFLEURY"
+    },
+    {
+      "numero": "109122",
+      "nom": "ENSEMBLE SCOLAIRE SAINT MICHEL - SAINT MANDE"
+    },
+    {
+      "numero": "109123",
+      "nom": "ECOLE NOTRE DAME DE LA DELIVRANDE - ST MARTIN D'HERES"
+    },
+    {
+      "numero": "109124",
+      "nom": "INSTITUTION SAINTE ODILE - LAMBERSART"
+    },
+    {
+      "numero": "109125",
+      "nom": "COLLEGE LYCEE SAINT TREMEUR"
+    },
+    {
+      "numero": "109126",
+      "nom": "COLLEGE NOTRE DAME DES PORTES"
+    },
+    {
+      "numero": "109127",
+      "nom": "LPP VINCENT DE PAUL"
+    },
+    {
+      "numero": "109128",
+      "nom": "LYCEE SAINTE MARIE - AIX EN PROVENCE"
+    },
+    {
+      "numero": "109129",
+      "nom": "ECOLE SAINT EDMOND - WASQUEHAL"
+    },
+    {
+      "numero": "109130",
+      "nom": "ECOLE NOTRE DAME - WASQUEHAL"
+    },
+    {
+      "numero": "109131",
+      "nom": "MAIRIE DE FERNOËL"
+    },
+    {
+      "numero": "109132",
+      "nom": "COLLEGE AGNES BARDURY"
+    },
+    {
+      "numero": "109133",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - ECOLE CHOISY"
+    },
+    {
+      "numero": "109133",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - ECOLE AMELIE FRISTEL"
+    },
+    {
+      "numero": "109133",
+      "nom": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - COLLEGE CHOISY"
+    },
+    {
+      "numero": "105467",
+      "nom": "LYCEE JOSEPH PERNOCK"
+    },
+    {
+      "numero": "109134",
+      "nom": "LP SAINT PIERRE FOURIER"
+    },
+    {
+      "numero": "109135",
+      "nom": "ECOLE SAINTE ANNE - LA BAZOUGE DU DESERT"
+    },
+    {
+      "numero": "109136",
+      "nom": "LYCEE LEOPOLD ELFORT"
+    },
+    {
+      "numero": "109137",
+      "nom": "COLLEGE GEORGES BRASSENS"
+    },
+    {
+      "numero": "109138",
+      "nom": "CLAREDIE"
+    },
+    {
+      "numero": "109139",
+      "nom": "COLLEGE JULES VERNE"
+    },
+    {
+      "numero": "109140",
+      "nom": "COLLEGE LA GRANGE DU BOIS"
+    },
+    {
+      "numero": "109141",
+      "nom": "FIDREX"
+    },
+    {
+      "numero": "109142",
+      "nom": "ÉCOLE MARIE AUXILIATRICE - ROUBAIX"
+    },
+    {
+      "numero": "109143",
+      "nom": "GARAGE MERCIER AUTOMOBILE"
+    },
+    {
+      "numero": "109144",
+      "nom": "CABINET BLANCHARD STEPHANE"
+    },
+    {
+      "numero": "109145",
+      "nom": "ENSEMBLE SCOLAIRE SAINTE THERESE - SAINT VINCENT"
+    },
+    {
+      "numero": "109146",
+      "nom": "COLLEGE MONTALEMBERT"
+    },
+    {
+      "numero": "109147",
+      "nom": "COLLEGE SAINT HELIER"
+    },
+    {
+      "numero": "105359",
+      "nom": "GROUPE SCOLAIRE ST JOSEPH LA SALLE"
+    },
+    {
+      "numero": "109148",
+      "nom": "SARL MARILLIER"
+    },
+    {
+      "numero": "109149",
+      "nom": "CITE SCOLAIRE JEAN JAURES"
+    },
+    {
+      "numero": "107689",
+      "nom": "LYCEE COLLEGE CHAPTAL"
+    },
+    {
+      "numero": "109150",
+      "nom": "ABP MENUISERIES"
+    },
+    {
+      "numero": "109151",
+      "nom": "QUALIS TECHNOLOGIE"
+    },
+    {
+      "numero": "109152",
+      "nom": "MADEMOISELLE JULIE SERVICES"
+    }
+  ],
+  "newOpportunities": [
+    {
+      "numeroDevis": "106695-CL-26001",
+      "numeroSociete": "106695",
+      "client": "COLLEGE JEAN JAURES",
+      "contact": "DECEBAL Pascal",
+      "offre1": 1240,
+      "offre2": 992,
+      "norme": "MAJ DU + MAJ PPMS",
+      "rowNumber": 2
+    },
+    {
+      "numeroDevis": "109064-CL-26002",
+      "numeroSociete": "109064",
+      "client": "COUP DE POUCE",
+      "contact": "TETEGAN Mireille",
+      "offre1": 2190,
+      "offre2": 1752,
+      "norme": "DUERP",
+      "rowNumber": 3
+    },
+    {
+      "numeroDevis": "109065-CL-26003",
+      "numeroSociete": "109065",
+      "client": "COMMUNAUTE D'AGGLO. DE L'OUEST RHODANIEN",
+      "contact": "Naguib BENAISSI",
+      "offre1": 2950,
+      "offre2": "",
+      "norme": "RPS",
+      "rowNumber": 4
+    },
+    {
+      "numeroDevis": "109066-CL-26004",
+      "numeroSociete": "109066",
+      "client": "COMMUNAUTE EMMAÜS LONGJUMEAU",
+      "contact": "AZRA Elena",
+      "offre1": 2190,
+      "offre2": 1752,
+      "norme": "DUERP",
+      "rowNumber": 5
+    },
+    {
+      "numeroDevis": "108644-CL-26005",
+      "numeroSociete": "108644",
+      "client": "MAIRIE DE SAINT CLAUDE",
+      "contact": "JUSTINE Sandra",
+      "offre1": 8900,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 6
+    },
+    {
+      "numeroDevis": "106924-CL-26006",
+      "numeroSociete": "106924",
+      "client": "COLLEGE ARC DE MEYRAN",
+      "contact": "FOURNIER",
+      "offre1": 2590,
+      "offre2": 2072,
+      "norme": "MAJ DU + MAJ PPMS",
+      "rowNumber": 7
+    },
+    {
+      "numeroDevis": "109067-CL-26007",
+      "numeroSociete": "109067",
+      "client": "ECOLE NOTRE DAME - LANGUEUX",
+      "contact": "ANDRE",
+      "offre1": 1300,
+      "offre2": 1040,
+      "norme": "DU + PPMS",
+      "rowNumber": 8
+    },
+    {
+      "numeroDevis": "109068-CL-26008",
+      "numeroSociete": "109068",
+      "client": "LYCEE JOSEPH ROUSSEL",
+      "contact": "HANNEBIQUE Catherine",
+      "offre1": 2700,
+      "offre2": 2295,
+      "norme": "DU + PPMS",
+      "rowNumber": 9
+    },
+    {
+      "numeroDevis": "109069-CL-26009",
+      "numeroSociete": "109069",
+      "client": "LYCEE NOTRE DAME DE LA FIDELITE",
+      "contact": "LEBOSSE-DUTEIL",
+      "offre1": 2025,
+      "offre2": 1721.25,
+      "norme": "DU + PPMS",
+      "rowNumber": 10
+    },
+    {
+      "numeroDevis": "109070-CL-26010",
+      "numeroSociete": "109070",
+      "client": "ENSEMBLE SCOLAIRE SAINTE ANGELE",
+      "contact": "POSTAIRE",
+      "offre1": 9963,
+      "offre2": 8468.55,
+      "norme": "DU + PPMS",
+      "rowNumber": 11
+    },
+    {
+      "numeroDevis": "109071-CL-26011",
+      "numeroSociete": "109071",
+      "client": "PERIMEDIA 24",
+      "contact": "DAOUI Sandrine",
+      "offre1": 950,
+      "offre2": 760,
+      "norme": "DUERP",
+      "rowNumber": 12
+    },
+    {
+      "numeroDevis": "109072-CL-26012",
+      "numeroSociete": "109072",
+      "client": "EKITA CAFÉ",
+      "contact": "NASS Nicolas",
+      "offre1": 680,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 13
+    },
+    {
+      "numeroDevis": "109073-CL-26013",
+      "numeroSociete": "109073",
+      "client": "ENSEMBLE SCOLAIRE SACRE CŒUR",
+      "contact": "DEILLON Martine",
+      "offre1": 4680,
+      "offre2": 3276,
+      "norme": "DU + PPMS",
+      "rowNumber": 14
+    },
+    {
+      "numeroDevis": "109074-CL-26014",
+      "numeroSociete": "109074",
+      "client": "GARAGE GRENIER",
+      "contact": "GRENIER Jonathan",
+      "offre1": 1290,
+      "offre2": 1032,
+      "norme": "DUERP",
+      "rowNumber": 15
+    },
+    {
+      "numeroDevis": "109075-CL-26015",
+      "numeroSociete": "109075",
+      "client": "SARL MILLE ET UN JARDIN",
+      "contact": "VALETTE Yoann",
+      "offre1": 1190,
+      "offre2": 952,
+      "norme": "DUERP",
+      "rowNumber": 16
+    },
+    {
+      "numeroDevis": "109076-CL-26016",
+      "numeroSociete": "109076",
+      "client": "ECOLE NOTRE DAME - VEZIN LE COQUET",
+      "contact": "COUDRAY",
+      "offre1": 550,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 17
+    },
+    {
+      "numeroDevis": "109077-CL-26017",
+      "numeroSociete": "109077",
+      "client": "ECOLE FREDERIC OZANAM",
+      "contact": "CHAPELLE",
+      "offre1": 450,
+      "offre2": 360,
+      "norme": "DUERP",
+      "rowNumber": 18
+    },
+    {
+      "numeroDevis": "109078-CL-26018",
+      "numeroSociete": "109078",
+      "client": "SIAEP NORD OUEST CHARENTE",
+      "contact": "MARCELIN Céline",
+      "offre1": 1190,
+      "offre2": 952,
+      "norme": "DUERP",
+      "rowNumber": 19
+    },
+    {
+      "numeroDevis": "109079-CL-26019",
+      "numeroSociete": "109079",
+      "client": "ETS NORMANDIN",
+      "contact": "NORMANDIN",
+      "offre1": 1490,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 20
+    },
+    {
+      "numeroDevis": "109080-CL-26020",
+      "numeroSociete": "109080",
+      "client": "MAIRIE DE GÉMOZAC",
+      "contact": "GIRARD Loïc",
+      "offre1": 3690,
+      "offre2": 2952,
+      "norme": "DUERP",
+      "rowNumber": 21
+    },
+    {
+      "numeroDevis": "109081-CL-26021",
+      "numeroSociete": "109081",
+      "client": "LYCEE GUSTAVE EIFFEL",
+      "contact": "FERNANDEZ",
+      "offre1": 2525,
+      "offre2": 2020,
+      "norme": "DU + PPMS",
+      "rowNumber": 22
+    },
+    {
+      "numeroDevis": "109082-CL-26022",
+      "numeroSociete": "109082",
+      "client": "FORMATSUD",
+      "contact": "DELCURATOLO Eve",
+      "offre1": 1190,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 23
+    },
+    {
+      "numeroDevis": "107972-CL-26023",
+      "numeroSociete": "107972",
+      "client": "ECOLE SAINT FRANCOIS",
+      "contact": "Raphaël ORTEGA",
+      "offre1": 700,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 24
+    },
+    {
+      "numeroDevis": "107973-CL-26024",
+      "numeroSociete": "107973",
+      "client": "ECOLE JEANNE D'ARC",
+      "contact": "Raphaël ORTEGA",
+      "offre1": 700,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 25
+    },
+    {
+      "numeroDevis": "107971-CL-26025",
+      "numeroSociete": "107971",
+      "client": "CITE SCOLAIRE JEANNE D'ARC",
+      "contact": "Raphaël ORTEGA",
+      "offre1": 1300,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 26
+    },
+    {
+      "numeroDevis": "108481-CL-26026",
+      "numeroSociete": "108481",
+      "client": "MAIRIE DE MAREIL EN CHAMPAGNE",
+      "contact": "SERAN Mélanie",
+      "offre1": 800,
+      "offre2": 640,
+      "norme": "DUERP",
+      "rowNumber": 27
+    },
+    {
+      "numeroDevis": "109083-CL-26027",
+      "numeroSociete": "109083",
+      "client": "LV RENOVATION ",
+      "contact": "PLOT Romane",
+      "offre1": 1950,
+      "offre2": 1462.5,
+      "norme": "DUERP",
+      "rowNumber": 28
+    },
+    {
+      "numeroDevis": "107755-CL-26028",
+      "numeroSociete": "107755",
+      "client": "L'ESCALIER BOIS",
+      "contact": "LONETE Valérie",
+      "offre1": 490,
+      "offre2": "",
+      "norme": "MAJ DU Démat.",
+      "rowNumber": 29
+    },
+    {
+      "numeroDevis": "109084-CL-26029",
+      "numeroSociete": "109084",
+      "client": "MAIRIE DE SAINT BRICE",
+      "contact": "CLAIRET",
+      "offre1": 1490,
+      "offre2": 1192,
+      "norme": "DUERP",
+      "rowNumber": 30
+    },
+    {
+      "numeroDevis": "108229-CL-26030",
+      "numeroSociete": "108229",
+      "client": "LYCEE VICTOR GRIGNARD",
+      "contact": "JAMES Céline",
+      "offre1": 3200,
+      "offre2": 2880,
+      "norme": "DU + PPMS",
+      "rowNumber": 31
+    },
+    {
+      "numeroDevis": "109085-CL-26031",
+      "numeroSociete": "109085",
+      "client": "LYCEE SAINT VINCENT DE PAUL",
+      "contact": "DREVILLE Sandrine",
+      "offre1": 1050,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 32
+    },
+    {
+      "numeroDevis": "109086-CL-26032",
+      "numeroSociete": "109086",
+      "client": "ERIC AUTO ECOLE",
+      "contact": "LANTERNE Eric",
+      "offre1": 490,
+      "offre2": 250,
+      "norme": "DU Sur SITE ou à DISTANCE",
+      "rowNumber": 33
+    },
+    {
+      "numeroDevis": "109087-CL-26033",
+      "numeroSociete": "109087",
+      "client": "LYCEE JEAN MOULIN GRETA-CFA ROL TANGUY",
+      "contact": "CORNIC Noémie",
+      "offre1": 5500,
+      "offre2": 4400,
+      "norme": "DU + PPMS",
+      "rowNumber": 34
+    },
+    {
+      "numeroDevis": "109088-CL-26034",
+      "numeroSociete": "109088",
+      "client": "COLLEGE DESCARTES-MONTAIGNE",
+      "contact": "CARON Sophia",
+      "offre1": 1680,
+      "offre2": 1260,
+      "norme": "DUERP",
+      "rowNumber": 35
+    },
+    {
+      "numeroDevis": "106318-CL-26035",
+      "numeroSociete": "106318",
+      "client": "COLLEGE JACQUELINE JULIUS",
+      "contact": "POMIER Théodore",
+      "offre1": 945,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 36
+    },
+    {
+      "numeroDevis": "107482-CL-26036",
+      "numeroSociete": "107482",
+      "client": "EMA SRL",
+      "contact": "SCHOLTUS",
+      "offre1": 750,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 37
+    },
+    {
+      "numeroDevis": "109089-CL-26037",
+      "numeroSociete": "109089",
+      "client": "LA FERME DE LA CHEVROCHERE",
+      "contact": "IMBERT Claude",
+      "offre1": 1290,
+      "offre2": 967.5,
+      "norme": "DUERP",
+      "rowNumber": 38
+    },
+    {
+      "numeroDevis": "107486-CL-26038",
+      "numeroSociete": "107846",
+      "client": "COLLEGE JACQUES BREL",
+      "contact": "LAMORT Corinne",
+      "offre1": 2240,
+      "offre2": 1880,
+      "norme": "MAJ DU + PPMS",
+      "rowNumber": 39
+    },
+    {
+      "numeroDevis": "108905-CL-26039",
+      "numeroSociete": "108905",
+      "client": "LV RENOVATION ENERGIE",
+      "contact": "PLOT Romane",
+      "offre1": 680,
+      "offre2": 510,
+      "norme": "DUERP",
+      "rowNumber": 40
+    },
+    {
+      "numeroDevis": "108906-CL-26040",
+      "numeroSociete": "108906",
+      "client": "PLIAGE FACONNAGE DU GOLFE",
+      "contact": "PLOT Romane",
+      "offre1": 1150,
+      "offre2": 862.5,
+      "norme": "DUERP",
+      "rowNumber": 41
+    },
+    {
+      "numeroDevis": "109090-CL-26041",
+      "numeroSociete": "109090",
+      "client": "CDEF DE HAUTE GARONNE",
+      "contact": "BERGOZ Flora",
+      "offre1": 16640,
+      "offre2": 14976,
+      "norme": "DUERP",
+      "rowNumber": 42
+    },
+    {
+      "numeroDevis": "109091-CL-26042",
+      "numeroSociete": "109091",
+      "client": "AXA ASSURANCES ET BANQUE LASSERRE RAT",
+      "contact": "LASSERRE Pascal",
+      "offre1": 1900,
+      "offre2": 1520,
+      "norme": "DUERP",
+      "rowNumber": 43
+    },
+    {
+      "numeroDevis": "109092-CL-26043",
+      "numeroSociete": "109092",
+      "client": "COLLEGE ARTHUR RIMBAUD",
+      "contact": "DUFRAISSE Karine",
+      "offre1": 2240,
+      "offre2": 1680,
+      "norme": "DU + PPMS",
+      "rowNumber": 44
+    },
+    {
+      "numeroDevis": "109093-CL-26044",
+      "numeroSociete": "109093",
+      "client": "ECOLE LA PROVIDENCE - LA GUERCHE DE BRETAGNE",
+      "contact": "SALMON Anne",
+      "offre1": 520,
+      "offre2": 442,
+      "norme": "DUERP",
+      "rowNumber": 45
+    },
+    {
+      "numeroDevis": "109094-CL-26045",
+      "numeroSociete": "109094",
+      "client": "COLLEGE SAINT JOSEPH - LA GUERCHE DE BRETAGNE",
+      "contact": "GERVIS-GENTILHOMME ",
+      "offre1": 1632,
+      "offre2": 1387.2,
+      "norme": "DU + PPMS",
+      "rowNumber": 46
+    },
+    {
+      "numeroDevis": "108463-CL-26046",
+      "numeroSociete": "108463",
+      "client": "ECOLE MONTESSORI SAVOIE \"GRAINE D'ETOILE\"",
+      "contact": "KOLLY Catherine",
+      "offre1": 690,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 47
+    },
+    {
+      "numeroDevis": "109017-CL-26047",
+      "numeroSociete": "109017",
+      "client": "ELITT",
+      "contact": "BOUNOUAR Faouzi",
+      "offre1": 1700,
+      "offre2": 1400,
+      "norme": "DUERP",
+      "rowNumber": 48
+    },
+    {
+      "numeroDevis": "108463-CL-26048",
+      "numeroSociete": "108463",
+      "client": "ECOLE MONTESSORI SAVOIE \"GRAINE D'ETOILE\"",
+      "contact": "KOLLY Catherine",
+      "offre1": 250,
+      "offre2": "",
+      "norme": "RPS",
+      "rowNumber": 49
+    },
+    {
+      "numeroDevis": "109095-CL-26049",
+      "numeroSociete": "109095",
+      "client": "ENSEMBLE SCOLAIRE THERESE D'AVILA",
+      "contact": "REVILLON",
+      "offre1": 7695,
+      "offre2": 6156,
+      "norme": "DU + PPMS",
+      "rowNumber": 50
+    },
+    {
+      "numeroDevis": "109096-CL-26050",
+      "numeroSociete": "109096",
+      "client": "ETS PRIVE DU GUIERS VAL D'AINAN",
+      "contact": "JEUNEHOMME Matthieu",
+      "offre1": 2930,
+      "offre2": 2344,
+      "norme": "DU + PPMS",
+      "rowNumber": 51
+    },
+    {
+      "numeroDevis": "105713-CL-26051",
+      "numeroSociete": "105713",
+      "client": "LYCEE JOSEPH GAILLARD",
+      "contact": "LALAUS PHINOSON Marie Thérèse",
+      "offre1": 3500,
+      "offre2": 2800,
+      "norme": "MAJ DU + PPMS",
+      "rowNumber": 52
+    },
+    {
+      "numeroDevis": "109097-CL-26052",
+      "numeroSociete": "109097",
+      "client": "COLLEGE SAINT DOMINIQUE",
+      "contact": "GIRARD France-Lise",
+      "offre1": 1860,
+      "offre2": "",
+      "norme": "DU + PPMS",
+      "rowNumber": 53
+    },
+    {
+      "numeroDevis": "106865-CL-26053",
+      "numeroSociete": "106865",
+      "client": "EXTERNAT DE LA JAILLE",
+      "contact": "MARTIAS Eddie (Se dit Marcias)",
+      "offre1": 1890,
+      "offre2": 945,
+      "norme": "MAJ DU + MAJ PPMS",
+      "rowNumber": 54
+    },
+    {
+      "numeroDevis": "105440-CL-26054",
+      "numeroSociete": "105440",
+      "client": "LEPAP MAURICE CLAVEL ",
+      "contact": "CAMPAGNOL",
+      "offre1": 290,
+      "offre2": "",
+      "norme": "MAJ DU à Distance",
+      "rowNumber": 55
+    },
+    {
+      "numeroDevis": "105440-CL-26055",
+      "numeroSociete": "105440",
+      "client": "LEPAP MAURICE CLAVEL ",
+      "contact": "CAMPAGNOL",
+      "offre1": 1050,
+      "offre2": "",
+      "norme": "MAJ PPMS",
+      "rowNumber": 56
+    },
+    {
+      "numeroDevis": "104925-CL-26056",
+      "numeroSociete": "104925",
+      "client": "LYCEE PRO. JEANNE CATAYÉ (ANCIEN LYCEE CHATEAUBOEUF)",
+      "contact": "RIOL",
+      "offre1": 1780,
+      "offre2": 1424,
+      "norme": "MAJ DU + MAJ PPMS",
+      "rowNumber": 57
+    },
+    {
+      "numeroDevis": "107488-CL-26057",
+      "numeroSociete": "107488",
+      "client": "COLLEGE DU VAUCLIN",
+      "contact": "SEGABIOT",
+      "offre1": 2040,
+      "offre2": 1632,
+      "norme": "MAJ DU + PPMS",
+      "rowNumber": 58
+    },
+    {
+      "numeroDevis": "109098-CL-26058",
+      "numeroSociete": "109098",
+      "client": "COLLEGE MARCEL MARCERON",
+      "contact": "MARIE ",
+      "offre1": 1150,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 59
+    },
+    {
+      "numeroDevis": "109099-CL-26059",
+      "numeroSociete": "109099",
+      "client": "EFC",
+      "contact": "ROUSSEAU",
+      "offre1": 950,
+      "offre2": 807.5,
+      "norme": "DUERP",
+      "rowNumber": 60
+    },
+    {
+      "numeroDevis": "106222-CL-26060",
+      "numeroSociete": "106222",
+      "client": "INSTITUTION NOTRE DAME DE SAINT JEAN",
+      "contact": "LOUISON Régis",
+      "offre1": 2750,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 61
+    },
+    {
+      "numeroDevis": "108557-CL-26061",
+      "numeroSociete": "108557",
+      "client": "ECOLE SAINTE MARIE",
+      "contact": "BUNO Séverine ",
+      "offre1": 750,
+      "offre2": "",
+      "norme": "PPMS",
+      "rowNumber": 62
+    },
+    {
+      "numeroDevis": "109100-CL-26062",
+      "numeroSociete": "109100",
+      "client": "SAS JAUMOUILLE",
+      "contact": "JAUMOUILLE Tanguy",
+      "offre1": 960,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 63
+    },
+    {
+      "numeroDevis": "106772-CL-26063",
+      "numeroSociete": "106772",
+      "client": "COLLEGE JEAN BULLANT",
+      "contact": "HAUTE FEUILLE",
+      "offre1": 2180,
+      "offre2": 1635,
+      "norme": "DU + MAJ PPMS",
+      "rowNumber": 64
+    },
+    {
+      "numeroDevis": "107275-CL-26064",
+      "numeroSociete": "107275",
+      "client": "COLLEGE JOSEPH LAGROSILLIERE",
+      "contact": "PIEJOS",
+      "offre1": 2480,
+      "offre2": 1860,
+      "norme": "MAJ DU + MAJ PPMS",
+      "rowNumber": 65
+    },
+    {
+      "numeroDevis": "108846-CL-26065",
+      "numeroSociete": "108846",
+      "client": "COLLEGE RENE SEYSSAUD",
+      "contact": "TRAN",
+      "offre1": 1280,
+      "offre2": 1024,
+      "norme": "DUERP",
+      "rowNumber": 66
+    },
+    {
+      "numeroDevis": "108892-CL-26066",
+      "numeroSociete": "108892",
+      "client": "KALLIOPÉ",
+      "contact": "EUGENIO",
+      "offre1": 1790,
+      "offre2": 1432,
+      "norme": "DUERP",
+      "rowNumber": 67
+    },
+    {
+      "numeroDevis": "109101-CL-26067",
+      "numeroSociete": "109101",
+      "client": "INSTITUTION JEANNE D'ARC",
+      "contact": "HOUSSAIS",
+      "offre1": 6375,
+      "offre2": 5100,
+      "norme": "DU + PPMS",
+      "rowNumber": 68
+    },
+    {
+      "numeroDevis": "109102-CL-26068",
+      "numeroSociete": "109102",
+      "client": "ECOLE SAINT JOSEPH - GUERANDE",
+      "contact": "Flore JAMIN",
+      "offre1": 720,
+      "offre2": 648,
+      "norme": "DU + PPMS",
+      "rowNumber": 69
+    },
+    {
+      "numeroDevis": "109103-CL-26069",
+      "numeroSociete": "109103",
+      "client": "ENSEMBLE SCOLAIRE JEANNE D'ARC - ST MAUR",
+      "contact": "COUREUL Laurence",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 70
+    },
+    {
+      "numeroDevis": "109104-CL-26070",
+      "numeroSociete": "109104",
+      "client": "ENSEMBLE SCOLAIRE DE MAILLÉ",
+      "contact": "TRAN Stéphanie",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 71
+    },
+    {
+      "numeroDevis": "109105-CL-26071",
+      "numeroSociete": "109105",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME DU VIEUX COURS",
+      "contact": "FAUCHET Chrystèle",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 72
+    },
+    {
+      "numeroDevis": "109106-CL-26072",
+      "numeroSociete": "109106",
+      "client": "ENSEMBLE SCOLAIRE JEANNE D'ARC - KREMLIN BICETRE",
+      "contact": "RAUWEL Francois",
+      "offre1": 2465,
+      "offre2": 1972,
+      "norme": "DU + PPMS",
+      "rowNumber": 73
+    },
+    {
+      "numeroDevis": "109107-CL-26073",
+      "numeroSociete": "109107",
+      "client": "ECOLE JEANNE D'ARC - WIMEREUX",
+      "contact": "TROLET Pascale",
+      "offre1": 704,
+      "offre2": 598.4,
+      "norme": "DU + PPMS",
+      "rowNumber": 74
+    },
+    {
+      "numeroDevis": "109108-CL-26074",
+      "numeroSociete": "109108",
+      "client": "ECOLE SAINTE THERESE - ST ETIENNE AU MONT",
+      "contact": "TROLET Pascale",
+      "offre1": 576,
+      "offre2": 489.6,
+      "norme": "DU + PPMS",
+      "rowNumber": 75
+    },
+    {
+      "numeroDevis": "109109-CL-26075",
+      "numeroSociete": "109109",
+      "client": "ENSEMBLE SCOLAIRE JEANNE D'ARC - SEVRES",
+      "contact": "CAMPMAS Nathalie",
+      "offre1": 1700,
+      "offre2": 1360,
+      "norme": "DU + PPMS",
+      "rowNumber": 76
+    },
+    {
+      "numeroDevis": "109110-CL-26076",
+      "numeroSociete": "109110",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME SAINT LOUIS - LOUVIERS",
+      "contact": "BELLET Guillaume",
+      "offre1": 3400,
+      "offre2": 2720,
+      "norme": "DU + PPMS",
+      "rowNumber": 77
+    },
+    {
+      "numeroDevis": "109111-CL-26077",
+      "numeroSociete": "109111",
+      "client": "ECOLE SAINTE THERESE - NEUVIREUIL",
+      "contact": "GOETHALS Anne Véronique",
+      "offre1": 450,
+      "offre2": 360,
+      "norme": "DUERP",
+      "rowNumber": 78
+    },
+    {
+      "numeroDevis": "109112-CL-26078",
+      "numeroSociete": "109112",
+      "client": "ECOLE SAINT JOSEPH - SAINTE CROIX",
+      "contact": "BAUX",
+      "offre1": 880,
+      "offre2": 704,
+      "norme": "DU + PPMS",
+      "rowNumber": 79
+    },
+    {
+      "numeroDevis": "109113-CL-26079",
+      "numeroSociete": "109113",
+      "client": "ENSEMBLE SCOLAIRE SAINT CHARLES - SAINT AUBRIN",
+      "contact": "BLANCHARD Richard",
+      "offre1": 1785,
+      "offre2": 1428,
+      "norme": "DU + PPMS",
+      "rowNumber": 80
+    },
+    {
+      "numeroDevis": "109114-CL-26080",
+      "numeroSociete": "109114",
+      "client": "ENSEMBLE SCOLAIRE SAINT FRANCOIS - MAISON SALFORT",
+      "contact": "LE FEUVRE Laurence",
+      "offre1": 1785,
+      "offre2": 1428,
+      "norme": "DU + PPMS",
+      "rowNumber": 81
+    },
+    {
+      "numeroDevis": "109115-CL-26081",
+      "numeroSociete": "109115",
+      "client": "ENSEMBLE SCOLAIRE SAINT DRUON",
+      "contact": "HANNEBICQ Vincent",
+      "offre1": 3400,
+      "offre2": 2720,
+      "norme": "DU + PPMS",
+      "rowNumber": 82
+    },
+    {
+      "numeroDevis": "109116-CL-26082",
+      "numeroSociete": "109116",
+      "client": "ENSEMBLE SCOLAIRE SAINT RIQUIER",
+      "contact": "VANDEWOESTYNE",
+      "offre1": 3850,
+      "offre2": 3272.5,
+      "norme": "PPMS",
+      "rowNumber": 83
+    },
+    {
+      "numeroDevis": "109117-CL-26083",
+      "numeroSociete": "109117",
+      "client": "LYCEE SAINT JOSEPH - AVIGNON",
+      "contact": "MAIRE Raymonde",
+      "offre1": 4590,
+      "offre2": 3672,
+      "norme": "DU + PPMS",
+      "rowNumber": 84
+    },
+    {
+      "numeroDevis": "109118-CL-26084",
+      "numeroSociete": "109118",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME - FLIXECOURT",
+      "contact": "BUDET Caroline",
+      "offre1": 1972,
+      "offre2": 1577.6,
+      "norme": "DU + PPMS",
+      "rowNumber": 85
+    },
+    {
+      "numeroDevis": "109119-CL-26085",
+      "numeroSociete": "109119",
+      "client": "ECOLE SAINT JACQUES - AMIENS",
+      "contact": "DAMIENS Stéphanie",
+      "offre1": 704,
+      "offre2": 563.2,
+      "norme": "DU + PPMS",
+      "rowNumber": 86
+    },
+    {
+      "numeroDevis": "109120-CL-26086",
+      "numeroSociete": "109120",
+      "client": "ENSEMBLE SCOLAIRE SAINTE FAMILLE",
+      "contact": "BLANCHARD Julie",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 87
+    },
+    {
+      "numeroDevis": "109121-CL-26087",
+      "numeroSociete": "109121",
+      "client": "ENSEMBLE SCOLAIRE LE RONDEAU-MONTFLEURY",
+      "contact": "BRAILLON Romain",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 88
+    },
+    {
+      "numeroDevis": "109122-CL-26088",
+      "numeroSociete": "109122",
+      "client": "ENSEMBLE SCOLAIRE SAINT MICHEL - SAINT MANDE",
+      "contact": "FELON Benoit",
+      "offre1": 3145,
+      "offre2": 2516,
+      "norme": "DU + PPMS",
+      "rowNumber": 89
+    },
+    {
+      "numeroDevis": "109123-CL-26089",
+      "numeroSociete": "109123",
+      "client": "ECOLE NOTRE DAME DE LA DELIVRANDE - ST MARTIN D'HERES",
+      "contact": "GERMON Sandra",
+      "offre1": 720,
+      "offre2": 576,
+      "norme": "DU + PPMS",
+      "rowNumber": 90
+    },
+    {
+      "numeroDevis": "109124-CL-26090",
+      "numeroSociete": "109124",
+      "client": "INSTITUTION SAINTE ODILE - LAMBERSART",
+      "contact": "PAPRECQ Antoine",
+      "offre1": 6545,
+      "offre2": 5236,
+      "norme": "DU + PPMS",
+      "rowNumber": 91
+    },
+    {
+      "numeroDevis": "109125-CL-26091",
+      "numeroSociete": "109125",
+      "client": "COLLEGE LYCEE SAINT TREMEUR",
+      "contact": "RADENAC",
+      "offre1": 1680,
+      "offre2": 1428,
+      "norme": "DU + PPMS",
+      "rowNumber": 92
+    },
+    {
+      "numeroDevis": "109126-CL-26092",
+      "numeroSociete": "109126",
+      "client": "COLLEGE NOTRE DAME DES PORTES",
+      "contact": "RADENAC",
+      "offre1": 1040,
+      "offre2": 884,
+      "norme": "DU + PPMS",
+      "rowNumber": 93
+    },
+    {
+      "numeroDevis": "107342-CL-26093",
+      "numeroSociete": "107342",
+      "client": "COLLEGE CAMILLE CLAUDEL",
+      "contact": "VERDURE",
+      "offre1": 1150,
+      "offre2": 920,
+      "norme": "MAJ DUERP ",
+      "rowNumber": 94
+    },
+    {
+      "numeroDevis": "109127-CL-26094",
+      "numeroSociete": "109127",
+      "client": "LPP VINCENT DE PAUL",
+      "contact": "JOUANICOU Marie",
+      "offre1": 2100,
+      "offre2": 1680,
+      "norme": "DU + PPMS",
+      "rowNumber": 95
+    },
+    {
+      "numeroDevis": "109128-CL-26095",
+      "numeroSociete": "109128",
+      "client": "LYCEE SAINTE MARIE - AIX EN PROVENCE",
+      "contact": "ANDUJAR Marc",
+      "offre1": 2700,
+      "offre2": 2160,
+      "norme": "DU + PPMS",
+      "rowNumber": 96
+    },
+    {
+      "numeroDevis": "109129-CL-26096",
+      "numeroSociete": "109129",
+      "client": "ECOLE SAINT EDMOND - WASQUEHAL",
+      "contact": "CELEAUX Céline",
+      "offre1": 1200,
+      "offre2": 960,
+      "norme": "DU + PPMS",
+      "rowNumber": 97
+    },
+    {
+      "numeroDevis": "109130-CL-26097",
+      "numeroSociete": "109130",
+      "client": "ECOLE NOTRE DAME - WASQUEHAL",
+      "contact": "CELEAUX Céline",
+      "offre1": 880,
+      "offre2": 704,
+      "norme": "DU + PPMS",
+      "rowNumber": 98
+    },
+    {
+      "numeroDevis": "109131-CL-26098",
+      "numeroSociete": "109131",
+      "client": "MAIRIE DE FERNOËL",
+      "contact": "GAULON Pascal",
+      "offre1": 350,
+      "offre2": "",
+      "norme": "DU à Distance",
+      "rowNumber": 99
+    },
+    {
+      "numeroDevis": "106765-CL-26099",
+      "numeroSociete": "106765",
+      "client": "MAIRIE D'OFFEMONT",
+      "contact": "CARLES",
+      "offre1": 1990,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 100
+    },
+    {
+      "numeroDevis": "109132-CL-26100",
+      "numeroSociete": "109132",
+      "client": "COLLEGE AGNES BARDURY",
+      "contact": "SALIME Soilihi",
+      "offre1": 4490,
+      "offre2": 3592,
+      "norme": "DU + PPMS",
+      "rowNumber": 101
+    },
+    {
+      "numeroDevis": "109133-CL-26101",
+      "numeroSociete": "109133",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - ECOLE CHOISY",
+      "contact": "THEBAULT",
+      "offre1": 720,
+      "offre2": 576,
+      "norme": "DU + PPMS",
+      "rowNumber": 102
+    },
+    {
+      "numeroDevis": "109133-CL-26101",
+      "numeroSociete": "109133",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - ECOLE AMELIE FRISTEL",
+      "contact": "THEBAULT",
+      "offre1": 880,
+      "offre2": 704,
+      "norme": "DU + PPMS",
+      "rowNumber": 103
+    },
+    {
+      "numeroDevis": "109133-CL-26101",
+      "numeroSociete": "109133",
+      "client": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - COLLEGE CHOISY",
+      "contact": "THEBAULT",
+      "offre1": 1840,
+      "offre2": 1472,
+      "norme": "DU + PPMS",
+      "rowNumber": 104
+    },
+    {
+      "numeroDevis": "105467-CL-26102",
+      "numeroSociete": "105467",
+      "client": "LYCEE JOSEPH PERNOCK",
+      "contact": "SAINT AIME Davy",
+      "offre1": 3490,
+      "offre2": 2792,
+      "norme": "MAJ DU + PPMS",
+      "rowNumber": 105
+    },
+    {
+      "numeroDevis": "105629-CL-26103",
+      "numeroSociete": "105629",
+      "client": "COLLEGE JANE NARDAL",
+      "contact": "HENRIETTE Jessie",
+      "offre1": 890,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 106
+    },
+    {
+      "numeroDevis": "109134-CL-26104",
+      "numeroSociete": "109134",
+      "client": "LP SAINT PIERRE FOURIER",
+      "contact": "DELAMOTTE Romain",
+      "offre1": 2480,
+      "offre2": 2232,
+      "norme": "DU + PPMS",
+      "rowNumber": 107
+    },
+    {
+      "numeroDevis": "109135-CL-26105",
+      "numeroSociete": "109135",
+      "client": "ECOLE SAINTE ANNE - LA BAZOUGE DU DESERT",
+      "contact": "FALLON GUILLEUX",
+      "offre1": 700,
+      "offre2": 560,
+      "norme": "DU + PPMS",
+      "rowNumber": 108
+    },
+    {
+      "numeroDevis": "109134-CL-26106",
+      "numeroSociete": "109134",
+      "client": "LP SAINT PIERRE FOURIER",
+      "contact": "DELAMOTTE Romain",
+      "offre1": 1500,
+      "offre2": 1240,
+      "norme": "DUERP",
+      "rowNumber": 109
+    },
+    {
+      "numeroDevis": "109136-CL-26107",
+      "numeroSociete": "109136",
+      "client": "LYCEE LEOPOLD ELFORT",
+      "contact": "LOUIS Carolle",
+      "offre1": 5000,
+      "offre2": 4000,
+      "norme": "DU + PPMS",
+      "rowNumber": 110
+    },
+    {
+      "numeroDevis": "109137-CL-26108",
+      "numeroSociete": "109137",
+      "client": "COLLEGE GEORGES BRASSENS",
+      "contact": "VERNE",
+      "offre1": 2600,
+      "offre2": 2080,
+      "norme": "DU + PPMS",
+      "rowNumber": 111
+    },
+    {
+      "numeroDevis": "109138-CL-26109",
+      "numeroSociete": "109138",
+      "client": "CLAREDIE",
+      "contact": "STEPHANOFF Nicolas",
+      "offre1": 1250,
+      "offre2": 875,
+      "norme": "DUERP",
+      "rowNumber": 112
+    },
+    {
+      "numeroDevis": "109139-CL-26110",
+      "numeroSociete": "109139",
+      "client": "COLLEGE JULES VERNE",
+      "contact": "LALAGUE",
+      "offre1": 1950,
+      "offre2": 1560,
+      "norme": "DUERP",
+      "rowNumber": 113
+    },
+    {
+      "numeroDevis": "109140-CL-26111",
+      "numeroSociete": "109140",
+      "client": "COLLEGE LA GRANGE DU BOIS",
+      "contact": " NICOLAS David",
+      "offre1": 1740,
+      "offre2": 1392,
+      "norme": "DUERP",
+      "rowNumber": 114
+    },
+    {
+      "numeroDevis": "109141-CL-26112",
+      "numeroSociete": "109141",
+      "client": "FIDREX",
+      "contact": "BABOT Johanne",
+      "offre1": 1150,
+      "offre2": 920,
+      "norme": "DUERP",
+      "rowNumber": 115
+    },
+    {
+      "numeroDevis": "109142-CL-26113",
+      "numeroSociete": "109142",
+      "client": "ÉCOLE MARIE AUXILIATRICE - ROUBAIX",
+      "contact": "PILLE Jérôme",
+      "offre1": 1100,
+      "offre2": 880,
+      "norme": "DU + PPMS",
+      "rowNumber": 116
+    },
+    {
+      "numeroDevis": "109143-CL-26114",
+      "numeroSociete": "109143",
+      "client": "GARAGE MERCIER AUTOMOBILE",
+      "contact": "MERCIER Nadège",
+      "offre1": 680,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 117
+    },
+    {
+      "numeroDevis": "109144-CL-26115",
+      "numeroSociete": "109144",
+      "client": "CABINET BLANCHARD STEPHANE",
+      "contact": "BLANCHARD Stéphane",
+      "offre1": 350,
+      "offre2": "",
+      "norme": "DU à Distance",
+      "rowNumber": 118
+    },
+    {
+      "numeroDevis": "105465-CL-26116",
+      "numeroSociete": "105465",
+      "client": "ECOLE OR TORAH",
+      "contact": "ROSILIO Maurice",
+      "offre1": 950,
+      "offre2": 855,
+      "norme": "MAJ DUERP ",
+      "rowNumber": 119
+    },
+    {
+      "numeroDevis": "108599-CL-26117",
+      "numeroSociete": "108599",
+      "client": "LYCEE OR TORAH",
+      "contact": "ZERBIB Léanan",
+      "offre1": 650,
+      "offre2": 585,
+      "norme": "MAJ DUERP ",
+      "rowNumber": 120
+    },
+    {
+      "numeroDevis": "109145-CL-26118",
+      "numeroSociete": "109145",
+      "client": "ENSEMBLE SCOLAIRE SAINTE THERESE - SAINT VINCENT",
+      "contact": "LISCHEWSKI Francois",
+      "offre1": 2210,
+      "offre2": 1768,
+      "norme": "DU + PPMS",
+      "rowNumber": 121
+    },
+    {
+      "numeroDevis": "109146-CL-26119",
+      "numeroSociete": "109146",
+      "client": "COLLEGE MONTALEMBERT",
+      "contact": "LISCHEWSKI  Francois",
+      "offre1": 1530,
+      "offre2": 1224,
+      "norme": "DU + PPMS",
+      "rowNumber": 122
+    },
+    {
+      "numeroDevis": "109147-CL-26120",
+      "numeroSociete": "109147",
+      "client": "COLLEGE SAINT HELIER",
+      "contact": "HUNAULT Malika",
+      "offre1": 1490,
+      "offre2": 1192,
+      "norme": "DUERP",
+      "rowNumber": 123
+    },
+    {
+      "numeroDevis": "105359-CL-26121",
+      "numeroSociete": "105359",
+      "client": "GROUPE SCOLAIRE ST JOSEPH LA SALLE",
+      "contact": "FERGÉ Williams",
+      "offre1": 1690,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 124
+    },
+    {
+      "numeroDevis": "109148-CL-26122",
+      "numeroSociete": "109148",
+      "client": "SARL MARILLIER",
+      "contact": "MARILLIER Daniel",
+      "offre1": 350,
+      "offre2": "",
+      "norme": "DU à Distance",
+      "rowNumber": 125
+    },
+    {
+      "numeroDevis": "107349-CL-26123",
+      "numeroSociete": "107349",
+      "client": "MAIRIE DE ITTEVILLE",
+      "contact": "LEVACHER",
+      "offre1": 7500,
+      "offre2": "",
+      "norme": "DUERP",
+      "rowNumber": 126
+    },
+    {
+      "numeroDevis": "109149-CL-26124",
+      "numeroSociete": "109149",
+      "client": "CITE SCOLAIRE JEAN JAURES",
+      "contact": "DAVIES",
+      "offre1": 3950,
+      "offre2": 3160,
+      "norme": "DUERP",
+      "rowNumber": 127
+    },
+    {
+      "numeroDevis": "107754-CL-26125",
+      "numeroSociete": "107754",
+      "client": "RESIDENCE LA SOURCE",
+      "contact": "EMERIAU",
+      "offre1": 600,
+      "offre2": "",
+      "norme": "MAJ DU à Distance",
+      "rowNumber": 128
+    },
+    {
+      "numeroDevis": "107689-CL-26126",
+      "numeroSociete": "107689",
+      "client": "LYCEE COLLEGE CHAPTAL",
+      "contact": "BUTI Jacqueline",
+      "offre1": 2975,
+      "offre2": "",
+      "norme": "MAJ DUERP ",
+      "rowNumber": 129
+    },
+    {
+      "numeroDevis": "109150-CL-26127",
+      "numeroSociete": "109150",
+      "client": "ABP MENUISERIES",
+      "contact": "MORAIS Elena",
+      "offre1": 2390,
+      "offre2": 2000,
+      "norme": "DUERP",
+      "rowNumber": 130
+    },
+    {
+      "numeroDevis": "109151-CL-26128",
+      "numeroSociete": "109151",
+      "client": "QUALIS TECHNOLOGIE",
+      "contact": "BOISSET",
+      "offre1": 1850,
+      "offre2": 1480,
+      "norme": "DUERP",
+      "rowNumber": 131
+    },
+    {
+      "numeroDevis": "109152-CL-26129",
+      "numeroSociete": "109152",
+      "client": "MADEMOISELLE JULIE SERVICES",
+      "contact": "GRAFF Camille",
+      "offre1": 750,
+      "offre2": "",
+      "norme": "DU à Distance",
+      "rowNumber": 132
+    }
+  ]
+}

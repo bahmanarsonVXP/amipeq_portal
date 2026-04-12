@@ -1,0 +1,79 @@
+export type ClientType = 'ETABLISSEMENT_SCOLAIRE' | 'MAIRIE_COLLECTIVITE' | 'ENTREPRISE_TPE_PME' | 'AUTRE';
+export type ClientStatus = 'PROSPECT' | 'CLIENT_ACTIF' | 'CLIENT_INACTIF' | 'PERDU';
+export type QuoteStatus = 'GAGNE' | 'REFUSE' | 'EN_ATTENTE';
+export type Prestation = 'DUERP' | 'PPMS' | 'RPS' | 'PSE' | 'COVID' | 'RGPD' | 'AUTRE';
+export type Nature = 'CREATION' | 'MAJ' | 'CONTRAT_MAJ';
+export type Modalite = 'SUR_SITE' | 'A_DISTANCE' | 'SUR_SITE_OU_DISTANCE';
+
+export interface Company {
+  id: string;
+  name: string;
+  numeroSociete: string;
+  typeClient: ClientType;
+  sousType?: string;
+  statutClient: ClientStatus;
+  address: {
+    street1?: string;
+    city?: string;
+    postcode?: string;
+  };
+  phone?: string;
+  email?: string;
+  prospecteur?: 'ALEX' | 'CL';
+}
+
+export interface Person {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email?: string;
+  phone?: string;
+  jobTitle?: string;
+  companyId: string;
+}
+
+export interface Opportunity {
+  id: string;
+  name: string;
+  companyId: string;
+  company?: Company;
+  personId?: string;
+  person?: Person;
+  numeroDevis: string;
+  dateDevis: string;
+  prestation: Prestation[];
+  naturePrestation?: Nature;
+  modalite?: Modalite;
+  amount: number;
+  montantRemise?: number;
+  tauxRemise?: number;
+  statutDevis: QuoteStatus;
+  dateRelance?: string;
+  anneeDevis: number;
+}
+
+export interface Relance {
+  opportunity: Opportunity;
+  dateRelance: string;
+  joursRetard: number;
+  status: 'EN_RETARD' | 'AUJOURD_HUI' | 'A_VENIR';
+}
+
+export interface DashboardStats {
+  caMois: number;
+  caVariation: number;
+  devisEnAttente: number;
+  potentielDevis: number;
+  tauxConversion: number;
+  conversionVariation: number;
+  clientsActifs: number;
+  nouveauxClients: number;
+  relancesEnRetard: number;
+}
+
+export interface User {
+  id: string;
+  email: string;
+  name: string;
+  role: 'admin' | 'franchisee';
+}

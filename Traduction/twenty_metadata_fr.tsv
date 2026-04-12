@@ -1,0 +1,456 @@
+Type	Objet ID	Champ ID	Nom technique	Label actuel (EN)	Label FR (à modifier)	Description	Type de champ	Custom?	Actif?	Système?
+OBJET	be196c67-aa45-4032-a283-d321ffa45db7		blocklist / blocklists	Blocklist / Blocklists		Blocklist		Non	Oui	
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	9a5b767d-471b-48e5-9971-b7069e09b2c1	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	3c0fdeb6-72ee-496d-abcd-990a67aa4fc5	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	b20dd1b2-4bd9-4ef4-b9eb-fa235f95e63b	handle	Handle		Handle	TEXT	Non	Oui	Non
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	1206d2de-db03-49bd-a9d7-c8613621cf27	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	92f2a36d-9a01-441f-9f85-b9c9771260f5	workspaceMember	WorkspaceMember		WorkspaceMember	RELATION	Non	Oui	Non
+  champ	be196c67-aa45-4032-a283-d321ffa45db7	1523f693-1d50-428c-a090-1ab61925307a	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	30c69e9a-aa10-4da1-beb9-558431a8b35f		calendarChannel / calendarChannels	Calendar Channel / Calendar Channels		Calendar Channels		Non	Oui	
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	f15de8a0-db97-469d-a117-75017c8e2559	calendarChannelEventAssociations	Calendar Channel Event Associations		Calendar Channel Event Associations	RELATION	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	2bd63e08-5d0b-4bde-b0bf-3fd0c773a6f6	connectedAccount	Connected Account		Connected Account	RELATION	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	25f55d26-26ce-4339-92de-37fb4c7bdce4	contactAutoCreationPolicy	Contact auto creation policy		Automatically create records for people you participated with in an event.	SELECT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	45118734-35dc-4425-80d6-545630ec86f0	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	0e05c274-5fd7-4934-a8d1-0a6c8a2f1db4	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	780e61f6-385c-43c0-836c-d1a4a3bf6830	handle	Handle		Handle	TEXT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	e3f5d4f3-6e4c-43ce-b6e7-d0534756f1be	isContactAutoCreationEnabled	Is Contact Auto Creation Enabled		Is Contact Auto Creation Enabled	BOOLEAN	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	4d8444be-0032-43a3-b301-9a211cd86440	isSyncEnabled	Is Sync Enabled		Is Sync Enabled	BOOLEAN	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	69eff5db-ff04-4d52-b9b2-de015f5a3acb	syncedAt	Last sync date		Last sync date	DATE_TIME	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	d7ca09b1-5e4c-4e32-98ec-53ff701a9ddc	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	a9f57e00-e178-4d63-affe-01799eb6728f	syncCursor	Sync Cursor		Sync Cursor. Used for syncing events from the calendar provider	TEXT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	b585d620-f79f-4fde-96a2-e78cce3bf083	syncStage	Sync stage		Sync stage	SELECT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	5dc8ee43-3910-4dbc-bcad-71f6a5351c87	syncStageStartedAt	Sync stage started at		Sync stage started at	DATE_TIME	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	a1255b35-875f-4f58-b35c-c07f0272bcef	syncStatus	Sync status		Sync status	SELECT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	8c4b5f83-f4c6-4d59-828f-7bdb7c68b021	throttleFailureCount	Throttle Failure Count		Throttle Failure Count	NUMBER	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	e0a27f6e-e076-49ae-a26d-6a4cbfa46a52	visibility	Visibility		Visibility	SELECT	Non	Oui	Non
+  champ	30c69e9a-aa10-4da1-beb9-558431a8b35f	2b9ca142-692d-4ffe-8b12-74cdf6182457	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	80cae1f9-9376-45e4-baf4-4966fabed5fe		calendarChannelEventAssociation / calendarChannelEventAssociations	Calendar Channel Event Association / Calendar Channel Event Associations		Calendar Channel Event Associations		Non	Oui	
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	43a58311-3cdc-4d62-b4c1-4bd2e49ee5c1	calendarChannel	Channel ID		Channel ID	RELATION	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	598261dc-38ee-4072-9714-9f03af320afb	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	9076811a-103b-4ee0-a91c-930f4587cd7e	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	dedc29a0-7642-43dd-9f4a-5f5567b27ca6	eventExternalId	Event external ID		Event external ID	TEXT	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	7dcfd4f7-16f2-4b23-8f05-0ebc8dfbb790	calendarEvent	Event ID		Event ID	RELATION	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	c9e0b9d0-f50b-4c03-8771-73481cf8b8e6	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	1158b5b0-7a26-4df4-b0c8-d350b2b73410	recurringEventExternalId	Recurring Event ID		Recurring Event ID	TEXT	Non	Oui	Non
+  champ	80cae1f9-9376-45e4-baf4-4966fabed5fe	ba73c7e3-fd2c-4210-a87a-d886de2ca3b0	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51		calendarEventParticipant / calendarEventParticipants	Calendar event participant / Calendar event participants		Calendar event participants		Non	Oui	
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	25966dc3-d397-456d-a9d3-53e66331e121	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	c21a978b-61dd-4765-9437-f658cc46ae0a	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	e9ca3591-dfaa-4f5a-9ab4-5f9d72042993	displayName	Display Name		Display Name	TEXT	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	2db7d2ca-c3aa-42f9-acb7-deac8d4a474e	calendarEvent	Event ID		Event ID	RELATION	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	152ed33c-bca0-4f98-bc3e-36a0a6b33d7c	handle	Handle		Handle	TEXT	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	a8194e92-8823-493d-8923-5db425c015b3	isOrganizer	Is Organizer		Is Organizer	BOOLEAN	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	d7ced151-6a2a-47bd-af26-22855ca6bd89	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	2527bebf-6499-4265-b66d-8e7c4db1e202	person	Person	Contact	Person	RELATION	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	0b1e6001-c0ac-4c78-b2bf-789eda1b4767	responseStatus	Response Status		Response Status	SELECT	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	b0991ee8-d48d-4486-936e-91397f04dfe2	workspaceMember	Workspace Member		Workspace Member	RELATION	Non	Oui	Non
+  champ	4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51	45087c93-5f87-45da-b4f1-60931689840d	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	d9d6540b-8bf5-4100-b442-c9315939c807		noteTarget / noteTargets	Cible de note / Cible de notes	Cible de note / 	A note target		Non	Oui	
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	2cc90031-b668-4bf5-bef3-a5dcca0703da	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	2148f294-e1f1-4804-b94c-2b8bcb7799d1	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	6e97236b-0666-4d09-a303-07b0149729e8	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	69226049-7f95-4801-90b3-7855716e6dc3	note	Note		NoteTarget note	RELATION	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	aaca2b3a-4de5-4bc8-96b7-9dfc00d55295	targetPerson	Target		NoteTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	d6312722-c81b-4974-ab3e-57c4b7440bc1	targetOpportunity	Target		NoteTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	8aec8ebd-39ba-43ca-b129-b3ab984907cd	targetCompany	Target		NoteTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d9d6540b-8bf5-4100-b442-c9315939c807	36f2a431-910b-4566-ac96-f73a6c422bdf	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	d00ec0ab-f151-41b2-9022-407a253d2816		taskTarget / taskTargets	Cible de tâche / Cible de tâches	Cible de tâche / 	A task target		Non	Oui	
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	c793e23b-f4c1-47f5-a92f-8b9c5fa55876	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	7b75d91d-9e6e-49e3-ae0e-71ae79bffe9d	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	1179b709-10d3-49a5-a7fb-e273471c78fc	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	004d41b2-1a8f-4472-a26d-1a0224272317	targetCompany	Target		TaskTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	1d56f614-eeec-4815-a947-7b0da2f5bd48	targetOpportunity	Target		TaskTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	69f970c2-4cd1-4c95-bae1-e64b55987b9c	targetPerson	Target		TaskTarget target	MORPH_RELATION	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	51430d25-24db-42de-be93-91b249d9d164	task	Task		TaskTarget task	RELATION	Non	Oui	Non
+  champ	d00ec0ab-f151-41b2-9022-407a253d2816	35e6ebe4-99ac-4296-bcde-7f914973d6cf	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1		connectedAccount / connectedAccounts	Compte connecté / Compte connectés		A connected account		Non	Oui	
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	1830baeb-f544-4962-8b9a-6e13cb7c7e65	accessToken	Access Token		Messaging provider access token	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	8e2b5636-458c-4008-a03e-c78a8055c060	accountOwner	Account Owner	Responsable du compte	Account Owner	RELATION	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	319b1f94-cd0d-4fea-a8f1-8fc80eb0497e	authFailedAt	Auth failed at		Auth failed at	DATE_TIME	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	0e4336a5-f28a-46a1-857d-5dee20af6437	calendarChannels	Calendar Channels		Calendar Channels	RELATION	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	d1213983-a20d-4eed-94af-ce5c0cf6dc86	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	b512759a-ed81-41eb-bbf1-a9dd43cba9ac	connectionParameters	Custom Connection Parameters		JSON object containing custom connection parameters	RAW_JSON	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	2aa36bb4-c916-477c-8cdd-7a2bc4b47cc9	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	8e51f7c1-9119-4cdf-9e13-444f9aabc9d2	handle	handle		The account handle (email, username, phone number, etc.)	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	6d3454ea-558d-4c5e-9b66-02e136e069ef	handleAliases	Handle Aliases		Handle Aliases	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	3623b1e7-8899-4e42-b20f-f83b062a285a	lastCredentialsRefreshedAt	Last credentials refreshed at		Last credentials refreshed at	DATE_TIME	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	a695cdcf-536b-4e35-aab6-31e906a27492	lastSyncHistoryId	Last sync history ID		Last sync history ID	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	bff8e9fe-d666-428b-b32f-3c4b377c717e	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	b350d3ef-a21d-4795-94a1-684ee3ec228c	messageChannels	Message Channels		Message Channels	RELATION	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	2c3667e7-fe58-40e0-80de-5c0b7a28ab05	provider	provider		The account provider	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	69084344-bc35-4162-a1b2-7d7ee17cdc84	refreshToken	Refresh Token		Messaging provider refresh token	TEXT	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	9ec0d79d-9b4c-43f9-9e68-df70679b5b40	scopes	Scopes		Scopes	ARRAY	Non	Oui	Non
+  champ	79ddb7e3-fc44-4530-8f49-2c0ac226e5c1	cfff2846-70e2-47a1-b735-826078bba72e	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	d7c16274-ec3c-495c-ac1f-fb7a680f89f0		person / people	Contact / Contacts	Contact / Contacts	A person		Non	Oui	
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	c77ca92f-b098-4df2-abaa-45d1cc02bfad	city	City	Ville	Contact's city	TEXT	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	570a7468-929f-4acd-bcbc-d0333fcc4716	company	Company	Entreprise	Contact's company	RELATION	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	9feefbf2-65b3-468f-988a-67485c8cb47c	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	29397856-1eab-48ee-a36c-53ba945cf825	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	879320de-71b0-48d5-8ae2-0e756ff63377	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	e3afe88a-7b86-4194-ad73-8253c2b1724b	emails	Emails	E-mails	Contact's Emails	EMAILS	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	89e774a8-e30e-4cef-8a85-e662410f71ec	jobTitle	Job Title	Fonction	Contact's job title	TEXT	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	a9ff9141-f4b2-4c6b-b6ad-1d0956ceaab1	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	3aed0119-134d-4b84-a29b-44fffccaa922	linkedinLink	Linkedin	LinkedIn	Contact's Linkedin account	LINKS	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	023e4400-2cec-4fa9-9e5b-31c27c894c7a	name	Name	Nom	Contact's name	FULL_NAME	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	9bd7e386-16ad-4820-8489-db69cd8fb445	noteTargets	Notes		Notes tied to the contact	RELATION	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	28edb6e4-de5a-41b0-b336-7be34b244bbe	pointOfContactForOpportunities	Opportunities		List of opportunities for which that person is the point of contact	RELATION	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	f81eb5bb-b4f0-4edb-a65b-282a29d8345c	phones	Phones	Téléphones	Contact's phone numbers	PHONES	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	4b725dfa-bfd2-480d-9439-f60d31ba7d0e	taskTargets	Tasks		Tasks tied to the contact	RELATION	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	4bc93b78-74c3-47ce-b613-42338e61d622	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	c7d9dbe4-0102-4e60-9a56-1150dcfc0b92	xLink	X	X (Twitter)	Contact's X/Twitter account	LINKS	Non	Oui	Non
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	3b5c1be8-e20a-4e36-8584-284a56c8c5a2	attachments	Attachments		Attachments linked to the contact.	RELATION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	0b4733ca-1af5-4186-b83e-ab34c1b52148	avatarUrl	Avatar	Avatar	Contact's avatar	TEXT	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	4ce0a2e9-d208-49ee-b394-7212d993f57c	avatarFile	Avatar File		Contact's avatar file	FILES	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	3c5cc1c9-9c1c-44d8-b983-7c0010d41ca2	calendarEventParticipants	Calendar Event Participants		Calendar Event Participants	RELATION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	9c9d95a8-1004-4d7a-8c4d-d2731e3dea55	timelineActivities	Events		Events linked to the person	RELATION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	3d691bc2-f156-4a3d-a23e-81ebea00f034	favorites	Favorites		Favorites linked to the contact	RELATION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	5083640a-e515-4f9e-aab2-08494a058a3e	id	Id		Id	UUID	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	aaec2f6f-f846-4072-a685-f8f721480b8c	messageParticipants	Message Participants		Message Participants	RELATION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	7b2479f5-e3d5-436f-a9a0-3829c91188bf	position	Position	Position	Person record Position	POSITION	Non	Oui	Oui
+  champ	d7c16274-ec3c-495c-ac1f-fb7a680f89f0	69058a4a-f783-4b6b-ad31-13b168ef3030	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+OBJET	4c134372-3420-49b5-98f2-2536c7e7e842		workflowAutomatedTrigger / workflowAutomatedTriggers	Déclencheur de flux / Déclencheur de fluxs		A workflow automated trigger		Non	Oui	
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	21c9e640-4a96-4022-a86c-e39c443be1f7	type	Automated Trigger Type	Type	The workflow automated trigger type	SELECT	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	6a6537f7-cdf6-45d3-a928-ce807ac50b86	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	78914143-0358-45fe-bdcc-397bd90b9bc7	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	46337126-a1b7-4d04-beee-3f2eb105fd3f	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	cc875076-3744-4d93-beb5-e85a2fe538cc	settings	Settings		The workflow automated trigger settings	RAW_JSON	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	39a81647-6929-41dc-8fcb-53ff510eef77	workflow	Workflow		WorkflowAutomatedTrigger workflow	RELATION	Non	Oui	Non
+  champ	4c134372-3420-49b5-98f2-2536c7e7e842	c5af3ccd-06cf-4974-ad47-7b40594bc687	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d		favoriteFolder / favoriteFolders	Dossier(s) Favori(s) / Dossier(s) Favori(s)s		A favorite folder		Non	Oui	
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	57d8b75d-2f2b-49cc-9a58-38a608d1071b	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	c5eda677-b089-4156-8624-449cdc66076f	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	23f4e290-bf25-47c2-a740-49c54438e38b	favorites	Favorites		Favorites in this folder	RELATION	Non	Oui	Non
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	f5b96099-3ff6-4005-966a-3aa2a731466a	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	0dc96d12-cc98-4473-9b06-fe1b48790c19	name	Name	Nom	Name of the favorite folder	TEXT	Non	Oui	Non
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	cf28094e-700b-4afd-8453-cb16d055ef57	id	Id		Id	UUID	Non	Oui	Oui
+  champ	3306ccd5-476a-4b0e-aaa9-c17169eb8e3d	0c5ecccd-77bc-4221-bbd6-89e939b25e29	position	Position	Position	Favorite folder position	NUMBER	Non	Oui	Oui
+OBJET	d7fd7751-b173-4f12-afe9-d783c3170863		company / companies	Entreprise / Entreprises	Entreprise / Entreprises	A company		Non	Oui	
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	c681b04b-ccb0-4b5b-9967-50f17cffa158	accountOwner	Account Owner	Responsable du compte	Your team member responsible for managing the company account	RELATION	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	ab13efa5-1475-4d8f-9225-33188df9e37c	address	Address	Adresse	Address of the company	ADDRESS	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	e7ad297d-db49-4b2a-bba9-efab3585cb5c	annualRecurringRevenue	ARR	Revenu annuel récurrent	Annual Recurring Revenue: The actual or estimated annual revenue of the company	CURRENCY	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	6c147f8b-0b12-478c-bd75-0232f5d818c4	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	328a9f70-1d4e-4413-b51c-6ee8e414485e	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	a1cb75b0-6052-44f3-aa10-98dd43ea27bc	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	2179f93f-8e2c-4f9c-a33e-6572cb7a4f21	domainName	Domain Name	Nom de domaine	The company website URL. We use this url to fetch the company icon	LINKS	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	8c3e91b6-b38f-42a3-a321-7a56f633193e	employees	Employees	Effectifs	Number of employees in the company	NUMBER	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	798e4913-3437-48a8-baca-9d320aacbd34	idealCustomerProfile	ICP	Profil client idéal	Ideal Customer Profile: Indicates whether the company is the most suitable and valuable customer for you	BOOLEAN	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	1e1ea850-df9a-4df2-9f99-a89ed6de3648	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	284741ba-55e4-4610-808b-65f0ea159d8b	linkedinLink	Linkedin	LinkedIn	The company Linkedin account	LINKS	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	2a747ca4-339e-4a1c-bbac-6d06ff5358c0	name	Name	Nom	The company name	TEXT	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	6b396758-d1d1-454c-8c0b-fdf0b5979d30	noteTargets	Notes		Notes tied to the company	RELATION	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	fdf138da-9df0-4989-b8fb-04b33ee1fe2f	opportunities	Opportunities		Opportunities linked to the company.	RELATION	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	c818e900-f491-47a7-9441-4fcd89815fd5	people	People	Contacts	People linked to the company.	RELATION	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	99bf8572-8abf-41f5-a199-604810df551f	taskTargets	Tasks		Tasks tied to the company	RELATION	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	5a333fa1-0905-4c55-a4fc-db900c6c404c	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	a98dee4b-68c3-4b7d-a9d7-57585937a3a3	xLink	X	X (Twitter)	The company Twitter/X account	LINKS	Non	Oui	Non
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	b1fdfe9a-ebb9-4aef-9bae-0cd99835ea66	attachments	Attachments		Attachments linked to the company	RELATION	Non	Oui	Oui
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	a8ab25da-c5f9-49d5-9b97-75928cdbda74	favorites	Favorites		Favorites linked to the company	RELATION	Non	Oui	Oui
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	6bf71ef5-3c59-4d07-80fd-478171987768	id	Id		Id	UUID	Non	Oui	Oui
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	3a7628fc-9049-41e4-b3fb-ab7c21c92fa9	position	Position	Position	Company record position	POSITION	Non	Oui	Oui
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	5b7da3f7-f06f-473a-8400-94424d84373c	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	d7fd7751-b173-4f12-afe9-d783c3170863	78b6162e-dd2b-4fbd-b9bc-f3b46fae8914	timelineActivities	Timeline Activities		Timeline Activities linked to the company	RELATION	Non	Oui	Oui
+OBJET	7d4ff7a9-cf70-445f-b215-2337f113a45a		calendarEvent / calendarEvents	Événement / Événements	Événement / Événements	Calendar events		Non	Oui	
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	becaae67-3d82-4d57-9ad8-4442c840df95	calendarChannelEventAssociations	Calendar Channel Event Associations		Calendar Channel Event Associations	RELATION	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	42384de8-dcdd-4a38-93bb-cc6e552b7df9	conferenceSolution	Conference Solution		Conference Solution	TEXT	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	d06b24c4-220a-4787-98f3-b33b5baaf566	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	8d559935-deb4-4345-a5f3-6bf7c8bb5726	externalCreatedAt	Creation DateTime		Creation DateTime	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	3defb53b-08cf-4fe8-8dc1-20ab05d6ddb7	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	eca65764-9b11-459f-b9ac-aa8f287d02b9	description	Description	Description	Description	TEXT	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	48e15e4b-b1ef-413d-87d5-5b6fbfb2b0d4	endsAt	End Date		End Date	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	ec84800e-edfd-435a-abbc-05a13c3ea9e2	calendarEventParticipants	Event Participants		Event Participants	RELATION	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	d18db5be-eb1f-4d44-9e6b-8a2cc5b925b2	iCalUid	iCal UID		iCal UID	TEXT	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	b7f4a717-5af3-4c56-8e97-5757f3de73ec	isCanceled	Is canceled		Is canceled	BOOLEAN	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	1e2e3c11-c138-4839-9783-a63e1398b059	isFullDay	Is Full Day		Is Full Day	BOOLEAN	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	3c8ed914-8e06-4e04-b91a-46bab17f6473	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	ce4f7df4-26a0-4324-aad5-b2df62d7d832	location	Location		Location	TEXT	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	16aa14b7-bfda-45c2-a016-6d3ad957b174	conferenceLink	Meet Link		Meet Link	LINKS	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	5ca40dee-e48e-4ea7-9757-0c5412523cdd	startsAt	Start Date		Start Date	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	d30338b0-ede1-4441-a2b3-1fa5a49aea58	title	Title	Titre	Title	TEXT	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	2d7e520e-86eb-4c9d-9fef-8c2b400b605e	externalUpdatedAt	Update DateTime		Update DateTime	DATE_TIME	Non	Oui	Non
+  champ	7d4ff7a9-cf70-445f-b215-2337f113a45a	2a6549ef-3891-4afd-8a36-e2f8747c818a	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4		workflowRun / workflowRuns	Exécution du flux de Travail / Exécution du flux de Travails		A workflow run		Non	Oui	
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	dbcaddaa-0ce7-4abd-99e8-46129aa190db	context	Context		Context of the workflow run	RAW_JSON	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	3bb082bf-a3e5-49f0-acd9-590e176f52c0	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	b3747521-1b0b-4a45-8400-5e8300cdbd3e	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	2a28268a-c696-4bdc-8cc7-04225eee1bcb	createdBy	Executed by	Créé par	The executor of the workflow	ACTOR	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	006b3f15-7934-48ad-9b57-c1d20507c6c0	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	9bb92dd1-1ac6-4485-b2c4-e1677bd1e025	name	Name	Nom	Name of the workflow run	TEXT	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	c176a78f-7020-4d30-aaae-5c8c8ab21fe3	output	Output		Output of the workflow run	RAW_JSON	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	15dcbfbd-d6c6-4f26-b745-495eab9c83ad	state	State		State of the workflow run	RAW_JSON	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	c4fefdf9-21b6-4e51-a060-d2518b3f7fdd	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	3a861584-f2d4-4d4b-b2f2-dd51c0f0467d	workflow	Workflow		Workflow linked to the run.	RELATION	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	f14f1f0f-e08e-4f20-adda-aa0484dbdd26	endedAt	Workflow run ended at		Workflow run ended at	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	936c7361-9aad-4c84-8f86-3aa2b10f9cb3	enqueuedAt	Workflow run enqueued at		Workflow run enqueued at	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	6c228983-709b-4f36-91d4-e0ec9b5170c5	startedAt	Workflow run started at		Workflow run started at	DATE_TIME	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	f8849403-8846-4465-9c53-15610fb1b548	status	Workflow run status	Statut	Workflow run status	SELECT	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	51f4f42b-fc74-4631-b1df-af48497c6c1a	workflowVersion	Workflow version		Workflow version linked to the run.	RELATION	Non	Oui	Non
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	63ee57cc-c846-4f97-8f9e-8e28a8973ad7	favorites	Favorites		Favorites linked to the workflow run	RELATION	Non	Oui	Oui
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	a61a832d-9751-4c21-9fa5-1d5dde1fe1e3	id	Id		Id	UUID	Non	Oui	Oui
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	0b13d6dc-31e8-4ad9-b4ce-5f7af11ecd17	position	Position	Position	Workflow run position	POSITION	Non	Oui	Oui
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	a02f6f20-51b9-4b50-a51a-2d0cab086047	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	1ce0a8b5-2977-4d85-be86-4726cf1d6fa4	c4ef1ba4-1f61-45d8-a090-ed0e669ccb75	timelineActivities	Timeline Activities		Timeline activities linked to the run	RELATION	Non	Oui	Oui
+OBJET	6950e7df-6994-4960-b542-210c3b694294		favorite / favorites	Favori / Favoris	Favori / Favoris	A favorite		Non	Oui	
+  champ	6950e7df-6994-4960-b542-210c3b694294	858d439d-56c8-4a38-9baa-4149af91376c	company	Company	Entreprise	Favorite company	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	61574be7-46e4-4722-b3fb-61d7fc44e2d9	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	456c9755-6501-4520-b646-e6ac04c15466	dashboard	Dashboard		Favorite dashboard	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	abb3b106-7112-44d5-a01d-687fcee57006	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	be9f039a-ca87-4683-8204-0500a2ca013a	favoriteFolder	Favorite Folder		The folder this favorite belongs to	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	f6aa3756-5320-4540-ae23-c8cb693b0318	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	fc2159e1-638f-48e0-9df1-fa5665998ecb	note	Note		Favorite note	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	ce94608c-dc01-4e6d-af34-baf8359d6bd2	opportunity	Opportunity		Favorite opportunity	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	66a9c4b7-39ed-4df7-8474-aa82a91cfe2d	person	Person	Contact	Favorite person	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	36d86341-9520-4534-b6e4-8fcf734d18b7	task	Task		Favorite task	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	8c38c8c0-2c44-4c48-8167-98f5872f438b	viewId	ViewId		ViewId	UUID	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	3160555b-3a31-46b1-87f3-1ea13750b7d3	workflow	Workflow		Favorite workflow	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	b07aa43d-d4bb-4a1c-95f2-46604dc01467	workflowRun	Workflow		Favorite workflow run	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	7965c0e9-edce-4a35-abd3-c843f043e5b7	workflowVersion	Workflow		Favorite workflow version	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	293d1c9b-0d70-416e-8707-fac6aab49dda	forWorkspaceMember	Workspace Member		Favorite workspace member	RELATION	Non	Oui	Non
+  champ	6950e7df-6994-4960-b542-210c3b694294	c97a0ee5-19b9-4f1d-9d1b-859674ae883d	id	Id		Id	UUID	Non	Oui	Oui
+  champ	6950e7df-6994-4960-b542-210c3b694294	9bf1b9fb-66ae-44af-8cfa-adab0ca70ef6	position	Position	Position	Favorite position	NUMBER	Non	Oui	Oui
+OBJET	0251a248-798e-4bbb-951d-e4a0fa7d12cd		workspaceMember / workspaceMembers	Membre / Membres	Membre / Membres	A workspace member		Non	Oui	
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	140e996e-0fbc-4d06-8879-0cab145cdad1	assignedTasks	Assigned tasks		Tasks assigned to the workspace member	RELATION	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	76d4d183-6948-49d1-9b45-be8cab11cacc	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	9bd1a5b9-3614-4ccc-b04b-df7d8661f60f	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	57ca5846-feef-4fc2-b05f-8b38301484b2	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	aad33917-3fb5-44a4-8f50-76f61bd600c2	name	Name	Nom	Workspace member name	FULL_NAME	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	659fa859-879e-4f64-8b5f-305a5d1950ed	ownedOpportunities	Owned opportunities		Opportunities owned by the workspace member	RELATION	Non	Oui	Non
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	3a567a34-7989-4fa5-836f-f97de9fd5803	accountOwnerForCompanies	Account Owner For Companies		Account owner for companies	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	872258dd-0acc-4917-be93-4214c028e323	avatarUrl	Avatar Url	Avatar	Workspace member avatar	TEXT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	eb6d7126-870d-4198-bff7-a1403bb559ef	blocklist	Blocklist		Blocklisted handles	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	740217b5-9dfa-4d7c-8608-63854dffe95b	calendarEventParticipants	Calendar Event Participants		Calendar Event Participants	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	4c30e4bb-7b76-474c-a2ec-8fd93e082af7	colorScheme	Color Scheme		Preferred color scheme	TEXT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	611aaebb-30eb-40d6-a651-a92e557c2daf	connectedAccounts	Connected accounts		Connected accounts	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	d071d4f9-d45e-4d91-93c9-7dd65ba4a422	dateFormat	Date format		User's preferred date format	SELECT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	a38d2940-911e-45b4-a0f5-eec38a8775b9	timelineActivities	Events		Events linked to the workspace member	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	ba95b750-d16f-4a4f-96e2-708a4b631add	favorites	Favorites		Favorites linked to the workspace member	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	2fc946b0-1df5-4309-ae69-28e9d895684a	id	Id		Id	UUID	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	cfbb660a-11c3-482f-aeab-1f212fc4c97e	locale	Language		Preferred language	TEXT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	77911441-852e-45f5-bdac-bdac7f35790e	messageParticipants	Message Participants		Message Participants	RELATION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	35640743-a97f-4c86-9fc3-290ab48cddc0	numberFormat	Number format		User's preferred number format	SELECT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	352ed230-3426-495b-87c0-ed7948a52c2c	position	Position	Position	Workspace member position	POSITION	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	24536455-0e23-43f9-ade3-4aa039aba173	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	aa0dbf15-5ea9-4013-880c-c3c936f8a6a5	calendarStartDay	Start of the week		User's preferred start day of the week	NUMBER	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	ef57b78a-a8ac-4e43-b44d-9810bb6aeeb7	timeFormat	Time format		User's preferred time format	SELECT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	d030525d-a5fb-431e-8072-3f97f84b72b2	timeZone	Time zone		User time zone	TEXT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	2c921460-f03d-49fe-9121-d774e767d373	userEmail	User Email		Related user email address	TEXT	Non	Oui	Oui
+  champ	0251a248-798e-4bbb-951d-e4a0fa7d12cd	81fd5fda-906a-49a2-845c-51188cc39726	userId	User Id		Associated User Id	UUID	Non	Oui	Oui
+OBJET	2050c310-9f05-4225-9f93-f09387a753b0		message / messages	Message / Messages	Message / Messages	Message		Non	Oui	
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	a2d0ff1c-9071-4fbd-959b-f7233f5769ff	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	8c6694c5-e4fd-44ba-a6e9-5dfae702fa0e	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	eac433ad-ee4c-4e1d-afa9-0db829b56ad1	direction	Direction		Message Direction	SELECT	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	079410af-9f3b-492d-b84a-434b92ed0953	headerMessageId	Header message Id		Message id from the message header	TEXT	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	880b28d3-e98e-4988-9d4f-38f967284684	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	62196e79-aa56-4816-9853-1f2971ebcd54	messageChannelMessageAssociations	Message Channel Association		Messages from the channel.	RELATION	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	5e30a135-351a-4a86-8768-d7ffaceb0a49	messageParticipants	Message Participants		Message Participants	RELATION	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	6837a6e4-4ea0-4ea8-ade7-26084357eec4	messageThread	Message Thread Id		Message Thread Id	RELATION	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	61eacb67-5ecb-49e0-bb28-ed5ba765839f	receivedAt	Received At		The date the message was received	DATE_TIME	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	eb81b479-ad47-4127-bc78-765d6de3b2e7	subject	Subject		Subject	TEXT	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	c107c0c7-f087-4ab8-8eb9-3ef247531708	text	Text		Text	TEXT	Non	Oui	Non
+  champ	2050c310-9f05-4225-9f93-f09387a753b0	71057577-6f0b-4faf-b6a2-80427e4ed801	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	fad7ec80-eb7d-4136-b150-9b3a772869f1		messageChannel / messageChannels	Message Channel / Message Channels		Message Channels		Non	Oui	
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	7f41e8fa-d3aa-4c38-bf36-b38440ac8efe	connectedAccount	Connected Account		Connected Account	RELATION	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	50ce834a-85e3-4e22-9d29-b297de0372e0	contactAutoCreationPolicy	Contact auto creation policy		Automatically create People records when receiving or sending emails	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	b6f6804a-2ad0-4cd4-b327-f7156953afd8	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	5d167bd9-dab8-40ea-b607-1c446d266570	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	37d2e84c-2d7b-4466-8e75-5620044d94d5	excludeGroupEmails	Exclude group emails		Exclude group emails	BOOLEAN	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	548abe08-e0e4-4e67-b653-3ddcb4fa2274	excludeNonProfessionalEmails	Exclude non professional emails		Exclude non professional emails	BOOLEAN	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	54e62986-c7fb-4b1a-9967-d99b4a97c019	handle	Handle		Handle	TEXT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	9dea7fc6-c9fd-4e0d-b1e3-a67ca7fc0f7d	isContactAutoCreationEnabled	Is Contact Auto Creation Enabled		Is Contact Auto Creation Enabled	BOOLEAN	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	c18b48b3-a6ab-41fa-8af8-ae059dde9d71	isSyncEnabled	Is Sync Enabled		Is Sync Enabled	BOOLEAN	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	ac53e593-a159-4b6a-8c1f-f35b601a406a	syncCursor	Last sync cursor		Last sync cursor	TEXT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	db428c51-2eba-4ed7-af3d-5a75f8d67d1a	syncedAt	Last sync date		Last sync date	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	1ddb20ae-2c12-4bfe-a676-3487db676395	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	ad5c93aa-ad83-41ec-894e-7b41fe9fa521	messageChannelMessageAssociations	Message Channel Association		Messages from the channel.	RELATION	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	5a80a19d-a7bd-4a73-a32a-5b7266ef5665	messageFolderImportPolicy	Message folder import policy		Message folder import policy	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	c99536c1-3822-4055-b9ea-b828d2dab90f	messageFolders	Message Folders		Message Folders	RELATION	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	732e85d6-685c-4c73-b78e-d33f97031145	pendingGroupEmailsAction	Pending group emails action		Pending action for group emails	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	c10dcc9d-0d9c-4cbd-ba5f-9852420cccb6	syncStage	Sync stage		Sync stage	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	e18afa64-a6b0-48d7-a290-85ead2492eb1	syncStageStartedAt	Sync stage started at		Sync stage started at	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	c12a8c09-e240-4baa-8684-ed608ac37d3b	syncStatus	Sync status		Sync status	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	1c4aade3-96e9-4a08-808c-f4f065be2b15	throttleFailureCount	Throttle Failure Count		Throttle Failure Count	NUMBER	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	6a0d4596-155b-4278-b4e2-c5760e573183	throttleRetryAfter	Throttle Retry After		Throttle Retry After	DATE_TIME	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	13a28bc7-b22c-4ed9-822e-418a9e176877	type	Type	Type	Channel Type	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	03ee05f1-8893-45fd-9b0f-53653ce7fcd4	visibility	Visibility		Visibility	SELECT	Non	Oui	Non
+  champ	fad7ec80-eb7d-4136-b150-9b3a772869f1	77878f1c-f24d-413e-b770-6c915843bca4	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	37664147-57f4-4082-b6ca-dec2d0ca22d5		messageChannelMessageAssociation / messageChannelMessageAssociations	Message Channel Message Association / Message Channel Message Associations		Message Synced with a Message Channel		Non	Oui	
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	3cac1147-c1dc-4aef-ae91-0e66ebf9a816	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	05cb1026-9a99-4b79-b8f7-1b67403efdd0	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	3ac6f1a4-56d7-4914-9a52-a235c1ece631	direction	Direction		Message Direction	SELECT	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	4ceb4813-596a-49fd-97bb-ed44060eec2f	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	64669c94-4043-494a-9f2b-ae46c1ca3c23	messageChannel	Message Channel Id		Message Channel Id	RELATION	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	4ef1b87b-b703-4859-8a28-aa912f392f24	messageExternalId	Message External Id		Message id from the messaging provider	TEXT	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	cef5ca57-1b36-46f2-95ed-08053ba0e565	message	Message Id		Message Id	RELATION	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	a40751a2-5a92-48c7-93be-d1cd984bee6c	messageThread	Message Thread Id		Message Thread Id	RELATION	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	ca9b798d-4cff-4dc5-bd44-57eb629e7ec6	messageThreadExternalId	Thread External Id		Thread id from the messaging provider	TEXT	Non	Oui	Non
+  champ	37664147-57f4-4082-b6ca-dec2d0ca22d5	5dad4bef-3a61-4e00-97ee-7cadfe061f08	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	ffce42f3-925e-44c8-b273-2871743b357e		messageFolder / messageFolders	Message Folder / Message Folders		Message Folders		Non	Oui	
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	2b74df02-6dfc-4958-9b3a-e005fb2803e0	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	b3a47164-2ecd-4c01-944a-38315410e23f	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	30cc23f1-1bc7-4a97-b736-62714baf1643	externalId	External ID		External ID	TEXT	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	2dfbb54f-745e-48f3-92d7-5d54960c2307	isSentFolder	Is Sent Folder		Is Sent Folder	BOOLEAN	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	86cd3f95-3df6-4673-b701-dceb15a992e5	isSynced	Is Synced		Is Synced	BOOLEAN	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	ade0b8a3-6397-4917-9199-949894429a94	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	d25cc87d-33ad-45fa-bb9c-6bf6a36f1b69	messageChannel	Message Channel		Message Channel	RELATION	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	202e3251-767c-4330-aa4b-fd283bbd860d	name	Name	Nom	Folder name	TEXT	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	609a02a3-788a-42d4-9811-c5b120a2e00b	parentFolderId	Parent Folder ID		Parent Folder ID	TEXT	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	7f5ba4d3-8a91-46ea-b1f3-69e5b3650c84	pendingSyncAction	Pending Sync Action		Pending action for folder sync	SELECT	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	42c51d00-1af8-40f1-a4f7-cdc13fdab413	syncCursor	Sync Cursor		Sync Cursor	TEXT	Non	Oui	Non
+  champ	ffce42f3-925e-44c8-b273-2871743b357e	27c9129f-7aa9-462c-87fe-9722e0b8f70f	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb		messageParticipant / messageParticipants	Message Participant / Message Participants		Message Participants		Non	Oui	
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	6a6cc6fe-9461-4dbc-b494-1ac9b3f8817e	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	24b131e8-cba5-42c1-8e20-ee63f290b883	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	2bdc3adf-fa4c-4754-8909-dca778888fca	displayName	Display Name		Display Name	TEXT	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	b32277ac-b162-4258-bbd8-110194e5fbd3	handle	Handle		Handle	TEXT	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	30104bed-312c-4d26-a5da-dee552da17e2	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	6b505aab-6e26-403c-923d-eaa60da4c149	message	Message		Message	RELATION	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	42aefd7d-1c54-4256-b965-a22b00a90bd1	person	Person	Contact	Person	RELATION	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	742c1bec-255c-41d9-9575-d89e674057e1	role	Role		Role	SELECT	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	1832df68-ffb9-4029-8f78-0f9d4aab9007	workspaceMember	Workspace Member		Workspace member	RELATION	Non	Oui	Non
+  champ	a5af5e46-3eb7-445b-8a05-97d81e6f2fbb	2c76caaa-6c62-466f-a823-40694939208d	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	91b696ab-88ea-4cb8-8631-4029cfd459f4		messageThread / messageThreads	Message Thread / Message Threads		Message Thread		Non	Oui	
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	beae2a98-323a-40cf-94eb-9ad2cea9331f	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	d8cb2604-d446-491e-b798-2a41667492b5	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	28e48b5b-fb77-4680-b067-8b1677446726	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	c0adf514-231f-421e-9dcc-57400110db5e	messageChannelMessageAssociations	Message Channel Association		Messages from the channel.	RELATION	Non	Oui	Non
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	4efcfd9e-fe75-4dc8-aa3f-3d2a043fcfa1	messages	Messages		Messages from the thread.	RELATION	Non	Oui	Non
+  champ	91b696ab-88ea-4cb8-8631-4029cfd459f4	b9da4bfd-e7ab-46f7-bbeb-04d8c589fdf4	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	00688782-e4ab-4524-9372-70b00ece4836		note / notes	Note / Notes	Note / Notes	A note		Non	Oui	
+  champ	00688782-e4ab-4524-9372-70b00ece4836	82977cef-bffd-4850-89d5-a5b3373d37fc	bodyV2	Body		Note body	RICH_TEXT_V2	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	184cd41c-8395-4a41-9948-ef52f135f243	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	09f64985-4c73-47f8-9625-3011996bf3bb	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	5c9bf1e6-18b6-44ff-a935-d9e80a2efa37	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	9e941720-936f-4db9-98ac-57f75672bf48	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	04479098-71f2-4ae3-be20-1b483ebf137a	title	Title	Titre	Note title	TEXT	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	11f776c6-ff76-4b3f-a18a-6efd8b2f7389	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	00688782-e4ab-4524-9372-70b00ece4836	e19cce75-856b-4ca3-b291-a10e1c3155de	attachments	Attachments		Note attachments	RELATION	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	c33b56f8-76ce-40ed-a02e-3ca324dd5e02	favorites	Favorites		Favorites linked to the note	RELATION	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	1f3991df-b413-4a69-bd42-5899df90e3e5	id	Id		Id	UUID	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	23e0ff12-a147-450c-8778-c0167be1b220	position	Position	Position	Note record position	POSITION	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	200ee768-7cec-4314-a676-f79ea3bc54e3	noteTargets	Relations		Note targets	RELATION	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	189427ec-c78f-4fcd-b148-d7ea56630000	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	00688782-e4ab-4524-9372-70b00ece4836	0cda9090-22ac-435e-a0e0-5089bb5f6fa9	timelineActivities	Timeline Activities		Timeline Activities linked to the note.	RELATION	Non	Oui	Oui
+OBJET	55ef6e7d-af89-4544-9e7b-e686334c4033		opportunity / opportunities	Opportunité / Opportunités	Opportunité / Opportunités	An opportunity		Non	Oui	
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	155bda84-4717-45cb-9edc-b0f65c87d946	amount	Amount	Montant	Opportunity amount	CURRENCY	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	bb68a053-b84d-4774-9f22-ff87c377b0e6	closeDate	Close date	Date de clôture	Opportunity close date	DATE_TIME	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	5d802a52-e36e-408d-8693-d1f61913c06b	company	Company	Entreprise	Opportunity company	RELATION	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	67cfc98d-1bf7-4238-88c2-43086f14d685	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	f6396ad5-190f-4fa4-8ffe-8b2cb88419a7	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	81d3400a-08a9-4994-9ac4-91b9d9aed3e7	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	ef1aa942-00aa-482b-b7ac-f465917f7804	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	7d45301e-6e77-41d4-b3d7-d0a868736f4e	name	Name	Nom	The opportunity name	TEXT	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	46d6df16-faa7-4a29-a47b-175beb3050b2	noteTargets	Notes		Notes tied to the opportunity	RELATION	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	7c61494c-06c7-44cd-85db-82b4e749b4be	owner	Owner		Opportunity owner	RELATION	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	b7b50e43-83d3-460b-a7e2-91ea51bbecad	pointOfContact	Point of Contact	Point de contact	Opportunity point of contact	RELATION	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	4d16558c-fff1-44c8-a2ac-21961f9a083a	stage	Stage	Étape	Opportunity stage	SELECT	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	bf0bf196-1f1f-4d11-862f-680a8435f272	taskTargets	Tasks		Tasks tied to the opportunity	RELATION	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	a856ba8c-9abb-45ac-9f1a-a9844ca2d291	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	633884a5-1788-42ae-b1fb-c49bb4c089b0	attachments	Attachments		Attachments linked to the opportunity	RELATION	Non	Oui	Oui
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	570870cc-159e-43a0-99cc-abad4439136f	favorites	Favorites		Favorites linked to the opportunity	RELATION	Non	Oui	Oui
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	947455f0-92ae-49f2-8373-3d8e778537bb	id	Id		Id	UUID	Non	Oui	Oui
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	cfc37a93-316e-4d8b-a90c-9d55f5fea3e4	position	Position	Position	Opportunity record position	POSITION	Non	Oui	Oui
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	aa0d9069-1187-494d-85ca-1af0a2e85495	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	55ef6e7d-af89-4544-9e7b-e686334c4033	7d97f906-06a6-4143-8755-b54e1df332c1	timelineActivities	Timeline Activities		Timeline Activities linked to the opportunity.	RELATION	Non	Oui	Oui
+OBJET	47deb975-0095-4624-b920-2dc0ffb2c8db		attachment / attachments	Pièce jointe / Pièces jointes	Pièce jointe / Pièces jointes	An attachment		Non	Oui	
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	2413141d-23b6-49ba-805d-ccb43d818830	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	8958ff84-51b3-409b-b29f-18230ac9c5cc	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	d9a8206c-812b-40a0-8bfe-6c4fa4ef2fe9	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	b6f08e60-d2e4-4f9c-8da5-853228748933	file	File		Attachment file	FILES	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	68e56950-4b1b-4a67-a04e-9ee868d1e143	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	c1664088-c82b-41e6-beb9-ab86923f470f	name	Name	Nom	Attachment name	TEXT	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	c5f048a5-3742-4fbd-8bb1-7cc0b857bca4	targetPerson	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	c22030e4-082e-4907-9b81-482b1b7f01b8	targetNote	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	67dfd2db-4c9c-4782-a071-a5cd70f02742	targetTask	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	66dff6a9-7a5f-4dc2-b88e-776640d4cc58	targetDashboard	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	c0502d41-2170-45a3-a745-f4c61b21b839	targetOpportunity	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	aeb3a7c9-c30d-4baa-b323-020d7e1073a6	targetCompany	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	926e03cb-6963-4851-a429-8ae3d2c2a9fc	targetWorkflow	Target		Attachment target	MORPH_RELATION	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	94a3d5f9-c3cc-43e1-bfa2-392ea7cc6141	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	bb574502-3ef0-48d6-aad4-a0b9c408dcd5	fileCategory	File category		Attachment file category	SELECT	Non	Oui	Oui
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	5b5b3889-6054-4358-9a99-1fd09f0aca92	fullPath	Full path		Attachment full path	TEXT	Non	Oui	Oui
+  champ	47deb975-0095-4624-b920-2dc0ffb2c8db	32958991-151e-4190-a99e-9d503b8ecc66	id	Id		Id	UUID	Non	Oui	Oui
+OBJET	d746a03e-c65a-4db2-aaed-f2c2b252f2c2		dashboard / dashboards	Tableau de bord / Tableau de bords		A dashboard		Non	Oui	
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	a30c5c78-fa4b-45d9-914d-667167944f28	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	0d7fa602-559f-4a68-8cd2-81d3efc20a02	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	853bc36d-d2a0-4139-b665-de6565132df6	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	c4f01266-1646-4fd3-8949-ed16dff2c431	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	8b2b6553-3cd0-4918-b074-67f70c4879c2	pageLayoutId	Page Layout ID		Dashboard page layout	UUID	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	dcf4e03f-9cf9-4846-8319-0d310dfb201a	title	Title	Titre	Dashboard title	TEXT	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	0a507167-e163-4f17-a689-8760e39d95b1	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	85ea3b8c-88e4-4924-96f1-d762e651c751	attachments	Attachments		Attachments linked to the dashboard	RELATION	Non	Oui	Oui
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	66e70f53-82e8-4934-bdf7-0502dbf10794	favorites	Favorites		Favorites linked to the dashboard	RELATION	Non	Oui	Oui
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	5fe339d1-996f-4a15-85e6-2dbf03369f06	id	Id		Id	UUID	Non	Oui	Oui
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	34f2f274-6d75-4a6e-825d-d255c550d8b9	position	Position	Position	Dashboard record Position	POSITION	Non	Oui	Oui
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	8f2cddac-6090-420f-ae3b-ee7bf9a01adc	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	d746a03e-c65a-4db2-aaed-f2c2b252f2c2	95aba66c-0789-4854-9749-1265c6ce9b2d	timelineActivities	Timeline Activities		Timeline activities linked to the dashboard	RELATION	Non	Oui	Oui
+OBJET	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab		task / tasks	Tâche / Tâches	Tâche / Tâches	A task		Non	Oui	
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	2bb53ee3-f353-49ad-b8da-b742a0f98b84	assignee	Assignee	Assigné à	Task assignee	RELATION	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	c0fc8f65-86d3-4230-9435-193d6dba28f9	bodyV2	Body		Task body	RICH_TEXT_V2	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	b440787b-86ae-49d7-ba75-dd87439d0d04	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	ad1ede2d-71c0-457f-96a1-93dbdb02ffcc	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	a77ad8d3-dd1e-4d5f-9362-604f8b4a4abe	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	dd30c9a2-2cfc-4b53-8e1c-7ff629396d46	dueAt	Due Date	Échéance	Task due date	DATE_TIME	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	247cc9e6-71a6-4c7a-b736-fe9fd96cf085	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	9f3888f2-a203-4242-8a48-aee56be614b7	status	Status	Statut	Task status	SELECT	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	d864ef1b-3d92-46fd-b152-62308b7b89d5	title	Title	Titre	Task title	TEXT	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	9a924ec5-5182-40d1-b063-e95ac2efdf52	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	89111627-afb9-4c89-8f1c-0e8a5669a99e	attachments	Attachments		Task attachments	RELATION	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	7e25cd13-e32a-42a6-b44b-8c6024fc8247	favorites	Favorites		Favorites linked to the task	RELATION	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	77f57169-1cc7-40f6-9fd6-b5ef3c93485b	id	Id		Id	UUID	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	2087a18b-f55b-4d09-a42b-6930ae6222e4	position	Position	Position	Task record position	POSITION	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	9aecd55d-a0ec-4724-92c9-3d4bddaeadd0	taskTargets	Relations		Task targets	RELATION	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	af497b1c-2a30-4217-a083-30663ac4f6e2	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab	5430a469-348b-476e-882a-797015a74502	timelineActivities	Timeline Activities		Timeline Activities linked to the task.	RELATION	Non	Oui	Oui
+OBJET	aa6d5c90-fe78-41bf-8783-770855217b36		timelineActivity / timelineActivities	Timeline Activity / Timeline Activities		Aggregated / filtered event to be displayed on the timeline		Non	Oui	
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	f046b336-9ea9-4625-9f23-d4d57509f3bc	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	4a8a1860-3c27-48e1-81a2-188c83f61c04	happensAt	Creation date		Creation date	DATE_TIME	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	e7de4da3-cf11-446f-a8fa-1728e0518d76	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	0a75c0a8-cd3b-4d73-af71-c2cca6c2dd64	properties	Event details		Json value for event details	RAW_JSON	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	b00374c2-4a7a-4681-8d75-1151f64d2cda	name	Event name	Nom	Event name	TEXT	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	e9a0e0b7-4f9d-4a58-a042-0568b4dc108e	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	4f59eb30-0e8d-491f-ae77-cf8f3790164a	targetDashboard	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	e0c94c3c-4561-45bb-9a7f-143b9280f0e6	targetOpportunity	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	b5f445f3-9c0d-42d6-9ebe-36d97c8f5ae9	targetNote	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	0c405b63-10a5-4644-b8e0-4cbc44b7fa2f	targetWorkflow	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	19f38067-9da4-4f3e-ad71-a1ffcb8341b1	targetPerson	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	3f58ddeb-3a28-47b1-ab11-a6b9b3e2b82d	targetWorkflowVersion	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	8d97f8e5-3588-4b24-944e-1d1782726379	targetCompany	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	7ce57ad5-7f3e-4dcf-9978-5bddfbfcb63f	targetTask	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	9fa9685a-4320-491a-844f-fc3565e82f1a	targetWorkflowRun	Target		Event target	MORPH_RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	1db75831-05b9-4725-a728-c591cd71686b	workspaceMember	Workspace Member		Event workspace member	RELATION	Non	Oui	Non
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	86264b8e-727e-48e5-afdc-9012a0e2e0b5	id	Id		Id	UUID	Non	Oui	Oui
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	053b0d68-217f-4824-9211-3bf2effa01d1	linkedObjectMetadataId	Linked Object Metadata Id		Linked Object Metadata Id	UUID	Non	Oui	Oui
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	1f35999d-392e-4cc1-bd00-64a2c3c02c93	linkedRecordCachedName	Linked Record cached name		Cached record name	TEXT	Non	Oui	Oui
+  champ	aa6d5c90-fe78-41bf-8783-770855217b36	aeba03da-8d07-4d44-855b-a3a0b6245887	linkedRecordId	Linked Record id		Linked Record id	UUID	Non	Oui	Oui
+OBJET	510ea02f-ef03-480d-bba7-b080aa765945		workflowVersion / workflowVersions	Version du flux de Travail / Version du flux de Travails		A workflow version		Non	Oui	
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	f7931240-1642-4b67-845b-ebe07965d712	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	0405fb5e-9c89-4b49-af03-e9b98d81e539	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	6ee93f57-e92e-4188-ae11-828675c8ab07	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	de075ed0-37ff-49bd-bdc1-0ec962521ab6	name	Name	Nom	The workflow version name	TEXT	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	0f4f415f-88ec-4458-ae48-c8acccb326ad	runs	Runs		Workflow runs linked to the version.	RELATION	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	d3a1308d-8cc5-4ca4-ad15-53970e5b8a42	status	Version status	Statut	The workflow version status	SELECT	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	c89601e0-a640-48df-a09a-03d98d68b2da	steps	Version steps		Json object to provide steps	RAW_JSON	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	74540765-5c86-4c93-b5bd-1a6af9719a4c	trigger	Version trigger		Json object to provide trigger	RAW_JSON	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	31f45724-9b7b-4a5b-acac-7b0d35834388	workflow	Workflow		WorkflowVersion workflow	RELATION	Non	Oui	Non
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	f7ed4bef-f0b0-48ea-b7f7-70c7a2272399	favorites	Favorites		Favorites linked to the workflow version	RELATION	Non	Oui	Oui
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	1e45fca4-15a7-44a5-bf92-08152a2036f6	id	Id		Id	UUID	Non	Oui	Oui
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	795ebc43-cf2f-46f7-acdd-33e794610c91	position	Position	Position	Workflow version position	POSITION	Non	Oui	Oui
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	83bca328-3ba8-4d09-b3a3-cff75a03a128	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	510ea02f-ef03-480d-bba7-b080aa765945	8b3c5f1c-2b15-40a8-970b-44de1ba6c3dc	timelineActivities	Timeline Activities		Timeline activities linked to the version	RELATION	Non	Oui	Oui
+OBJET	9f3225a9-eeec-489c-99f8-6126c2ef9b86		workflow / workflows	Workflow / Workflows	Workflow / Workflows	A workflow		Non	Oui	
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	0426426c-2755-4fa8-a412-642992242ef4	createdBy	Created by	Créé par	The creator of the record	ACTOR	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	bbec81bb-c28f-4f88-91c6-14b9f034712a	createdAt	Creation date	Date de création	Creation date	DATE_TIME	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	2bdc1e12-1958-41cd-88b2-5e7366f57a24	deletedAt	Deleted at	Date de suppression	Date when the record was deleted	DATE_TIME	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	fe228dfe-cefb-4449-8a35-ab171b9534d4	lastPublishedVersionId	Last published Version Id		The workflow last published version id	TEXT	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	a4675126-7ffd-46a1-a802-61de8c3b0334	updatedAt	Last update	Date de modification	Last time the record was changed	DATE_TIME	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	8b32a384-4b8c-4f14-9fd2-d6eb7bbd2d38	name	Name	Nom	The workflow name	TEXT	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	77f1b0cb-c9ba-46b2-87cf-49288df619ee	runs	Runs		Workflow runs linked to the workflow.	RELATION	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	a9c32f07-2579-4668-994c-9a95d23fd0e5	statuses	Statuses		The current statuses of the workflow versions	MULTI_SELECT	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	d987567d-f0f5-4e6d-acec-58d00369eb30	updatedBy	Updated by		The workspace member who last updated the record	ACTOR	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	30f0d8ab-62b1-4323-89b3-fa8d09589157	versions	Versions		Workflow versions linked to the workflow.	RELATION	Non	Oui	Non
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	81776f02-af32-4c4e-bc3e-23668e42779d	attachments	Attachments		Attachments linked to the workflow	RELATION	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	7d296328-511e-4916-8a12-65c7151e08cc	automatedTriggers	Automated Triggers		Workflow automated triggers linked to the workflow.	RELATION	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	011f856e-413a-4e3c-8bdb-9ea28ba1d4ce	favorites	Favorites		Favorites linked to the workflow	RELATION	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	46a3d87e-3f31-47b1-bcb3-fa8eda60f5bd	id	Id		Id	UUID	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	4ab72e1b-10cb-440e-9bbe-fdef7ec4ef3d	position	Position	Position	Workflow record position	POSITION	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	d16d71db-f484-430c-825d-cfc9c5239706	searchVector	Search vector	Vecteur de recherche	Field used for full-text search	TS_VECTOR	Non	Oui	Oui
+  champ	9f3225a9-eeec-489c-99f8-6126c2ef9b86	8ce47992-72b3-4cde-b002-732f6a5d8905	timelineActivities	Timeline Activities		Timeline activities linked to the workflow	RELATION	Non	Oui	Oui

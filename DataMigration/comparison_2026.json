@@ -1,0 +1,14 @@
+{
+  "totalExcel": 48098.5,
+  "totalTwenty": 46973,
+  "difference": 1125.5,
+  "differences": [
+    {
+      "numeroDevis": "109073-CL-26013",
+      "issue": "amount_mismatch",
+      "excelAmount": 3276,
+      "twentyAmount": 2150.5,
+      "difference": 1125.5
+    }
+  ]
+}

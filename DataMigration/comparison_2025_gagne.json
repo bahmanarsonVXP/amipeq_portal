@@ -1,0 +1,6173 @@
+{
+  "excel": {
+    "count": 361,
+    "total": 488269.65000000026,
+    "opportunities": [
+      {
+        "rowIndex": 2,
+        "numeroDevis": "108662-CL-25001",
+        "nom": "LYCEE ERNEST RENAN",
+        "offre1": 5300,
+        "offre2": 3975,
+        "montantImport": 3975
+      },
+      {
+        "rowIndex": 4,
+        "numeroDevis": "108650-CL-25003",
+        "nom": "LYCEE FELIX ÉBOUÉ",
+        "offre1": 4950,
+        "offre2": 0,
+        "montantImport": 4950
+      },
+      {
+        "rowIndex": 9,
+        "numeroDevis": "108663-CL-25008",
+        "nom": "MAIRIE DE AUMAGNE",
+        "offre1": 690,
+        "offre2": 0,
+        "montantImport": 690
+      },
+      {
+        "rowIndex": 10,
+        "numeroDevis": "108563-CL-25009",
+        "nom": "LEA FRANCOISE DOLTO",
+        "offre1": 1650,
+        "offre2": 0,
+        "montantImport": 1650
+      },
+      {
+        "rowIndex": 11,
+        "numeroDevis": "106122-CL-25010",
+        "nom": "LYCEE GASTON MONNERVILLE",
+        "offre1": 1500,
+        "offre2": 0,
+        "montantImport": 1500
+      },
+      {
+        "rowIndex": 16,
+        "numeroDevis": "108665-CL-25015",
+        "nom": "COLLEGE AUXENCE CONTOUT",
+        "offre1": 3490,
+        "offre2": 0,
+        "montantImport": 3490
+      },
+      {
+        "rowIndex": 20,
+        "numeroDevis": "108667-CL-25019",
+        "nom": "MAIRIE DE LAGORCE",
+        "offre1": 2190,
+        "offre2": 1752,
+        "montantImport": 1752
+      },
+      {
+        "rowIndex": 21,
+        "numeroDevis": "108668-CL-25020",
+        "nom": "COLLEGE SAINT AUBIN",
+        "offre1": 1190,
+        "offre2": 952,
+        "montantImport": 952
+      },
+      {
+        "rowIndex": 22,
+        "numeroDevis": "108669-CL-25021",
+        "nom": "ECOLE NOTRE DAME DES FLEURS",
+        "offre1": 1190,
+        "offre2": 952,
+        "montantImport": 952
+      },
+      {
+        "rowIndex": 23,
+        "numeroDevis": "108670-CL-25022",
+        "nom": "IME AMBROISE CROIZAT",
+        "offre1": 3800,
+        "offre2": 2850,
+        "montantImport": 2850
+      },
+      {
+        "rowIndex": 25,
+        "numeroDevis": "106413-CL-25024",
+        "nom": "COLLEGE REEBERG NERON",
+        "offre1": 3780,
+        "offre2": 2835,
+        "montantImport": 2835
+      },
+      {
+        "rowIndex": 26,
+        "numeroDevis": "108671-CL-25025",
+        "nom": "LE BAR A TONG",
+        "offre1": 2230,
+        "offre2": 1784,
+        "montantImport": 1784
+      },
+      {
+        "rowIndex": 28,
+        "numeroDevis": "108547-CL-25027",
+        "nom": "MAIRIE DE MORNAC",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 29,
+        "numeroDevis": "108547-CL-25027B",
+        "nom": "MAIRIE DE MORNAC",
+        "offre1": 600,
+        "offre2": 0,
+        "montantImport": 600
+      },
+      {
+        "rowIndex": 30,
+        "numeroDevis": "108608-CL-25028",
+        "nom": "DFTP",
+        "offre1": 450,
+        "offre2": 0,
+        "montantImport": 450
+      },
+      {
+        "rowIndex": 31,
+        "numeroDevis": "106313-CL-25029",
+        "nom": "LYCEE POLYVALENT LAMA PREVOT",
+        "offre1": 4750,
+        "offre2": 3800,
+        "montantImport": 3800
+      },
+      {
+        "rowIndex": 33,
+        "numeroDevis": "108673-CL-25031",
+        "nom": "ISIS SARL",
+        "offre1": 290,
+        "offre2": 0,
+        "montantImport": 290
+      },
+      {
+        "rowIndex": 34,
+        "numeroDevis": "106865-CL-25032",
+        "nom": "EXTERNAT DE LA JAILLE",
+        "offre1": 1890,
+        "offre2": 1323,
+        "montantImport": 1323
+      },
+      {
+        "rowIndex": 37,
+        "numeroDevis": "108299-CL-25035",
+        "nom": "BROIS DIFFUSION EXPRESS SAS",
+        "offre1": 590,
+        "offre2": 0,
+        "montantImport": 590
+      },
+      {
+        "rowIndex": 45,
+        "numeroDevis": "108678-CL-25043",
+        "nom": "LYCEE JULES MOUSSERON",
+        "offre1": 1500,
+        "offre2": 0,
+        "montantImport": 1500
+      },
+      {
+        "rowIndex": 47,
+        "numeroDevis": "107025-CL-25045",
+        "nom": "COLLEGE SIMONE VEIL",
+        "offre1": 2100,
+        "offre2": 1680,
+        "montantImport": 1680
+      },
+      {
+        "rowIndex": 48,
+        "numeroDevis": "107380-CL-25046",
+        "nom": "EHPAD BELLE VISTE",
+        "offre1": 2540,
+        "offre2": 2032,
+        "montantImport": 2032
+      },
+      {
+        "rowIndex": 49,
+        "numeroDevis": "108679-CL-25047",
+        "nom": "LYCÉE ACAJOU 2",
+        "offre1": 4490,
+        "offre2": 3590,
+        "montantImport": 3590
+      },
+      {
+        "rowIndex": 51,
+        "numeroDevis": "108676-CL-25049",
+        "nom": "COLLEGE CESAR FRANCK",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 52,
+        "numeroDevis": "108675-CL-25050",
+        "nom": "COLLEGE PABLO NERUDA",
+        "offre1": 1192,
+        "offre2": 0,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 53,
+        "numeroDevis": "108680-CL-25051",
+        "nom": "COLLEGE OMEBA TOBO",
+        "offre1": 3780,
+        "offre2": 2930,
+        "montantImport": 2930
+      },
+      {
+        "rowIndex": 55,
+        "numeroDevis": "107197-CL-25053",
+        "nom": "MAIRIE DE SERS",
+        "offre1": 590,
+        "offre2": 0,
+        "montantImport": 590
+      },
+      {
+        "rowIndex": 57,
+        "numeroDevis": "108682-CL-25055",
+        "nom": "LYCEE SAINT JOSEPH",
+        "offre1": 1560,
+        "offre2": 0,
+        "montantImport": 1560
+      },
+      {
+        "rowIndex": 59,
+        "numeroDevis": "107823-CL-25057",
+        "nom": "ECOLE MONTESSORI INTERNATIONALE",
+        "offre1": 580,
+        "offre2": 464,
+        "montantImport": 464
+      },
+      {
+        "rowIndex": 60,
+        "numeroDevis": "108683-CL-25058",
+        "nom": "ATLANTIC CINÉ",
+        "offre1": 1450,
+        "offre2": 1160,
+        "montantImport": 1160
+      },
+      {
+        "rowIndex": 61,
+        "numeroDevis": "108684-CL-25059",
+        "nom": "CINEWEST",
+        "offre1": 1450,
+        "offre2": 1160,
+        "montantImport": 1160
+      },
+      {
+        "rowIndex": 62,
+        "numeroDevis": "108685-CL-25060",
+        "nom": "LE LIDO",
+        "offre1": 1250,
+        "offre2": 1000,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 63,
+        "numeroDevis": "108686-CL-25061",
+        "nom": "GALAXY",
+        "offre1": 1250,
+        "offre2": 1000,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 64,
+        "numeroDevis": "108687-CL-25062",
+        "nom": "LES TOILES DU MOUN",
+        "offre1": 1100,
+        "offre2": 880,
+        "montantImport": 880
+      },
+      {
+        "rowIndex": 65,
+        "numeroDevis": "108688-CL-25063",
+        "nom": "CAPITOLE",
+        "offre1": 1750,
+        "offre2": 1400,
+        "montantImport": 1400
+      },
+      {
+        "rowIndex": 66,
+        "numeroDevis": "108689-CL-25064",
+        "nom": "LE LIBERTÉ",
+        "offre1": 1250,
+        "offre2": 1000,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 67,
+        "numeroDevis": "108690-CL-25065",
+        "nom": "LES BALCONS",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 68,
+        "numeroDevis": "108691-CL-25066",
+        "nom": "LA STRADA",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 69,
+        "numeroDevis": "108692-CL-25067",
+        "nom": "CRISTAL",
+        "offre1": 1000,
+        "offre2": 800,
+        "montantImport": 800
+      },
+      {
+        "rowIndex": 70,
+        "numeroDevis": "108693-CL-25068",
+        "nom": "CINÉMAZARIN",
+        "offre1": 1250,
+        "offre2": 1000,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 71,
+        "numeroDevis": "108694-CL-25069",
+        "nom": "ÉTOILE CINÉMA",
+        "offre1": 1450,
+        "offre2": 1160,
+        "montantImport": 1160
+      },
+      {
+        "rowIndex": 72,
+        "numeroDevis": "108695-CL-25070",
+        "nom": "CINÉLAC",
+        "offre1": 1250,
+        "offre2": 1000,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 73,
+        "numeroDevis": "108696-CL-25071",
+        "nom": "ECOLE LA PERSEVERANCE",
+        "offre1": 1580,
+        "offre2": 1264,
+        "montantImport": 1264
+      },
+      {
+        "rowIndex": 75,
+        "numeroDevis": "107350-CL-25073",
+        "nom": "RESIDENCE LE PERIGORD",
+        "offre1": 2130,
+        "offre2": 1704,
+        "montantImport": 1704
+      },
+      {
+        "rowIndex": 76,
+        "numeroDevis": "105065-CL-25074",
+        "nom": "LYCEE AUGUSTIN ARRON",
+        "offre1": 750,
+        "offre2": 0,
+        "montantImport": 750
+      },
+      {
+        "rowIndex": 77,
+        "numeroDevis": "108698-CL-25075",
+        "nom": "ÉCOLE LA PERSÉVÉRANCE",
+        "offre1": 1980,
+        "offre2": 1584,
+        "montantImport": 1584
+      },
+      {
+        "rowIndex": 79,
+        "numeroDevis": "106712-CL-25077",
+        "nom": "CC DU PAYS DE TRONCAIS",
+        "offre1": 2450,
+        "offre2": 0,
+        "montantImport": 2450
+      },
+      {
+        "rowIndex": 81,
+        "numeroDevis": "106222-CL-25079",
+        "nom": "INSTITUTION NOTRE DAME DE SAINT JEAN",
+        "offre1": 2750,
+        "offre2": 0,
+        "montantImport": 2750
+      },
+      {
+        "rowIndex": 82,
+        "numeroDevis": "108443-CL-25080",
+        "nom": "INSTITUTION SAINT SPIRE",
+        "offre1": 5000,
+        "offre2": 0,
+        "montantImport": 5000
+      },
+      {
+        "rowIndex": 83,
+        "numeroDevis": "108699-CL-25081",
+        "nom": "ÉCOLE SAINT JOSEPH",
+        "offre1": 1000,
+        "offre2": 0,
+        "montantImport": 1000
+      },
+      {
+        "rowIndex": 84,
+        "numeroDevis": "108700-CL-25082",
+        "nom": "LYCEE POLYVALENT GEORGES SAND",
+        "offre1": 5200,
+        "offre2": 4160,
+        "montantImport": 4160
+      },
+      {
+        "rowIndex": 86,
+        "numeroDevis": "108317-CL-25084",
+        "nom": "ENSEMBLE SCOLAIRE SAINT VINCENT DE PAUL",
+        "offre1": 1000,
+        "offre2": 600,
+        "montantImport": 600
+      },
+      {
+        "rowIndex": 89,
+        "numeroDevis": "108263-CL-25087",
+        "nom": "AVSII A VOTRE SERVICE",
+        "offre1": 490,
+        "offre2": 0,
+        "montantImport": 490
+      },
+      {
+        "rowIndex": 90,
+        "numeroDevis": "108703-CL-25088",
+        "nom": "LYCEE SAINT GERAUD",
+        "offre1": 1649,
+        "offre2": 0,
+        "montantImport": 1649
+      },
+      {
+        "rowIndex": 91,
+        "numeroDevis": "108704-CL-25089",
+        "nom": "ÉCOLE JEANNE D'ARC",
+        "offre1": 800,
+        "offre2": 0,
+        "montantImport": 800
+      },
+      {
+        "rowIndex": 92,
+        "numeroDevis": "106632-CL-25090",
+        "nom": "COLLEGE PAUL KAPEL",
+        "offre1": 3230,
+        "offre2": 0,
+        "montantImport": 3230
+      },
+      {
+        "rowIndex": 94,
+        "numeroDevis": "108705-CL-25092",
+        "nom": "EMBAL TOUT GUYANE DIFFUSION",
+        "offre1": 3700,
+        "offre2": 3000,
+        "montantImport": 3000
+      },
+      {
+        "rowIndex": 95,
+        "numeroDevis": "108706-CL-25093",
+        "nom": "ENSEMBLE SCOLAIRE SAINT JOSEPH LA SALLE",
+        "offre1": 7695,
+        "offre2": 5770,
+        "montantImport": 5770
+      },
+      {
+        "rowIndex": 97,
+        "numeroDevis": "107295-CL-25095",
+        "nom": "MAIRIE DE BOUSSOIS",
+        "offre1": 2250,
+        "offre2": 1800,
+        "montantImport": 1800
+      },
+      {
+        "rowIndex": 100,
+        "numeroDevis": "108491-CL-25098",
+        "nom": "CAMPING LE PERPETUUM",
+        "offre1": 1570,
+        "offre2": 0,
+        "montantImport": 1570
+      },
+      {
+        "rowIndex": 107,
+        "numeroDevis": "108714-CL-25105",
+        "nom": "LA FABRIQUE A NEUF VYVS",
+        "offre1": 1290,
+        "offre2": 900,
+        "montantImport": 900
+      },
+      {
+        "rowIndex": 114,
+        "numeroDevis": "105718-CL-25112",
+        "nom": "LYCEE LUMINA SOPHIE",
+        "offre1": 945,
+        "offre2": 0,
+        "montantImport": 945
+      },
+      {
+        "rowIndex": 115,
+        "numeroDevis": "105075-CL-25113",
+        "nom": "COLLEGE EUZHAN PALCY",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 116,
+        "numeroDevis": "108716-CL-25114",
+        "nom": "AVENTURE LAND",
+        "offre1": 1950,
+        "offre2": 1560,
+        "montantImport": 1560
+      },
+      {
+        "rowIndex": 118,
+        "numeroDevis": "108718-CL-25116",
+        "nom": "MAIRIE DE MONT-CAUVAIRE",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 119,
+        "numeroDevis": "105630-CL-25117",
+        "nom": "COLLEGE SAINT LUCE",
+        "offre1": 1990,
+        "offre2": 1592,
+        "montantImport": 1592
+      },
+      {
+        "rowIndex": 120,
+        "numeroDevis": "108719-CL-25118",
+        "nom": "ASSOCIATION ARTEEC",
+        "offre1": 1870,
+        "offre2": 1496,
+        "montantImport": 1496
+      },
+      {
+        "rowIndex": 121,
+        "numeroDevis": "107948-CL-25119",
+        "nom": "LP AMEDEE GORDINI",
+        "offre1": 2240,
+        "offre2": 1792,
+        "montantImport": 1792
+      },
+      {
+        "rowIndex": 123,
+        "numeroDevis": "108713-CL-25121",
+        "nom": "ECOLE SAINTE MACRINE",
+        "offre1": 250,
+        "offre2": 0,
+        "montantImport": 250
+      },
+      {
+        "rowIndex": 124,
+        "numeroDevis": "108711-CL-25122",
+        "nom": "ECOLE SAINT FLORENT",
+        "offre1": 550,
+        "offre2": 0,
+        "montantImport": 550
+      },
+      {
+        "rowIndex": 125,
+        "numeroDevis": "108712-CL-25123",
+        "nom": "ECOLE NOTRE DAME SAINT JOSEPH",
+        "offre1": 550,
+        "offre2": 0,
+        "montantImport": 550
+      },
+      {
+        "rowIndex": 126,
+        "numeroDevis": "108702-CL-25124",
+        "nom": "ÉCOLE SAINT HILAIRE",
+        "offre1": 790,
+        "offre2": 0,
+        "montantImport": 790
+      },
+      {
+        "rowIndex": 129,
+        "numeroDevis": "108722-CL-25127",
+        "nom": "EHPAD FONFREDE",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 130,
+        "numeroDevis": "108723-CL-25128",
+        "nom": "RESIDENCE RIVIERE ESPERANCE",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 131,
+        "numeroDevis": "108724-CL-25129",
+        "nom": "EHPAD DU CANTON DE SAINT CYPRIEN",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 132,
+        "numeroDevis": "108725-CL-25130",
+        "nom": "EHPAD DE CADOUIN",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 133,
+        "numeroDevis": "108726-CL-25131",
+        "nom": "EHPAD DE LA BASTIDE",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 134,
+        "numeroDevis": "107338-CL-25132",
+        "nom": "ETABLISSEMENT ST MARIE DE NEUILLY",
+        "offre1": 1450,
+        "offre2": 0,
+        "montantImport": 1450
+      },
+      {
+        "rowIndex": 135,
+        "numeroDevis": "104847-CL-25133",
+        "nom": "COLLEGE GEORGES ELISABETH",
+        "offre1": 1990,
+        "offre2": 1592,
+        "montantImport": 1592
+      },
+      {
+        "rowIndex": 136,
+        "numeroDevis": "108050-CL-25134",
+        "nom": "MAIRIE DE MACOUBA",
+        "offre1": 2190,
+        "offre2": 1752,
+        "montantImport": 1752
+      },
+      {
+        "rowIndex": 138,
+        "numeroDevis": "108728-CL-25136",
+        "nom": "DOMICIL'ADOS",
+        "offre1": 2790,
+        "offre2": 1953,
+        "montantImport": 1953
+      },
+      {
+        "rowIndex": 140,
+        "numeroDevis": "106951-CL-25138",
+        "nom": "CESAEP LES AIRELLES ",
+        "offre1": 590,
+        "offre2": 0,
+        "montantImport": 590
+      },
+      {
+        "rowIndex": 141,
+        "numeroDevis": "108078-CL-25139",
+        "nom": "SESSAD ABEL SILLY",
+        "offre1": 590,
+        "offre2": 0,
+        "montantImport": 590
+      },
+      {
+        "rowIndex": 144,
+        "numeroDevis": "108731-CL-25142",
+        "nom": "BAT GRAPHICS",
+        "offre1": 1850,
+        "offre2": 1480,
+        "montantImport": 1480
+      },
+      {
+        "rowIndex": 146,
+        "numeroDevis": "108733-CL-25144",
+        "nom": "MAIRIE DE ELVEN",
+        "offre1": 7500,
+        "offre2": 0,
+        "montantImport": 7500
+      },
+      {
+        "rowIndex": 147,
+        "numeroDevis": "108285-CL-25145",
+        "nom": "MAIRIE DE CHALAMONT",
+        "offre1": 1370,
+        "offre2": 960,
+        "montantImport": 960
+      },
+      {
+        "rowIndex": 150,
+        "numeroDevis": "107846-CL-25148",
+        "nom": "COLLEGE JACQUES BREL",
+        "offre1": 2240,
+        "offre2": 1904,
+        "montantImport": 1904
+      },
+      {
+        "rowIndex": 152,
+        "numeroDevis": "108735-CL-25150",
+        "nom": "MAIRIE DE THEIX NOYALO",
+        "offre1": 7900,
+        "offre2": 0,
+        "montantImport": 7900
+      },
+      {
+        "rowIndex": 153,
+        "numeroDevis": "108494-CL-25151",
+        "nom": "LABORATOIRE POLIDIS",
+        "offre1": 450,
+        "offre2": 0,
+        "montantImport": 450
+      },
+      {
+        "rowIndex": 154,
+        "numeroDevis": "108736-CL-25152",
+        "nom": "ECOLE NOTRE DAME DU SACRE CŒUR",
+        "offre1": 984,
+        "offre2": 885.6,
+        "montantImport": 885.6
+      },
+      {
+        "rowIndex": 155,
+        "numeroDevis": "108737-CL-25153",
+        "nom": "MAIRIE DE CONCHIL LE TEMPLE",
+        "offre1": 1790,
+        "offre2": 1253,
+        "montantImport": 1253
+      },
+      {
+        "rowIndex": 157,
+        "numeroDevis": "108738-CL-25155",
+        "nom": "RÉSIDENCE LA VALLÉE",
+        "offre1": 2896,
+        "offre2": 2606.4,
+        "montantImport": 2606.4
+      },
+      {
+        "rowIndex": 158,
+        "numeroDevis": "108595-CL-25156",
+        "nom": "RÉSIDENCE LES TILLEULS",
+        "offre1": 2224,
+        "offre2": 2001.6,
+        "montantImport": 2001.6
+      },
+      {
+        "rowIndex": 159,
+        "numeroDevis": "108739-CL-25157",
+        "nom": "COLLEGE ANTOINE RISSO",
+        "offre1": 2140,
+        "offre2": 1712,
+        "montantImport": 1712
+      },
+      {
+        "rowIndex": 161,
+        "numeroDevis": "108740-CL-25159",
+        "nom": "SARL CYCLAIX",
+        "offre1": 950,
+        "offre2": 450,
+        "montantImport": 450
+      },
+      {
+        "rowIndex": 162,
+        "numeroDevis": "108741-CL-25160",
+        "nom": "GIP FIPAN",
+        "offre1": 3300,
+        "offre2": 0,
+        "montantImport": 3300
+      },
+      {
+        "rowIndex": 163,
+        "numeroDevis": "108727-CL-25161",
+        "nom": "ENSEMBLE SCOLAIRE TOUR SAINTE",
+        "offre1": 2108,
+        "offre2": 0,
+        "montantImport": 2108
+      },
+      {
+        "rowIndex": 164,
+        "numeroDevis": "108742-CL-25162",
+        "nom": "CENTRE HOSPITALIER DE LANGOGNE",
+        "offre1": 6900,
+        "offre2": 5865,
+        "montantImport": 5865
+      },
+      {
+        "rowIndex": 169,
+        "numeroDevis": "108746-CL-25167",
+        "nom": "LYCEE ANNE SOPHIE PIC",
+        "offre1": 4650,
+        "offre2": 3720,
+        "montantImport": 3720
+      },
+      {
+        "rowIndex": 172,
+        "numeroDevis": "108748-CL-25170",
+        "nom": "COLLEGE LOU GARLABAN",
+        "offre1": 2700,
+        "offre2": 2160,
+        "montantImport": 2160
+      },
+      {
+        "rowIndex": 175,
+        "numeroDevis": "108750-CL-25173",
+        "nom": "SCEBOG",
+        "offre1": 1100,
+        "offre2": 880,
+        "montantImport": 880
+      },
+      {
+        "rowIndex": 176,
+        "numeroDevis": "108751-CL-25174",
+        "nom": "VIAN N PEYI",
+        "offre1": 1500,
+        "offre2": 1200,
+        "montantImport": 1200
+      },
+      {
+        "rowIndex": 179,
+        "numeroDevis": "106695-CL-25177",
+        "nom": "COLLEGE JEAN JAURES",
+        "offre1": 1240,
+        "offre2": 992,
+        "montantImport": 992
+      },
+      {
+        "rowIndex": 181,
+        "numeroDevis": "108754-CL-25179",
+        "nom": "REANE",
+        "offre1": 2350,
+        "offre2": 1880,
+        "montantImport": 1880
+      },
+      {
+        "rowIndex": 182,
+        "numeroDevis": "108456-CL-25180",
+        "nom": "EHPAD ROUANET-ICHÉ",
+        "offre1": 3250,
+        "offre2": 2437.5,
+        "montantImport": 2437.5
+      },
+      {
+        "rowIndex": 183,
+        "numeroDevis": "108755-CL-25181",
+        "nom": "CITE SCOLAIRE EUGENE THOMAS - COLLEGE",
+        "offre1": 3650,
+        "offre2": 2920,
+        "montantImport": 2920
+      },
+      {
+        "rowIndex": 184,
+        "numeroDevis": "108756-CL-25182",
+        "nom": "CITE SCOLAIRE EUGENE THOMAS - LYCEE",
+        "offre1": 3380,
+        "offre2": 3104,
+        "montantImport": 3104
+      },
+      {
+        "rowIndex": 185,
+        "numeroDevis": "107036-CL-25183",
+        "nom": "COLLEGE JULIA NICOLAS",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 187,
+        "numeroDevis": "108757-CL-25185",
+        "nom": "CAMPUS DE NERMONT - SITE CHATEAUDUN",
+        "offre1": 2150,
+        "offre2": 1720,
+        "montantImport": 1720
+      },
+      {
+        "rowIndex": 194,
+        "numeroDevis": "107528-CL-25192",
+        "nom": "LYCEE JEAN FRANCOIS MILLET",
+        "offre1": 3800,
+        "offre2": 3040,
+        "montantImport": 3040
+      },
+      {
+        "rowIndex": 195,
+        "numeroDevis": "108752-CL-25193",
+        "nom": "COLLEGE NOËL DU FAIL",
+        "offre1": 1500,
+        "offre2": 0,
+        "montantImport": 1500
+      },
+      {
+        "rowIndex": 197,
+        "numeroDevis": "108763-CL-25195",
+        "nom": "GOBO SERVICE France SARL",
+        "offre1": 350,
+        "offre2": 0,
+        "montantImport": 350
+      },
+      {
+        "rowIndex": 199,
+        "numeroDevis": "108764-CL-25197",
+        "nom": "COLLEGE DE LA HEVE",
+        "offre1": 1190,
+        "offre2": 952,
+        "montantImport": 952
+      },
+      {
+        "rowIndex": 204,
+        "numeroDevis": "108634-CL-25202",
+        "nom": "MIONS AUTO SERVICES",
+        "offre1": 1050,
+        "offre2": 0,
+        "montantImport": 1050
+      },
+      {
+        "rowIndex": 205,
+        "numeroDevis": "108766-CL-25203",
+        "nom": "LYCEE LES FONTENELLES",
+        "offre1": 5200,
+        "offre2": 4160,
+        "montantImport": 4160
+      },
+      {
+        "rowIndex": 206,
+        "numeroDevis": "108767-CL-25204",
+        "nom": "LYCEE ALBERT CHÂTELET",
+        "offre1": 4600,
+        "offre2": 3680,
+        "montantImport": 3680
+      },
+      {
+        "rowIndex": 207,
+        "numeroDevis": "108768-CL-25205",
+        "nom": "COLLEGE SYLVAIN MENU",
+        "offre1": 1480,
+        "offre2": 0,
+        "montantImport": 1480
+      },
+      {
+        "rowIndex": 208,
+        "numeroDevis": "108476-CL-25206",
+        "nom": "GRETA DU VAR - LYCEE DES METIERS PAUL LANGEVIN",
+        "offre1": 430,
+        "offre2": 0,
+        "montantImport": 430
+      },
+      {
+        "rowIndex": 210,
+        "numeroDevis": "108769-CL-25208",
+        "nom": "LES ENTREPÔTS CELLOIS",
+        "offre1": 1550,
+        "offre2": 1085,
+        "montantImport": 1085
+      },
+      {
+        "rowIndex": 212,
+        "numeroDevis": "108770-CL-25210",
+        "nom": "CITÉ SCOLAIRE MAURIE RAVEL",
+        "offre1": 3640,
+        "offre2": 2912,
+        "montantImport": 2912
+      },
+      {
+        "rowIndex": 214,
+        "numeroDevis": "108772-CL-25212",
+        "nom": "COLLEGE PIERRE PERRET",
+        "offre1": 2150,
+        "offre2": 1612.5,
+        "montantImport": 1612.5
+      },
+      {
+        "rowIndex": 220,
+        "numeroDevis": "108775-CL-25217",
+        "nom": "MADRIR SARL",
+        "offre1": 1290,
+        "offre2": 967.5,
+        "montantImport": 967.5
+      },
+      {
+        "rowIndex": 221,
+        "numeroDevis": "108776-CL-25217",
+        "nom": "POSTER EXPO   ",
+        "offre1": 1290,
+        "offre2": 967.5,
+        "montantImport": 967.5
+      },
+      {
+        "rowIndex": 223,
+        "numeroDevis": "108778-CL-25219",
+        "nom": "COLLEGE RAOUL DUFY",
+        "offre1": 2040,
+        "offre2": 1632,
+        "montantImport": 1632
+      },
+      {
+        "rowIndex": 226,
+        "numeroDevis": "108781-CL-25222",
+        "nom": "MAIRIE DE GROIX",
+        "offre1": 4100,
+        "offre2": 3485,
+        "montantImport": 3485
+      },
+      {
+        "rowIndex": 228,
+        "numeroDevis": "108783-CL-25224",
+        "nom": "HOTEL LANGLOIS SA",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 229,
+        "numeroDevis": "108784-CL-25225",
+        "nom": "COLLEGE CHARLES BRUNEAU",
+        "offre1": 1640,
+        "offre2": 1290,
+        "montantImport": 1290
+      },
+      {
+        "rowIndex": 231,
+        "numeroDevis": "108786-CL-25227",
+        "nom": "COLLEGE MONT SAUVY",
+        "offre1": 1480,
+        "offre2": 0,
+        "montantImport": 1480
+      },
+      {
+        "rowIndex": 233,
+        "numeroDevis": "106718-CL-25229",
+        "nom": "MAIRIE DE DREFFEAC",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 234,
+        "numeroDevis": "108788-CL-25230",
+        "nom": "COLLEGE ALEXANDRE DUMAS",
+        "offre1": 2400,
+        "offre2": 1800,
+        "montantImport": 1800
+      },
+      {
+        "rowIndex": 235,
+        "numeroDevis": "108789-CL-25231",
+        "nom": "SCP DAGARD NOINSKI",
+        "offre1": 290,
+        "offre2": 0,
+        "montantImport": 290
+      },
+      {
+        "rowIndex": 237,
+        "numeroDevis": "108791-CL-25233",
+        "nom": "COLLEGE JACQUES BREL",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 238,
+        "numeroDevis": "108792-CL-25234",
+        "nom": "SCEAM ANTARES EDULIS 35",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 240,
+        "numeroDevis": "108503-CL-25236",
+        "nom": "COLLEGE PIERRE DE RONSARD",
+        "offre1": 460,
+        "offre2": 0,
+        "montantImport": 460
+      },
+      {
+        "rowIndex": 242,
+        "numeroDevis": "108794-CL-25238",
+        "nom": "ECOLE SAINTE JEANNE D'ARC",
+        "offre1": 1605,
+        "offre2": 1444.5,
+        "montantImport": 1444.5
+      },
+      {
+        "rowIndex": 244,
+        "numeroDevis": "108796-CL-25240",
+        "nom": "FREDERIC PAYSAGES",
+        "offre1": 1190,
+        "offre2": 952,
+        "montantImport": 952
+      },
+      {
+        "rowIndex": 246,
+        "numeroDevis": "108798-CL-25242",
+        "nom": "COLLEGE MAURICE DE BROGLIE",
+        "offre1": 990,
+        "offre2": 792,
+        "montantImport": 792
+      },
+      {
+        "rowIndex": 248,
+        "numeroDevis": "108800-CL-25244",
+        "nom": "ENSEMBLE SCOLAIRE L'ASSOMPTION",
+        "offre1": 7695,
+        "offre2": 5770,
+        "montantImport": 5770
+      },
+      {
+        "rowIndex": 249,
+        "numeroDevis": "108801-CL-25245",
+        "nom": "POMPES FUNEBRES BEAU ET FILS",
+        "offre1": 2500,
+        "offre2": 2000,
+        "montantImport": 2000
+      },
+      {
+        "rowIndex": 251,
+        "numeroDevis": "106002-CL-25247",
+        "nom": "LYCEE DES METIERS RISLE",
+        "offre1": 1050,
+        "offre2": 0,
+        "montantImport": 1050
+      },
+      {
+        "rowIndex": 252,
+        "numeroDevis": "106014-CL-25248",
+        "nom": "MAIRIE DU PRECHEUR",
+        "offre1": 2490,
+        "offre2": 1992,
+        "montantImport": 1992
+      },
+      {
+        "rowIndex": 254,
+        "numeroDevis": "108016-CL-25250",
+        "nom": "COLLEGE CHARLES DE GAULLE",
+        "offre1": 250,
+        "offre2": 0,
+        "montantImport": 250
+      },
+      {
+        "rowIndex": 256,
+        "numeroDevis": "108799-CL-25252",
+        "nom": "COLLEGE BUCAILLE CHARCOT",
+        "offre1": 1712,
+        "offre2": 1540.8,
+        "montantImport": 1540.8
+      },
+      {
+        "rowIndex": 257,
+        "numeroDevis": "108805-CL-25253",
+        "nom": "COLLEGE SADI CARNOT",
+        "offre1": 1975,
+        "offre2": 1580,
+        "montantImport": 1580
+      },
+      {
+        "rowIndex": 260,
+        "numeroDevis": "108806-CL-25256",
+        "nom": "ECOLE SAINTE MARIE",
+        "offre1": 1200,
+        "offre2": 1080,
+        "montantImport": 1080
+      },
+      {
+        "rowIndex": 263,
+        "numeroDevis": "108809-CL-25259",
+        "nom": "POINT SERIGRAPHIE",
+        "offre1": 1390,
+        "offre2": 1181.5,
+        "montantImport": 1181.5
+      },
+      {
+        "rowIndex": 264,
+        "numeroDevis": "107433-CL-25260",
+        "nom": "COLLEGE ET LYCEE L'ASSOMPTION",
+        "offre1": 1521.5,
+        "offre2": 1369.35,
+        "montantImport": 1369.35
+      },
+      {
+        "rowIndex": 265,
+        "numeroDevis": "107433-CL-25261",
+        "nom": "COLLEGE L'ASSOMPTION (ANNEXE)",
+        "offre1": 1011.5,
+        "offre2": 910.35,
+        "montantImport": 910.35
+      },
+      {
+        "rowIndex": 266,
+        "numeroDevis": "106760-CL-25262",
+        "nom": "SOCIETE ARANTEL",
+        "offre1": 1560,
+        "offre2": 950,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 267,
+        "numeroDevis": "108810-CL-25263",
+        "nom": "ECOLE SAINTE GENEVIEVE",
+        "offre1": 943.5,
+        "offre2": 849.15,
+        "montantImport": 849.15
+      },
+      {
+        "rowIndex": 268,
+        "numeroDevis": "108811-CL-25264",
+        "nom": "COLLEGE SAINTE GENEVIEVE",
+        "offre1": 1649,
+        "offre2": 1484.1,
+        "montantImport": 1484.1
+      },
+      {
+        "rowIndex": 269,
+        "numeroDevis": "108812-CL-25265",
+        "nom": "COLLEGE VICTOR DURUY",
+        "offre1": 2330,
+        "offre2": 1864,
+        "montantImport": 1864
+      },
+      {
+        "rowIndex": 271,
+        "numeroDevis": "108814-CL-25267",
+        "nom": "PORCELAINES JACQUES PERGAY ",
+        "offre1": 1850,
+        "offre2": 1480,
+        "montantImport": 1480
+      },
+      {
+        "rowIndex": 272,
+        "numeroDevis": "106790-CL-25268",
+        "nom": "COLLÈGE SAINT ROCH",
+        "offre1": 2250,
+        "offre2": 1800,
+        "montantImport": 1800
+      },
+      {
+        "rowIndex": 275,
+        "numeroDevis": "108816-CL-25271",
+        "nom": "TSURIMI France",
+        "offre1": 1330,
+        "offre2": 0,
+        "montantImport": 1330
+      },
+      {
+        "rowIndex": 276,
+        "numeroDevis": "108817-CL-25272",
+        "nom": "TSURIMI France",
+        "offre1": 1330,
+        "offre2": 0,
+        "montantImport": 1330
+      },
+      {
+        "rowIndex": 277,
+        "numeroDevis": "108760-CL-25273",
+        "nom": "TSURIMI France",
+        "offre1": 1870,
+        "offre2": 0,
+        "montantImport": 1870
+      },
+      {
+        "rowIndex": 278,
+        "numeroDevis": "108808-CL-25274",
+        "nom": "BIRDS CONSEIL",
+        "offre1": 300,
+        "offre2": 0,
+        "montantImport": 300
+      },
+      {
+        "rowIndex": 279,
+        "numeroDevis": "108761-CL-25275",
+        "nom": "LYCEE PRO. AUGUSTIN BOISNARD",
+        "offre1": 2900,
+        "offre2": 2320,
+        "montantImport": 2320
+      },
+      {
+        "rowIndex": 281,
+        "numeroDevis": "108762-CL-25277",
+        "nom": "MAIRIE DE ARGENT SUR SAULDRE",
+        "offre1": 3450,
+        "offre2": 2760,
+        "montantImport": 2760
+      },
+      {
+        "rowIndex": 291,
+        "numeroDevis": "108821-CL-25287",
+        "nom": "MAIRIE DE LIMEUX",
+        "offre1": 290,
+        "offre2": 0,
+        "montantImport": 290
+      },
+      {
+        "rowIndex": 296,
+        "numeroDevis": "108237-CL-25292",
+        "nom": "ELITT",
+        "offre1": 1100,
+        "offre2": 770,
+        "montantImport": 770
+      },
+      {
+        "rowIndex": 301,
+        "numeroDevis": "107962-CL-25297",
+        "nom": "GARAGE CHIFFOLEAU",
+        "offre1": 500,
+        "offre2": 0,
+        "montantImport": 500
+      },
+      {
+        "rowIndex": 303,
+        "numeroDevis": "108827-CL-25299",
+        "nom": "GARAGE LIONEL AUTO",
+        "offre1": 680,
+        "offre2": 0,
+        "montantImport": 680
+      },
+      {
+        "rowIndex": 304,
+        "numeroDevis": "108828-CL-25300",
+        "nom": "SARL SECEM - RESTAURANT LA MOSQUÉE",
+        "offre1": 6900,
+        "offre2": 5865,
+        "montantImport": 5865
+      },
+      {
+        "rowIndex": 306,
+        "numeroDevis": "108830-CL-25302",
+        "nom": "SAS COUET MICHEL",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 311,
+        "numeroDevis": "108832-CL-25307",
+        "nom": "COLLEGE EUROPE",
+        "offre1": 1750,
+        "offre2": 1400,
+        "montantImport": 1400
+      },
+      {
+        "rowIndex": 312,
+        "numeroDevis": "108607-CL-25308",
+        "nom": "ÉCOLE SAINTE ANNE SAINT JOSPEH",
+        "offre1": 500,
+        "offre2": 0,
+        "montantImport": 500
+      },
+      {
+        "rowIndex": 314,
+        "numeroDevis": "106990-CL-25315",
+        "nom": "LYCEE PROFESSIONNEL MONTCIEL",
+        "offre1": 2308,
+        "offre2": 1961.8,
+        "montantImport": 1961.8
+      },
+      {
+        "rowIndex": 315,
+        "numeroDevis": "108834-CL-25316",
+        "nom": "EXTERNAT NOTRE DAME DE LA DELIVRANDE DE REDOUTE",
+        "offre1": 880,
+        "offre2": 792,
+        "montantImport": 792
+      },
+      {
+        "rowIndex": 318,
+        "numeroDevis": "108836-CL-25319",
+        "nom": "COLLEGE LONGCHAMP",
+        "offre1": 3100,
+        "offre2": 2480,
+        "montantImport": 2480
+      },
+      {
+        "rowIndex": 320,
+        "numeroDevis": "108838-CL-25321",
+        "nom": "COLLEGE ANDRE CHENIER",
+        "offre1": 2480,
+        "offre2": 1984,
+        "montantImport": 1984
+      },
+      {
+        "rowIndex": 321,
+        "numeroDevis": "107210-CL-25322",
+        "nom": "COLBEAUX SAS",
+        "offre1": 2240,
+        "offre2": 0,
+        "montantImport": 2240
+      },
+      {
+        "rowIndex": 322,
+        "numeroDevis": "108839-CL-25323",
+        "nom": "LYCEE MONGRAND",
+        "offre1": 3700,
+        "offre2": 2960,
+        "montantImport": 2960
+      },
+      {
+        "rowIndex": 326,
+        "numeroDevis": "108842-CL-25327",
+        "nom": "CAMPING LE PUMA",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 327,
+        "numeroDevis": "107987-CL-25328",
+        "nom": "COLLÈGE SAINT JOSEPH",
+        "offre1": 900,
+        "offre2": 765,
+        "montantImport": 765
+      },
+      {
+        "rowIndex": 330,
+        "numeroDevis": "108443-CL-25331",
+        "nom": "INSTITUTION SAINT SPIRE",
+        "offre1": 5000,
+        "offre2": 0,
+        "montantImport": 5000
+      },
+      {
+        "rowIndex": 331,
+        "numeroDevis": "108843-CL-25334",
+        "nom": "CITE SCOLAIRE THIERS",
+        "offre1": 6130,
+        "offre2": 4904,
+        "montantImport": 4904
+      },
+      {
+        "rowIndex": 333,
+        "numeroDevis": "108184-CL-25336",
+        "nom": "AMBULANCES SAINT JACQUES - SAS CDS",
+        "offre1": 750,
+        "offre2": 0,
+        "montantImport": 750
+      },
+      {
+        "rowIndex": 334,
+        "numeroDevis": "106918-CL-25337",
+        "nom": "MAIRIE DE PALADRU",
+        "offre1": 1100,
+        "offre2": 0,
+        "montantImport": 1100
+      },
+      {
+        "rowIndex": 335,
+        "numeroDevis": "108173-CL-25338",
+        "nom": "MAIRIE DE SERVIGNY LES RAVILLE",
+        "offre1": 350,
+        "offre2": 0,
+        "montantImport": 350
+      },
+      {
+        "rowIndex": 336,
+        "numeroDevis": "108845-CL-25339",
+        "nom": "COLLEGE BELLE DE MAI",
+        "offre1": 2480,
+        "offre2": 1984,
+        "montantImport": 1984
+      },
+      {
+        "rowIndex": 338,
+        "numeroDevis": "108847-CL-25341",
+        "nom": "COLLEGE JEAN GUEHENNO",
+        "offre1": 2480,
+        "offre2": 1984,
+        "montantImport": 1984
+      },
+      {
+        "rowIndex": 339,
+        "numeroDevis": "108848-CL-25342",
+        "nom": "COLLEGE ANATOLE France",
+        "offre1": 2000,
+        "offre2": 1600,
+        "montantImport": 1600
+      },
+      {
+        "rowIndex": 342,
+        "numeroDevis": "105877-CL-25345",
+        "nom": "MAIRIE DE GUEUTTEVILLE LES GRES",
+        "offre1": 290,
+        "offre2": 0,
+        "montantImport": 290
+      },
+      {
+        "rowIndex": 346,
+        "numeroDevis": "107510-CL-25349",
+        "nom": "SENS GOURMET",
+        "offre1": 250,
+        "offre2": 0,
+        "montantImport": 250
+      },
+      {
+        "rowIndex": 348,
+        "numeroDevis": "108093-CL-25351",
+        "nom": "SICASMIR",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 349,
+        "numeroDevis": "106775-CL-25352",
+        "nom": "MAIRIE DE BOISSY L'AILLERIE",
+        "offre1": 490,
+        "offre2": 290,
+        "montantImport": 290
+      },
+      {
+        "rowIndex": 350,
+        "numeroDevis": "108286-CL-25353",
+        "nom": "CRECHE ALICE PETRINE",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 353,
+        "numeroDevis": "108855-CL-25356",
+        "nom": "SCHAUMANN France",
+        "offre1": 1170,
+        "offre2": 0,
+        "montantImport": 1170
+      },
+      {
+        "rowIndex": 355,
+        "numeroDevis": "107054-CL-25358",
+        "nom": "MAIRIE DE SAINT CHELY D'AUBRAC",
+        "offre1": 490,
+        "offre2": 0,
+        "montantImport": 490
+      },
+      {
+        "rowIndex": 356,
+        "numeroDevis": "107054-CL-25359",
+        "nom": "SIVOS DE SAINT CHELY D'AUBRAC",
+        "offre1": 150,
+        "offre2": 0,
+        "montantImport": 150
+      },
+      {
+        "rowIndex": 357,
+        "numeroDevis": "108857-CL-25360",
+        "nom": "LES SAVANTS FOUS",
+        "offre1": 690,
+        "offre2": 0,
+        "montantImport": 690
+      },
+      {
+        "rowIndex": 358,
+        "numeroDevis": "108285-CL-25361",
+        "nom": "MAIRIE DE CHALAMONT",
+        "offre1": 960,
+        "offre2": 0,
+        "montantImport": 960
+      },
+      {
+        "rowIndex": 364,
+        "numeroDevis": "106060-CL-25367",
+        "nom": "EHPAD LA SOLIDARITE",
+        "offre1": 450,
+        "offre2": 0,
+        "montantImport": 450
+      },
+      {
+        "rowIndex": 365,
+        "numeroDevis": "108580-CL-25368A",
+        "nom": "CHAINEY SAS",
+        "offre1": 590,
+        "offre2": 0,
+        "montantImport": 590
+      },
+      {
+        "rowIndex": 367,
+        "numeroDevis": "108860-CL-25369",
+        "nom": "COLLEGE JACQUES PREVERT",
+        "offre1": 1664,
+        "offre2": 0,
+        "montantImport": 1664
+      },
+      {
+        "rowIndex": 368,
+        "numeroDevis": "108861-CL-25370",
+        "nom": "COLLEGE ROY D'Espagne",
+        "offre1": 2080,
+        "offre2": 1664,
+        "montantImport": 1664
+      },
+      {
+        "rowIndex": 369,
+        "numeroDevis": "108862-CL-25371",
+        "nom": "COLLEGE OLYMPE DE GOUGES",
+        "offre1": 2080,
+        "offre2": 1664,
+        "montantImport": 1664
+      },
+      {
+        "rowIndex": 374,
+        "numeroDevis": "107518-CL-25376",
+        "nom": "DRAGON ROUGE",
+        "offre1": 490,
+        "offre2": 0,
+        "montantImport": 490
+      },
+      {
+        "rowIndex": 375,
+        "numeroDevis": "108865-CL-25377",
+        "nom": "MAIRIE DE AMFREVILLE",
+        "offre1": 1490,
+        "offre2": 0,
+        "montantImport": 1490
+      },
+      {
+        "rowIndex": 376,
+        "numeroDevis": "108565-CL-25378",
+        "nom": "LYCEE ALBERT CAMUS",
+        "offre1": 1500,
+        "offre2": 0,
+        "montantImport": 1500
+      },
+      {
+        "rowIndex": 377,
+        "numeroDevis": "107452-CL-25379",
+        "nom": "ECOLE NOTRE DAME - ST GREGOIRE",
+        "offre1": 840,
+        "offre2": 0,
+        "montantImport": 840
+      },
+      {
+        "rowIndex": 378,
+        "numeroDevis": "108866-CL-25380",
+        "nom": "ECOLE NOTRE DAME - CHAPELLE DES FOUGERETZ",
+        "offre1": 800,
+        "offre2": 0,
+        "montantImport": 800
+      },
+      {
+        "rowIndex": 379,
+        "numeroDevis": "108867-CL-25381",
+        "nom": "PHARMACIE TRESSENS",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 381,
+        "numeroDevis": "108869-CL-25383",
+        "nom": "LYCÉE ET COLLÈGE SAINTE THÈRÈSE",
+        "offre1": 2880,
+        "offre2": 2592,
+        "montantImport": 2592
+      },
+      {
+        "rowIndex": 382,
+        "numeroDevis": "108870-CL-25384",
+        "nom": "COLLÈGE SAINT PIERRE",
+        "offre1": 2240,
+        "offre2": 2016,
+        "montantImport": 2016
+      },
+      {
+        "rowIndex": 384,
+        "numeroDevis": "108872-CL-25386",
+        "nom": "PENSIONNAT SAINT PAUL DE BOUILLON",
+        "offre1": 2090,
+        "offre2": 1672,
+        "montantImport": 1672
+      },
+      {
+        "rowIndex": 385,
+        "numeroDevis": "108873-CL-25387",
+        "nom": "COLLEGE GEORGES BRASSENS",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 386,
+        "numeroDevis": "108874-CL-25388",
+        "nom": "ÉCOLE SAINTE MARIE - GÉVEZÉ",
+        "offre1": 1300,
+        "offre2": 1040,
+        "montantImport": 1040
+      },
+      {
+        "rowIndex": 388,
+        "numeroDevis": "108875-CL-25390",
+        "nom": "COLLEGE LA TUILERIE",
+        "offre1": 1840,
+        "offre2": 1472,
+        "montantImport": 1472
+      },
+      {
+        "rowIndex": 390,
+        "numeroDevis": "108877-CL-25392",
+        "nom": "COLLEGE CHARLES LEMAITRE",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 392,
+        "numeroDevis": "108879-CL-25394",
+        "nom": "ECOLE SAINT JOSEPH - CHANTEPIE",
+        "offre1": 1190,
+        "offre2": 892.5,
+        "montantImport": 892.5
+      },
+      {
+        "rowIndex": 393,
+        "numeroDevis": "108880-CL-25395",
+        "nom": "ARBORE'TOM",
+        "offre1": 890,
+        "offre2": 0,
+        "montantImport": 890
+      },
+      {
+        "rowIndex": 395,
+        "numeroDevis": "108882-CL-25397",
+        "nom": "ECOLE SAINT AUGUSTIN",
+        "offre1": 720,
+        "offre2": 648,
+        "montantImport": 648
+      },
+      {
+        "rowIndex": 396,
+        "numeroDevis": "108883-CL-25398",
+        "nom": "EDPM2P ( ECOLE DE PRODUCTION MONTEREAU PORTE DE PARIS)",
+        "offre1": 990,
+        "offre2": 792,
+        "montantImport": 792
+      },
+      {
+        "rowIndex": 399,
+        "numeroDevis": "108885-CL-25400",
+        "nom": "COLLEGE ET LYCEE SAINT AUGUSTIN",
+        "offre1": 1800,
+        "offre2": 0,
+        "montantImport": 1800
+      },
+      {
+        "rowIndex": 402,
+        "numeroDevis": "108888-CL-25403",
+        "nom": "COLLEGE MARCEL CALLO",
+        "offre1": 1750,
+        "offre2": 1400,
+        "montantImport": 1400
+      },
+      {
+        "rowIndex": 403,
+        "numeroDevis": "106702-CL-25404",
+        "nom": "LYCEE L'INITIATIVE",
+        "offre1": 1300,
+        "offre2": 0,
+        "montantImport": 1300
+      },
+      {
+        "rowIndex": 404,
+        "numeroDevis": "108889-CL-25405",
+        "nom": "LYCEE L'AGORA",
+        "offre1": 2890,
+        "offre2": 2456.5,
+        "montantImport": 2456.5
+      },
+      {
+        "rowIndex": 408,
+        "numeroDevis": "108893-CL-25409",
+        "nom": "COLLEGE SAINT ROBERT",
+        "offre1": 1840,
+        "offre2": 1656,
+        "montantImport": 1656
+      },
+      {
+        "rowIndex": 409,
+        "numeroDevis": "108894-CL-25410",
+        "nom": "ECOLE NOTRE DAME",
+        "offre1": 1040,
+        "offre2": 936,
+        "montantImport": 936
+      },
+      {
+        "rowIndex": 410,
+        "numeroDevis": "108895-CL-25411",
+        "nom": "ECOLE SAINTE MARGUERITE MARIE",
+        "offre1": 560,
+        "offre2": 504,
+        "montantImport": 504
+      },
+      {
+        "rowIndex": 411,
+        "numeroDevis": "108896-CL-25412",
+        "nom": "COLLEGE PAUL ELUARD",
+        "offre1": 1984,
+        "offre2": 1587.2,
+        "montantImport": 1587.2
+      },
+      {
+        "rowIndex": 413,
+        "numeroDevis": "108897-CL-25414",
+        "nom": "ECOLE SAINT DOMINIQUE FABIO - TREMBLAY",
+        "offre1": 400,
+        "offre2": 360,
+        "montantImport": 360
+      },
+      {
+        "rowIndex": 414,
+        "numeroDevis": "108898-CL-25415",
+        "nom": "ECOLE SAINTE ANNE - ANTRAIN",
+        "offre1": 560,
+        "offre2": 504,
+        "montantImport": 504
+      },
+      {
+        "rowIndex": 415,
+        "numeroDevis": "108899-CL-25416",
+        "nom": "ECOLE SAINTE MARIE - ST OUEN LA ROUËRIE",
+        "offre1": 400,
+        "offre2": 360,
+        "montantImport": 360
+      },
+      {
+        "rowIndex": 416,
+        "numeroDevis": "108635-CL-25417",
+        "nom": "COM. COM. PLEYBEN CHATEAULIN PORZAY",
+        "offre1": 2125,
+        "offre2": 0,
+        "montantImport": 2125
+      },
+      {
+        "rowIndex": 419,
+        "numeroDevis": "108777-CL-25420",
+        "nom": "LYCEE PROFESSIONNEL LE CHATELIER",
+        "offre1": 1600,
+        "offre2": 1440,
+        "montantImport": 1440
+      },
+      {
+        "rowIndex": 420,
+        "numeroDevis": "108295-CL-25421",
+        "nom": "DR . THIERRY SEVERINE",
+        "offre1": 190,
+        "offre2": 0,
+        "montantImport": 190
+      },
+      {
+        "rowIndex": 428,
+        "numeroDevis": "107851-CL-25429",
+        "nom": "COLLEGE MARIE DE Luxembourg",
+        "offre1": 2000,
+        "offre2": 1600,
+        "montantImport": 1600
+      },
+      {
+        "rowIndex": 432,
+        "numeroDevis": "108907-CL-25433",
+        "nom": "ECOLE NOTRE DAME - BECHEREL",
+        "offre1": 350,
+        "offre2": 280,
+        "montantImport": 280
+      },
+      {
+        "rowIndex": 433,
+        "numeroDevis": "108908-CL-25434",
+        "nom": "ECOLE LA SAGESSE",
+        "offre1": 350,
+        "offre2": 280,
+        "montantImport": 280
+      },
+      {
+        "rowIndex": 434,
+        "numeroDevis": "106971-CL-25435",
+        "nom": "COLLEGE LES ROCHES GRAVEES",
+        "offre1": 1200,
+        "offre2": 960,
+        "montantImport": 960
+      },
+      {
+        "rowIndex": 436,
+        "numeroDevis": "108910-CL-25437",
+        "nom": "CHENOIR FRERES",
+        "offre1": 680,
+        "offre2": 0,
+        "montantImport": 680
+      },
+      {
+        "rowIndex": 440,
+        "numeroDevis": "108140-CL-25441",
+        "nom": "SJR AUTO",
+        "offre1": 350,
+        "offre2": 0,
+        "montantImport": 350
+      },
+      {
+        "rowIndex": 441,
+        "numeroDevis": "108912-CL-25442",
+        "nom": "ECOLE SAINTE MARIE - RENNES",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 442,
+        "numeroDevis": "108913-CL-25443",
+        "nom": "ECOLE ADORATION",
+        "offre1": 440,
+        "offre2": 352,
+        "montantImport": 352
+      },
+      {
+        "rowIndex": 443,
+        "numeroDevis": "108914-CL-25444",
+        "nom": "ECOLE NOTRE DAME - MONTREUIL LE GAST",
+        "offre1": 280,
+        "offre2": 224,
+        "montantImport": 224
+      },
+      {
+        "rowIndex": 445,
+        "numeroDevis": "108916-CL-25446",
+        "nom": "ECOLE SAINT MICHEL - RENNES",
+        "offre1": 936,
+        "offre2": 748.8,
+        "montantImport": 748.8
+      },
+      {
+        "rowIndex": 446,
+        "numeroDevis": "108917-CL-25447",
+        "nom": "ÉCOLE SAINTE ANNE - CORNILLÉ",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 447,
+        "numeroDevis": "108918-CL-25448",
+        "nom": "ECOLE SAINT JOSEPH - ST AUBIN DES LANDES",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 448,
+        "numeroDevis": "108919-CL-25449",
+        "nom": "ECOLE L'IMMACULEE",
+        "offre1": 792,
+        "offre2": 663.6,
+        "montantImport": 663.6
+      },
+      {
+        "rowIndex": 449,
+        "numeroDevis": "108920-CL-25450",
+        "nom": "ECOLE ST JEAN BAPTISTE DE LA SALLE - FOUGERES",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 450,
+        "numeroDevis": "108921-CL-25451",
+        "nom": "ECOLE NOTRE DAME - MONTFORT",
+        "offre1": 440,
+        "offre2": 352,
+        "montantImport": 352
+      },
+      {
+        "rowIndex": 451,
+        "numeroDevis": "108922-CL-25452",
+        "nom": "ECOLE SAINT GILDAS - MONTERFIL",
+        "offre1": 280,
+        "offre2": 224,
+        "montantImport": 224
+      },
+      {
+        "rowIndex": 452,
+        "numeroDevis": "108923-CL-25453",
+        "nom": "ECOLE SAINT JEAN SAINTE THERESE - RENNES",
+        "offre1": 792,
+        "offre2": 663.6,
+        "montantImport": 663.6
+      },
+      {
+        "rowIndex": 453,
+        "numeroDevis": "108924-CL-25454",
+        "nom": "ECOLE SAINTE THERESE - CHEVAIGNÉ",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 454,
+        "numeroDevis": "108925-CL-25455",
+        "nom": "ECOLE SAINT FRANCOIS - MELESSE",
+        "offre1": 936,
+        "offre2": 748.8,
+        "montantImport": 748.8
+      },
+      {
+        "rowIndex": 455,
+        "numeroDevis": "108926-CL-25456",
+        "nom": "ECOLE NOTRE DAME - BRETEIL",
+        "offre1": 648,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 460,
+        "numeroDevis": "108931-CL-25461",
+        "nom": "ECOLE SAINT JOSEPH - SAINT COULOMB",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 461,
+        "numeroDevis": "108932-CL-25462",
+        "nom": "ECOLE SAINT AMAND - NOYAL CHATILLON",
+        "offre1": 792,
+        "offre2": 663.6,
+        "montantImport": 663.6
+      },
+      {
+        "rowIndex": 462,
+        "numeroDevis": "108933-CL-25463",
+        "nom": "ECOLE NOTRE DAME - MONTGERMONT",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 463,
+        "numeroDevis": "108934-CL-25464",
+        "nom": "ÉCOLE SAINT MICHEL - SAINT MALO",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 464,
+        "numeroDevis": "104250-CL-25465",
+        "nom": "LPO MELKIOR GARRE",
+        "offre1": 1745,
+        "offre2": 0,
+        "montantImport": 1745
+      },
+      {
+        "rowIndex": 465,
+        "numeroDevis": "108935-CL-25466",
+        "nom": "ECOLE NOTRE DAME DES MIRACLES - RENNES",
+        "offre1": 792,
+        "offre2": 663.6,
+        "montantImport": 663.6
+      },
+      {
+        "rowIndex": 466,
+        "numeroDevis": "108936-CL-25467",
+        "nom": "ECOLE SAINTE ANNE - BRUC SUR AFF",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 467,
+        "numeroDevis": "108937-CL-25468",
+        "nom": "ECOLE SAINTE MELAINE - LIEURON",
+        "offre1": 400,
+        "offre2": 360,
+        "montantImport": 360
+      },
+      {
+        "rowIndex": 468,
+        "numeroDevis": "107077-CL-25469",
+        "nom": "ECOLE ST JEAN BAPTISTE DE LA SALLE - MARTIGNE FERCHAUD",
+        "offre1": 648,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 469,
+        "numeroDevis": "108938-CL-25470",
+        "nom": "ECOLE LE SACRE COEUR- MONTREUIL SOUS PEROUSE",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 470,
+        "numeroDevis": "108939-CL-25471",
+        "nom": "ECOLE NOTRE DAME - PLELAN LE GRAND",
+        "offre1": 648,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 471,
+        "numeroDevis": "108940-CL-25472",
+        "nom": "ECOLE SAINT MICHEL - BEDEE",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 472,
+        "numeroDevis": "108941-CL-25473",
+        "nom": "ECOLE SAINT ETIENNE DES EAUX",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 473,
+        "numeroDevis": "106620-CL-25474",
+        "nom": "ECOLE DE LA PROVIDENCE - PIPRIAC",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 474,
+        "numeroDevis": "107250-CL-25475",
+        "nom": "ECOLE SACRÉ CŒUR - SAINT GILLES",
+        "offre1": 936,
+        "offre2": 748.8,
+        "montantImport": 748.8
+      },
+      {
+        "rowIndex": 475,
+        "numeroDevis": "108943-CL-25476",
+        "nom": "ECOLE SAINT VINCENT DE PAUL - DOMAGNÉ",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 476,
+        "numeroDevis": "108944-CL-25477",
+        "nom": "ECOLE NOTRE DAME AUXILIATRICE - SAINT MALO",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 477,
+        "numeroDevis": "108945-CL-25478",
+        "nom": "ECOLE SAINT MALO - TREFFENDEL",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 478,
+        "numeroDevis": "108946-CL-25479",
+        "nom": "ECOLE SAINT JOSEPH - MAXENT",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 479,
+        "numeroDevis": "108947-CL-25480",
+        "nom": "ECOLE SAINT JOSEPH - CINTRÉ",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 480,
+        "numeroDevis": "108915-CL-25481",
+        "nom": "ECOLE SAINT MICHEL - MONTREUIL SUR ILLE",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 481,
+        "numeroDevis": "108942-CL-25482",
+        "nom": "ECOLE SAINT JOSEPH LA MOUSSAYE",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 483,
+        "numeroDevis": "108949-CL-25484",
+        "nom": "ECOLE NOTRE DAME DE LOURDES",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 485,
+        "numeroDevis": "108700-CL-25486",
+        "nom": "LYCEE POLYVALENT GEORGES SAND",
+        "offre1": 2050,
+        "offre2": 0,
+        "montantImport": 2050
+      },
+      {
+        "rowIndex": 486,
+        "numeroDevis": "108951-CL-25487",
+        "nom": "PHARMACIE DE LOSTEAU",
+        "offre1": 1090,
+        "offre2": 872,
+        "montantImport": 872
+      },
+      {
+        "rowIndex": 487,
+        "numeroDevis": "108952-CL-25488",
+        "nom": "ECOLE SAINTE MARIE - CHARTRES DE BRETAGNE",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 488,
+        "numeroDevis": "108953-CL-25489",
+        "nom": "ECOLE SAINT MICHEL - PLECHATEL",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 491,
+        "numeroDevis": "108956-CL-25492",
+        "nom": "ECOLE SAINT CHARLES - ST LEGER SS CHOLET",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 493,
+        "numeroDevis": "107192-CL-25494",
+        "nom": "ECOLE ST VINCENT - BRISAC QUINCÉ",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 494,
+        "numeroDevis": "108958-CL-25495",
+        "nom": "ÉCOLE DU CURÉ D'ARS - ANGERS",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 495,
+        "numeroDevis": "108959-CL-25496",
+        "nom": "ECOLE NOTRE DAME - LA SÉGUINIÈRE",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 497,
+        "numeroDevis": "108961-CL-25498",
+        "nom": "ECOLE SAINTE THÉRÈSE - ANGERS",
+        "offre1": 936,
+        "offre2": 748.8,
+        "montantImport": 748.8
+      },
+      {
+        "rowIndex": 498,
+        "numeroDevis": "108962-CL-25499",
+        "nom": "ECOLE NOTRE DAME DU BRETONNAIS - CHOLET",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 499,
+        "numeroDevis": "108963-CL-25500",
+        "nom": "ÉCOLE SAINT PIERRE - CHEMILLÉ EN ANJOU",
+        "offre1": 936,
+        "offre2": 748.8,
+        "montantImport": 748.8
+      },
+      {
+        "rowIndex": 502,
+        "numeroDevis": "108966-CL-25503",
+        "nom": "ECOLE SAINT LOUIS LE BRELOQUET - CHOLET",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 503,
+        "numeroDevis": "108967-CL-25504",
+        "nom": "ECOLE ABBÉ LOUIS FERRAND - TOUTLEMONDE",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 504,
+        "numeroDevis": "108968-CL-25505",
+        "nom": "ECOLE SAINTE MARIE DES TURBAUDIÈRES - CHOLET",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 505,
+        "numeroDevis": "108969-CL-25506",
+        "nom": "ECOLE NOTRE DAME - MORANNES",
+        "offre1": 400,
+        "offre2": 360,
+        "montantImport": 360
+      },
+      {
+        "rowIndex": 506,
+        "numeroDevis": "108970-CL-25507",
+        "nom": "ECOLE NOTRE DAME - DAUMERAY",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 507,
+        "numeroDevis": "108971-CL-25508",
+        "nom": "ECOLE SAINTE ANNE - LA NOË BLANCHE",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 508,
+        "numeroDevis": "108972-CL-25509",
+        "nom": "ECOLE SAINTE ANNE - LA DOMINELAIS",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 509,
+        "numeroDevis": "108973-CL-25510",
+        "nom": "ECOLE SAINT MARTIN - MEZIERES SUR COUESNON",
+        "offre1": 504,
+        "offre2": 403.2,
+        "montantImport": 403.2
+      },
+      {
+        "rowIndex": 511,
+        "numeroDevis": "108578-CL-25512",
+        "nom": "SPORTING CLUB DE BIEVRES",
+        "offre1": 450,
+        "offre2": 0,
+        "montantImport": 450
+      },
+      {
+        "rowIndex": 512,
+        "numeroDevis": "107071-CL-25513",
+        "nom": "LYCEE VICTOR ANICET",
+        "offre1": 1170,
+        "offre2": 0,
+        "montantImport": 1170
+      },
+      {
+        "rowIndex": 513,
+        "numeroDevis": "108979-CL-25514",
+        "nom": "ECOLE SAINT MARTIN - GUICHEN",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 514,
+        "numeroDevis": "108980-CL-25515",
+        "nom": "ECOLE SAINTE MARIE - PONTREAN",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 515,
+        "numeroDevis": "108981-CL-25516",
+        "nom": "ÉCOLE SAINT JACQUES DE COMPOSTELLE",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 521,
+        "numeroDevis": "108804-CL-25522",
+        "nom": "LYCEE PROFESSIONNEL AUGUSTE PERRET",
+        "offre1": 990,
+        "offre2": 0,
+        "montantImport": 990
+      },
+      {
+        "rowIndex": 523,
+        "numeroDevis": "108983-CL-25524",
+        "nom": "ECOLE MARCEL CALLO - RENNES",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 524,
+        "numeroDevis": "108984-CL-25525",
+        "nom": "ECOLE SAINT JOSEPH - ST MELOIR",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 526,
+        "numeroDevis": "108985-CL-25527",
+        "nom": "ECOLE SAINT LOUIS BLAISE PASCAL",
+        "offre1": 1300,
+        "offre2": 1040,
+        "montantImport": 1040
+      },
+      {
+        "rowIndex": 527,
+        "numeroDevis": "108986-CL-25528",
+        "nom": "EUROPROTECT MUNSTER",
+        "offre1": 1330,
+        "offre2": 0,
+        "montantImport": 1330
+      },
+      {
+        "rowIndex": 529,
+        "numeroDevis": "107889-CL-25530",
+        "nom": "TOLILA+GILLILAND",
+        "offre1": 1170,
+        "offre2": 936,
+        "montantImport": 936
+      },
+      {
+        "rowIndex": 531,
+        "numeroDevis": "108929-CL-25532",
+        "nom": "ENSEMBLE SCOLAIRE SAINT DIDIER",
+        "offre1": 2968.2,
+        "offre2": 0,
+        "montantImport": 2968.2
+      },
+      {
+        "rowIndex": 533,
+        "numeroDevis": "108990-CL-25534",
+        "nom": "ECOLE NOTRE DAME DE LA RANCE",
+        "offre1": 1030,
+        "offre2": 824,
+        "montantImport": 824
+      },
+      {
+        "rowIndex": 534,
+        "numeroDevis": "108991-CL-25535",
+        "nom": "COLLEGE STELLA MARIS",
+        "offre1": 1230,
+        "offre2": 984,
+        "montantImport": 984
+      },
+      {
+        "rowIndex": 535,
+        "numeroDevis": "106806-CL-25536",
+        "nom": "SA SODIGEL QUERCYGEL",
+        "offre1": 250,
+        "offre2": 0,
+        "montantImport": 250
+      },
+      {
+        "rowIndex": 536,
+        "numeroDevis": "108992-CL-25537",
+        "nom": "GRETA CFA DU MAINE",
+        "offre1": 5200,
+        "offre2": 0,
+        "montantImport": 5200
+      },
+      {
+        "rowIndex": 540,
+        "numeroDevis": "108996-CL-25541",
+        "nom": "ECOLE SACRE CŒUR - MONTOURS - RPI PORTE DU COGLAIS",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 541,
+        "numeroDevis": "108997-CL-25542",
+        "nom": "ECOLE SAINTE THÉRÈSE - LA SELLE EN COGLÈS - RPI PORTE DU COGLAIS",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 543,
+        "numeroDevis": "107861-CL-25544",
+        "nom": "LA MAISON SPORTS POUR TOUS - WHOME NANTES OUEST",
+        "offre1": 250,
+        "offre2": 0,
+        "montantImport": 250
+      },
+      {
+        "rowIndex": 544,
+        "numeroDevis": "108999-CL-25545",
+        "nom": "EUREAU-SOURCES - HERMES",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 545,
+        "numeroDevis": "109000-CL-25546",
+        "nom": "EUREAU-SOURCES - MONTEUX",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 547,
+        "numeroDevis": "104550-CL-25548",
+        "nom": "COLLEGE AURELIE LAMBOURDE ",
+        "offre1": 1200,
+        "offre2": 0,
+        "montantImport": 1200
+      },
+      {
+        "rowIndex": 549,
+        "numeroDevis": "105610-CL-25550",
+        "nom": "COLLEGE HUBERT NERO",
+        "offre1": 2050,
+        "offre2": 1640,
+        "montantImport": 1640
+      },
+      {
+        "rowIndex": 550,
+        "numeroDevis": "109003-CL-25551",
+        "nom": "ECOLE SAINT JOSEPH - GUIGNEN",
+        "offre1": 520,
+        "offre2": 416,
+        "montantImport": 416
+      },
+      {
+        "rowIndex": 552,
+        "numeroDevis": "109005-CL-25553",
+        "nom": "COLLEGE JEAN ROSTAND",
+        "offre1": 2320,
+        "offre2": 2088,
+        "montantImport": 2088
+      },
+      {
+        "rowIndex": 553,
+        "numeroDevis": "107075-CL-25554",
+        "nom": "COLLEGE ST JOSEPH - MARTIGNÉ",
+        "offre1": 1330,
+        "offre2": 1130.5,
+        "montantImport": 1130.5
+      },
+      {
+        "rowIndex": 554,
+        "numeroDevis": "109006-CL-25555",
+        "nom": "ECOLE SAINT JOSEPH - LA BOUEXIERE",
+        "offre1": 633.6,
+        "offre2": 0,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 555,
+        "numeroDevis": "109007-CL-25556",
+        "nom": "ECOLE NOTRE DAME - TINTENIAC",
+        "offre1": 440,
+        "offre2": 352,
+        "montantImport": 352
+      },
+      {
+        "rowIndex": 557,
+        "numeroDevis": "109009-CL-25558",
+        "nom": "SIVOM DE LA REGION DE CHEVREUSE",
+        "offre1": 2950,
+        "offre2": 2360,
+        "montantImport": 2360
+      },
+      {
+        "rowIndex": 558,
+        "numeroDevis": "109010-CL-25559",
+        "nom": "COLLEGE ALBERT SCHWEITZER",
+        "offre1": 1490,
+        "offre2": 1192,
+        "montantImport": 1192
+      },
+      {
+        "rowIndex": 561,
+        "numeroDevis": "109011-CL-25562",
+        "nom": "AUDITEX ANTILLES GUYANE",
+        "offre1": 1750,
+        "offre2": 1400,
+        "montantImport": 1400
+      },
+      {
+        "rowIndex": 562,
+        "numeroDevis": "108602-CL-25563",
+        "nom": "LA MANUFACTURE DES TAPIS DE COGOLIN",
+        "offre1": 490,
+        "offre2": 0,
+        "montantImport": 490
+      },
+      {
+        "rowIndex": 563,
+        "numeroDevis": "108602-CL-25564",
+        "nom": "LA MANUFACTURE DES TAPIS",
+        "offre1": 190,
+        "offre2": 0,
+        "montantImport": 190
+      },
+      {
+        "rowIndex": 566,
+        "numeroDevis": "109014-CL-25567",
+        "nom": "ECOLE SAINTE ANTOINE - ANGERS",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 567,
+        "numeroDevis": "109015-CL-25568",
+        "nom": "ECOLE SAINT CLEMENT - RENNES",
+        "offre1": 440,
+        "offre2": 352,
+        "montantImport": 352
+      },
+      {
+        "rowIndex": 568,
+        "numeroDevis": "108219-CL-25569",
+        "nom": "CLAI SA",
+        "offre1": 390,
+        "offre2": 0,
+        "montantImport": 390
+      },
+      {
+        "rowIndex": 573,
+        "numeroDevis": "109020-CL-25574",
+        "nom": "ETS LEGER",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 574,
+        "numeroDevis": "109021-CL-25575",
+        "nom": "COLLEGE ANNE FRANCK",
+        "offre1": 1392,
+        "offre2": 0,
+        "montantImport": 1392
+      },
+      {
+        "rowIndex": 576,
+        "numeroDevis": "109022-CL-25577",
+        "nom": "COLLEGE DE MONTSINERY TONNEGRANDE",
+        "offre1": 2450,
+        "offre2": 1960,
+        "montantImport": 1960
+      },
+      {
+        "rowIndex": 579,
+        "numeroDevis": "109025-CL-25580",
+        "nom": "LYCEE PRIEUR DE LA COTE D'OR",
+        "offre1": 5200,
+        "offre2": 4160,
+        "montantImport": 4160
+      },
+      {
+        "rowIndex": 580,
+        "numeroDevis": "109026-CL-25581",
+        "nom": "MAIRIE DE PLOUEDERN",
+        "offre1": 1950,
+        "offre2": 0,
+        "montantImport": 1950
+      },
+      {
+        "rowIndex": 582,
+        "numeroDevis": "109027-CL-25583",
+        "nom": "ECOLE SAINTE MARIE - ST MALO",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 583,
+        "numeroDevis": "105319-CL-25584",
+        "nom": "COLLEGE REMY NAINSOUTA",
+        "offre1": 1100,
+        "offre2": 0,
+        "montantImport": 1100
+      },
+      {
+        "rowIndex": 584,
+        "numeroDevis": "109028-CL-25585",
+        "nom": "ECOLE ST PIERRE DES JARDINS - LA RENAUDIERE",
+        "offre1": 280,
+        "offre2": 224,
+        "montantImport": 224
+      },
+      {
+        "rowIndex": 585,
+        "numeroDevis": "109029-CL-25586",
+        "nom": "ECOLE STE JEANNE D'ARC - ST DOMINEUC",
+        "offre1": 440,
+        "offre2": 352,
+        "montantImport": 352
+      },
+      {
+        "rowIndex": 586,
+        "numeroDevis": "106746-CL-25587",
+        "nom": "LPO NORD GRANDE TERRE",
+        "offre1": 4400,
+        "offre2": 3520,
+        "montantImport": 3520
+      },
+      {
+        "rowIndex": 590,
+        "numeroDevis": "109033-CL-25591",
+        "nom": "ECOLE NOTRE DAME DU VERGER - CANCALE",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 591,
+        "numeroDevis": "109034-CL-25592",
+        "nom": "ECOLE SAINT SERGE - ANGERS",
+        "offre1": 648,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 593,
+        "numeroDevis": "109035-CL-25594",
+        "nom": "ECOLE NOTRE DAME - VERN SUR SEICHE",
+        "offre1": 792,
+        "offre2": 633.6,
+        "montantImport": 633.6
+      },
+      {
+        "rowIndex": 594,
+        "numeroDevis": "109036-CL-25595",
+        "nom": "ECOLE SAINTE MARIE - DERVAL",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 595,
+        "numeroDevis": "106713-CL-25596",
+        "nom": "DM INDUSTRIE",
+        "offre1": 565,
+        "offre2": 0,
+        "montantImport": 565
+      },
+      {
+        "rowIndex": 596,
+        "numeroDevis": "108103-CL-25597",
+        "nom": "COLLEGE JULES FERRY",
+        "offre1": 1250,
+        "offre2": 896,
+        "montantImport": 896
+      },
+      {
+        "rowIndex": 597,
+        "numeroDevis": "109037-CL-25598",
+        "nom": "SCFA ZELFKASER",
+        "offre1": 1110,
+        "offre2": 888,
+        "montantImport": 888
+      },
+      {
+        "rowIndex": 598,
+        "numeroDevis": "109038-CL-25599",
+        "nom": "ECOLE SAINTE JEANNE D'ARC - CHATILLON EN VENDELAIS",
+        "offre1": 684,
+        "offre2": 518.4,
+        "montantImport": 518.4
+      },
+      {
+        "rowIndex": 601,
+        "numeroDevis": "109041-CL-25602",
+        "nom": "ENSEMBLE SCOLAIRE SAINT JOSEPH - SAINTE ANNE",
+        "offre1": 3145,
+        "offre2": 2830.5,
+        "montantImport": 2830.5
+      },
+      {
+        "rowIndex": 602,
+        "numeroDevis": "109041-CL-25603",
+        "nom": "ECOLE STE ANNE - STE JEANNE D'ARC - STE THERESE",
+        "offre1": 800,
+        "offre2": 0,
+        "montantImport": 800
+      },
+      {
+        "rowIndex": 603,
+        "numeroDevis": "107965-CL-25604",
+        "nom": "GRETA CFA 1 - LETANDUERE",
+        "offre1": 2730,
+        "offre2": 0,
+        "montantImport": 2730
+      },
+      {
+        "rowIndex": 611,
+        "numeroDevis": "106794-CL-25612",
+        "nom": "ECOLE COLLEGE ST SEURIN",
+        "offre1": 950,
+        "offre2": 0,
+        "montantImport": 950
+      },
+      {
+        "rowIndex": 613,
+        "numeroDevis": "109047-CL-25614",
+        "nom": "ECOLE DU SACRE CŒUR DE BRIE",
+        "offre1": 360,
+        "offre2": 288,
+        "montantImport": 288
+      },
+      {
+        "rowIndex": 616,
+        "numeroDevis": "109050-CL-25617",
+        "nom": "ÉCOLE SAINTE ANNE - BAZOUGES LA PÉROUSE",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 617,
+        "numeroDevis": "109051-CL-25618",
+        "nom": "INSTITUTION SAINT HILDEVERT",
+        "offre1": 2040,
+        "offre2": 1595,
+        "montantImport": 1595
+      },
+      {
+        "rowIndex": 618,
+        "numeroDevis": "109052-CL-25619",
+        "nom": "INSTITUT FOURNIER",
+        "offre1": 4600,
+        "offre2": 0,
+        "montantImport": 4600
+      },
+      {
+        "rowIndex": 620,
+        "numeroDevis": "109054-CL-25621",
+        "nom": "ÉCOLE DE L'ARGOAT SACRE CŒUR",
+        "offre1": 1300,
+        "offre2": 1040,
+        "montantImport": 1040
+      },
+      {
+        "rowIndex": 621,
+        "numeroDevis": "109039-CL-25622",
+        "nom": "MAIRIE DE HOUDAN",
+        "offre1": 3202.5,
+        "offre2": 0,
+        "montantImport": 3202.5
+      },
+      {
+        "rowIndex": 622,
+        "numeroDevis": "109055-CL-25623",
+        "nom": "ENSEMBLE SCOLAIRE SACRÉ CŒUR",
+        "offre1": 3300,
+        "offre2": 0,
+        "montantImport": 3300
+      },
+      {
+        "rowIndex": 623,
+        "numeroDevis": "109056-CL-25624",
+        "nom": "ECOLE NOTRE DAME - PLERIN",
+        "offre1": 1300,
+        "offre2": 1040,
+        "montantImport": 1040
+      },
+      {
+        "rowIndex": 624,
+        "numeroDevis": "109057-CL-25625",
+        "nom": "ECOLE JEAN DE LA MENNAIS",
+        "offre1": 900,
+        "offre2": 720,
+        "montantImport": 720
+      },
+      {
+        "rowIndex": 629,
+        "numeroDevis": "109062-CL-25629",
+        "nom": "COLLEGE LYCEE NOTRE DAME DE CAMPOSTAL",
+        "offre1": 1680,
+        "offre2": 1344,
+        "montantImport": 1344
+      },
+      {
+        "rowIndex": 630,
+        "numeroDevis": "109063-CL-25630",
+        "nom": "ECOLE NOTRE DAME DE CAMPOSTAL",
+        "offre1": 720,
+        "offre2": 576,
+        "montantImport": 576
+      }
+    ]
+  },
+  "twenty": {
+    "count": 362,
+    "total": 488569.65,
+    "opportunities": [
+      {
+        "numeroDevis": "108939-CL-25471",
+        "company": {
+          "name": "ECOLE NOTRE DAME - PLELAN LE GRAND"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "003a83b1-193f-4a72-8189-f6c844f8df7d"
+      },
+      {
+        "numeroDevis": "108263-CL-25087",
+        "company": {
+          "name": "AVSII A VOTRE SERVICE"
+        },
+        "amount": 490,
+        "createdAt": "2025-02-05T00:00:00.000Z",
+        "id": "022dc7e6-ac3b-4c62-a094-010f58a43cdb"
+      },
+      {
+        "numeroDevis": "108925-CL-25455",
+        "company": {
+          "name": "ECOLE SAINT FRANCOIS - MELESSE"
+        },
+        "amount": 748.8,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "02cef081-7eb2-40b3-898a-d013f15679a9"
+      },
+      {
+        "numeroDevis": "108845-CL-25339",
+        "company": {
+          "name": "COLLEGE BELLE DE MAI"
+        },
+        "amount": 1984,
+        "createdAt": "2025-07-08T00:00:00.000Z",
+        "id": "039464e4-61c2-4595-8799-91f367431e43"
+      },
+      {
+        "numeroDevis": "109010-CL-25559",
+        "company": {
+          "name": "COLLEGE ALBERT SCHWEITZER"
+        },
+        "amount": 1192,
+        "createdAt": "2025-11-12T00:00:00.000Z",
+        "id": "03a701d4-7bb8-4eb0-9f37-10bcfc3de660"
+      },
+      {
+        "numeroDevis": "108775-CL-25217",
+        "company": {
+          "name": "MADRIR SARL"
+        },
+        "amount": 967.5,
+        "createdAt": "2025-04-21T00:00:00.000Z",
+        "id": "04d2f975-a6ce-4ed6-a0a7-7fbffa46ad04"
+      },
+      {
+        "numeroDevis": "108917-CL-25447",
+        "company": {
+          "name": "ÉCOLE SAINTE ANNE - CORNILLÉ"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "05bed5c4-6787-4a2c-93f6-d8d5d84ae4c1"
+      },
+      {
+        "numeroDevis": "108184-CL-25336",
+        "company": {
+          "name": "AMBULANCES SAINT JACQUES"
+        },
+        "amount": 750,
+        "createdAt": "2025-07-07T00:00:00.000Z",
+        "id": "08212532-ea58-49b8-ad9c-0ee522fb0330"
+      },
+      {
+        "numeroDevis": "106060-CL-25367",
+        "company": {
+          "name": "EHPAD LA SOLIDARITE"
+        },
+        "amount": 450,
+        "createdAt": "2025-08-05T00:00:00.000Z",
+        "id": "08357bd6-a754-49dc-94f5-c7eedff6473a"
+      },
+      {
+        "numeroDevis": "108711-CL-25122",
+        "company": {
+          "name": "ECOLE SAINT FLORENT"
+        },
+        "amount": 550,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "084b7364-10a2-4c2e-b3e8-555495e361f5"
+      },
+      {
+        "numeroDevis": "109037-CL-25598",
+        "company": {
+          "name": "SCFA ZELFKASER"
+        },
+        "amount": 888,
+        "createdAt": "2025-12-01T00:00:00.000Z",
+        "id": "08cee182-4529-4cbc-812c-ef023b038dea"
+      },
+      {
+        "numeroDevis": "108860-CL-25369",
+        "company": {
+          "name": "COLLEGE JACQUES PREVERT"
+        },
+        "amount": 1664,
+        "createdAt": "2025-08-27T00:00:00.000Z",
+        "id": "08f6858b-5b82-4203-bc6e-5a4b807c5bef"
+      },
+      {
+        "numeroDevis": "106712-CL-25077",
+        "company": {
+          "name": "CC DU PAYS DE TRONCAIS"
+        },
+        "amount": 2450,
+        "createdAt": "2025-01-29T00:00:00.000Z",
+        "id": "09aaf1e6-d7e4-4f1c-9143-8993a4e6f534"
+      },
+      {
+        "numeroDevis": "108827-CL-25299",
+        "company": {
+          "name": "GARAGE LIONEL AUTO"
+        },
+        "amount": 680,
+        "createdAt": "2025-06-19T00:00:00.000Z",
+        "id": "0c446355-855d-436e-b919-dfdec204097a"
+      },
+      {
+        "numeroDevis": "108725-CL-25130",
+        "company": {
+          "name": "EHPAD DE CADOUIN"
+        },
+        "amount": 1992,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "0d3eacea-9416-4af4-bf50-0b7c556aa663"
+      },
+      {
+        "numeroDevis": "108984-CL-25525",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - ST MELOIR"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-20T00:00:00.000Z",
+        "id": "0d71907c-8569-40c2-9697-b7e5b693ecd9"
+      },
+      {
+        "numeroDevis": "108821-CL-25287",
+        "company": {
+          "name": "MAIRIE DE LIMEUX"
+        },
+        "amount": 290,
+        "createdAt": "2025-06-12T00:00:00.000Z",
+        "id": "0d7f7b01-bccd-4775-b750-b21fda84a196"
+      },
+      {
+        "numeroDevis": "108739-CL-25157",
+        "company": {
+          "name": "COLLEGE ANTOINE RISSO"
+        },
+        "amount": 1712,
+        "createdAt": "2025-03-06T00:00:00.000Z",
+        "id": "0db2909f-7572-43ff-9e6a-3252957f242d"
+      },
+      {
+        "numeroDevis": "109007-CL-25556",
+        "company": {
+          "name": "ECOLE NOTRE DAME - TINTENIAC"
+        },
+        "amount": 352,
+        "createdAt": "2025-11-05T00:00:00.000Z",
+        "id": "0e5c3686-3602-47fc-af59-7b4f29583692"
+      },
+      {
+        "numeroDevis": "108731-CL-25142",
+        "company": {
+          "name": "BAT GRAPHICS"
+        },
+        "amount": 1480,
+        "createdAt": "2025-02-25T00:00:00.000Z",
+        "id": "0f746b99-e904-4d39-8fc6-31adb142a639"
+      },
+      {
+        "numeroDevis": "108862-CL-25371",
+        "company": {
+          "name": "COLLEGE OLYMPE DE GOUGES"
+        },
+        "amount": 1664,
+        "createdAt": "2025-08-27T00:00:00.000Z",
+        "id": "11479767-4797-4817-a81e-3e101c704be8"
+      },
+      {
+        "numeroDevis": "108702-CL-25124",
+        "company": {
+          "name": "ÉCOLE SAINT HILAIRE"
+        },
+        "amount": 790,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "11cce460-38c3-4478-a884-38fd118079a4"
+      },
+      {
+        "numeroDevis": "108920-CL-25450",
+        "company": {
+          "name": "ECOLE ST JEAN BAPTISTE DE LA SALLE - FOUGERES"
+        },
+        "amount": 288,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "12567097-e412-4fcb-af5c-a0c90fa9b0bd"
+      },
+      {
+        "numeroDevis": "108992-CL-25537",
+        "company": {
+          "name": "GRETA CFA DU MAINE"
+        },
+        "amount": 5200,
+        "createdAt": "2025-10-26T00:00:00.000Z",
+        "id": "129348b3-61b3-4fed-b6f1-c4512f705d1c"
+      },
+      {
+        "numeroDevis": "108986-CL-25528",
+        "company": {
+          "name": "EUROPROTECT MUNSTER"
+        },
+        "amount": 1330,
+        "createdAt": "2025-10-21T00:00:00.000Z",
+        "id": "1296e288-abdc-458c-a0bb-7c8df5e7da39"
+      },
+      {
+        "numeroDevis": "109054-CL-25621",
+        "company": {
+          "name": "ÉCOLE DE L'ARGOAT SACRE CŒUR"
+        },
+        "amount": 1040,
+        "createdAt": "2025-12-15T00:00:00.000Z",
+        "id": "12e84bee-34f7-4c21-ad12-e7a69227f2e3"
+      },
+      {
+        "numeroDevis": "108848-CL-25342",
+        "company": {
+          "name": "COLLEGE ANATOLE France"
+        },
+        "amount": 1600,
+        "createdAt": "2025-07-08T00:00:00.000Z",
+        "id": "13018300-ed08-4ff9-8eaa-9997dc2991ca"
+      },
+      {
+        "numeroDevis": "108923-CL-25453",
+        "company": {
+          "name": "ECOLE SAINT JEAN SAINTE THERESE - RENNES"
+        },
+        "amount": 663.6,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "13cdaa28-026b-4cd1-b7f7-8f1a485bc33a"
+      },
+      {
+        "numeroDevis": "108776-CL-25217",
+        "company": {
+          "name": "POSTER EXPO   "
+        },
+        "amount": 967.5,
+        "createdAt": "2025-04-21T00:00:00.000Z",
+        "id": "13d46ff1-2a8f-4bf9-9440-8b40ed4c294a"
+      },
+      {
+        "numeroDevis": "108706-CL-25093",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH LA SALLE"
+        },
+        "amount": 5770,
+        "createdAt": "2025-02-06T00:00:00.000Z",
+        "id": "13e61039-ef4d-43c0-838f-963f978883b6"
+      },
+      {
+        "numeroDevis": "108635-CL-25417",
+        "company": {
+          "name": "COM. COM. PLEYBEN CHATEAULIN PORZAY"
+        },
+        "amount": 2125,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "141dc758-4e2a-4174-a866-3cb639609361"
+      },
+      {
+        "numeroDevis": "108016-CL-25250",
+        "company": {
+          "name": "COLLEGE CHARLES DE GAULLE"
+        },
+        "amount": 250,
+        "createdAt": "2025-05-18T00:00:00.000Z",
+        "id": "149bf45a-9a7b-4b50-b759-dccc57884e46"
+      },
+      {
+        "numeroDevis": "108971-CL-25508",
+        "company": {
+          "name": "ECOLE SAINTE ANNE - LA NOË BLANCHE"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "1512cea4-2076-4ce4-9fc9-a29951bbc58e"
+      },
+      {
+        "numeroDevis": "108692-CL-25067",
+        "company": {
+          "name": "CRISTAL"
+        },
+        "amount": 800,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "1546dc13-73f3-46b3-81a5-bd92cb587d6d"
+      },
+      {
+        "numeroDevis": "108663-CL-25008",
+        "company": {
+          "name": "MAIRIE DE AUMAGNE"
+        },
+        "amount": 690,
+        "createdAt": "2025-01-07T00:00:00.000Z",
+        "id": "1589e4bd-eb52-4261-93ff-55a7bfceaf91"
+      },
+      {
+        "numeroDevis": "108443-CL-25080",
+        "company": {
+          "name": "INSTITUTION SAINT SPIRE"
+        },
+        "amount": 5000,
+        "createdAt": "2025-02-02T00:00:00.000Z",
+        "id": "1678baeb-fe49-4711-84c7-bfcf53279463"
+      },
+      {
+        "numeroDevis": "108916-CL-25446",
+        "company": {
+          "name": "ECOLE SAINT MICHEL - RENNES"
+        },
+        "amount": 748.8,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "16dbafe6-4543-43f4-8b71-a1201c6bb530"
+      },
+      {
+        "numeroDevis": "108755-CL-25181",
+        "company": {
+          "name": "CITE SCOLAIRE EUGENE THOMAS - COLLEGE"
+        },
+        "amount": 2920,
+        "createdAt": "2025-03-20T00:00:00.000Z",
+        "id": "174cc73a-c22b-448d-af5d-f3934ef48f30"
+      },
+      {
+        "numeroDevis": "108317-CL-25084",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE SAINT VINCENT DE PAUL"
+        },
+        "amount": 600,
+        "createdAt": "2025-02-04T00:00:00.000Z",
+        "id": "178c1f31-342b-4647-9556-6eadbae90a8c"
+      },
+      {
+        "numeroDevis": "107433-CL-25260",
+        "company": {
+          "name": "COLLEGE ET LYCEE L'ASSOMPTION"
+        },
+        "amount": 1369.35,
+        "createdAt": "2025-05-21T00:00:00.000Z",
+        "id": "180ad4c5-0a36-4b1b-884a-2458cd1291a2"
+      },
+      {
+        "numeroDevis": "108879-CL-25394",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - CHANTEPIE"
+        },
+        "amount": 892.5,
+        "createdAt": "2025-09-14T00:00:00.000Z",
+        "id": "181f2542-d9df-440a-a7d7-06daa6f02aff"
+      },
+      {
+        "numeroDevis": "108869-CL-25383",
+        "company": {
+          "name": "LYCÉE ET COLL��GE SAINTE THÈRÈSE"
+        },
+        "amount": 2592,
+        "createdAt": "2025-09-08T00:00:00.000Z",
+        "id": "18c3fad2-e3c0-4eca-854f-308b1137ca7c"
+      },
+      {
+        "numeroDevis": "108990-CL-25534",
+        "company": {
+          "name": "ECOLE NOTRE DAME DE LA RANCE"
+        },
+        "amount": 824,
+        "createdAt": "2025-10-26T00:00:00.000Z",
+        "id": "1a02fba4-0042-4bda-9846-160373ab7c9d"
+      },
+      {
+        "numeroDevis": "108766-CL-25203",
+        "company": {
+          "name": "LYCEE LES FONTENELLES"
+        },
+        "amount": 4160,
+        "createdAt": "2025-04-01T00:00:00.000Z",
+        "id": "1a2b1284-134d-482c-a5ad-39e5604816ba"
+      },
+      {
+        "numeroDevis": "107510-CL-25349",
+        "company": {
+          "name": "SENS GOURMET"
+        },
+        "amount": 250,
+        "createdAt": "2025-07-21T00:00:00.000Z",
+        "id": "1ae80b3c-3a18-433d-99c0-1bf3a384d891"
+      },
+      {
+        "numeroDevis": "108563-CL-25009",
+        "company": {
+          "name": "LEA FRANCOISE DOLTO"
+        },
+        "amount": 1650,
+        "createdAt": "2025-01-07T00:00:00.000Z",
+        "id": "1cd02ba2-78f6-47bd-8e0f-d20186e14bbd"
+      },
+      {
+        "numeroDevis": "108756-CL-25182",
+        "company": {
+          "name": "CITE SCOLAIRE EUGENE THOMAS - LYCEE"
+        },
+        "amount": 3104,
+        "createdAt": "2025-03-20T00:00:00.000Z",
+        "id": "1e3dc551-8b2e-49a6-9324-b996a089b8c5"
+      },
+      {
+        "numeroDevis": "108799-CL-25252",
+        "company": {
+          "name": "COLLEGE BUCAILLE CHARCOT"
+        },
+        "amount": 1540.8,
+        "createdAt": "2025-05-19T00:00:00.000Z",
+        "id": "1ef31f72-3d25-4506-b1fa-e7f46957f38a"
+      },
+      {
+        "numeroDevis": "108937-CL-25468",
+        "company": {
+          "name": "ECOLE SAINTE MELAINE - LIEURON"
+        },
+        "amount": 360,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "202bd990-7f35-41c9-b068-442b9d065c56"
+      },
+      {
+        "numeroDevis": "107433-CL-25261",
+        "company": {
+          "name": "COLLEGE ET LYCEE L'ASSOMPTION"
+        },
+        "amount": 910.35,
+        "createdAt": "2025-05-21T00:00:00.000Z",
+        "id": "20c5cd8c-254c-45d8-b237-4c4da07f4071"
+      },
+      {
+        "numeroDevis": "108704-CL-25089",
+        "company": {
+          "name": "ÉCOLE JEANNE D'ARC"
+        },
+        "amount": 800,
+        "createdAt": "2025-02-05T00:00:00.000Z",
+        "id": "213a25da-0fff-4633-b755-8ee69563552b"
+      },
+      {
+        "numeroDevis": "108789-CL-25231",
+        "company": {
+          "name": "SCP DAGARD NOINSKI"
+        },
+        "amount": 290,
+        "createdAt": "2025-04-28T00:00:00.000Z",
+        "id": "214f249f-8898-4798-a972-61b7de00aeeb"
+      },
+      {
+        "numeroDevis": "108699-CL-25081",
+        "company": {
+          "name": "ÉCOLE SAINT JOSEPH"
+        },
+        "amount": 1000,
+        "createdAt": "2025-02-02T00:00:00.000Z",
+        "id": "21580f7b-7f0f-47f1-9bf5-097143ba7659"
+      },
+      {
+        "numeroDevis": "108705-CL-25092",
+        "company": {
+          "name": "EMBAL TOUT GUYANE DIFFUSION"
+        },
+        "amount": 3000,
+        "createdAt": "2025-02-06T00:00:00.000Z",
+        "id": "21682d24-ee51-4339-a48b-55ab81e6686c"
+      },
+      {
+        "numeroDevis": "108748-CL-25170",
+        "company": {
+          "name": "COLLEGE LOU GARLABAN"
+        },
+        "amount": 2160,
+        "createdAt": "2025-03-12T00:00:00.000Z",
+        "id": "21f09cfc-9ba4-412e-a321-6ed9ca21cae6"
+      },
+      {
+        "numeroDevis": "109014-CL-25567",
+        "company": {
+          "name": "ECOLE SAINTE ANTOINE - ANGERS"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-11-16T00:00:00.000Z",
+        "id": "22060916-71ee-4f35-a02d-aa36411ccfe6"
+      },
+      {
+        "numeroDevis": "107528-CL-25192",
+        "company": {
+          "name": "LYCEE JEAN FRANCOIS MILLET"
+        },
+        "amount": 3040,
+        "createdAt": "2025-03-26T00:00:00.000Z",
+        "id": "223f07d0-cf7c-41d9-ba79-1ffa9866c0e1"
+      },
+      {
+        "numeroDevis": "106632-CL-25090",
+        "company": {
+          "name": "COLLEGE PAUL KAPEL"
+        },
+        "amount": 3230,
+        "createdAt": "2025-02-05T00:00:00.000Z",
+        "id": "233f4862-c991-40f1-a1b8-8c244cfc1434"
+      },
+      {
+        "numeroDevis": "108973-CL-25510",
+        "company": {
+          "name": "ECOLE SAINT MARTIN - MEZIERES SUR COUESNON"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-15T00:00:00.000Z",
+        "id": "24162314-e282-4d48-8b0c-f8be6aa7f467"
+      },
+      {
+        "numeroDevis": "108985-CL-25527",
+        "company": {
+          "name": "ECOLE SAINT LOUIS BLAISE PASCAL"
+        },
+        "amount": 1040,
+        "createdAt": "2025-10-21T00:00:00.000Z",
+        "id": "2417e475-988d-4ef9-acf7-dd9382aa0eca"
+      },
+      {
+        "numeroDevis": "109041-CL-25603",
+        "company": {
+          "name": "ECOLE STE ANNE - STE JEANNE D'ARC - STE THERESE"
+        },
+        "amount": 800,
+        "createdAt": "2025-12-04T00:00:00.000Z",
+        "id": "24a78f8e-4362-4821-8ee3-edb5ea8d4a7e"
+      },
+      {
+        "numeroDevis": "104847-CL-25133",
+        "company": {
+          "name": "COLLEGE GEORGES ELISABETH"
+        },
+        "amount": 1592,
+        "createdAt": "2025-02-20T00:00:00.000Z",
+        "id": "24e3112e-6305-48e7-82ac-3d54394c39dd"
+      },
+      {
+        "numeroDevis": "109029-CL-25586",
+        "company": {
+          "name": "ECOLE STE JEANNE D'ARC - ST DOMINEUC"
+        },
+        "amount": 352,
+        "createdAt": "2025-11-25T00:00:00.000Z",
+        "id": "25bc1309-7878-4934-a3a3-4830b063c7cd"
+      },
+      {
+        "numeroDevis": "108981-CL-25516",
+        "company": {
+          "name": "ÉCOLE SAINT JACQUES DE COMPOSTELLE"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-19T00:00:00.000Z",
+        "id": "27982841-005a-40f8-94d3-10ebbfe8719f"
+      },
+      {
+        "numeroDevis": "108718-CL-25116",
+        "company": {
+          "name": "MAIRIE DE MONT-CAUVAIRE"
+        },
+        "amount": 1192,
+        "createdAt": "2025-02-16T00:00:00.000Z",
+        "id": "2804bec3-da9e-45a4-9a2a-b693af5dbba7"
+      },
+      {
+        "numeroDevis": "108943-CL-25476",
+        "company": {
+          "name": "ECOLE SAINT VINCENT DE PAUL - DOMAGNÉ"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "2913e304-08dd-4696-8d2f-07c0767664b6"
+      },
+      {
+        "numeroDevis": "106713-CL-25596",
+        "company": {
+          "name": "DM INDUSTRIE"
+        },
+        "amount": 565,
+        "createdAt": "2025-11-30T00:00:00.000Z",
+        "id": "291494e6-5cee-46bd-8545-2a8bd8b5124d"
+      },
+      {
+        "numeroDevis": "108934-CL-25464",
+        "company": {
+          "name": "ÉCOLE SAINT MICHEL - SAINT MALO"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-08T00:00:00.000Z",
+        "id": "2a2e82a8-7aee-4176-9926-0d172a6a4196"
+      },
+      {
+        "numeroDevis": "108816-CL-25271",
+        "company": {
+          "name": "TSURIMI France"
+        },
+        "amount": 1330,
+        "createdAt": "2025-06-02T00:00:00.000Z",
+        "id": "2aefd387-44e3-4dc0-a5ad-147c94b66290"
+      },
+      {
+        "numeroDevis": "108703-CL-25088",
+        "company": {
+          "name": "LYCEE SAINT GERAUD"
+        },
+        "amount": 1649,
+        "createdAt": "2025-02-05T00:00:00.000Z",
+        "id": "2afe5220-064a-4384-83aa-b337b1ebe057"
+      },
+      {
+        "numeroDevis": "108688-CL-25063",
+        "company": {
+          "name": "CAPITOLE"
+        },
+        "amount": 1400,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "2b308267-87c0-46be-83e4-56ff58921125"
+      },
+      {
+        "numeroDevis": "109006-CL-25555",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - LA BOUEXIERE"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-11-05T00:00:00.000Z",
+        "id": "2b36a158-b7a8-417a-ba08-5d73eb0acab3"
+      },
+      {
+        "numeroDevis": "109033-CL-25591",
+        "company": {
+          "name": "ECOLE NOTRE DAME DU VERGER - CANCALE"
+        },
+        "amount": 288,
+        "createdAt": "2025-11-27T00:00:00.000Z",
+        "id": "2dfa630b-10b3-484d-a783-b30a742bdd42"
+      },
+      {
+        "numeroDevis": "108634-CL-25202",
+        "company": {
+          "name": "MIONS AUTO SERVICES"
+        },
+        "amount": 1050,
+        "createdAt": "2025-04-01T00:00:00.000Z",
+        "id": "2f31ffa1-3994-45cc-a2db-f07d07d96370"
+      },
+      {
+        "numeroDevis": "108895-CL-25411",
+        "company": {
+          "name": "ECOLE SAINTE MARGUERITE MARIE"
+        },
+        "amount": 504,
+        "createdAt": "2025-09-23T00:00:00.000Z",
+        "id": "30185261-1ba3-4898-8c1a-b4ff8cb1018e"
+      },
+      {
+        "numeroDevis": "107518-CL-25376",
+        "company": {
+          "name": "DRAGON ROUGE"
+        },
+        "amount": 490,
+        "createdAt": "2025-09-01T00:00:00.000Z",
+        "id": "3018e996-2f5f-49ec-a07b-efb739ae6327"
+      },
+      {
+        "numeroDevis": "106865-CL-25032",
+        "company": {
+          "name": "EXTERNAT DE LA JAILLE"
+        },
+        "amount": 1323,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "317bb445-194e-4c7d-afd9-3be18a30ffef"
+      },
+      {
+        "numeroDevis": "108800-CL-25244",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE L'ASSOMPTION"
+        },
+        "amount": 5770,
+        "createdAt": "2025-05-06T00:00:00.000Z",
+        "id": "328071fe-3ac5-4e31-a700-072b31f88307"
+      },
+      {
+        "numeroDevis": "108443-CL-25331",
+        "company": {
+          "name": "INSTITUTION SAINT SPIRE"
+        },
+        "amount": 5000,
+        "createdAt": "2025-07-07T00:00:00.000Z",
+        "id": "3295a890-2bf6-415c-a297-c04af6b2d2da"
+      },
+      {
+        "numeroDevis": "108910-CL-25437",
+        "company": {
+          "name": "CHENOIR FRERES"
+        },
+        "amount": 680,
+        "createdAt": "2025-10-01T00:00:00.000Z",
+        "id": "34f39e99-9137-4e0f-8925-76ba4d599ac4"
+      },
+      {
+        "numeroDevis": "108857-CL-25360",
+        "company": {
+          "name": "LES SAVANTS FOUS"
+        },
+        "amount": 690,
+        "createdAt": "2025-07-28T00:00:00.000Z",
+        "id": "35a61b19-5808-45b0-8023-0a3fb2305aa4"
+      },
+      {
+        "numeroDevis": "108979-CL-25514",
+        "company": {
+          "name": "ECOLE SAINT MARTIN - GUICHEN"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-16T00:00:00.000Z",
+        "id": "35b735f6-e3c7-4f4e-a004-82f435d3ac02"
+      },
+      {
+        "numeroDevis": "108093-CL-25351",
+        "company": {
+          "name": "SICASMIR"
+        },
+        "amount": 890,
+        "createdAt": "2025-07-21T00:00:00.000Z",
+        "id": "3701436c-9ae4-4a43-8147-9a39659518df"
+      },
+      {
+        "numeroDevis": "107192-CL-25494",
+        "company": {
+          "name": "ECOLE ST VINCENT"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "370800b8-9e0d-41d2-9403-5ff83f7dcad5"
+      },
+      {
+        "numeroDevis": "108806-CL-25256",
+        "company": {
+          "name": "ECOLE SAINTE MARIE"
+        },
+        "amount": 1080,
+        "createdAt": "2025-05-20T00:00:00.000Z",
+        "id": "37e0a47b-1eee-4452-9f60-e5be053105b0"
+      },
+      {
+        "numeroDevis": "106951-CL-25138",
+        "company": {
+          "name": "CESAEP LES AIRELLES "
+        },
+        "amount": 590,
+        "createdAt": "2025-02-24T00:00:00.000Z",
+        "id": "3804695b-5074-4f2d-ad4c-a5bcd9ab0bba"
+      },
+      {
+        "numeroDevis": "108983-CL-25524",
+        "company": {
+          "name": "ECOLE MARCEL CALLO - RENNES"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-19T00:00:00.000Z",
+        "id": "3812f2b5-4722-4cb0-931c-95c6e5fe9782"
+      },
+      {
+        "numeroDevis": "105718-CL-25112",
+        "company": {
+          "name": "LYCEE LUMINA SOPHIE"
+        },
+        "amount": 945,
+        "createdAt": "2025-02-12T00:00:00.000Z",
+        "id": "38ce5af1-5479-4f4b-b64b-2f5d16aa791d"
+      },
+      {
+        "numeroDevis": "108936-CL-25467",
+        "company": {
+          "name": "ECOLE SAINTE ANNE - BRUC SUR AFF"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "39377c60-fe44-47f7-b7ed-6ac16cf0f815"
+      },
+      {
+        "numeroDevis": "109015-CL-25568",
+        "company": {
+          "name": "ECOLE SAINT CLEMENT - RENNES"
+        },
+        "amount": 352,
+        "createdAt": "2025-11-17T00:00:00.000Z",
+        "id": "39cc13cb-5abe-4aca-b154-28dbc4c9792e"
+      },
+      {
+        "numeroDevis": "108760-CL-25273",
+        "company": {
+          "name": "TSURIMI France"
+        },
+        "amount": 1870,
+        "createdAt": "2025-06-02T00:00:00.000Z",
+        "id": "39fc701b-a73e-429b-b3d1-fcc3662ad585"
+      },
+      {
+        "numeroDevis": "108669-CL-25021",
+        "company": {
+          "name": "ECOLE NOTRE DAME DES FLEURS"
+        },
+        "amount": 952,
+        "createdAt": "2025-01-12T00:00:00.000Z",
+        "id": "3ae6cd35-f6d4-45de-b508-42c7465ac7b2"
+      },
+      {
+        "numeroDevis": "108547-CL-25027",
+        "company": {
+          "name": "MAIRIE DE MORNAC"
+        },
+        "amount": 1992,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "3b3e9e4c-3ace-4604-bc17-814e13b28846"
+      },
+      {
+        "numeroDevis": "108237-CL-25292",
+        "company": {
+          "name": "ELITT"
+        },
+        "amount": 770,
+        "createdAt": "2025-06-15T00:00:00.000Z",
+        "id": "3b76b3a9-dabb-41fb-abd1-24351fac9d28"
+      },
+      {
+        "numeroDevis": "109057-CL-25625",
+        "company": {
+          "name": "ECOLE JEAN DE LA MENNAIS"
+        },
+        "amount": 720,
+        "createdAt": "2025-12-16T00:00:00.000Z",
+        "id": "3b9d003c-509a-47b8-b9b9-ad764d790d28"
+      },
+      {
+        "numeroDevis": "108959-CL-25496",
+        "company": {
+          "name": "ECOLE NOTRE DAME - LA SÉGUINIÈRE"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "3c0aa7da-bf79-44ad-b3b3-053df5b71165"
+      },
+      {
+        "numeroDevis": "108918-CL-25448",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - ST AUBIN DES LANDES"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "3c96b106-2183-4330-90e9-3af7c5496077"
+      },
+      {
+        "numeroDevis": "108915-CL-25481",
+        "company": {
+          "name": "ECOLE SAINT MICHEL - MONTREUIL SUR ILLE"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "3e36988d-5e55-4b1d-96a0-b5a5e9245dc0"
+      },
+      {
+        "numeroDevis": "108897-CL-25414",
+        "company": {
+          "name": "ECOLE SAINT DOMINIQUE FABIO - TREMBLAY"
+        },
+        "amount": 360,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "3f408db9-672d-4617-9b34-706ed3ac210f"
+      },
+      {
+        "numeroDevis": "108921-CL-25451",
+        "company": {
+          "name": "ECOLE NOTRE DAME - MONTFORT"
+        },
+        "amount": 352,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "3f52ea56-c50a-4a78-a77d-4e45062634a9"
+      },
+      {
+        "numeroDevis": "109011-CL-25562",
+        "company": {
+          "name": "AUDITEX ANTILLES GUYANE"
+        },
+        "amount": 1400,
+        "createdAt": "2025-11-12T00:00:00.000Z",
+        "id": "3fcec374-22da-4cc7-9188-7fae00364c35"
+      },
+      {
+        "numeroDevis": "108875-CL-25390",
+        "company": {
+          "name": "COLLEGE LA TUILERIE"
+        },
+        "amount": 1472,
+        "createdAt": "2025-09-10T00:00:00.000Z",
+        "id": "3feb8419-33c0-4e23-bd3e-adfda9e3412f"
+      },
+      {
+        "numeroDevis": "109000-CL-25546",
+        "company": {
+          "name": "EUREAU-SOURCES - MONTEUX"
+        },
+        "amount": 950,
+        "createdAt": "2025-11-02T00:00:00.000Z",
+        "id": "407f1198-ec82-49c8-b604-faae4b2492f0"
+      },
+      {
+        "numeroDevis": "108870-CL-25384",
+        "company": {
+          "name": "COLLÈGE SAINT PIERRE"
+        },
+        "amount": 2016,
+        "createdAt": "2025-09-08T00:00:00.000Z",
+        "id": "42645e8e-ab19-47ae-b619-4082b435aa01"
+      },
+      {
+        "numeroDevis": "108286-CL-25353",
+        "company": {
+          "name": "CRECHE ALICE PETRINE"
+        },
+        "amount": 890,
+        "createdAt": "2025-07-21T00:00:00.000Z",
+        "id": "426512d5-ed0f-4b00-8b96-110ebe7bb5f9"
+      },
+      {
+        "numeroDevis": "108685-CL-25060",
+        "company": {
+          "name": "LE LIDO"
+        },
+        "amount": 1000,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "42b1023a-ae9a-4d6d-b47e-2c9290afc613"
+      },
+      {
+        "numeroDevis": "108970-CL-25507",
+        "company": {
+          "name": "ECOLE NOTRE DAME - DAUMERAY"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "44fda558-2ff8-41ac-9835-3e7886d07a9d"
+      },
+      {
+        "numeroDevis": "108808-CL-25274",
+        "company": {
+          "name": "BIRDS CONSEIL"
+        },
+        "amount": 300,
+        "createdAt": "2025-06-02T00:00:00.000Z",
+        "id": "450ae008-0bd3-439f-965b-742809fb4783"
+      },
+      {
+        "numeroDevis": "108578-CL-25512",
+        "company": {
+          "name": "SPORTING CLUB DE BIEVRES"
+        },
+        "amount": 450,
+        "createdAt": "2025-10-15T00:00:00.000Z",
+        "id": "454b4054-1c5b-416c-b577-903516aee482"
+      },
+      {
+        "numeroDevis": "108866-CL-25380",
+        "company": {
+          "name": "ECOLE NOTRE DAME - CHAPELLE DES FOUGERETZ"
+        },
+        "amount": 800,
+        "createdAt": "2025-09-04T00:00:00.000Z",
+        "id": "45802bff-248f-482c-9d7a-11005eecdf08"
+      },
+      {
+        "numeroDevis": "108675-CL-25050",
+        "company": {
+          "name": "COLLEGE PABLO NERUDA"
+        },
+        "amount": 1192,
+        "createdAt": "2025-01-22T00:00:00.000Z",
+        "id": "45e494a6-c399-427d-a3ac-3ed934ea75ee"
+      },
+      {
+        "numeroDevis": "108874-CL-25388",
+        "company": {
+          "name": "ÉCOLE SAINTE MARIE - GÉVEZÉ"
+        },
+        "amount": 1040,
+        "createdAt": "2025-09-08T00:00:00.000Z",
+        "id": "46d84eca-784a-4335-83ff-8c8413b258ee"
+      },
+      {
+        "numeroDevis": "108932-CL-25462",
+        "company": {
+          "name": "ECOLE SAINT AMAND - NOYAL CHATILLON"
+        },
+        "amount": 663.6,
+        "createdAt": "2025-10-08T00:00:00.000Z",
+        "id": "46e3b6e2-43a3-45f1-b089-3fe6b7a54bbb"
+      },
+      {
+        "numeroDevis": "105630-CL-25117",
+        "company": {
+          "name": "COLLEGE SAINT LUCE"
+        },
+        "amount": 1592,
+        "createdAt": "2025-02-16T00:00:00.000Z",
+        "id": "4703208b-cb45-4a75-b3b2-95086dff415a"
+      },
+      {
+        "numeroDevis": "108777-CL-25420",
+        "company": {
+          "name": "LYCEE PROFESSIONNEL LE CHATELIER"
+        },
+        "amount": 1440,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "477c37a8-3d4e-4c32-be72-b4487df2f7cc"
+      },
+      {
+        "numeroDevis": "106790-CL-25268",
+        "company": {
+          "name": "LYCEE PIERRE MENDES France"
+        },
+        "amount": 1800,
+        "createdAt": "2025-05-26T00:00:00.000Z",
+        "id": "486f4a7f-5642-40ec-9b70-4ba6ed7d84c6"
+      },
+      {
+        "numeroDevis": "106760-CL-25262",
+        "company": {
+          "name": "SOCIETE ARANTEL"
+        },
+        "amount": 950,
+        "createdAt": "2025-05-21T00:00:00.000Z",
+        "id": "4b00078b-9ccd-44e6-8f06-cd2254e4fdb8"
+      },
+      {
+        "numeroDevis": "108547-CL-25027B",
+        "company": {
+          "name": "MAIRIE DE MORNAC"
+        },
+        "amount": 600,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "4b620e58-bf3d-4748-9213-018a05e29370"
+      },
+      {
+        "numeroDevis": "108940-CL-25472",
+        "company": {
+          "name": "ECOLE SAINT MICHEL - BEDEE"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "4c9ca2bd-e476-4b04-8405-f99085119b6a"
+      },
+      {
+        "numeroDevis": "108494-CL-25151",
+        "company": {
+          "name": "LABORATOIRE POLIDIS"
+        },
+        "amount": 450,
+        "createdAt": "2025-03-02T00:00:00.000Z",
+        "id": "4dbd2ea0-c8aa-4864-a99e-5ebc81d0145c"
+      },
+      {
+        "numeroDevis": "108798-CL-25242",
+        "company": {
+          "name": "COLLEGE MAURICE DE BROGLIE"
+        },
+        "amount": 792,
+        "createdAt": "2025-05-05T00:00:00.000Z",
+        "id": "4e210fa7-8aa4-4a90-a1e2-c5eb2c095c80"
+      },
+      {
+        "numeroDevis": "105610-CL-25550",
+        "company": {
+          "name": "COLLEGE HUBERT NERO"
+        },
+        "amount": 1640,
+        "createdAt": "2025-11-02T00:00:00.000Z",
+        "id": "4eeb6bb9-7536-4c88-a61d-0922a609aca0"
+      },
+      {
+        "numeroDevis": "108880-CL-25395",
+        "company": {
+          "name": "ARBORE'TOM"
+        },
+        "amount": 890,
+        "createdAt": "2025-09-15T00:00:00.000Z",
+        "id": "4f356030-13d4-424f-a33c-601bb697846d"
+      },
+      {
+        "numeroDevis": "108219-CL-25569",
+        "company": {
+          "name": "CLAI SA"
+        },
+        "amount": 390,
+        "createdAt": "2025-11-17T00:00:00.000Z",
+        "id": "4f3da7cc-e2c6-4df2-8300-ba0b253f01fe"
+      },
+      {
+        "numeroDevis": "108791-CL-25233",
+        "company": {
+          "name": "COLLEGE JACQUES BREL"
+        },
+        "amount": 1192,
+        "createdAt": "2025-04-28T00:00:00.000Z",
+        "id": "4faffa0d-aac5-4e9b-943a-3f51e2905680"
+      },
+      {
+        "numeroDevis": "106775-CL-25352",
+        "company": {
+          "name": "MAIRIE DE BOISSY-L'AILLERIE"
+        },
+        "amount": 290,
+        "createdAt": "2025-07-21T00:00:00.000Z",
+        "id": "50ea918d-9198-413e-9b98-9d4222826364"
+      },
+      {
+        "numeroDevis": "109003-CL-25551",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - GUIGNEN"
+        },
+        "amount": 416,
+        "createdAt": "2025-11-02T00:00:00.000Z",
+        "id": "5243802d-b9f7-45b7-aba1-546813140e39"
+      },
+      {
+        "numeroDevis": "108972-CL-25509",
+        "company": {
+          "name": "ECOLE SAINTE ANNE - LA DOMINELAIS"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "52993438-46ce-4b19-975f-95dae89b32c6"
+      },
+      {
+        "numeroDevis": "106014-CL-25248",
+        "company": {
+          "name": "MAIRIE DU PRECHEUR"
+        },
+        "amount": 1992,
+        "createdAt": "2025-05-18T00:00:00.000Z",
+        "id": "52b9d328-9d50-4a25-afa7-0cc85e9cb667"
+      },
+      {
+        "numeroDevis": "108686-CL-25061",
+        "company": {
+          "name": "GALAXY"
+        },
+        "amount": 1000,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "54075adc-4702-4a7b-bcde-3d9a287b45a7"
+      },
+      {
+        "numeroDevis": "108295-CL-25421",
+        "company": {
+          "name": "DR . THIERRY SEVERINE"
+        },
+        "amount": 190,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "5414a1b3-f93f-483a-b88b-5e745e5ceaf4"
+      },
+      {
+        "numeroDevis": "108722-CL-25127",
+        "company": {
+          "name": "EHPAD FONFREDE"
+        },
+        "amount": 1992,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "549d59dc-a78e-4078-bd70-d1c70be3466c"
+      },
+      {
+        "numeroDevis": "108173-CL-25338",
+        "company": {
+          "name": "MAIRIE DE SERVIGNY LES RAVILLE"
+        },
+        "amount": 350,
+        "createdAt": "2025-07-08T00:00:00.000Z",
+        "id": "54b7da23-9755-4908-a2f1-3c18b601e7e2"
+      },
+      {
+        "numeroDevis": "108961-CL-25498",
+        "company": {
+          "name": "ECOLE SAINTE THÉRÈSE - ANGERS"
+        },
+        "amount": 748.8,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "553826f4-c968-45a7-8b23-788b1b2f5838"
+      },
+      {
+        "numeroDevis": "106794-CL-25612",
+        "company": {
+          "name": "ECOLE COLLEGE ST SEURIN"
+        },
+        "amount": 950,
+        "createdAt": "2025-12-09T00:00:00.000Z",
+        "id": "55466c9f-2391-41fc-8a13-20bf899ac468"
+      },
+      {
+        "numeroDevis": "108830-CL-25302",
+        "company": {
+          "name": "SAS COUET MICHEL"
+        },
+        "amount": 890,
+        "createdAt": "2025-06-22T00:00:00.000Z",
+        "id": "55cde90e-3f7d-4e1c-a60d-02976192c45f"
+      },
+      {
+        "numeroDevis": "108999-CL-25545",
+        "company": {
+          "name": "EUREAU-SOURCES - HERMES"
+        },
+        "amount": 950,
+        "createdAt": "2025-11-02T00:00:00.000Z",
+        "id": "5772b4c2-344f-4acc-8b7d-1b8bf14e3b77"
+      },
+      {
+        "numeroDevis": "108671-CL-25025",
+        "company": {
+          "name": "LE BAR A TONG"
+        },
+        "amount": 1784,
+        "createdAt": "2025-01-13T00:00:00.000Z",
+        "id": "577a4802-7efb-4462-8d70-c98819cd6ecb"
+      },
+      {
+        "numeroDevis": "108838-CL-25321",
+        "company": {
+          "name": "COLLEGE ANDRE CHENIER"
+        },
+        "amount": 1984,
+        "createdAt": "2025-07-01T00:00:00.000Z",
+        "id": "57ac2a0e-e2f5-4e24-8234-4449dd4f2319"
+      },
+      {
+        "numeroDevis": "108963-CL-25500",
+        "company": {
+          "name": "ÉCOLE SAINT PIERRE - CHEMILLÉ EN ANJOU"
+        },
+        "amount": 748.8,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "588bc5cf-2a69-47b6-aa48-b0445184faf4"
+      },
+      {
+        "numeroDevis": "107054-CL-25359",
+        "company": {
+          "name": "MAIRIE DE SAINT CHELY D'AUBRAC"
+        },
+        "amount": 150,
+        "createdAt": "2025-07-28T00:00:00.000Z",
+        "id": "58fa8c1f-6784-443c-8dde-bc85b7266948"
+      },
+      {
+        "numeroDevis": "108679-CL-25047",
+        "company": {
+          "name": "LYCÉE ACAJOU 2"
+        },
+        "amount": 3590,
+        "createdAt": "2025-01-21T00:00:00.000Z",
+        "id": "594c80d9-baec-4fe9-ad13-58cdb46e47b1"
+      },
+      {
+        "numeroDevis": "108680-CL-25051",
+        "company": {
+          "name": "COLLEGE OMEBA TOBO"
+        },
+        "amount": 2930,
+        "createdAt": "2025-01-23T00:00:00.000Z",
+        "id": "599d737a-5802-4751-b649-0ba5afc58a52"
+      },
+      {
+        "numeroDevis": "108810-CL-25263",
+        "company": {
+          "name": "ECOLE SAINTE GENEVIEVE"
+        },
+        "amount": 849.15,
+        "createdAt": "2025-05-22T00:00:00.000Z",
+        "id": "5ba45553-4bb7-4d33-acc3-a94c30f5b253"
+      },
+      {
+        "numeroDevis": "104250-CL-25465",
+        "company": {
+          "name": "LPO MELKIOR GARRE"
+        },
+        "amount": 1745,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "5c711892-ac12-460f-b75b-058386ca8a7f"
+      },
+      {
+        "numeroDevis": "107452-CL-25379",
+        "company": {
+          "name": "ECOLE NOTRE DAME - ST GREGOIRE"
+        },
+        "amount": 840,
+        "createdAt": "2025-09-04T00:00:00.000Z",
+        "id": "5d0cf154-1736-4878-946c-34cd0ee281e1"
+      },
+      {
+        "numeroDevis": "107295-CL-25095",
+        "company": {
+          "name": "MAIRIE DE BOUSSOIS"
+        },
+        "amount": 1800,
+        "createdAt": "2025-02-09T00:00:00.000Z",
+        "id": "5d4c630a-298c-4674-8a2a-631b0d70c49d"
+      },
+      {
+        "numeroDevis": "108670-CL-25022",
+        "company": {
+          "name": "IME AMBROISE CROIZAT"
+        },
+        "amount": 2850,
+        "createdAt": "2025-01-12T00:00:00.000Z",
+        "id": "5de74353-c6c5-436d-9eb4-cd647f7b4144"
+      },
+      {
+        "numeroDevis": "106413-CL-25024",
+        "company": {
+          "name": "COLLEGE REEBERG NERON"
+        },
+        "amount": 2835,
+        "createdAt": "2025-01-13T00:00:00.000Z",
+        "id": "5e9dd5f1-7138-4807-a6a5-ad234336c247"
+      },
+      {
+        "numeroDevis": "108914-CL-25444",
+        "company": {
+          "name": "ECOLE NOTRE DAME - MONTREUIL LE GAST"
+        },
+        "amount": 224,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "5f7aeced-ddab-4904-8bd8-7c7cf29ddab7"
+      },
+      {
+        "numeroDevis": "108751-CL-25174",
+        "company": {
+          "name": "VIAN N PEYI"
+        },
+        "amount": 1200,
+        "createdAt": "2025-03-16T00:00:00.000Z",
+        "id": "615ec104-cc33-4cd5-a568-f884127a1f89"
+      },
+      {
+        "numeroDevis": "108956-CL-25492",
+        "company": {
+          "name": "ECOLE SAINT CHARLES - ST LEGER SS CHOLET"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "62c07ae2-d13b-4a83-b1f0-b370cb5de67a"
+      },
+      {
+        "numeroDevis": "108476-CL-25206",
+        "company": {
+          "name": "GRETA DU VAR - LYCEE DES METIERS PAUL LANGEVIN"
+        },
+        "amount": 430,
+        "createdAt": "2025-04-06T00:00:00.000Z",
+        "id": "634a0872-0ce9-40e8-ada6-8b693916e2d6"
+      },
+      {
+        "numeroDevis": "108898-CL-25415",
+        "company": {
+          "name": "ECOLE SAINTE ANNE - ANTRAIN"
+        },
+        "amount": 504,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "63889c43-b140-432e-8cb5-f293a25a7af6"
+      },
+      {
+        "numeroDevis": "109050-CL-25617",
+        "company": {
+          "name": "ÉCOLE SAINTE ANNE - BAZOUGES LA PÉROUSE"
+        },
+        "amount": 720,
+        "createdAt": "2025-12-10T00:00:00.000Z",
+        "id": "63acfec0-45d8-4e58-a8e6-a68d87fc196e"
+      },
+      {
+        "numeroDevis": "107380-CL-25046",
+        "company": {
+          "name": "EHPAD BELLE VISTE"
+        },
+        "amount": 2032,
+        "createdAt": "2025-01-21T00:00:00.000Z",
+        "id": "63e15507-e104-4aa4-8ea9-46b8eacdaf6c"
+      },
+      {
+        "numeroDevis": "108781-CL-25222",
+        "company": {
+          "name": "MAIRIE DE GROIX"
+        },
+        "amount": 3485,
+        "createdAt": "2025-04-23T00:00:00.000Z",
+        "id": "63ebe988-f130-4c74-8e31-7c9b5c05a02c"
+      },
+      {
+        "numeroDevis": "108752-CL-25193",
+        "company": {
+          "name": "COLLEGE NOËL DU FAIL"
+        },
+        "amount": 1500,
+        "createdAt": "2025-03-26T00:00:00.000Z",
+        "id": "647ae4c4-9ea5-496d-9a1b-07866618954d"
+      },
+      {
+        "numeroDevis": "108650-CL-25003",
+        "company": {
+          "name": "LYCEE FELIX ÉBOUÉ"
+        },
+        "amount": 4950,
+        "createdAt": "2025-01-05T00:00:00.000Z",
+        "id": "67906432-b5c4-400e-a678-61f2c9e48ba1"
+      },
+      {
+        "numeroDevis": "106702-CL-25404",
+        "company": {
+          "name": "LYCEE PRIVÉ LES MANDAILLES"
+        },
+        "amount": 1300,
+        "createdAt": "2025-09-18T00:00:00.000Z",
+        "id": "68008359-c854-4cc7-a8bc-f5b0736311b9"
+      },
+      {
+        "numeroDevis": "108962-CL-25499",
+        "company": {
+          "name": "ECOLE NOTRE DAME DU BRETONNAIS - CHOLET"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "688a8a33-4214-4b5e-b441-086bad33fb5b"
+      },
+      {
+        "numeroDevis": "107054-CL-25358",
+        "company": {
+          "name": "MAIRIE DE SAINT CHELY D'AUBRAC"
+        },
+        "amount": 490,
+        "createdAt": "2025-07-28T00:00:00.000Z",
+        "id": "690cd7a5-aa9b-4609-89e1-813bcc8eabbf"
+      },
+      {
+        "numeroDevis": "108794-CL-25238",
+        "company": {
+          "name": "ECOLE SAINTE JEANNE D'ARC"
+        },
+        "amount": 1444.5,
+        "createdAt": "2025-05-04T00:00:00.000Z",
+        "id": "6942d587-09b6-4a8b-9049-fde754ae42f6"
+      },
+      {
+        "numeroDevis": "108924-CL-25454",
+        "company": {
+          "name": "ECOLE SAINTE THERESE - CHEVAIGNÉ"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "6ba1b127-86f6-4542-b961-a361dceadc5a"
+      },
+      {
+        "numeroDevis": "108931-CL-25461",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - SAINT COULOMB"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-08T00:00:00.000Z",
+        "id": "6c310a74-5814-49dc-8b34-5402c033bd25"
+      },
+      {
+        "numeroDevis": "108676-CL-25049",
+        "company": {
+          "name": "COLLEGE CESAR FRANCK"
+        },
+        "amount": 1192,
+        "createdAt": "2025-01-22T00:00:00.000Z",
+        "id": "6c3147eb-7c51-4243-9ed6-04c9bf3e49ed"
+      },
+      {
+        "numeroDevis": "107962-CL-25297",
+        "company": {
+          "name": "GARAGE CHIFFOLEAU"
+        },
+        "amount": 500,
+        "createdAt": "2025-06-15T00:00:00.000Z",
+        "id": "6c79a7ba-57d4-411f-b6d3-d978f70194cc"
+      },
+      {
+        "numeroDevis": "108665-CL-25015",
+        "company": {
+          "name": "COLLEGE AUXENCE CONTOUT"
+        },
+        "amount": 3490,
+        "createdAt": "2025-01-08T00:00:00.000Z",
+        "id": "6c8090ce-e4df-4b65-8184-61e2be33834b"
+      },
+      {
+        "numeroDevis": "105877-CL-25345",
+        "company": {
+          "name": "MAIRIE DE GUEUTTEVILLE LES GRES"
+        },
+        "amount": 290,
+        "createdAt": "2025-07-14T00:00:00.000Z",
+        "id": "6d16e2fa-6ba3-4e29-82d8-bb56a6c881a2"
+      },
+      {
+        "numeroDevis": "108907-CL-25433",
+        "company": {
+          "name": "ECOLE NOTRE DAME - BECHEREL"
+        },
+        "amount": 280,
+        "createdAt": "2025-09-29T00:00:00.000Z",
+        "id": "6d9b004a-5632-4eea-a0a3-eceaa2470912"
+      },
+      {
+        "numeroDevis": "108805-CL-25253",
+        "company": {
+          "name": "COLLEGE SADI CARNOT"
+        },
+        "amount": 1580,
+        "createdAt": "2025-05-19T00:00:00.000Z",
+        "id": "6dd51bb7-2c25-41de-80c6-f54d8e4c0e8e"
+      },
+      {
+        "numeroDevis": "109051-CL-25618",
+        "company": {
+          "name": "INSTITUTION SAINT HILDEVERT"
+        },
+        "amount": 1595,
+        "createdAt": "2025-12-14T00:00:00.000Z",
+        "id": "70573948-fbac-4ba1-a391-d6dd9aff98f4"
+      },
+      {
+        "numeroDevis": "109063-CL-25630",
+        "company": {
+          "name": "COLLEGE LYCEE NOTRE DAME DE CAMPOSTAL"
+        },
+        "amount": 576,
+        "createdAt": "2025-12-22T00:00:00.000Z",
+        "id": "718ab280-cb83-48c4-beae-63a16f754d9f"
+      },
+      {
+        "numeroDevis": "108947-CL-25480",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - CINTRÉ"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "72012265-fc0c-475e-a9c4-6a65df5b0faf"
+      },
+      {
+        "numeroDevis": "108834-CL-25316",
+        "company": {
+          "name": "EXTERNAT NOTRE DAME DE LA DELIVRANDE DE REDOUTE"
+        },
+        "amount": 792,
+        "createdAt": "2025-06-30T00:00:00.000Z",
+        "id": "72c1cba8-d58a-4ec2-8904-81d997914047"
+      },
+      {
+        "numeroDevis": "108595-CL-25156",
+        "company": {
+          "name": "RÉSIDENCE LES TILLEULS"
+        },
+        "amount": 2001.6,
+        "createdAt": "2025-03-05T00:00:00.000Z",
+        "id": "72e1752b-51f1-4fec-97ae-60b912c529d7"
+      },
+      {
+        "numeroDevis": "108668-CL-25020",
+        "company": {
+          "name": "COLLEGE SAINT AUBIN"
+        },
+        "amount": 952,
+        "createdAt": "2025-01-12T00:00:00.000Z",
+        "id": "73107761-455c-4f95-b635-469617dafa68"
+      },
+      {
+        "numeroDevis": "108770-CL-25210",
+        "company": {
+          "name": "CITÉ SCOLAIRE MAURIE RAVEL"
+        },
+        "amount": 2912,
+        "createdAt": "2025-04-08T00:00:00.000Z",
+        "id": "7317e858-f165-4895-84e5-1fde5a2c2027"
+      },
+      {
+        "numeroDevis": "108865-CL-25377",
+        "company": {
+          "name": "MAIRIE DE AMFREVILLE"
+        },
+        "amount": 1490,
+        "createdAt": "2025-09-03T00:00:00.000Z",
+        "id": "732751f7-c9f5-48f9-9f23-1550be38b86a"
+      },
+      {
+        "numeroDevis": "109005-CL-25553",
+        "company": {
+          "name": "COLLEGE JEAN ROSTAND"
+        },
+        "amount": 2088,
+        "createdAt": "2025-11-04T00:00:00.000Z",
+        "id": "734656e8-ec8f-454d-8ac5-feb6146a5354"
+      },
+      {
+        "numeroDevis": "108873-CL-25387",
+        "company": {
+          "name": "COLLEGE GEORGES BRASSENS"
+        },
+        "amount": 1192,
+        "createdAt": "2025-09-08T00:00:00.000Z",
+        "id": "750704f8-ae3f-420b-b1d2-cd9b1093645b"
+      },
+      {
+        "numeroDevis": "108299-CL-25035",
+        "company": {
+          "name": "BROIS DIFFUSION EXPRESS SAS"
+        },
+        "amount": 590,
+        "createdAt": "2025-01-19T00:00:00.000Z",
+        "id": "77a5d87a-fe1b-411e-84a9-50c45ac58859"
+      },
+      {
+        "numeroDevis": "107077-CL-25469",
+        "company": {
+          "name": "ECOLE ST JEAN BAPTISTE DE LA SALLE - MARTIGNE FERCHAUD"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "784351d6-d907-4f42-b94e-11a94e8a81ac"
+      },
+      {
+        "numeroDevis": "108693-CL-25068",
+        "company": {
+          "name": "CINÉMAZARIN"
+        },
+        "amount": 1000,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "7a2b9194-4d97-4357-9bb7-62299826c8f5"
+      },
+      {
+        "numeroDevis": "107851-CL-25429",
+        "company": {
+          "name": "COLLEGE MARIE DE Luxembourg"
+        },
+        "amount": 1600,
+        "createdAt": "2025-09-29T00:00:00.000Z",
+        "id": "7a75c643-7db8-4caf-9bd4-0f7d95c4024a"
+      },
+      {
+        "numeroDevis": "108607-CL-25308",
+        "company": {
+          "name": "ÉCOLE SAINTE ANNE SAINT JOSPEH"
+        },
+        "amount": 500,
+        "createdAt": "2025-06-23T00:00:00.000Z",
+        "id": "7aa710a4-6b6a-4be3-927e-d0115b179096"
+      },
+      {
+        "numeroDevis": "108949-CL-25484",
+        "company": {
+          "name": "ECOLE NOTRE DAME DE LOURDES"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-13T00:00:00.000Z",
+        "id": "7ae65ac2-cc0f-4b84-9411-8d44b78b03a8"
+      },
+      {
+        "numeroDevis": "109052-CL-25619",
+        "company": {
+          "name": "INSTITUT FOURNIER"
+        },
+        "amount": 4600,
+        "createdAt": "2025-12-14T00:00:00.000Z",
+        "id": "7c4cee34-1d99-4d40-b288-a6fe233616db"
+      },
+      {
+        "numeroDevis": "108735-CL-25150",
+        "company": {
+          "name": "MAIRIE DE THEIX NOYALO"
+        },
+        "amount": 7900,
+        "createdAt": "2025-03-02T00:00:00.000Z",
+        "id": "7d31841f-bf5d-48fb-8276-012839f7699c"
+      },
+      {
+        "numeroDevis": "109020-CL-25574",
+        "company": {
+          "name": "ETS LEGER"
+        },
+        "amount": 950,
+        "createdAt": "2025-11-18T00:00:00.000Z",
+        "id": "7d3552ce-c3e7-46d7-a806-f7640fa193e8"
+      },
+      {
+        "numeroDevis": "108929-CL-25532",
+        "company": {
+          "name": "ECOLE ET COLLEGE SAINT DIDIER"
+        },
+        "amount": 2968.2,
+        "createdAt": "2025-10-22T00:00:00.000Z",
+        "id": "7d74374c-96f2-4088-86b1-804eb73e9c59"
+      },
+      {
+        "numeroDevis": "107250-CL-25475",
+        "company": {
+          "name": "ECOLE SACRÉ CŒUR - SAINT GILLES"
+        },
+        "amount": 748.8,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "7e8e7032-7622-4eba-ba48-3a308e20ae6f"
+      },
+      {
+        "numeroDevis": "108724-CL-25129",
+        "company": {
+          "name": "EHPAD DU CANTON DE SAINT CYPRIEN"
+        },
+        "amount": 1992,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "7ec271ca-d40e-4045-ba96-3313d5f79903"
+      },
+      {
+        "numeroDevis": "106122-CL-25010",
+        "company": {
+          "name": "LYCEE GASTON MONNERVILLE"
+        },
+        "amount": 1500,
+        "createdAt": "2025-01-07T00:00:00.000Z",
+        "id": "7ee421c3-adca-400d-82d1-cf6815a9f400"
+      },
+      {
+        "numeroDevis": "108899-CL-25416",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - ST OUEN LA ROUËRIE"
+        },
+        "amount": 360,
+        "createdAt": "2025-09-25T00:00:00.000Z",
+        "id": "7f683598-c96e-433d-ad72-1c3c4f3addcb"
+      },
+      {
+        "numeroDevis": "106620-CL-25474",
+        "company": {
+          "name": "ECOLE DE LA PROVIDENCE - PIPRIAC"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "80cd8d98-67c4-44fc-912a-043ea8b3080b"
+      },
+      {
+        "numeroDevis": "107210-CL-25322",
+        "company": {
+          "name": "COLBEAUX SAS"
+        },
+        "amount": 2240,
+        "createdAt": "2025-07-02T00:00:00.000Z",
+        "id": "824d3b7a-e0d2-4d5e-8b07-6785027281ec"
+      },
+      {
+        "numeroDevis": "107846-CL-25148",
+        "company": {
+          "name": "COLLEGE JACQUES BREL"
+        },
+        "amount": 1904,
+        "createdAt": "2025-03-02T00:00:00.000Z",
+        "id": "833383d8-f864-4ca0-95fc-ee2d4e6d728c"
+      },
+      {
+        "numeroDevis": "108736-CL-25152",
+        "company": {
+          "name": "ECOLE NOTRE DAME DU SACRE CŒUR"
+        },
+        "amount": 885.6,
+        "createdAt": "2025-03-03T00:00:00.000Z",
+        "id": "83358b18-3635-4ede-8c0c-0639c17811fa"
+      },
+      {
+        "numeroDevis": "108750-CL-25173",
+        "company": {
+          "name": "SCEBOG"
+        },
+        "amount": 880,
+        "createdAt": "2025-03-16T00:00:00.000Z",
+        "id": "83924f29-b1aa-4993-8f48-a6e5b647cc15"
+      },
+      {
+        "numeroDevis": "108667-CL-25019",
+        "company": {
+          "name": "MAIRIE DE LAGORCE"
+        },
+        "amount": 1752,
+        "createdAt": "2025-01-12T00:00:00.000Z",
+        "id": "84f69cf0-02a7-4c4e-a0a1-30ffcf438f87"
+      },
+      {
+        "numeroDevis": "108733-CL-25144",
+        "company": {
+          "name": "MAIRIE DE ELVEN"
+        },
+        "amount": 7500,
+        "createdAt": "2025-02-26T00:00:00.000Z",
+        "id": "854a4e9e-d19c-4ce1-91aa-4ce17c87a603"
+      },
+      {
+        "numeroDevis": "108836-CL-25319",
+        "company": {
+          "name": "COLLEGE LONGCHAMP"
+        },
+        "amount": 2480,
+        "createdAt": "2025-07-01T00:00:00.000Z",
+        "id": "86712e8c-d09b-4b59-99d0-6be7cbf256f9"
+      },
+      {
+        "numeroDevis": "108602-CL-25564",
+        "company": {
+          "name": "LA MANUFACTURE DES TAPIS DE COGOLIN - SITE COGOLIN"
+        },
+        "amount": 190,
+        "createdAt": "2025-11-13T00:00:00.000Z",
+        "id": "86b81a6f-d0a0-4720-985c-74f0b452efc3"
+      },
+      {
+        "numeroDevis": "108788-CL-25230",
+        "company": {
+          "name": "COLLEGE ALEXANDRE DUMAS"
+        },
+        "amount": 1800,
+        "createdAt": "2025-04-27T00:00:00.000Z",
+        "id": "8805551a-836c-4959-b9b9-b7b656a5ab3b"
+      },
+      {
+        "numeroDevis": "108842-CL-25327",
+        "company": {
+          "name": "CAMPING LE PUMA"
+        },
+        "amount": 890,
+        "createdAt": "2025-07-06T00:00:00.000Z",
+        "id": "883d1863-c68c-43e0-97f5-098a1cc26a6d"
+      },
+      {
+        "numeroDevis": "108893-CL-25409",
+        "company": {
+          "name": "COLLEGE SAINT ROBERT"
+        },
+        "amount": 1656,
+        "createdAt": "2025-09-23T00:00:00.000Z",
+        "id": "890d006d-6e5c-4a96-9543-9ece1aa7721b"
+      },
+      {
+        "numeroDevis": "104550-CL-25548",
+        "company": {
+          "name": "COLLEGE AURELIE LAMBOURDE "
+        },
+        "amount": 1200,
+        "createdAt": "2025-11-02T00:00:00.000Z",
+        "id": "89a21a4d-b720-48cb-be85-b8a6d07bc182"
+      },
+      {
+        "numeroDevis": "107889-CL-25530",
+        "company": {
+          "name": "TOLILA+GILLILAND"
+        },
+        "amount": 936,
+        "createdAt": "2025-10-21T00:00:00.000Z",
+        "id": "8a7a3db3-bf04-4811-9eec-2a5071d773e8"
+      },
+      {
+        "numeroDevis": "108772-CL-25212",
+        "company": {
+          "name": "COLLEGE PIERRE PERRET"
+        },
+        "amount": 1612.5,
+        "createdAt": "2025-04-08T00:00:00.000Z",
+        "id": "8a7b02c6-20ba-41fb-a126-8a0047083313"
+      },
+      {
+        "numeroDevis": "108740-CL-25159",
+        "company": {
+          "name": "SARL CYCLAIX"
+        },
+        "amount": 450,
+        "createdAt": "2025-03-09T00:00:00.000Z",
+        "id": "8af21434-6191-4736-be3e-fda88fd1abd1"
+      },
+      {
+        "numeroDevis": "108935-CL-25466",
+        "company": {
+          "name": "ECOLE NOTRE DAME DES MIRACLES - RENNES"
+        },
+        "amount": 663.6,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "8b099056-6ab0-43b3-b84e-acd7af5212a5"
+      },
+      {
+        "numeroDevis": "108885-CL-25400",
+        "company": {
+          "name": "COLLEGE ET LYCEE SAINT AUGUSTIN"
+        },
+        "amount": 1800,
+        "createdAt": "2025-09-17T00:00:00.000Z",
+        "id": "8c2a30b3-7419-4798-b65f-20b41546fd2f"
+      },
+      {
+        "numeroDevis": "108700-CL-25486",
+        "company": {
+          "name": "LYCEE POLYVALENT GEORGES SAND"
+        },
+        "amount": 2050,
+        "createdAt": "2025-10-13T00:00:00.000Z",
+        "id": "8c901008-f92f-4a50-a6bb-25fa3b1dc2cd"
+      },
+      {
+        "numeroDevis": "108814-CL-25267",
+        "company": {
+          "name": "PORCELAINES JACQUES PERGAY "
+        },
+        "amount": 1480,
+        "createdAt": "2025-05-26T00:00:00.000Z",
+        "id": "8d2f745f-f71d-418c-a031-fa29d6c537f8"
+      },
+      {
+        "numeroDevis": "108783-CL-25224",
+        "company": {
+          "name": "HOTEL LANGLOIS SA"
+        },
+        "amount": 890,
+        "createdAt": "2025-04-23T00:00:00.000Z",
+        "id": "8d698873-2157-47a9-9ba1-8ec3bbb1be65"
+      },
+      {
+        "numeroDevis": "108919-CL-25449",
+        "company": {
+          "name": "ECOLE L'IMMACULEE"
+        },
+        "amount": 663.6,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "8d9ae44e-4183-478c-9e7e-15a08e37fd2f"
+      },
+      {
+        "numeroDevis": "107350-CL-25073",
+        "company": {
+          "name": "RESIDENCE LE PERIGORD"
+        },
+        "amount": 1704,
+        "createdAt": "2025-01-28T00:00:00.000Z",
+        "id": "8da1798a-9d0d-4f8c-b539-bf92c7cd822e"
+      },
+      {
+        "numeroDevis": "108942-CL-25482",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH LA MOUSSAYE"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-13T00:00:00.000Z",
+        "id": "8e373573-6e24-4c01-8891-1508e4f8ce39"
+      },
+      {
+        "numeroDevis": "108941-CL-25473",
+        "company": {
+          "name": "ECOLE SAINT ETIENNE DES EAUX"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "8e953a06-4452-4f63-b5da-6928c8d42577"
+      },
+      {
+        "numeroDevis": "107948-CL-25119",
+        "company": {
+          "name": "LP AMEDEE GORDINI"
+        },
+        "amount": 1792,
+        "createdAt": "2025-02-17T00:00:00.000Z",
+        "id": "8ee21b82-1b05-4593-9341-9cb89d72e8be"
+      },
+      {
+        "numeroDevis": "109028-CL-25585",
+        "company": {
+          "name": "ECOLE ST PIERRE DES JARDINS - LA RENAUDIERE"
+        },
+        "amount": 224,
+        "createdAt": "2025-11-25T00:00:00.000Z",
+        "id": "8f952e74-ca0a-406e-a776-f617ac8021d5"
+      },
+      {
+        "numeroDevis": "108958-CL-25495",
+        "company": {
+          "name": "ÉCOLE DU CURÉ D'ARS - ANGERS"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "8feee510-a4bd-46cf-9449-51d1e7e32b53"
+      },
+      {
+        "numeroDevis": "108694-CL-25069",
+        "company": {
+          "name": "ÉTOILE CINÉMA"
+        },
+        "amount": 1160,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "92fc98e6-3751-4078-8841-38ddb8e79dca"
+      },
+      {
+        "numeroDevis": "109009-CL-25558",
+        "company": {
+          "name": "SIVOM DE LA REGION DE CHEVREUSE"
+        },
+        "amount": 2360,
+        "createdAt": "2025-11-12T00:00:00.000Z",
+        "id": "930a877f-767e-4bae-be54-b7d89313de66"
+      },
+      {
+        "numeroDevis": "108761-CL-25275",
+        "company": {
+          "name": "LYCEE PRO. AUGUSTIN BOISNARD"
+        },
+        "amount": 2320,
+        "createdAt": "2025-06-02T00:00:00.000Z",
+        "id": "957b743a-ad21-47c2-b292-93f949822f59"
+      },
+      {
+        "numeroDevis": "108683-CL-25058",
+        "company": {
+          "name": "ATLANTIC CINÉ"
+        },
+        "amount": 1160,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "96aa8005-96af-4292-b597-34f2c6d7526e"
+      },
+      {
+        "numeroDevis": "109034-CL-25592",
+        "company": {
+          "name": "ECOLE SAINT SERGE - ANGERS"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-11-27T00:00:00.000Z",
+        "id": "97cc0633-3daf-4743-bf0d-545496c295bb"
+      },
+      {
+        "numeroDevis": "108769-CL-25208",
+        "company": {
+          "name": "LES ENTREPÔTS CELLOIS"
+        },
+        "amount": 1085,
+        "createdAt": "2025-04-07T00:00:00.000Z",
+        "id": "9825d904-ca3f-4198-9f48-8e5594913000"
+      },
+      {
+        "numeroDevis": "108602-CL-25563",
+        "company": {
+          "name": "LA MANUFACTURE DES TAPIS DE COGOLIN - SITE COGOLIN"
+        },
+        "amount": 490,
+        "createdAt": "2025-11-13T00:00:00.000Z",
+        "id": "98cdb2cc-0d0a-4df3-aaff-94a6408dd400"
+      },
+      {
+        "numeroDevis": "108809-CL-25259",
+        "company": {
+          "name": "POINT SERIGRAPHIE"
+        },
+        "amount": 1181.5,
+        "createdAt": "2025-05-21T00:00:00.000Z",
+        "id": "99c9cffe-2f65-4e0d-a2c4-ccc5bc1b450d"
+      },
+      {
+        "numeroDevis": "107987-CL-25328",
+        "company": {
+          "name": "COLLÈGE SAINT JOSEPH"
+        },
+        "amount": 765,
+        "createdAt": "2025-07-06T00:00:00.000Z",
+        "id": "99e7853d-38cc-4e59-82a9-8e71c2bf6e54"
+      },
+      {
+        "numeroDevis": "109047-CL-25614",
+        "company": {
+          "name": "ECOLE DU SACRE CŒUR DE BRIE"
+        },
+        "amount": 288,
+        "createdAt": "2025-12-09T00:00:00.000Z",
+        "id": "9b566875-b362-40f9-8b62-ff7894e6b1a9"
+      },
+      {
+        "numeroDevis": "108691-CL-25066",
+        "company": {
+          "name": "LA STRADA"
+        },
+        "amount": 720,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "9b973426-bbd5-4154-a9a1-c436a8726b61"
+      },
+      {
+        "numeroDevis": "107071-CL-25513",
+        "company": {
+          "name": "LYCEE VICTOR ANICET"
+        },
+        "amount": 1170,
+        "createdAt": "2025-10-15T00:00:00.000Z",
+        "id": "9be975e6-645f-4db0-9f08-a432133c002f"
+      },
+      {
+        "numeroDevis": "107075-CL-25554",
+        "company": {
+          "name": "COLLEGE ST JOSEPH - MARTIGNÉ"
+        },
+        "amount": 1130.5,
+        "createdAt": "2025-11-05T00:00:00.000Z",
+        "id": "9c9e3fe0-9523-4e90-81c9-10b813589dc7"
+      },
+      {
+        "numeroDevis": "106222-CL-25079",
+        "company": {
+          "name": "INSTITUTION NOTRE DAME DE SAINT JEAN"
+        },
+        "amount": 2750,
+        "createdAt": "2025-02-02T00:00:00.000Z",
+        "id": "9eff7fcc-ada4-48c9-8c27-055280d914ac"
+      },
+      {
+        "numeroDevis": "108728-CL-25136",
+        "company": {
+          "name": "DOMICIL'ADOS"
+        },
+        "amount": 1953,
+        "createdAt": "2025-02-23T00:00:00.000Z",
+        "id": "9f11073c-36c0-407c-bd26-73c2d87b2f93"
+      },
+      {
+        "numeroDevis": "108996-CL-25541",
+        "company": {
+          "name": "ECOLE SACRE CŒUR - MONTOURS - RPI PORTE DU COGLAIS"
+        },
+        "amount": 288,
+        "createdAt": "2025-10-27T00:00:00.000Z",
+        "id": "a1cab0a0-09bb-4af7-9677-15eac0270a60"
+      },
+      {
+        "numeroDevis": "108913-CL-25443",
+        "company": {
+          "name": "ECOLE ADORATION"
+        },
+        "amount": 352,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "a32cf202-86e5-453c-b02e-11811240ac9c"
+      },
+      {
+        "numeroDevis": "106002-CL-25247",
+        "company": {
+          "name": "LYCEE DE RISLE"
+        },
+        "amount": 1050,
+        "createdAt": "2025-05-14T00:00:00.000Z",
+        "id": "a3463778-a18a-4326-bbc5-0a7ee3517011"
+      },
+      {
+        "numeroDevis": "108938-CL-25470",
+        "company": {
+          "name": "ECOLE LE SACRE COEUR- MONTREUIL SOUS PEROUSE"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-09T00:00:00.000Z",
+        "id": "a3623a47-6356-4cc2-be7b-1a3240bb6cf4"
+      },
+      {
+        "numeroDevis": "108951-CL-25487",
+        "company": {
+          "name": "PHARMACIE DE LOSTEAU"
+        },
+        "amount": 872,
+        "createdAt": "2025-10-13T00:00:00.000Z",
+        "id": "a363083a-6998-4dbb-a094-63f84189ccb7"
+      },
+      {
+        "numeroDevis": "108767-CL-25204",
+        "company": {
+          "name": "LYCEE ALBERT CHÂTELET"
+        },
+        "amount": 3680,
+        "createdAt": "2025-04-01T00:00:00.000Z",
+        "id": "a3b7cd82-7ad0-4e74-bdea-8945c41c56f4"
+      },
+      {
+        "numeroDevis": "108991-CL-25535",
+        "company": {
+          "name": "COLLEGE STELLA MARIS"
+        },
+        "amount": 984,
+        "createdAt": "2025-10-26T00:00:00.000Z",
+        "id": "a45fc7cb-5d70-4623-8553-b83627e2b3d8"
+      },
+      {
+        "numeroDevis": "108503-CL-25236",
+        "company": {
+          "name": "COLLEGE PIERRE DE RONSARD"
+        },
+        "amount": 460,
+        "createdAt": "2025-05-04T00:00:00.000Z",
+        "id": "a4ab916d-8b31-409d-9162-85ded13986ad"
+      },
+      {
+        "numeroDevis": "109056-CL-25624",
+        "company": {
+          "name": "ECOLE NOTRE DAME - PLERIN"
+        },
+        "amount": 1040,
+        "createdAt": "2025-12-15T00:00:00.000Z",
+        "id": "a4c4ae2d-e610-416c-b06f-fb06be9ad4e6"
+      },
+      {
+        "numeroDevis": "108861-CL-25370",
+        "company": {
+          "name": "COLLEGE ROY D'Espagne"
+        },
+        "amount": 1664,
+        "createdAt": "2025-08-27T00:00:00.000Z",
+        "id": "a5e9c779-f267-42a5-9e68-24a599d5c858"
+      },
+      {
+        "numeroDevis": "108689-CL-25064",
+        "company": {
+          "name": "LE LIBERTÉ"
+        },
+        "amount": 1000,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "a61594c3-e554-46f1-b76b-f7f1e829cfdb"
+      },
+      {
+        "numeroDevis": "108690-CL-25065",
+        "company": {
+          "name": "LES BALCONS"
+        },
+        "amount": 720,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "a6384eda-d86f-4e2d-8a20-aa35efe6b2fe"
+      },
+      {
+        "numeroDevis": "108828-CL-25300",
+        "company": {
+          "name": "SARL SECEM - RESTAURANT LA MOSQUÉE"
+        },
+        "amount": 5865,
+        "createdAt": "2025-06-19T00:00:00.000Z",
+        "id": "a756afdb-375e-44bc-9418-534e884686ad"
+      },
+      {
+        "numeroDevis": "109039-CL-25622",
+        "company": {
+          "name": "MAIRIE DE HOUDAN"
+        },
+        "amount": 3202.5,
+        "createdAt": "2025-12-15T00:00:00.000Z",
+        "id": "a7e33752-530a-4e02-b269-220843bd25c4"
+      },
+      {
+        "numeroDevis": "108491-CL-25098",
+        "company": {
+          "name": "CAMPING LE PERPETUUM"
+        },
+        "amount": 1570,
+        "createdAt": "2025-02-10T00:00:00.000Z",
+        "id": "abffff77-0752-4311-aac1-1c5c9f31c1ff"
+      },
+      {
+        "numeroDevis": "108762-CL-25277",
+        "company": {
+          "name": "MAIRIE DE ARGENT SUR SAULDRE"
+        },
+        "amount": 2760,
+        "createdAt": "2025-06-04T00:00:00.000Z",
+        "id": "ac1ea822-9a60-49bb-8921-274cac800371"
+      },
+      {
+        "numeroDevis": "108877-CL-25392",
+        "company": {
+          "name": "COLLEGE CHARLES LEMAITRE"
+        },
+        "amount": 1192,
+        "createdAt": "2025-09-14T00:00:00.000Z",
+        "id": "acbbcf7b-835f-40e8-bfc7-d3d78698ba17"
+      },
+      {
+        "numeroDevis": "108754-CL-25179",
+        "company": {
+          "name": "REANE"
+        },
+        "amount": 1880,
+        "createdAt": "2025-03-19T00:00:00.000Z",
+        "id": "ae5315fd-b332-46b5-abf2-1714a1af6353"
+      },
+      {
+        "numeroDevis": "108778-CL-25219",
+        "company": {
+          "name": "COLLEGE RAOUL DUFY"
+        },
+        "amount": 1632,
+        "createdAt": "2025-04-22T00:00:00.000Z",
+        "id": "aefd11c0-5b9b-48b0-bbf6-2b696cc92f30"
+      },
+      {
+        "numeroDevis": "109021-CL-25575",
+        "company": {
+          "name": "COLLEGE ANNE FRANCK"
+        },
+        "amount": 1392,
+        "createdAt": "2025-11-19T00:00:00.000Z",
+        "id": "b08148fe-d29d-4a2d-87ab-d67e020b5404"
+      },
+      {
+        "numeroDevis": "108804-CL-25522",
+        "company": {
+          "name": "LYCEE PROFESSIONNEL AUGUSTE PERRET"
+        },
+        "amount": 990,
+        "createdAt": "2025-10-19T00:00:00.000Z",
+        "id": "b182709e-a139-470f-9511-121085e9c19c"
+      },
+      {
+        "numeroDevis": "108882-CL-25397",
+        "company": {
+          "name": "ECOLE SAINT AUGUSTIN"
+        },
+        "amount": 648,
+        "createdAt": "2025-09-15T00:00:00.000Z",
+        "id": "b1b19ca7-7580-45d7-b61c-7be6ad8491e8"
+      },
+      {
+        "numeroDevis": "",
+        "company": {
+          "name": "LOISIR CENTRE"
+        },
+        "amount": 300,
+        "createdAt": "2025-12-21T00:00:00.000Z",
+        "id": "b2d212b4-bb83-46d5-88b2-21f1a80d7436"
+      },
+      {
+        "numeroDevis": "108946-CL-25479",
+        "company": {
+          "name": "ECOLE SAINT JOSEPH - MAXENT"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "b2db029a-5dc7-428b-8034-60896e82b639"
+      },
+      {
+        "numeroDevis": "108727-CL-25161",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE TOUR SAINTE"
+        },
+        "amount": 2108,
+        "createdAt": "2025-03-10T00:00:00.000Z",
+        "id": "b364599f-0cd8-4945-b16e-12ead57cd6ae"
+      },
+      {
+        "numeroDevis": "108698-CL-25075",
+        "company": {
+          "name": "ÉCOLE LA PERSÉVÉRANCE"
+        },
+        "amount": 1584,
+        "createdAt": "2025-01-28T00:00:00.000Z",
+        "id": "b374f203-64dc-432d-8f11-7ff25b41618d"
+      },
+      {
+        "numeroDevis": "105075-CL-25113",
+        "company": {
+          "name": "COLLEGE EUZHAN PALCY"
+        },
+        "amount": 1192,
+        "createdAt": "2025-02-12T00:00:00.000Z",
+        "id": "b5cb26de-a60a-49b6-a1f5-ab5ca2a3f716"
+      },
+      {
+        "numeroDevis": "108726-CL-25131",
+        "company": {
+          "name": "EHPAD DE LA BASTIDE"
+        },
+        "amount": 1992,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "b618fab1-c4de-4890-8b8f-380bb6fa0857"
+      },
+      {
+        "numeroDevis": "105065-CL-25074",
+        "company": {
+          "name": "LYCEE AUGUSTIN ARRON"
+        },
+        "amount": 750,
+        "createdAt": "2025-01-28T00:00:00.000Z",
+        "id": "b72ea688-7b89-4ea7-874f-d3b93d8c6597"
+      },
+      {
+        "numeroDevis": "108784-CL-25225",
+        "company": {
+          "name": "COLLEGE CHARLES BRUNEAU"
+        },
+        "amount": 1290,
+        "createdAt": "2025-04-23T00:00:00.000Z",
+        "id": "b8b38668-4a13-4359-b80a-5d94b9a721b7"
+      },
+      {
+        "numeroDevis": "108883-CL-25398",
+        "company": {
+          "name": "EDPM2P ( ECOLE DE PRODUCTION MONTEREAU PORTE DE PARIS)"
+        },
+        "amount": 792,
+        "createdAt": "2025-09-15T00:00:00.000Z",
+        "id": "b9c5c66a-76ad-470d-b81b-9ba3b157e26b"
+      },
+      {
+        "numeroDevis": "108796-CL-25240",
+        "company": {
+          "name": "FREDERIC PAYSAGES"
+        },
+        "amount": 952,
+        "createdAt": "2025-05-05T00:00:00.000Z",
+        "id": "b9cfd938-4367-46ae-9c69-238c6c8fa310"
+      },
+      {
+        "numeroDevis": "108723-CL-25128",
+        "company": {
+          "name": "RESIDENCE RIVIERE ESPERANCE"
+        },
+        "amount": 1992,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "ba3a66e3-efe9-4832-ae95-fbb4a05ff2cf"
+      },
+      {
+        "numeroDevis": "108716-CL-25114",
+        "company": {
+          "name": "AVENTURE LAND"
+        },
+        "amount": 1560,
+        "createdAt": "2025-02-16T00:00:00.000Z",
+        "id": "bcc4812d-9d2d-408d-ad0b-60348e301629"
+      },
+      {
+        "numeroDevis": "108786-CL-25227",
+        "company": {
+          "name": "COLLEGE MONT SAUVY"
+        },
+        "amount": 1480,
+        "createdAt": "2025-04-23T00:00:00.000Z",
+        "id": "bd1a3104-6b42-40cb-a141-4e7715464991"
+      },
+      {
+        "numeroDevis": "108738-CL-25155",
+        "company": {
+          "name": "RÉSIDENCE LA VALLÉE"
+        },
+        "amount": 2606.4,
+        "createdAt": "2025-03-05T00:00:00.000Z",
+        "id": "bfc2fb76-e79c-4625-8c9d-d0f1981b7ff1"
+      },
+      {
+        "numeroDevis": "108894-CL-25410",
+        "company": {
+          "name": "ECOLE NOTRE DAME"
+        },
+        "amount": 936,
+        "createdAt": "2025-09-23T00:00:00.000Z",
+        "id": "c0395ade-a71f-4623-b3fa-46f55f51eae7"
+      },
+      {
+        "numeroDevis": "105319-CL-25584",
+        "company": {
+          "name": "COLLEGE REMY NAINSOUTA"
+        },
+        "amount": 1100,
+        "createdAt": "2025-11-24T00:00:00.000Z",
+        "id": "c08ebfc9-58a6-45b0-80b7-55b5d0c08cd5"
+      },
+      {
+        "numeroDevis": "107861-CL-25544",
+        "company": {
+          "name": "LA MAISON SPORTS POUR TOUS - WHOME NANTES OUEST"
+        },
+        "amount": 250,
+        "createdAt": "2025-10-27T00:00:00.000Z",
+        "id": "c0d81e60-add7-4c19-afe0-b63ac6fb7ea7"
+      },
+      {
+        "numeroDevis": "108285-CL-25145",
+        "company": {
+          "name": "MAIRIE DE CHALAMONT"
+        },
+        "amount": 960,
+        "createdAt": "2025-02-26T00:00:00.000Z",
+        "id": "c1a570db-6202-4d42-b3fb-8016ae437fd6"
+      },
+      {
+        "numeroDevis": "108997-CL-25542",
+        "company": {
+          "name": "ECOLE SAINTE THÉRÈSE - LA SELLE EN COGLÈS - RPI PORTE DU COGLAIS"
+        },
+        "amount": 288,
+        "createdAt": "2025-10-27T00:00:00.000Z",
+        "id": "c3278b65-8193-4d0f-862e-583906c4ce90"
+      },
+      {
+        "numeroDevis": "108662-CL-25001",
+        "company": {
+          "name": "LYCEE ERNEST RENAN"
+        },
+        "amount": 3975,
+        "createdAt": "2025-01-05T00:00:00.000Z",
+        "id": "c4484860-6ae1-4e2a-9410-9769ca1402d5"
+      },
+      {
+        "numeroDevis": "108719-CL-25118",
+        "company": {
+          "name": "ASSOCIATION ARTEEC"
+        },
+        "amount": 1496,
+        "createdAt": "2025-02-16T00:00:00.000Z",
+        "id": "c5e3d5ca-4829-4583-aa3e-39926bdd897f"
+      },
+      {
+        "numeroDevis": "108757-CL-25185",
+        "company": {
+          "name": "CAMPUS DE NERMONT - SITE CHATEAUDUN"
+        },
+        "amount": 1720,
+        "createdAt": "2025-03-23T00:00:00.000Z",
+        "id": "c83ebe9d-8b9b-4a26-9c5f-37fbd00d9bb6"
+      },
+      {
+        "numeroDevis": "108580-CL-25368A",
+        "company": {
+          "name": "CHAINEY SAS"
+        },
+        "amount": 590,
+        "createdAt": "2025-08-05T00:00:00.000Z",
+        "id": "c9589ec8-45d2-4c57-8d97-54bbcd883be5"
+      },
+      {
+        "numeroDevis": "108980-CL-25515",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - PONTREAN"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-16T00:00:00.000Z",
+        "id": "ca1257a2-56ba-409a-bf20-639b105c9e87"
+      },
+      {
+        "numeroDevis": "108684-CL-25059",
+        "company": {
+          "name": "CINEWEST"
+        },
+        "amount": 1160,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "cad64982-6664-45d8-bb4a-163eb36d6a3b"
+      },
+      {
+        "numeroDevis": "108888-CL-25403",
+        "company": {
+          "name": "COLLEGE MARCEL CALLO"
+        },
+        "amount": 1400,
+        "createdAt": "2025-09-18T00:00:00.000Z",
+        "id": "cc25789c-3386-45ff-9af1-7f90ecac2452"
+      },
+      {
+        "numeroDevis": "108926-CL-25456",
+        "company": {
+          "name": "ECOLE NOTRE DAME - BRETEIL"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "cc370d8f-8c6d-4f05-8603-d0b9513a6b05"
+      },
+      {
+        "numeroDevis": "108812-CL-25265",
+        "company": {
+          "name": "COLLEGE VICTOR DURUY"
+        },
+        "amount": 1864,
+        "createdAt": "2025-05-26T00:00:00.000Z",
+        "id": "cd4edece-74ac-4ec5-b5ff-a8a143267b83"
+      },
+      {
+        "numeroDevis": "108968-CL-25505",
+        "company": {
+          "name": "ECOLE SAINTE MARIE DES TURBAUDIÈRES - CHOLET"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "cdbc7d16-6cb9-4384-8ae1-e59ec0c4e051"
+      },
+      {
+        "numeroDevis": "108855-CL-25356",
+        "company": {
+          "name": "SCHAUMANN France"
+        },
+        "amount": 1170,
+        "createdAt": "2025-07-22T00:00:00.000Z",
+        "id": "cdfaf23e-7b90-4f2f-b9f1-a008ceed37b9"
+      },
+      {
+        "numeroDevis": "108967-CL-25504",
+        "company": {
+          "name": "ECOLE ABBÉ LOUIS FERRAND - TOUTLEMONDE"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "ce2e085d-d2d9-4210-a3ac-86028f02499a"
+      },
+      {
+        "numeroDevis": "109055-CL-25623",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR"
+        },
+        "amount": 3300,
+        "createdAt": "2025-12-15T00:00:00.000Z",
+        "id": "ce3985bc-ada8-4307-9f02-69ed28cf4aa1"
+      },
+      {
+        "numeroDevis": "108565-CL-25378",
+        "company": {
+          "name": "LYCEE ALBERT CAMUS"
+        },
+        "amount": 1500,
+        "createdAt": "2025-09-04T00:00:00.000Z",
+        "id": "ceba067f-590e-4ff9-9607-a43380c90276"
+      },
+      {
+        "numeroDevis": "109062-CL-25629",
+        "company": {
+          "name": "COLLEGE LYCEE NOTRE DAME DE CAMPOSTAL"
+        },
+        "amount": 1344,
+        "createdAt": "2025-12-22T00:00:00.000Z",
+        "id": "cfbe4eff-5652-4fbd-a376-b73bdc694261"
+      },
+      {
+        "numeroDevis": "106990-CL-25315",
+        "company": {
+          "name": "LYCEE PROFESSIONNEL MONTCIEL"
+        },
+        "amount": 1961.8,
+        "createdAt": "2025-06-30T00:00:00.000Z",
+        "id": "cff6aba3-016b-4bf9-81c3-c70fe5e57cea"
+      },
+      {
+        "numeroDevis": "108742-CL-25162",
+        "company": {
+          "name": "CENTRE HOSPITALIER DE LANGOGNE"
+        },
+        "amount": 5865,
+        "createdAt": "2025-03-10T00:00:00.000Z",
+        "id": "d00cefde-4a7c-4625-8ff6-1b1ccd69fd73"
+      },
+      {
+        "numeroDevis": "108700-CL-25082",
+        "company": {
+          "name": "LYCEE POLYVALENT GEORGES SAND"
+        },
+        "amount": 4160,
+        "createdAt": "2025-02-02T00:00:00.000Z",
+        "id": "d0cb5006-3363-46fc-a718-e80b5b2e5fa3"
+      },
+      {
+        "numeroDevis": "108847-CL-25341",
+        "company": {
+          "name": "COLLEGE JEAN GUEHENNO"
+        },
+        "amount": 1984,
+        "createdAt": "2025-07-08T00:00:00.000Z",
+        "id": "d1d0b873-e685-4ecc-913a-fa0e97ef9fba"
+      },
+      {
+        "numeroDevis": "107197-CL-25053",
+        "company": {
+          "name": "MAIRIE DE SERS"
+        },
+        "amount": 590,
+        "createdAt": "2025-01-26T00:00:00.000Z",
+        "id": "d1df858b-dcf0-487e-9c27-6ee8c3076245"
+      },
+      {
+        "numeroDevis": "108714-CL-25105",
+        "company": {
+          "name": "LA FABRIQUE A NEUF VYVS"
+        },
+        "amount": 900,
+        "createdAt": "2025-02-11T00:00:00.000Z",
+        "id": "d26782f9-020f-41c3-8668-28be2e1223d4"
+      },
+      {
+        "numeroDevis": "108953-CL-25489",
+        "company": {
+          "name": "ECOLE SAINT MICHEL - PLECHATEL"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "d3394f90-16dc-433f-bc92-dcc93c036eb8"
+      },
+      {
+        "numeroDevis": "108078-CL-25139",
+        "company": {
+          "name": "SESSAD ABEL SILLY"
+        },
+        "amount": 590,
+        "createdAt": "2025-02-24T00:00:00.000Z",
+        "id": "d34641fb-0514-4db5-88f5-0d61b6944e0c"
+      },
+      {
+        "numeroDevis": "108889-CL-25405",
+        "company": {
+          "name": "LYCEE L'AGORA"
+        },
+        "amount": 2456.5,
+        "createdAt": "2025-09-21T00:00:00.000Z",
+        "id": "d3d20efc-ca2d-4383-bec6-b677208972cf"
+      },
+      {
+        "numeroDevis": "108741-CL-25160",
+        "company": {
+          "name": "GIP FIPAN"
+        },
+        "amount": 3300,
+        "createdAt": "2025-03-09T00:00:00.000Z",
+        "id": "d48a3664-11d9-43da-a227-52b94fae9d67"
+      },
+      {
+        "numeroDevis": "106971-CL-25435",
+        "company": {
+          "name": "COLLEGE LES ROCHES GRAVEES"
+        },
+        "amount": 960,
+        "createdAt": "2025-09-29T00:00:00.000Z",
+        "id": "d4a36763-3b17-4ab5-9e0f-d62397da20b2"
+      },
+      {
+        "numeroDevis": "107025-CL-25045",
+        "company": {
+          "name": "COLLEGE SIMONE VEIL"
+        },
+        "amount": 1680,
+        "createdAt": "2025-01-21T00:00:00.000Z",
+        "id": "d5328d29-e4c3-45cd-91ed-10235243041d"
+      },
+      {
+        "numeroDevis": "107965-CL-25604",
+        "company": {
+          "name": "GRETA CFA 1 - LETANDUERE"
+        },
+        "amount": 2730,
+        "createdAt": "2025-12-07T00:00:00.000Z",
+        "id": "d56c03c3-850c-42f1-92ed-11e94a33e27b"
+      },
+      {
+        "numeroDevis": "108678-CL-25043",
+        "company": {
+          "name": "LYCEE JULES MOUSSERON"
+        },
+        "amount": 1500,
+        "createdAt": "2025-01-21T00:00:00.000Z",
+        "id": "d65b5c34-ed25-4103-ba6f-69bcca20faf4"
+      },
+      {
+        "numeroDevis": "108764-CL-25197",
+        "company": {
+          "name": "COLLEGE DE LA HEVE"
+        },
+        "amount": 952,
+        "createdAt": "2025-03-30T00:00:00.000Z",
+        "id": "d84ded04-555d-4d38-af23-2fb908800135"
+      },
+      {
+        "numeroDevis": "108285-CL-25361",
+        "company": {
+          "name": "MAIRIE DE CHALAMONT"
+        },
+        "amount": 960,
+        "createdAt": "2025-07-28T00:00:00.000Z",
+        "id": "d8ba70b6-4892-47ab-a81a-4ab13dc39cd9"
+      },
+      {
+        "numeroDevis": "109041-CL-25602",
+        "company": {
+          "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH - SAINTE ANNE"
+        },
+        "amount": 2830.5,
+        "createdAt": "2025-12-04T00:00:00.000Z",
+        "id": "d8d15ad0-1ee6-4e77-91df-4015d2fa3808"
+      },
+      {
+        "numeroDevis": "108737-CL-25153",
+        "company": {
+          "name": "MAIRIE DE CONCHIL LE TEMPLE"
+        },
+        "amount": 1253,
+        "createdAt": "2025-03-03T00:00:00.000Z",
+        "id": "d9d84a2e-4bc8-4905-96ae-3a633254bde7"
+      },
+      {
+        "numeroDevis": "108050-CL-25134",
+        "company": {
+          "name": "MAIRIE DE MACOUBA"
+        },
+        "amount": 1752,
+        "createdAt": "2025-02-20T00:00:00.000Z",
+        "id": "da7a41d2-8ed1-466c-8c21-0792fac47144"
+      },
+      {
+        "numeroDevis": "108792-CL-25234",
+        "company": {
+          "name": "SCEAM ANTARES EDULIS 35"
+        },
+        "amount": 950,
+        "createdAt": "2025-04-28T00:00:00.000Z",
+        "id": "db526df1-ea1f-42a5-9e05-562670771ac5"
+      },
+      {
+        "numeroDevis": "108872-CL-25386",
+        "company": {
+          "name": "PENSIONNAT SAINT PAUL DE BOUILLON"
+        },
+        "amount": 1672,
+        "createdAt": "2025-09-08T00:00:00.000Z",
+        "id": "dc88d7bf-7b52-4fd7-b04c-4afe7326a8a7"
+      },
+      {
+        "numeroDevis": "108832-CL-25307",
+        "company": {
+          "name": "COLLEGE EUROPE"
+        },
+        "amount": 1400,
+        "createdAt": "2025-06-23T00:00:00.000Z",
+        "id": "dcdaa227-8969-4dd0-a65a-e1bfcaf24286"
+      },
+      {
+        "numeroDevis": "109027-CL-25583",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - ST MALO"
+        },
+        "amount": 720,
+        "createdAt": "2025-11-24T00:00:00.000Z",
+        "id": "dd7cc928-4f62-49ae-9d57-46933a0bb040"
+      },
+      {
+        "numeroDevis": "108933-CL-25463",
+        "company": {
+          "name": "ECOLE NOTRE DAME - MONTGERMONT"
+        },
+        "amount": 288,
+        "createdAt": "2025-10-08T00:00:00.000Z",
+        "id": "ddf4c80a-5297-4def-8f41-5366e489bc96"
+      },
+      {
+        "numeroDevis": "106695-CL-25177",
+        "company": {
+          "name": "COLLEGE JEAN JAURES"
+        },
+        "amount": 992,
+        "createdAt": "2025-03-17T00:00:00.000Z",
+        "id": "df4e82d6-4378-49cd-b4aa-fd1ca5708599"
+      },
+      {
+        "numeroDevis": "108817-CL-25272",
+        "company": {
+          "name": "TSURIMI France"
+        },
+        "amount": 1330,
+        "createdAt": "2025-06-02T00:00:00.000Z",
+        "id": "df703cce-6907-4b17-b487-093b2a9268ff"
+      },
+      {
+        "numeroDevis": "108908-CL-25434",
+        "company": {
+          "name": "ECOLE LA SAGESSE"
+        },
+        "amount": 280,
+        "createdAt": "2025-09-29T00:00:00.000Z",
+        "id": "dfa23eac-7d99-4fd1-b8ae-50e38c02c49a"
+      },
+      {
+        "numeroDevis": "108712-CL-25123",
+        "company": {
+          "name": "ECOLE NOTRE DAME SAINT JOSEPH"
+        },
+        "amount": 550,
+        "createdAt": "2025-02-18T00:00:00.000Z",
+        "id": "dfa8ba6a-1a94-439b-b0bf-28d56e10e7c6"
+      },
+      {
+        "numeroDevis": "106806-CL-25536",
+        "company": {
+          "name": "SA SODIGEL QUERCYGEL"
+        },
+        "amount": 250,
+        "createdAt": "2025-10-26T00:00:00.000Z",
+        "id": "e13d81e4-3dbf-4f7a-b5b1-94f62254113c"
+      },
+      {
+        "numeroDevis": "107036-CL-25183",
+        "company": {
+          "name": "COLLEGE JULIA NICOLAS"
+        },
+        "amount": 890,
+        "createdAt": "2025-03-23T00:00:00.000Z",
+        "id": "e4bb7b6f-fc7e-46f9-b8b2-ba2385374e61"
+      },
+      {
+        "numeroDevis": "109022-CL-25577",
+        "company": {
+          "name": "COLLEGE DE MONTSINERY TONNEGRANDE"
+        },
+        "amount": 1960,
+        "createdAt": "2025-11-20T00:00:00.000Z",
+        "id": "e501d93d-3db6-429e-9eb0-24fb8dc3129f"
+      },
+      {
+        "numeroDevis": "108867-CL-25381",
+        "company": {
+          "name": "PHARMACIE TRESSENS"
+        },
+        "amount": 950,
+        "createdAt": "2025-09-07T00:00:00.000Z",
+        "id": "e58de479-55cd-4b4d-8f81-af376b1833c3"
+      },
+      {
+        "numeroDevis": "108922-CL-25452",
+        "company": {
+          "name": "ECOLE SAINT GILDAS - MONTERFIL"
+        },
+        "amount": 224,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "e659cb3a-f36b-4333-86b6-58fecd7a4383"
+      },
+      {
+        "numeroDevis": "107823-CL-25057",
+        "company": {
+          "name": "ECOLE MONTESSORI INTERNATIONALE"
+        },
+        "amount": 464,
+        "createdAt": "2025-01-26T00:00:00.000Z",
+        "id": "e68f9a71-649a-41a9-8eba-d078a2b7af83"
+      },
+      {
+        "numeroDevis": "108969-CL-25506",
+        "company": {
+          "name": "ECOLE NOTRE DAME - MORANNES"
+        },
+        "amount": 360,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "e6c15167-2d65-4443-9471-377c21505b04"
+      },
+      {
+        "numeroDevis": "108456-CL-25180",
+        "company": {
+          "name": "EHPAD ROUANET-ICHÉ"
+        },
+        "amount": 2437.5,
+        "createdAt": "2025-03-19T00:00:00.000Z",
+        "id": "e93473a8-8db7-499f-b070-ad7ef746e604"
+      },
+      {
+        "numeroDevis": "106718-CL-25229",
+        "company": {
+          "name": "MAIRIE DE DREFFEAC"
+        },
+        "amount": 950,
+        "createdAt": "2025-04-27T00:00:00.000Z",
+        "id": "e9db1083-8da2-4a33-b70f-d0b459b24737"
+      },
+      {
+        "numeroDevis": "108966-CL-25503",
+        "company": {
+          "name": "ECOLE SAINT LOUIS LE BRELOQUET - CHOLET"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-14T00:00:00.000Z",
+        "id": "ea4d7af6-c34b-42a0-9acb-74af3cd2d662"
+      },
+      {
+        "numeroDevis": "108952-CL-25488",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - CHARTRES DE BRETAGNE"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-13T00:00:00.000Z",
+        "id": "ecd1df48-62f2-4b2c-8a62-ff047ad82a93"
+      },
+      {
+        "numeroDevis": "109036-CL-25595",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - DERVAL"
+        },
+        "amount": 720,
+        "createdAt": "2025-11-30T00:00:00.000Z",
+        "id": "ed55e8f9-06f9-4e22-9c1a-b5c5803f21fe"
+      },
+      {
+        "numeroDevis": "108896-CL-25412",
+        "company": {
+          "name": "COLLEGE PAUL ELUARD"
+        },
+        "amount": 1587.2,
+        "createdAt": "2025-09-24T00:00:00.000Z",
+        "id": "edafe69c-3f4d-4c81-9f5f-6ed540b71a65"
+      },
+      {
+        "numeroDevis": "109035-CL-25594",
+        "company": {
+          "name": "ECOLE NOTRE DAME - VERN SUR SEICHE"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-11-27T00:00:00.000Z",
+        "id": "efa3e03f-e716-44d9-8ea3-3d8ca9c63c4f"
+      },
+      {
+        "numeroDevis": "108811-CL-25264",
+        "company": {
+          "name": "COLLEGE SAINTE GENEVIEVE"
+        },
+        "amount": 1484.1,
+        "createdAt": "2025-05-22T00:00:00.000Z",
+        "id": "f076a192-edc9-4495-8652-41d297e88180"
+      },
+      {
+        "numeroDevis": "108687-CL-25062",
+        "company": {
+          "name": "LES TOILES DU MOUN"
+        },
+        "amount": 880,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "f17f57e6-9095-4358-a6fe-d5af51f60c29"
+      },
+      {
+        "numeroDevis": "109026-CL-25581",
+        "company": {
+          "name": "MAIRIE DE PLOUEDERN"
+        },
+        "amount": 1950,
+        "createdAt": "2025-11-23T00:00:00.000Z",
+        "id": "f2672e1b-6624-45de-a848-3b1ae70d1a4d"
+      },
+      {
+        "numeroDevis": "107338-CL-25132",
+        "company": {
+          "name": "ETABLISSEMENT ST MARIE DE NEUILLY"
+        },
+        "amount": 1450,
+        "createdAt": "2025-02-20T00:00:00.000Z",
+        "id": "f2c56963-91c4-4fee-b80f-661e5959ea3b"
+      },
+      {
+        "numeroDevis": "108843-CL-25334",
+        "company": {
+          "name": "CITE SCOLAIRE THIERS"
+        },
+        "amount": 4904,
+        "createdAt": "2025-07-07T00:00:00.000Z",
+        "id": "f31b5cf5-4617-4583-becb-18ba15975a5a"
+      },
+      {
+        "numeroDevis": "108746-CL-25167",
+        "company": {
+          "name": "LYCEE ANNE SOPHIE PIC"
+        },
+        "amount": 3720,
+        "createdAt": "2025-03-11T00:00:00.000Z",
+        "id": "f346e1da-b548-4874-acc7-105774a86dec"
+      },
+      {
+        "numeroDevis": "108713-CL-25121",
+        "company": {
+          "name": "ECOLE SAINTE MACRINE"
+        },
+        "amount": 250,
+        "createdAt": "2025-02-17T00:00:00.000Z",
+        "id": "f3c23063-33b2-4b88-98e1-277ad9c9e632"
+      },
+      {
+        "numeroDevis": "108944-CL-25477",
+        "company": {
+          "name": "ECOLE NOTRE DAME AUXILIATRICE - SAINT MALO"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "f5629a1b-b6d8-4146-9b91-fccdde05cd78"
+      },
+      {
+        "numeroDevis": "108801-CL-25245",
+        "company": {
+          "name": "POMPES FUNEBRES BEAU ET FILS"
+        },
+        "amount": 2000,
+        "createdAt": "2025-05-06T00:00:00.000Z",
+        "id": "f59dba29-685d-4777-8660-338b48e7898b"
+      },
+      {
+        "numeroDevis": "108696-CL-25071",
+        "company": {
+          "name": "ECOLE LA PERSEVERANCE"
+        },
+        "amount": 1264,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "f59f4d9c-e8e1-4fde-b93e-a5a281cf7e24"
+      },
+      {
+        "numeroDevis": "109025-CL-25580",
+        "company": {
+          "name": "LYCEE PRIEUR DE LA COTE D'OR"
+        },
+        "amount": 4160,
+        "createdAt": "2025-11-23T00:00:00.000Z",
+        "id": "f6217c0c-2234-4724-beb8-8de5378652a5"
+      },
+      {
+        "numeroDevis": "106313-CL-25029",
+        "company": {
+          "name": "LYCEE POLYVALENT LAMA PREVOT"
+        },
+        "amount": 3800,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "f64b96ff-266c-4deb-bb3f-e1c5bce41228"
+      },
+      {
+        "numeroDevis": "108673-CL-25031",
+        "company": {
+          "name": "ISIS SARL"
+        },
+        "amount": 290,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "f6de23e8-7ab0-4036-a349-1b8309c71b88"
+      },
+      {
+        "numeroDevis": "108695-CL-25070",
+        "company": {
+          "name": "CINÉLAC"
+        },
+        "amount": 1000,
+        "createdAt": "2025-01-27T00:00:00.000Z",
+        "id": "f79f56ee-2e39-4604-98b0-0d2917c98ba2"
+      },
+      {
+        "numeroDevis": "109038-CL-25599",
+        "company": {
+          "name": "ECOLE SAINTE JEANNE D'ARC - CHATILLON EN VENDELAIS"
+        },
+        "amount": 518.4,
+        "createdAt": "2025-12-01T00:00:00.000Z",
+        "id": "f89c0b67-ba70-46f7-a504-d35155e65fa9"
+      },
+      {
+        "numeroDevis": "108768-CL-25205",
+        "company": {
+          "name": "COLLEGE SYLVAIN MENU"
+        },
+        "amount": 1480,
+        "createdAt": "2025-04-02T00:00:00.000Z",
+        "id": "f8f60fa8-0df1-469d-b27c-1ee835771c12"
+      },
+      {
+        "numeroDevis": "106746-CL-25587",
+        "company": {
+          "name": "LPO NORD GRANDE TERRE"
+        },
+        "amount": 3520,
+        "createdAt": "2025-11-26T00:00:00.000Z",
+        "id": "f93b5c2f-a484-4eb4-82f3-d088e6cb571b"
+      },
+      {
+        "numeroDevis": "108763-CL-25195",
+        "company": {
+          "name": "GOBO SERVICE France SARL"
+        },
+        "amount": 350,
+        "createdAt": "2025-03-26T00:00:00.000Z",
+        "id": "fa184d16-b5b5-4986-8eda-47ab99877ad9"
+      },
+      {
+        "numeroDevis": "106918-CL-25337",
+        "company": {
+          "name": "MAIRIE DE PALADRU"
+        },
+        "amount": 1100,
+        "createdAt": "2025-07-07T00:00:00.000Z",
+        "id": "fa7c4de7-d32b-4327-b07e-356c656e1643"
+      },
+      {
+        "numeroDevis": "108945-CL-25478",
+        "company": {
+          "name": "ECOLE SAINT MALO - TREFFENDEL"
+        },
+        "amount": 403.2,
+        "createdAt": "2025-10-12T00:00:00.000Z",
+        "id": "fa846875-6df8-4abf-9448-eb8be96cf6c7"
+      },
+      {
+        "numeroDevis": "108912-CL-25442",
+        "company": {
+          "name": "ECOLE SAINTE MARIE - RENNES"
+        },
+        "amount": 633.6,
+        "createdAt": "2025-10-07T00:00:00.000Z",
+        "id": "fce8e6f2-01b7-42e8-bbd4-092b7d8c0e1f"
+      },
+      {
+        "numeroDevis": "108608-CL-25028",
+        "company": {
+          "name": "DFTP"
+        },
+        "amount": 450,
+        "createdAt": "2025-01-15T00:00:00.000Z",
+        "id": "fd227313-1ba3-4f1c-8de1-388c30b7428f"
+      },
+      {
+        "numeroDevis": "108140-CL-25441",
+        "company": {
+          "name": "SJR AUTO"
+        },
+        "amount": 350,
+        "createdAt": "2025-10-06T00:00:00.000Z",
+        "id": "fe30c3f0-3578-45ad-b1c5-c8ca6a4bea56"
+      },
+      {
+        "numeroDevis": "108682-CL-25055",
+        "company": {
+          "name": "LYCEE SAINT JOSEPH"
+        },
+        "amount": 1560,
+        "createdAt": "2025-01-26T00:00:00.000Z",
+        "id": "fe5898d5-043c-47eb-88bc-a96d96f5d532"
+      },
+      {
+        "numeroDevis": "108103-CL-25597",
+        "company": {
+          "name": "COLLEGE JULES FERRY"
+        },
+        "amount": 896,
+        "createdAt": "2025-12-01T00:00:00.000Z",
+        "id": "fede6c9a-e622-4755-8bf9-575395121e20"
+      },
+      {
+        "numeroDevis": "108839-CL-25323",
+        "company": {
+          "name": "LYCEE MONGRAND"
+        },
+        "amount": 2960,
+        "createdAt": "2025-07-02T00:00:00.000Z",
+        "id": "ff51c9ab-a373-4582-b223-855f1acab850"
+      }
+    ]
+  },
+  "onlyInExcel": [],
+  "onlyInTwenty": [
+    {
+      "numeroDevis": "",
+      "company": {
+        "name": "LOISIR CENTRE"
+      },
+      "amount": 300,
+      "createdAt": "2025-12-21T00:00:00.000Z",
+      "id": "b2d212b4-bb83-46d5-88b2-21f1a80d7436"
+    }
+  ],
+  "duplicatesInExcel": []
+}

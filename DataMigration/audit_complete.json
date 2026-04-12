@@ -1,0 +1,214 @@
+{
+  "summary": [
+    {
+      "annee": "2023",
+      "statut": "GAGNE",
+      "countExcel": 215,
+      "countTwenty": 215,
+      "totalExcel": 319755.77,
+      "totalTwenty": 319755.77,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2023",
+      "statut": "PERDU",
+      "countExcel": 198,
+      "countTwenty": 198,
+      "totalExcel": 267207,
+      "totalTwenty": 267207,
+      "ecart": 0,
+      "differences": 1
+    },
+    {
+      "annee": "2023",
+      "statut": "EN_ATTENTE",
+      "countExcel": 98,
+      "countTwenty": 98,
+      "totalExcel": 162186.5,
+      "totalTwenty": 162186.5,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2024",
+      "statut": "GAGNE",
+      "countExcel": 219,
+      "countTwenty": 224,
+      "totalExcel": 340795.4,
+      "totalTwenty": 340795.4,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2024",
+      "statut": "PERDU",
+      "countExcel": 134,
+      "countTwenty": 133,
+      "totalExcel": 190246.55,
+      "totalTwenty": 190246.55,
+      "ecart": 0,
+      "differences": 1
+    },
+    {
+      "annee": "2024",
+      "statut": "EN_ATTENTE",
+      "countExcel": 83,
+      "countTwenty": 83,
+      "totalExcel": 144530.6,
+      "totalTwenty": 144530.6,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2025",
+      "statut": "GAGNE",
+      "countExcel": 361,
+      "countTwenty": 362,
+      "totalExcel": 488269.65000000026,
+      "totalTwenty": 488269.65000000026,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2025",
+      "statut": "PERDU",
+      "countExcel": 127,
+      "countTwenty": 127,
+      "totalExcel": 174775.6,
+      "totalTwenty": 174775.6,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2025",
+      "statut": "EN_ATTENTE",
+      "countExcel": 140,
+      "countTwenty": 140,
+      "totalExcel": 212557.80000000002,
+      "totalTwenty": 212557.80000000002,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2026",
+      "statut": "GAGNE",
+      "countExcel": 32,
+      "countTwenty": 32,
+      "totalExcel": 48098.5,
+      "totalTwenty": 48098.5,
+      "ecart": 0,
+      "differences": 0
+    },
+    {
+      "annee": "2026",
+      "statut": "PERDU",
+      "countExcel": 16,
+      "countTwenty": 16,
+      "totalExcel": 23413.5,
+      "totalTwenty": 23413.5,
+      "ecart": 0,
+      "differences": 1
+    },
+    {
+      "annee": "2026",
+      "statut": "EN_ATTENTE",
+      "countExcel": 83,
+      "countTwenty": 83,
+      "totalExcel": 165620.3,
+      "totalTwenty": 165620.3,
+      "ecart": 0,
+      "differences": 2
+    }
+  ],
+  "globalStats": {
+    "totalOpportunities": 1706,
+    "totalExcel": 2537457.17,
+    "totalTwenty": 2537457.17,
+    "differences": [
+      {
+        "annee": 2023,
+        "statut": "PERDU",
+        "numeroDevis": "105081-CL-23343",
+        "issue": "amount_mismatch",
+        "excelAmount": 1584,
+        "twentyAmount": 1980,
+        "difference": -396
+      },
+      {
+        "annee": 2024,
+        "statut": "PERDU",
+        "numeroDevis": "106002-CL-24118",
+        "issue": "amount_mismatch",
+        "excelAmount": 690,
+        "twentyAmount": 1050,
+        "difference": -360
+      },
+      {
+        "annee": 2026,
+        "statut": "PERDU",
+        "numeroDevis": "109080-CL-26020",
+        "issue": "amount_mismatch",
+        "excelAmount": 2952,
+        "twentyAmount": 0,
+        "difference": 2952
+      },
+      {
+        "annee": 2026,
+        "statut": "EN_ATTENTE",
+        "numeroDevis": "109078-CL-26018",
+        "issue": "amount_mismatch",
+        "excelAmount": 952,
+        "twentyAmount": 0,
+        "difference": 952
+      },
+      {
+        "annee": 2026,
+        "statut": "EN_ATTENTE",
+        "numeroDevis": "109079-CL-26019",
+        "issue": "amount_mismatch",
+        "excelAmount": 1490,
+        "twentyAmount": 0,
+        "difference": 1490
+      }
+    ],
+    "corrections": [
+      {
+        "annee": 2023,
+        "statut": "PERDU",
+        "numeroDevis": "105081-CL-23343",
+        "oldAmount": 1980,
+        "newAmount": 1584
+      },
+      {
+        "annee": 2024,
+        "statut": "PERDU",
+        "numeroDevis": "106002-CL-24118",
+        "oldAmount": 1050,
+        "newAmount": 690
+      },
+      {
+        "annee": 2026,
+        "statut": "PERDU",
+        "numeroDevis": "109080-CL-26020",
+        "oldAmount": 0,
+        "newAmount": 2952
+      },
+      {
+        "annee": 2026,
+        "statut": "EN_ATTENTE",
+        "numeroDevis": "109078-CL-26018",
+        "oldAmount": 0,
+        "newAmount": 952
+      },
+      {
+        "annee": 2026,
+        "statut": "EN_ATTENTE",
+        "numeroDevis": "109079-CL-26019",
+        "oldAmount": 0,
+        "newAmount": 1490
+      }
+    ]
+  },
+  "dryRun": false
+}

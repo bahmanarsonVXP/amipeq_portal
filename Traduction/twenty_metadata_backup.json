@@ -1,0 +1,3700 @@
+[
+  {
+    "id": "be196c67-aa45-4032-a283-d321ffa45db7",
+    "nameSingular": "blocklist",
+    "namePlural": "blocklists",
+    "labelSingular": "Blocklist",
+    "labelPlural": "Blocklists",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "92f2a36d-9a01-441f-9f85-b9c9771260f5",
+        "name": "workspaceMember",
+        "label": "WorkspaceMember",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1523f693-1d50-428c-a090-1ab61925307a",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "9a5b767d-471b-48e5-9971-b7069e09b2c1",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1206d2de-db03-49bd-a9d7-c8613621cf27",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3c0fdeb6-72ee-496d-abcd-990a67aa4fc5",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b20dd1b2-4bd9-4ef4-b9eb-fa235f95e63b",
+        "name": "handle",
+        "label": "Handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "30c69e9a-aa10-4da1-beb9-558431a8b35f",
+    "nameSingular": "calendarChannel",
+    "namePlural": "calendarChannels",
+    "labelSingular": "Calendar Channel",
+    "labelPlural": "Calendar Channels",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "e0a27f6e-e076-49ae-a26d-6a4cbfa46a52",
+        "name": "visibility",
+        "label": "Visibility",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "780e61f6-385c-43c0-836c-d1a4a3bf6830",
+        "name": "handle",
+        "label": "Handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "69eff5db-ff04-4d52-b9b2-de015f5a3acb",
+        "name": "syncedAt",
+        "label": "Last sync date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e3f5d4f3-6e4c-43ce-b6e7-d0534756f1be",
+        "name": "isContactAutoCreationEnabled",
+        "label": "Is Contact Auto Creation Enabled",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8c4b5f83-f4c6-4d59-828f-7bdb7c68b021",
+        "name": "throttleFailureCount",
+        "label": "Throttle Failure Count",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b585d620-f79f-4fde-96a2-e78cce3bf083",
+        "name": "syncStage",
+        "label": "Sync stage",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a1255b35-875f-4f58-b35c-c07f0272bcef",
+        "name": "syncStatus",
+        "label": "Sync status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2bd63e08-5d0b-4bde-b0bf-3fd0c773a6f6",
+        "name": "connectedAccount",
+        "label": "Connected Account",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5dc8ee43-3910-4dbc-bcad-71f6a5351c87",
+        "name": "syncStageStartedAt",
+        "label": "Sync stage started at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f15de8a0-db97-469d-a117-75017c8e2559",
+        "name": "calendarChannelEventAssociations",
+        "label": "Calendar Channel Event Associations",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "25f55d26-26ce-4339-92de-37fb4c7bdce4",
+        "name": "contactAutoCreationPolicy",
+        "label": "Contact auto creation policy",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a9f57e00-e178-4d63-affe-01799eb6728f",
+        "name": "syncCursor",
+        "label": "Sync Cursor",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2b9ca142-692d-4ffe-8b12-74cdf6182457",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "45118734-35dc-4425-80d6-545630ec86f0",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d7ca09b1-5e4c-4e32-98ec-53ff701a9ddc",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0e05c274-5fd7-4934-a8d1-0a6c8a2f1db4",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4d8444be-0032-43a3-b301-9a211cd86440",
+        "name": "isSyncEnabled",
+        "label": "Is Sync Enabled",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "80cae1f9-9376-45e4-baf4-4966fabed5fe",
+    "nameSingular": "calendarChannelEventAssociation",
+    "namePlural": "calendarChannelEventAssociations",
+    "labelSingular": "Calendar Channel Event Association",
+    "labelPlural": "Calendar Channel Event Associations",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "7dcfd4f7-16f2-4b23-8f05-0ebc8dfbb790",
+        "name": "calendarEvent",
+        "label": "Event ID",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "43a58311-3cdc-4d62-b4c1-4bd2e49ee5c1",
+        "name": "calendarChannel",
+        "label": "Channel ID",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "dedc29a0-7642-43dd-9f4a-5f5567b27ca6",
+        "name": "eventExternalId",
+        "label": "Event external ID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ba73c7e3-fd2c-4210-a87a-d886de2ca3b0",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "598261dc-38ee-4072-9714-9f03af320afb",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c9e0b9d0-f50b-4c03-8771-73481cf8b8e6",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9076811a-103b-4ee0-a91c-930f4587cd7e",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1158b5b0-7a26-4df4-b0c8-d350b2b73410",
+        "name": "recurringEventExternalId",
+        "label": "Recurring Event ID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "4e82bdd5-dd12-48bf-a2a5-23ca9ee75e51",
+    "nameSingular": "calendarEventParticipant",
+    "namePlural": "calendarEventParticipants",
+    "labelSingular": "Calendar event participant",
+    "labelPlural": "Calendar event participants",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "b0991ee8-d48d-4486-936e-91397f04dfe2",
+        "name": "workspaceMember",
+        "label": "Workspace Member",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2527bebf-6499-4265-b66d-8e7c4db1e202",
+        "name": "person",
+        "label": "Person",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a8194e92-8823-493d-8923-5db425c015b3",
+        "name": "isOrganizer",
+        "label": "Is Organizer",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "152ed33c-bca0-4f98-bc3e-36a0a6b33d7c",
+        "name": "handle",
+        "label": "Handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "45087c93-5f87-45da-b4f1-60931689840d",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "25966dc3-d397-456d-a9d3-53e66331e121",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d7ced151-6a2a-47bd-af26-22855ca6bd89",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c21a978b-61dd-4765-9437-f658cc46ae0a",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0b1e6001-c0ac-4c78-b2bf-789eda1b4767",
+        "name": "responseStatus",
+        "label": "Response Status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e9ca3591-dfaa-4f5a-9ab4-5f9d72042993",
+        "name": "displayName",
+        "label": "Display Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2db7d2ca-c3aa-42f9-acb7-deac8d4a474e",
+        "name": "calendarEvent",
+        "label": "Event ID",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "d9d6540b-8bf5-4100-b442-c9315939c807",
+    "nameSingular": "noteTarget",
+    "namePlural": "noteTargets",
+    "labelSingular": "Cible de note",
+    "labelPlural": "Cible de notes",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "aaca2b3a-4de5-4bc8-96b7-9dfc00d55295",
+        "name": "targetPerson",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d6312722-c81b-4974-ab3e-57c4b7440bc1",
+        "name": "targetOpportunity",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "69226049-7f95-4801-90b3-7855716e6dc3",
+        "name": "note",
+        "label": "Note",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "36f2a431-910b-4566-ac96-f73a6c422bdf",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "2cc90031-b668-4bf5-bef3-a5dcca0703da",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6e97236b-0666-4d09-a303-07b0149729e8",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2148f294-e1f1-4804-b94c-2b8bcb7799d1",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8aec8ebd-39ba-43ca-b129-b3ab984907cd",
+        "name": "targetCompany",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "d00ec0ab-f151-41b2-9022-407a253d2816",
+    "nameSingular": "taskTarget",
+    "namePlural": "taskTargets",
+    "labelSingular": "Cible de tâche",
+    "labelPlural": "Cible de tâches",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "004d41b2-1a8f-4472-a26d-1a0224272317",
+        "name": "targetCompany",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1d56f614-eeec-4815-a947-7b0da2f5bd48",
+        "name": "targetOpportunity",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "35e6ebe4-99ac-4296-bcde-7f914973d6cf",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c793e23b-f4c1-47f5-a92f-8b9c5fa55876",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1179b709-10d3-49a5-a7fb-e273471c78fc",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7b75d91d-9e6e-49e3-ae0e-71ae79bffe9d",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "69f970c2-4cd1-4c95-bae1-e64b55987b9c",
+        "name": "targetPerson",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "51430d25-24db-42de-be93-91b249d9d164",
+        "name": "task",
+        "label": "Task",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "79ddb7e3-fc44-4530-8f49-2c0ac226e5c1",
+    "nameSingular": "connectedAccount",
+    "namePlural": "connectedAccounts",
+    "labelSingular": "Compte connecté",
+    "labelPlural": "Compte connectés",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "a695cdcf-536b-4e35-aab6-31e906a27492",
+        "name": "lastSyncHistoryId",
+        "label": "Last sync history ID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b350d3ef-a21d-4795-94a1-684ee3ec228c",
+        "name": "messageChannels",
+        "label": "Message Channels",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8e2b5636-458c-4008-a03e-c78a8055c060",
+        "name": "accountOwner",
+        "label": "Account Owner",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "69084344-bc35-4162-a1b2-7d7ee17cdc84",
+        "name": "refreshToken",
+        "label": "Refresh Token",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1830baeb-f544-4962-8b9a-6e13cb7c7e65",
+        "name": "accessToken",
+        "label": "Access Token",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6d3454ea-558d-4c5e-9b66-02e136e069ef",
+        "name": "handleAliases",
+        "label": "Handle Aliases",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9ec0d79d-9b4c-43f9-9e68-df70679b5b40",
+        "name": "scopes",
+        "label": "Scopes",
+        "type": "ARRAY",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b512759a-ed81-41eb-bbf1-a9dd43cba9ac",
+        "name": "connectionParameters",
+        "label": "Custom Connection Parameters",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3623b1e7-8899-4e42-b20f-f83b062a285a",
+        "name": "lastCredentialsRefreshedAt",
+        "label": "Last credentials refreshed at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0e4336a5-f28a-46a1-857d-5dee20af6437",
+        "name": "calendarChannels",
+        "label": "Calendar Channels",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "cfff2846-70e2-47a1-b735-826078bba72e",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "d1213983-a20d-4eed-94af-ce5c0cf6dc86",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "bff8e9fe-d666-428b-b32f-3c4b377c717e",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2aa36bb4-c916-477c-8cdd-7a2bc4b47cc9",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8e51f7c1-9119-4cdf-9e13-444f9aabc9d2",
+        "name": "handle",
+        "label": "handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "319b1f94-cd0d-4fea-a8f1-8fc80eb0497e",
+        "name": "authFailedAt",
+        "label": "Auth failed at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2c3667e7-fe58-40e0-80de-5c0b7a28ab05",
+        "name": "provider",
+        "label": "provider",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "d7c16274-ec3c-495c-ac1f-fb7a680f89f0",
+    "nameSingular": "person",
+    "namePlural": "people",
+    "labelSingular": "Contact",
+    "labelPlural": "Contacts",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "89e774a8-e30e-4cef-8a85-e662410f71ec",
+        "name": "jobTitle",
+        "label": "Job Title",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9c9d95a8-1004-4d7a-8c4d-d2731e3dea55",
+        "name": "timelineActivities",
+        "label": "Events",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "f81eb5bb-b4f0-4edb-a65b-282a29d8345c",
+        "name": "phones",
+        "label": "Phones",
+        "type": "PHONES",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3d691bc2-f156-4a3d-a23e-81ebea00f034",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "4b725dfa-bfd2-480d-9439-f60d31ba7d0e",
+        "name": "taskTargets",
+        "label": "Tasks",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9feefbf2-65b3-468f-988a-67485c8cb47c",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "69058a4a-f783-4b6b-ad31-13b168ef3030",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "4ce0a2e9-d208-49ee-b394-7212d993f57c",
+        "name": "avatarFile",
+        "label": "Avatar File",
+        "type": "FILES",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "29397856-1eab-48ee-a36c-53ba945cf825",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3c5cc1c9-9c1c-44d8-b983-7c0010d41ca2",
+        "name": "calendarEventParticipants",
+        "label": "Calendar Event Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "023e4400-2cec-4fa9-9e5b-31c27c894c7a",
+        "name": "name",
+        "label": "Name",
+        "type": "FULL_NAME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "aaec2f6f-f846-4072-a685-f8f721480b8c",
+        "name": "messageParticipants",
+        "label": "Message Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "a9ff9141-f4b2-4c6b-b6ad-1d0956ceaab1",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5083640a-e515-4f9e-aab2-08494a058a3e",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "7b2479f5-e3d5-436f-a9a0-3829c91188bf",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "3b5c1be8-e20a-4e36-8584-284a56c8c5a2",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "4bc93b78-74c3-47ce-b613-42338e61d622",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0b4733ca-1af5-4186-b83e-ab34c1b52148",
+        "name": "avatarUrl",
+        "label": "Avatar",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c77ca92f-b098-4df2-abaa-45d1cc02bfad",
+        "name": "city",
+        "label": "City",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9bd7e386-16ad-4820-8489-db69cd8fb445",
+        "name": "noteTargets",
+        "label": "Notes",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "570a7468-929f-4acd-bcbc-d0333fcc4716",
+        "name": "company",
+        "label": "Company",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e3afe88a-7b86-4194-ad73-8253c2b1724b",
+        "name": "emails",
+        "label": "Emails",
+        "type": "EMAILS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "28edb6e4-de5a-41b0-b336-7be34b244bbe",
+        "name": "pointOfContactForOpportunities",
+        "label": "Opportunities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3aed0119-134d-4b84-a29b-44fffccaa922",
+        "name": "linkedinLink",
+        "label": "Linkedin",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "879320de-71b0-48d5-8ae2-0e756ff63377",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c7d9dbe4-0102-4e60-9a56-1150dcfc0b92",
+        "name": "xLink",
+        "label": "X",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "4c134372-3420-49b5-98f2-2536c7e7e842",
+    "nameSingular": "workflowAutomatedTrigger",
+    "namePlural": "workflowAutomatedTriggers",
+    "labelSingular": "Déclencheur de flux",
+    "labelPlural": "Déclencheur de fluxs",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "21c9e640-4a96-4022-a86c-e39c443be1f7",
+        "name": "type",
+        "label": "Automated Trigger Type",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "39a81647-6929-41dc-8fcb-53ff510eef77",
+        "name": "workflow",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "cc875076-3744-4d93-beb5-e85a2fe538cc",
+        "name": "settings",
+        "label": "Settings",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c5af3ccd-06cf-4974-ad47-7b40594bc687",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "6a6537f7-cdf6-45d3-a928-ce807ac50b86",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "46337126-a1b7-4d04-beee-3f2eb105fd3f",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "78914143-0358-45fe-bdcc-397bd90b9bc7",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "3306ccd5-476a-4b0e-aaa9-c17169eb8e3d",
+    "nameSingular": "favoriteFolder",
+    "namePlural": "favoriteFolders",
+    "labelSingular": "Dossier(s) Favori(s)",
+    "labelPlural": "Dossier(s) Favori(s)s",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "0c5ecccd-77bc-4221-bbd6-89e939b25e29",
+        "name": "position",
+        "label": "Position",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "0dc96d12-cc98-4473-9b06-fe1b48790c19",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "23f4e290-bf25-47c2-a740-49c54438e38b",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "cf28094e-700b-4afd-8453-cb16d055ef57",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "57d8b75d-2f2b-49cc-9a58-38a608d1071b",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f5b96099-3ff6-4005-966a-3aa2a731466a",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c5eda677-b089-4156-8624-449cdc66076f",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "d7fd7751-b173-4f12-afe9-d783c3170863",
+    "nameSingular": "company",
+    "namePlural": "companies",
+    "labelSingular": "Entreprise",
+    "labelPlural": "Entreprises",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "fdf138da-9df0-4989-b8fb-04b33ee1fe2f",
+        "name": "opportunities",
+        "label": "Opportunities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b1fdfe9a-ebb9-4aef-9bae-0cd99835ea66",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "1e1ea850-df9a-4df2-9f99-a89ed6de3648",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "78b6162e-dd2b-4fbd-b9bc-f3b46fae8914",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "284741ba-55e4-4610-808b-65f0ea159d8b",
+        "name": "linkedinLink",
+        "label": "Linkedin",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a1cb75b0-6052-44f3-aa10-98dd43ea27bc",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "798e4913-3437-48a8-baca-9d320aacbd34",
+        "name": "idealCustomerProfile",
+        "label": "ICP",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8c3e91b6-b38f-42a3-a321-7a56f633193e",
+        "name": "employees",
+        "label": "Employees",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6b396758-d1d1-454c-8c0b-fdf0b5979d30",
+        "name": "noteTargets",
+        "label": "Notes",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2a747ca4-339e-4a1c-bbac-6d06ff5358c0",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a98dee4b-68c3-4b7d-a9d7-57585937a3a3",
+        "name": "xLink",
+        "label": "X",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a8ab25da-c5f9-49d5-9b97-75928cdbda74",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c681b04b-ccb0-4b5b-9967-50f17cffa158",
+        "name": "accountOwner",
+        "label": "Account Owner",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ab13efa5-1475-4d8f-9225-33188df9e37c",
+        "name": "address",
+        "label": "Address",
+        "type": "ADDRESS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5b7da3f7-f06f-473a-8400-94424d84373c",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "3a7628fc-9049-41e4-b3fb-ab7c21c92fa9",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "5a333fa1-0905-4c55-a4fc-db900c6c404c",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "99bf8572-8abf-41f5-a199-604810df551f",
+        "name": "taskTargets",
+        "label": "Tasks",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2179f93f-8e2c-4f9c-a33e-6572cb7a4f21",
+        "name": "domainName",
+        "label": "Domain Name",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6c147f8b-0b12-478c-bd75-0232f5d818c4",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6bf71ef5-3c59-4d07-80fd-478171987768",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c818e900-f491-47a7-9441-4fcd89815fd5",
+        "name": "people",
+        "label": "People",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "328a9f70-1d4e-4413-b51c-6ee8e414485e",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e7ad297d-db49-4b2a-bba9-efab3585cb5c",
+        "name": "annualRecurringRevenue",
+        "label": "ARR",
+        "type": "CURRENCY",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "7d4ff7a9-cf70-445f-b215-2337f113a45a",
+    "nameSingular": "calendarEvent",
+    "namePlural": "calendarEvents",
+    "labelSingular": "Événement",
+    "labelPlural": "Événements",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "d30338b0-ede1-4441-a2b3-1fa5a49aea58",
+        "name": "title",
+        "label": "Title",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "42384de8-dcdd-4a38-93bb-cc6e552b7df9",
+        "name": "conferenceSolution",
+        "label": "Conference Solution",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "48e15e4b-b1ef-413d-87d5-5b6fbfb2b0d4",
+        "name": "endsAt",
+        "label": "End Date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5ca40dee-e48e-4ea7-9757-0c5412523cdd",
+        "name": "startsAt",
+        "label": "Start Date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b7f4a717-5af3-4c56-8e97-5757f3de73ec",
+        "name": "isCanceled",
+        "label": "Is canceled",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "16aa14b7-bfda-45c2-a016-6d3ad957b174",
+        "name": "conferenceLink",
+        "label": "Meet Link",
+        "type": "LINKS",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "eca65764-9b11-459f-b9ac-aa8f287d02b9",
+        "name": "description",
+        "label": "Description",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1e2e3c11-c138-4839-9783-a63e1398b059",
+        "name": "isFullDay",
+        "label": "Is Full Day",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ce4f7df4-26a0-4324-aad5-b2df62d7d832",
+        "name": "location",
+        "label": "Location",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8d559935-deb4-4345-a5f3-6bf7c8bb5726",
+        "name": "externalCreatedAt",
+        "label": "Creation DateTime",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2d7e520e-86eb-4c9d-9fef-8c2b400b605e",
+        "name": "externalUpdatedAt",
+        "label": "Update DateTime",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "becaae67-3d82-4d57-9ad8-4442c840df95",
+        "name": "calendarChannelEventAssociations",
+        "label": "Calendar Channel Event Associations",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2a6549ef-3891-4afd-8a36-e2f8747c818a",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "d06b24c4-220a-4787-98f3-b33b5baaf566",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3c8ed914-8e06-4e04-b91a-46bab17f6473",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3defb53b-08cf-4fe8-8dc1-20ab05d6ddb7",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ec84800e-edfd-435a-abbc-05a13c3ea9e2",
+        "name": "calendarEventParticipants",
+        "label": "Event Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d18db5be-eb1f-4d44-9e6b-8a2cc5b925b2",
+        "name": "iCalUid",
+        "label": "iCal UID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "1ce0a8b5-2977-4d85-be86-4726cf1d6fa4",
+    "nameSingular": "workflowRun",
+    "namePlural": "workflowRuns",
+    "labelSingular": "Exécution du flux de Travail",
+    "labelPlural": "Exécution du flux de Travails",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "3bb082bf-a3e5-49f0-acd9-590e176f52c0",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2a28268a-c696-4bdc-8cc7-04225eee1bcb",
+        "name": "createdBy",
+        "label": "Executed by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0b13d6dc-31e8-4ad9-b4ce-5f7af11ecd17",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c4ef1ba4-1f61-45d8-a090-ed0e669ccb75",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "006b3f15-7934-48ad-9b57-c1d20507c6c0",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "936c7361-9aad-4c84-8f86-3aa2b10f9cb3",
+        "name": "enqueuedAt",
+        "label": "Workflow run enqueued at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "dbcaddaa-0ce7-4abd-99e8-46129aa190db",
+        "name": "context",
+        "label": "Context",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9bb92dd1-1ac6-4485-b2c4-e1677bd1e025",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3a861584-f2d4-4d4b-b2f2-dd51c0f0467d",
+        "name": "workflow",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "51f4f42b-fc74-4631-b1df-af48497c6c1a",
+        "name": "workflowVersion",
+        "label": "Workflow version",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c176a78f-7020-4d30-aaae-5c8c8ab21fe3",
+        "name": "output",
+        "label": "Output",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a61a832d-9751-4c21-9fa5-1d5dde1fe1e3",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "63ee57cc-c846-4f97-8f9e-8e28a8973ad7",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "6c228983-709b-4f36-91d4-e0ec9b5170c5",
+        "name": "startedAt",
+        "label": "Workflow run started at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a02f6f20-51b9-4b50-a51a-2d0cab086047",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "f14f1f0f-e08e-4f20-adda-aa0484dbdd26",
+        "name": "endedAt",
+        "label": "Workflow run ended at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "15dcbfbd-d6c6-4f26-b745-495eab9c83ad",
+        "name": "state",
+        "label": "State",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f8849403-8846-4465-9c53-15610fb1b548",
+        "name": "status",
+        "label": "Workflow run status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c4fefdf9-21b6-4e51-a060-d2518b3f7fdd",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b3747521-1b0b-4a45-8400-5e8300cdbd3e",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "6950e7df-6994-4960-b542-210c3b694294",
+    "nameSingular": "favorite",
+    "namePlural": "favorites",
+    "labelSingular": "Favori",
+    "labelPlural": "Favoris",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "36d86341-9520-4534-b6e4-8fcf734d18b7",
+        "name": "task",
+        "label": "Task",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "fc2159e1-638f-48e0-9df1-fa5665998ecb",
+        "name": "note",
+        "label": "Note",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8c38c8c0-2c44-4c48-8167-98f5872f438b",
+        "name": "viewId",
+        "label": "ViewId",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "456c9755-6501-4520-b646-e6ac04c15466",
+        "name": "dashboard",
+        "label": "Dashboard",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3160555b-3a31-46b1-87f3-1ea13750b7d3",
+        "name": "workflow",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "66a9c4b7-39ed-4df7-8474-aa82a91cfe2d",
+        "name": "person",
+        "label": "Person",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "293d1c9b-0d70-416e-8707-fac6aab49dda",
+        "name": "forWorkspaceMember",
+        "label": "Workspace Member",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "858d439d-56c8-4a38-9baa-4149af91376c",
+        "name": "company",
+        "label": "Company",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ce94608c-dc01-4e6d-af34-baf8359d6bd2",
+        "name": "opportunity",
+        "label": "Opportunity",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b07aa43d-d4bb-4a1c-95f2-46604dc01467",
+        "name": "workflowRun",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9bf1b9fb-66ae-44af-8cfa-adab0ca70ef6",
+        "name": "position",
+        "label": "Position",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "7965c0e9-edce-4a35-abd3-c843f043e5b7",
+        "name": "workflowVersion",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c97a0ee5-19b9-4f1d-9d1b-859674ae883d",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "61574be7-46e4-4722-b3fb-61d7fc44e2d9",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f6aa3756-5320-4540-ae23-c8cb693b0318",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "abb3b106-7112-44d5-a01d-687fcee57006",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "be9f039a-ca87-4683-8204-0500a2ca013a",
+        "name": "favoriteFolder",
+        "label": "Favorite Folder",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "0251a248-798e-4bbb-951d-e4a0fa7d12cd",
+    "nameSingular": "workspaceMember",
+    "namePlural": "workspaceMembers",
+    "labelSingular": "Membre",
+    "labelPlural": "Membres",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "81fd5fda-906a-49a2-845c-51188cc39726",
+        "name": "userId",
+        "label": "User Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "cfbb660a-11c3-482f-aeab-1f212fc4c97e",
+        "name": "locale",
+        "label": "Language",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "76d4d183-6948-49d1-9b45-be8cab11cacc",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "24536455-0e23-43f9-ade3-4aa039aba173",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "659fa859-879e-4f64-8b5f-305a5d1950ed",
+        "name": "ownedOpportunities",
+        "label": "Owned opportunities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2c921460-f03d-49fe-9121-d774e767d373",
+        "name": "userEmail",
+        "label": "User Email",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "872258dd-0acc-4917-be93-4214c028e323",
+        "name": "avatarUrl",
+        "label": "Avatar Url",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "9bd1a5b9-3614-4ccc-b04b-df7d8661f60f",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "57ca5846-feef-4fc2-b05f-8b38301484b2",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "aad33917-3fb5-44a4-8f50-76f61bd600c2",
+        "name": "name",
+        "label": "Name",
+        "type": "FULL_NAME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "352ed230-3426-495b-87c0-ed7948a52c2c",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "740217b5-9dfa-4d7c-8608-63854dffe95b",
+        "name": "calendarEventParticipants",
+        "label": "Calendar Event Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "611aaebb-30eb-40d6-a651-a92e557c2daf",
+        "name": "connectedAccounts",
+        "label": "Connected accounts",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "140e996e-0fbc-4d06-8879-0cab145cdad1",
+        "name": "assignedTasks",
+        "label": "Assigned tasks",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4c30e4bb-7b76-474c-a2ec-8fd93e082af7",
+        "name": "colorScheme",
+        "label": "Color Scheme",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "a38d2940-911e-45b4-a0f5-eec38a8775b9",
+        "name": "timelineActivities",
+        "label": "Events",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "ba95b750-d16f-4a4f-96e2-708a4b631add",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "3a567a34-7989-4fa5-836f-f97de9fd5803",
+        "name": "accountOwnerForCompanies",
+        "label": "Account Owner For Companies",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "d030525d-a5fb-431e-8072-3f97f84b72b2",
+        "name": "timeZone",
+        "label": "Time zone",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "77911441-852e-45f5-bdac-bdac7f35790e",
+        "name": "messageParticipants",
+        "label": "Message Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "eb6d7126-870d-4198-bff7-a1403bb559ef",
+        "name": "blocklist",
+        "label": "Blocklist",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "aa0dbf15-5ea9-4013-880c-c3c936f8a6a5",
+        "name": "calendarStartDay",
+        "label": "Start of the week",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "d071d4f9-d45e-4d91-93c9-7dd65ba4a422",
+        "name": "dateFormat",
+        "label": "Date format",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "ef57b78a-a8ac-4e43-b44d-9810bb6aeeb7",
+        "name": "timeFormat",
+        "label": "Time format",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "2fc946b0-1df5-4309-ae69-28e9d895684a",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "35640743-a97f-4c86-9fc3-290ab48cddc0",
+        "name": "numberFormat",
+        "label": "Number format",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": true
+      }
+    ]
+  },
+  {
+    "id": "2050c310-9f05-4225-9f93-f09387a753b0",
+    "nameSingular": "message",
+    "namePlural": "messages",
+    "labelSingular": "Message",
+    "labelPlural": "Messages",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "eac433ad-ee4c-4e1d-afa9-0db829b56ad1",
+        "name": "direction",
+        "label": "Direction",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "61eacb67-5ecb-49e0-bb28-ed5ba765839f",
+        "name": "receivedAt",
+        "label": "Received At",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6837a6e4-4ea0-4ea8-ade7-26084357eec4",
+        "name": "messageThread",
+        "label": "Message Thread Id",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "62196e79-aa56-4816-9853-1f2971ebcd54",
+        "name": "messageChannelMessageAssociations",
+        "label": "Message Channel Association",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "eb81b479-ad47-4127-bc78-765d6de3b2e7",
+        "name": "subject",
+        "label": "Subject",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "079410af-9f3b-492d-b84a-434b92ed0953",
+        "name": "headerMessageId",
+        "label": "Header message Id",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5e30a135-351a-4a86-8768-d7ffaceb0a49",
+        "name": "messageParticipants",
+        "label": "Message Participants",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "71057577-6f0b-4faf-b6a2-80427e4ed801",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "a2d0ff1c-9071-4fbd-959b-f7233f5769ff",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "880b28d3-e98e-4988-9d4f-38f967284684",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8c6694c5-e4fd-44ba-a6e9-5dfae702fa0e",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c107c0c7-f087-4ab8-8eb9-3ef247531708",
+        "name": "text",
+        "label": "Text",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "fad7ec80-eb7d-4136-b150-9b3a772869f1",
+    "nameSingular": "messageChannel",
+    "namePlural": "messageChannels",
+    "labelSingular": "Message Channel",
+    "labelPlural": "Message Channels",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "c18b48b3-a6ab-41fa-8af8-ae059dde9d71",
+        "name": "isSyncEnabled",
+        "label": "Is Sync Enabled",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "03ee05f1-8893-45fd-9b0f-53653ce7fcd4",
+        "name": "visibility",
+        "label": "Visibility",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "50ce834a-85e3-4e22-9d29-b297de0372e0",
+        "name": "contactAutoCreationPolicy",
+        "label": "Contact auto creation policy",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ad5c93aa-ad83-41ec-894e-7b41fe9fa521",
+        "name": "messageChannelMessageAssociations",
+        "label": "Message Channel Association",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "77878f1c-f24d-413e-b770-6c915843bca4",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "e18afa64-a6b0-48d7-a290-85ead2492eb1",
+        "name": "syncStageStartedAt",
+        "label": "Sync stage started at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ac53e593-a159-4b6a-8c1f-f35b601a406a",
+        "name": "syncCursor",
+        "label": "Last sync cursor",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "548abe08-e0e4-4e67-b653-3ddcb4fa2274",
+        "name": "excludeNonProfessionalEmails",
+        "label": "Exclude non professional emails",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c10dcc9d-0d9c-4cbd-ba5f-9852420cccb6",
+        "name": "syncStage",
+        "label": "Sync stage",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "13a28bc7-b22c-4ed9-822e-418a9e176877",
+        "name": "type",
+        "label": "Type",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c99536c1-3822-4055-b9ea-b828d2dab90f",
+        "name": "messageFolders",
+        "label": "Message Folders",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7f41e8fa-d3aa-4c38-bf36-b38440ac8efe",
+        "name": "connectedAccount",
+        "label": "Connected Account",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "db428c51-2eba-4ed7-af3d-5a75f8d67d1a",
+        "name": "syncedAt",
+        "label": "Last sync date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "732e85d6-685c-4c73-b78e-d33f97031145",
+        "name": "pendingGroupEmailsAction",
+        "label": "Pending group emails action",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9dea7fc6-c9fd-4e0d-b1e3-a67ca7fc0f7d",
+        "name": "isContactAutoCreationEnabled",
+        "label": "Is Contact Auto Creation Enabled",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b6f6804a-2ad0-4cd4-b327-f7156953afd8",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5a80a19d-a7bd-4a73-a32a-5b7266ef5665",
+        "name": "messageFolderImportPolicy",
+        "label": "Message folder import policy",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "54e62986-c7fb-4b1a-9967-d99b4a97c019",
+        "name": "handle",
+        "label": "Handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6a0d4596-155b-4278-b4e2-c5760e573183",
+        "name": "throttleRetryAfter",
+        "label": "Throttle Retry After",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5d167bd9-dab8-40ea-b607-1c446d266570",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1c4aade3-96e9-4a08-808c-f4f065be2b15",
+        "name": "throttleFailureCount",
+        "label": "Throttle Failure Count",
+        "type": "NUMBER",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1ddb20ae-2c12-4bfe-a676-3487db676395",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c12a8c09-e240-4baa-8684-ed608ac37d3b",
+        "name": "syncStatus",
+        "label": "Sync status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "37d2e84c-2d7b-4466-8e75-5620044d94d5",
+        "name": "excludeGroupEmails",
+        "label": "Exclude group emails",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "37664147-57f4-4082-b6ca-dec2d0ca22d5",
+    "nameSingular": "messageChannelMessageAssociation",
+    "namePlural": "messageChannelMessageAssociations",
+    "labelSingular": "Message Channel Message Association",
+    "labelPlural": "Message Channel Message Associations",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "ca9b798d-4cff-4dc5-bd44-57eb629e7ec6",
+        "name": "messageThreadExternalId",
+        "label": "Thread External Id",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4ef1b87b-b703-4859-8a28-aa912f392f24",
+        "name": "messageExternalId",
+        "label": "Message External Id",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5dad4bef-3a61-4e00-97ee-7cadfe061f08",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "3cac1147-c1dc-4aef-ae91-0e66ebf9a816",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4ceb4813-596a-49fd-97bb-ed44060eec2f",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "05cb1026-9a99-4b79-b8f7-1b67403efdd0",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "64669c94-4043-494a-9f2b-ae46c1ca3c23",
+        "name": "messageChannel",
+        "label": "Message Channel Id",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "cef5ca57-1b36-46f2-95ed-08053ba0e565",
+        "name": "message",
+        "label": "Message Id",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a40751a2-5a92-48c7-93be-d1cd984bee6c",
+        "name": "messageThread",
+        "label": "Message Thread Id",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3ac6f1a4-56d7-4914-9a52-a235c1ece631",
+        "name": "direction",
+        "label": "Direction",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "ffce42f3-925e-44c8-b273-2871743b357e",
+    "nameSingular": "messageFolder",
+    "namePlural": "messageFolders",
+    "labelSingular": "Message Folder",
+    "labelPlural": "Message Folders",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "2dfbb54f-745e-48f3-92d7-5d54960c2307",
+        "name": "isSentFolder",
+        "label": "Is Sent Folder",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7f5ba4d3-8a91-46ea-b1f3-69e5b3650c84",
+        "name": "pendingSyncAction",
+        "label": "Pending Sync Action",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "86cd3f95-3df6-4673-b701-dceb15a992e5",
+        "name": "isSynced",
+        "label": "Is Synced",
+        "type": "BOOLEAN",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "202e3251-767c-4330-aa4b-fd283bbd860d",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "42c51d00-1af8-40f1-a4f7-cdc13fdab413",
+        "name": "syncCursor",
+        "label": "Sync Cursor",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "27c9129f-7aa9-462c-87fe-9722e0b8f70f",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "2b74df02-6dfc-4958-9b3a-e005fb2803e0",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "ade0b8a3-6397-4917-9199-949894429a94",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b3a47164-2ecd-4c01-944a-38315410e23f",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d25cc87d-33ad-45fa-bb9c-6bf6a36f1b69",
+        "name": "messageChannel",
+        "label": "Message Channel",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "609a02a3-788a-42d4-9811-c5b120a2e00b",
+        "name": "parentFolderId",
+        "label": "Parent Folder ID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "30cc23f1-1bc7-4a97-b736-62714baf1643",
+        "name": "externalId",
+        "label": "External ID",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "a5af5e46-3eb7-445b-8a05-97d81e6f2fbb",
+    "nameSingular": "messageParticipant",
+    "namePlural": "messageParticipants",
+    "labelSingular": "Message Participant",
+    "labelPlural": "Message Participants",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "b32277ac-b162-4258-bbd8-110194e5fbd3",
+        "name": "handle",
+        "label": "Handle",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "42aefd7d-1c54-4256-b965-a22b00a90bd1",
+        "name": "person",
+        "label": "Person",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2bdc3adf-fa4c-4754-8909-dca778888fca",
+        "name": "displayName",
+        "label": "Display Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "742c1bec-255c-41d9-9575-d89e674057e1",
+        "name": "role",
+        "label": "Role",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1832df68-ffb9-4029-8f78-0f9d4aab9007",
+        "name": "workspaceMember",
+        "label": "Workspace Member",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6b505aab-6e26-403c-923d-eaa60da4c149",
+        "name": "message",
+        "label": "Message",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2c76caaa-6c62-466f-a823-40694939208d",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "6a6cc6fe-9461-4dbc-b494-1ac9b3f8817e",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "30104bed-312c-4d26-a5da-dee552da17e2",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "24b131e8-cba5-42c1-8e20-ee63f290b883",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "91b696ab-88ea-4cb8-8631-4029cfd459f4",
+    "nameSingular": "messageThread",
+    "namePlural": "messageThreads",
+    "labelSingular": "Message Thread",
+    "labelPlural": "Message Threads",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "4efcfd9e-fe75-4dc8-aa3f-3d2a043fcfa1",
+        "name": "messages",
+        "label": "Messages",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c0adf514-231f-421e-9dcc-57400110db5e",
+        "name": "messageChannelMessageAssociations",
+        "label": "Message Channel Association",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b9da4bfd-e7ab-46f7-bbeb-04d8c589fdf4",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "beae2a98-323a-40cf-94eb-9ad2cea9331f",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "28e48b5b-fb77-4680-b067-8b1677446726",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d8cb2604-d446-491e-b798-2a41667492b5",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "00688782-e4ab-4524-9372-70b00ece4836",
+    "nameSingular": "note",
+    "namePlural": "notes",
+    "labelSingular": "Note",
+    "labelPlural": "Notes",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "184cd41c-8395-4a41-9948-ef52f135f243",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "200ee768-7cec-4314-a676-f79ea3bc54e3",
+        "name": "noteTargets",
+        "label": "Relations",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "23e0ff12-a147-450c-8778-c0167be1b220",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "e19cce75-856b-4ca3-b291-a10e1c3155de",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c33b56f8-76ce-40ed-a02e-3ca324dd5e02",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "0cda9090-22ac-435e-a0e0-5089bb5f6fa9",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "189427ec-c78f-4fcd-b148-d7ea56630000",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "82977cef-bffd-4850-89d5-a5b3373d37fc",
+        "name": "bodyV2",
+        "label": "Body",
+        "type": "RICH_TEXT_V2",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1f3991df-b413-4a69-bd42-5899df90e3e5",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "09f64985-4c73-47f8-9625-3011996bf3bb",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9e941720-936f-4db9-98ac-57f75672bf48",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5c9bf1e6-18b6-44ff-a935-d9e80a2efa37",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "04479098-71f2-4ae3-be20-1b483ebf137a",
+        "name": "title",
+        "label": "Title",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "11f776c6-ff76-4b3f-a18a-6efd8b2f7389",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "55ef6e7d-af89-4544-9e7b-e686334c4033",
+    "nameSingular": "opportunity",
+    "namePlural": "opportunities",
+    "labelSingular": "Opportunité",
+    "labelPlural": "Opportunités",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "81d3400a-08a9-4994-9ac4-91b9d9aed3e7",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b7b50e43-83d3-460b-a7e2-91ea51bbecad",
+        "name": "pointOfContact",
+        "label": "Point of Contact",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "67cfc98d-1bf7-4238-88c2-43086f14d685",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4d16558c-fff1-44c8-a2ac-21961f9a083a",
+        "name": "stage",
+        "label": "Stage",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "633884a5-1788-42ae-b1fb-c49bb4c089b0",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "155bda84-4717-45cb-9edc-b0f65c87d946",
+        "name": "amount",
+        "label": "Amount",
+        "type": "CURRENCY",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "bb68a053-b84d-4774-9f22-ff87c377b0e6",
+        "name": "closeDate",
+        "label": "Close date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5d802a52-e36e-408d-8693-d1f61913c06b",
+        "name": "company",
+        "label": "Company",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "cfc37a93-316e-4d8b-a90c-9d55f5fea3e4",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "ef1aa942-00aa-482b-b7ac-f465917f7804",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7c61494c-06c7-44cd-85db-82b4e749b4be",
+        "name": "owner",
+        "label": "Owner",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "570870cc-159e-43a0-99cc-abad4439136f",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "f6396ad5-190f-4fa4-8ffe-8b2cb88419a7",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7d97f906-06a6-4143-8755-b54e1df332c1",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "aa0d9069-1187-494d-85ca-1af0a2e85495",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "bf0bf196-1f1f-4d11-862f-680a8435f272",
+        "name": "taskTargets",
+        "label": "Tasks",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a856ba8c-9abb-45ac-9f1a-a9844ca2d291",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "46d6df16-faa7-4a29-a47b-175beb3050b2",
+        "name": "noteTargets",
+        "label": "Notes",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7d45301e-6e77-41d4-b3d7-d0a868736f4e",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "947455f0-92ae-49f2-8373-3d8e778537bb",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      }
+    ]
+  },
+  {
+    "id": "47deb975-0095-4624-b920-2dc0ffb2c8db",
+    "nameSingular": "attachment",
+    "namePlural": "attachments",
+    "labelSingular": "Pièce jointe",
+    "labelPlural": "Pièces jointes",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "c5f048a5-3742-4fbd-8bb1-7cc0b857bca4",
+        "name": "targetPerson",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5b5b3889-6054-4358-9a99-1fd09f0aca92",
+        "name": "fullPath",
+        "label": "Full path",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "b6f08e60-d2e4-4f9c-8da5-853228748933",
+        "name": "file",
+        "label": "File",
+        "type": "FILES",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c22030e4-082e-4907-9b81-482b1b7f01b8",
+        "name": "targetNote",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "67dfd2db-4c9c-4782-a071-a5cd70f02742",
+        "name": "targetTask",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "66dff6a9-7a5f-4dc2-b88e-776640d4cc58",
+        "name": "targetDashboard",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c0502d41-2170-45a3-a745-f4c61b21b839",
+        "name": "targetOpportunity",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c1664088-c82b-41e6-beb9-ab86923f470f",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "bb574502-3ef0-48d6-aad4-a0b9c408dcd5",
+        "name": "fileCategory",
+        "label": "File category",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "32958991-151e-4190-a99e-9d503b8ecc66",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "8958ff84-51b3-409b-b29f-18230ac9c5cc",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "68e56950-4b1b-4a67-a04e-9ee868d1e143",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d9a8206c-812b-40a0-8bfe-6c4fa4ef2fe9",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "aeb3a7c9-c30d-4baa-b323-020d7e1073a6",
+        "name": "targetCompany",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "926e03cb-6963-4851-a429-8ae3d2c2a9fc",
+        "name": "targetWorkflow",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "94a3d5f9-c3cc-43e1-bfa2-392ea7cc6141",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2413141d-23b6-49ba-805d-ccb43d818830",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "d746a03e-c65a-4db2-aaed-f2c2b252f2c2",
+    "nameSingular": "dashboard",
+    "namePlural": "dashboards",
+    "labelSingular": "Tableau de bord",
+    "labelPlural": "Tableau de bords",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "8f2cddac-6090-420f-ae3b-ee7bf9a01adc",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "dcf4e03f-9cf9-4846-8319-0d310dfb201a",
+        "name": "title",
+        "label": "Title",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "34f2f274-6d75-4a6e-825d-d255c550d8b9",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "95aba66c-0789-4854-9749-1265c6ce9b2d",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "8b2b6553-3cd0-4918-b074-67f70c4879c2",
+        "name": "pageLayoutId",
+        "label": "Page Layout ID",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "85ea3b8c-88e4-4924-96f1-d762e651c751",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "5fe339d1-996f-4a15-85e6-2dbf03369f06",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "0d7fa602-559f-4a68-8cd2-81d3efc20a02",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c4f01266-1646-4fd3-8949-ed16dff2c431",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "853bc36d-d2a0-4139-b665-de6565132df6",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "66e70f53-82e8-4934-bdf7-0502dbf10794",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "a30c5c78-fa4b-45d9-914d-667167944f28",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0a507167-e163-4f17-a689-8760e39d95b1",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "8bfd99a9-9594-4e4d-a87d-ab06ccd1e0ab",
+    "nameSingular": "task",
+    "namePlural": "tasks",
+    "labelSingular": "Tâche",
+    "labelPlural": "Tâches",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "2bb53ee3-f353-49ad-b8da-b742a0f98b84",
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b440787b-86ae-49d7-ba75-dd87439d0d04",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "af497b1c-2a30-4217-a083-30663ac4f6e2",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "c0fc8f65-86d3-4230-9435-193d6dba28f9",
+        "name": "bodyV2",
+        "label": "Body",
+        "type": "RICH_TEXT_V2",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7e25cd13-e32a-42a6-b44b-8c6024fc8247",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "9f3888f2-a203-4242-8a48-aee56be614b7",
+        "name": "status",
+        "label": "Status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "89111627-afb9-4c89-8f1c-0e8a5669a99e",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "2087a18b-f55b-4d09-a42b-6930ae6222e4",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "77f57169-1cc7-40f6-9fd6-b5ef3c93485b",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "ad1ede2d-71c0-457f-96a1-93dbdb02ffcc",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "247cc9e6-71a6-4c7a-b736-fe9fd96cf085",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a77ad8d3-dd1e-4d5f-9362-604f8b4a4abe",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d864ef1b-3d92-46fd-b152-62308b7b89d5",
+        "name": "title",
+        "label": "Title",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "5430a469-348b-476e-882a-797015a74502",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "9aecd55d-a0ec-4724-92c9-3d4bddaeadd0",
+        "name": "taskTargets",
+        "label": "Relations",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "dd30c9a2-2cfc-4b53-8e1c-7ff629396d46",
+        "name": "dueAt",
+        "label": "Due Date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "9a924ec5-5182-40d1-b063-e95ac2efdf52",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "aa6d5c90-fe78-41bf-8783-770855217b36",
+    "nameSingular": "timelineActivity",
+    "namePlural": "timelineActivities",
+    "labelSingular": "Timeline Activity",
+    "labelPlural": "Timeline Activities",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "4f59eb30-0e8d-491f-ae77-cf8f3790164a",
+        "name": "targetDashboard",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e0c94c3c-4561-45bb-9a7f-143b9280f0e6",
+        "name": "targetOpportunity",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "b5f445f3-9c0d-42d6-9ebe-36d97c8f5ae9",
+        "name": "targetNote",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1f35999d-392e-4cc1-bd00-64a2c3c02c93",
+        "name": "linkedRecordCachedName",
+        "label": "Linked Record cached name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "e9a0e0b7-4f9d-4a58-a042-0568b4dc108e",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0c405b63-10a5-4644-b8e0-4cbc44b7fa2f",
+        "name": "targetWorkflow",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f046b336-9ea9-4625-9f23-d4d57509f3bc",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "19f38067-9da4-4f3e-ad71-a1ffcb8341b1",
+        "name": "targetPerson",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0a75c0a8-cd3b-4d73-af71-c2cca6c2dd64",
+        "name": "properties",
+        "label": "Event details",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "3f58ddeb-3a28-47b1-ab11-a6b9b3e2b82d",
+        "name": "targetWorkflowVersion",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "1db75831-05b9-4725-a728-c591cd71686b",
+        "name": "workspaceMember",
+        "label": "Workspace Member",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "e7de4da3-cf11-446f-a8fa-1728e0518d76",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "053b0d68-217f-4824-9211-3bf2effa01d1",
+        "name": "linkedObjectMetadataId",
+        "label": "Linked Object Metadata Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "b00374c2-4a7a-4681-8d75-1151f64d2cda",
+        "name": "name",
+        "label": "Event name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8d97f8e5-3588-4b24-944e-1d1782726379",
+        "name": "targetCompany",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "aeba03da-8d07-4d44-855b-a3a0b6245887",
+        "name": "linkedRecordId",
+        "label": "Linked Record id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "7ce57ad5-7f3e-4dcf-9978-5bddfbfcb63f",
+        "name": "targetTask",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "86264b8e-727e-48e5-afdc-9012a0e2e0b5",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "9fa9685a-4320-491a-844f-fc3565e82f1a",
+        "name": "targetWorkflowRun",
+        "label": "Target",
+        "type": "MORPH_RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4a8a1860-3c27-48e1-81a2-188c83f61c04",
+        "name": "happensAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  },
+  {
+    "id": "510ea02f-ef03-480d-bba7-b080aa765945",
+    "nameSingular": "workflowVersion",
+    "namePlural": "workflowVersions",
+    "labelSingular": "Version du flux de Travail",
+    "labelPlural": "Version du flux de Travails",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "0f4f415f-88ec-4458-ae48-c8acccb326ad",
+        "name": "runs",
+        "label": "Runs",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "83bca328-3ba8-4d09-b3a3-cff75a03a128",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "74540765-5c86-4c93-b5bd-1a6af9719a4c",
+        "name": "trigger",
+        "label": "Version trigger",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "c89601e0-a640-48df-a09a-03d98d68b2da",
+        "name": "steps",
+        "label": "Version steps",
+        "type": "RAW_JSON",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d3a1308d-8cc5-4ca4-ad15-53970e5b8a42",
+        "name": "status",
+        "label": "Version status",
+        "type": "SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "795ebc43-cf2f-46f7-acdd-33e794610c91",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "de075ed0-37ff-49bd-bdc1-0ec962521ab6",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "31f45724-9b7b-4a5b-acac-7b0d35834388",
+        "name": "workflow",
+        "label": "Workflow",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "f7ed4bef-f0b0-48ea-b7f7-70c7a2272399",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "1e45fca4-15a7-44a5-bf92-08152a2036f6",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "f7931240-1642-4b67-845b-ebe07965d712",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "6ee93f57-e92e-4188-ae11-828675c8ab07",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "0405fb5e-9c89-4b49-af03-e9b98d81e539",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8b3c5f1c-2b15-40a8-970b-44de1ba6c3dc",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      }
+    ]
+  },
+  {
+    "id": "9f3225a9-eeec-489c-99f8-6126c2ef9b86",
+    "nameSingular": "workflow",
+    "namePlural": "workflows",
+    "labelSingular": "Workflow",
+    "labelPlural": "Workflows",
+    "isCustom": false,
+    "fields": [
+      {
+        "id": "fe228dfe-cefb-4449-8a35-ab171b9534d4",
+        "name": "lastPublishedVersionId",
+        "label": "Last published Version Id",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "7d296328-511e-4916-8a12-65c7151e08cc",
+        "name": "automatedTriggers",
+        "label": "Automated Triggers",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "a9c32f07-2579-4668-994c-9a95d23fd0e5",
+        "name": "statuses",
+        "label": "Statuses",
+        "type": "MULTI_SELECT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "4ab72e1b-10cb-440e-9bbe-fdef7ec4ef3d",
+        "name": "position",
+        "label": "Position",
+        "type": "POSITION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "81776f02-af32-4c4e-bc3e-23668e42779d",
+        "name": "attachments",
+        "label": "Attachments",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "d16d71db-f484-430c-825d-cfc9c5239706",
+        "name": "searchVector",
+        "label": "Search vector",
+        "type": "TS_VECTOR",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "0426426c-2755-4fa8-a412-642992242ef4",
+        "name": "createdBy",
+        "label": "Created by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "77f1b0cb-c9ba-46b2-87cf-49288df619ee",
+        "name": "runs",
+        "label": "Runs",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8ce47992-72b3-4cde-b002-732f6a5d8905",
+        "name": "timelineActivities",
+        "label": "Timeline Activities",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "30f0d8ab-62b1-4323-89b3-fa8d09589157",
+        "name": "versions",
+        "label": "Versions",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "8b32a384-4b8c-4f14-9fd2-d6eb7bbd2d38",
+        "name": "name",
+        "label": "Name",
+        "type": "TEXT",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "011f856e-413a-4e3c-8bdb-9ea28ba1d4ce",
+        "name": "favorites",
+        "label": "Favorites",
+        "type": "RELATION",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "46a3d87e-3f31-47b1-bcb3-fa8eda60f5bd",
+        "name": "id",
+        "label": "Id",
+        "type": "UUID",
+        "isCustom": false,
+        "isSystem": true
+      },
+      {
+        "id": "bbec81bb-c28f-4f88-91c6-14b9f034712a",
+        "name": "createdAt",
+        "label": "Creation date",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "a4675126-7ffd-46a1-a802-61de8c3b0334",
+        "name": "updatedAt",
+        "label": "Last update",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "2bdc1e12-1958-41cd-88b2-5e7366f57a24",
+        "name": "deletedAt",
+        "label": "Deleted at",
+        "type": "DATE_TIME",
+        "isCustom": false,
+        "isSystem": false
+      },
+      {
+        "id": "d987567d-f0f5-4e6d-acec-58d00369eb30",
+        "name": "updatedBy",
+        "label": "Updated by",
+        "type": "ACTOR",
+        "isCustom": false,
+        "isSystem": false
+      }
+    ]
+  }
+]

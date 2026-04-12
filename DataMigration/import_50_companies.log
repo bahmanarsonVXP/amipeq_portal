@@ -1,0 +1,61 @@
+[dotenv@17.3.1] injecting env (2) from ../.env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+🚀 Import AMIPEQ — Clients depuis Excel
+
+📁 Fichier: SUIVIS CLIENTS 2026.xlsx
+🔗 Instance: https://twenty-production-7352.up.railway.app
+
+📖 Lecture du fichier Excel...
+
+  ✅ 2023: 711 lignes
+  ✅ 2024: 999 lignes
+  ✅ 2025: 629 lignes
+  ✅ 2026: 999 lignes
+
+📊 Total: 1598 lignes lues
+
+🔄 Dédoublonnage...
+
+  📦 Companies: 1262 uniques
+  👤 Persons: 1331 uniques
+  💼 Opportunities: 1598
+
+
+⚠️  MODE TEST : Import limité à 50 companies
+
+📦 Import Companies...
+
+  Progression: 10/1262
+  Progression: 20/1262
+  Progression: 30/1262
+  Progression: 40/1262
+  Progression: 50/1262
+  ✅ 50 companies traitées
+
+  📊 56 persons et 76 opportunities associées
+
+👤 Import Persons...
+
+  Progression: 10/56
+  Progression: 20/56
+  Progression: 30/56
+  Progression: 40/56
+  Progression: 50/56
+  ✅ 56 persons traitées
+
+💼 Import Opportunities...
+
+  Progression: 20/76
+  Progression: 40/76
+  Progression: 60/76
+  ✅ 76 opportunities traitées
+
+============================================================
+✅ IMPORT TERMINÉ
+
+Companies:     50 créées
+Persons:       2 créées
+Opportunities: 76 créées
+Erreurs:       54
+
+📁 Mappings sauvegardés: mappings.json
+📝 Log détaillé: import_log.json

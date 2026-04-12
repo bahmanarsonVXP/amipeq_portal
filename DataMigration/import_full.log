@@ -1,0 +1,389 @@
+[dotenv@17.3.1] injecting env (2) from ../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+🚀 Import AMIPEQ — Clients depuis Excel
+
+📁 Fichier: SUIVIS CLIENTS 2026.xlsx
+🔗 Instance: https://twenty-production-7352.up.railway.app
+
+📖 Lecture du fichier Excel...
+
+  ✅ 2023: 711 lignes
+  ✅ 2024: 999 lignes
+  ✅ 2025: 629 lignes
+  ✅ 2026: 999 lignes
+
+📊 Total: 1598 lignes lues
+
+🔄 Dédoublonnage...
+
+  📦 Companies: 1262 uniques
+  👤 Persons: 1331 uniques
+  💼 Opportunities: 1598
+
+
+🚀 MODE PRODUCTION : Import de 1262 companies
+
+📦 Import Companies...
+
+  Progression: 10/1262
+  Progression: 20/1262
+  Progression: 30/1262
+  Progression: 40/1262
+  Progression: 50/1262
+  Progression: 60/1262
+  Progression: 70/1262
+  Progression: 80/1262
+  Progression: 90/1262
+  Progression: 100/1262
+  Progression: 110/1262
+  Progression: 120/1262
+  Progression: 130/1262
+  Progression: 140/1262
+  Progression: 150/1262
+  Progression: 160/1262
+  Progression: 170/1262
+  Progression: 180/1262
+  Progression: 190/1262
+  Progression: 200/1262
+  Progression: 210/1262
+  Progression: 220/1262
+  Progression: 230/1262
+  Progression: 240/1262
+  Progression: 250/1262
+  Progression: 260/1262
+  Progression: 270/1262
+  Progression: 280/1262
+  Progression: 290/1262
+  Progression: 300/1262
+  Progression: 310/1262
+  Progression: 320/1262
+  Progression: 330/1262
+  Progression: 340/1262
+  Progression: 350/1262
+  Progression: 360/1262
+  Progression: 370/1262
+  Progression: 380/1262
+  Progression: 390/1262
+  Progression: 400/1262
+  Progression: 410/1262
+  Progression: 420/1262
+  Progression: 430/1262
+  Progression: 440/1262
+  Progression: 450/1262
+  Progression: 460/1262
+  Progression: 470/1262
+  Progression: 480/1262
+  Progression: 490/1262
+  Progression: 500/1262
+  Progression: 510/1262
+  Progression: 520/1262
+  Progression: 530/1262
+  Progression: 540/1262
+  Progression: 550/1262
+  Progression: 560/1262
+  Progression: 570/1262
+  Progression: 580/1262
+  Progression: 590/1262
+  Progression: 600/1262
+  Progression: 610/1262
+  Progression: 620/1262
+  Progression: 630/1262
+  Progression: 640/1262
+  Progression: 650/1262
+  Progression: 660/1262
+  Progression: 670/1262
+  Progression: 680/1262
+  Progression: 690/1262
+  Progression: 700/1262
+  Progression: 710/1262
+  Progression: 720/1262
+  Progression: 730/1262
+  Progression: 740/1262
+  Progression: 750/1262
+  Progression: 760/1262
+  Progression: 770/1262
+  Progression: 780/1262
+  Progression: 790/1262
+  Progression: 800/1262
+  Progression: 810/1262
+  Progression: 820/1262
+  Progression: 830/1262
+  Progression: 840/1262
+  Progression: 850/1262
+  Progression: 860/1262
+  Progression: 870/1262
+  Progression: 880/1262
+  Progression: 890/1262
+  Progression: 900/1262
+  Progression: 910/1262
+  Progression: 920/1262
+  Progression: 930/1262
+  Progression: 940/1262
+  Progression: 950/1262
+  Progression: 960/1262
+  Progression: 970/1262
+  Progression: 980/1262
+  Progression: 990/1262
+  Progression: 1000/1262
+  Progression: 1010/1262
+  Progression: 1020/1262
+  Progression: 1030/1262
+  Progression: 1040/1262
+  Progression: 1050/1262
+  Progression: 1060/1262
+  Progression: 1070/1262
+  Progression: 1080/1262
+  Progression: 1090/1262
+  Progression: 1100/1262
+  Progression: 1110/1262
+  Progression: 1120/1262
+  Progression: 1130/1262
+  Progression: 1140/1262
+  Progression: 1150/1262
+  Progression: 1160/1262
+  Progression: 1170/1262
+  Progression: 1180/1262
+  Progression: 1190/1262
+  Progression: 1200/1262
+  Progression: 1210/1262
+  Progression: 1220/1262
+  Progression: 1230/1262
+  Progression: 1240/1262
+  Progression: 1250/1262
+  Progression: 1260/1262
+  ✅ 1262 companies traitées
+
+  📊 1331 persons et 1598 opportunities associées
+
+👤 Import Persons...
+
+  Progression: 10/1331
+  Progression: 20/1331
+  Progression: 30/1331
+  Progression: 40/1331
+  Progression: 50/1331
+  Progression: 60/1331
+  Progression: 70/1331
+  Progression: 80/1331
+  Progression: 90/1331
+  Progression: 100/1331
+  Progression: 110/1331
+  Progression: 120/1331
+  Progression: 130/1331
+  Progression: 140/1331
+  Progression: 150/1331
+  Progression: 160/1331
+  Progression: 170/1331
+  Progression: 180/1331
+  Progression: 190/1331
+  Progression: 200/1331
+  Progression: 210/1331
+  Progression: 220/1331
+  Progression: 230/1331
+  Progression: 240/1331
+  Progression: 250/1331
+  Progression: 260/1331
+  Progression: 270/1331
+  Progression: 280/1331
+  Progression: 290/1331
+  Progression: 300/1331
+  Progression: 310/1331
+  Progression: 320/1331
+  Progression: 330/1331
+  Progression: 340/1331
+  Progression: 350/1331
+  Progression: 360/1331
+  Progression: 370/1331
+  Progression: 380/1331
+  ⚠️  Company non trouvée pour person: MARTIGNONI
+  Progression: 390/1331
+  Progression: 400/1331
+  Progression: 410/1331
+  Progression: 420/1331
+  Progression: 430/1331
+  Progression: 440/1331
+  Progression: 450/1331
+  Progression: 460/1331
+  Progression: 470/1331
+  Progression: 480/1331
+  Progression: 490/1331
+  Progression: 500/1331
+  Progression: 510/1331
+  Progression: 520/1331
+  Progression: 530/1331
+  Progression: 540/1331
+  Progression: 550/1331
+  Progression: 560/1331
+  Progression: 570/1331
+  Progression: 580/1331
+  Progression: 590/1331
+  Progression: 600/1331
+  Progression: 610/1331
+  Progression: 620/1331
+  Progression: 630/1331
+  Progression: 640/1331
+  Progression: 650/1331
+  ⚠️  Company non trouvée pour person: PHILIP Thomas
+  Progression: 660/1331
+  Progression: 670/1331
+  Progression: 680/1331
+  Progression: 690/1331
+  Progression: 700/1331
+  Progression: 710/1331
+  Progression: 720/1331
+  Progression: 730/1331
+  Progression: 740/1331
+  Progression: 750/1331
+  Progression: 760/1331
+  Progression: 770/1331
+  Progression: 780/1331
+  Progression: 790/1331
+  Progression: 800/1331
+  Progression: 810/1331
+  Progression: 820/1331
+  Progression: 830/1331
+  Progression: 840/1331
+  Progression: 850/1331
+  Progression: 860/1331
+  Progression: 870/1331
+  Progression: 880/1331
+  Progression: 890/1331
+  Progression: 900/1331
+  Progression: 910/1331
+  Progression: 920/1331
+  Progression: 930/1331
+  Progression: 940/1331
+  Progression: 950/1331
+  Progression: 960/1331
+  Progression: 970/1331
+  Progression: 980/1331
+  Progression: 990/1331
+  Progression: 1000/1331
+  Progression: 1010/1331
+  Progression: 1020/1331
+  Progression: 1030/1331
+  Progression: 1040/1331
+  Progression: 1050/1331
+  Progression: 1060/1331
+  Progression: 1070/1331
+  Progression: 1080/1331
+  Progression: 1090/1331
+  Progression: 1100/1331
+  Progression: 1110/1331
+  Progression: 1120/1331
+  Progression: 1130/1331
+  Progression: 1140/1331
+  Progression: 1150/1331
+  Progression: 1160/1331
+  Progression: 1170/1331
+  Progression: 1180/1331
+  Progression: 1190/1331
+  Progression: 1200/1331
+  Progression: 1210/1331
+  Progression: 1220/1331
+  Progression: 1230/1331
+  Progression: 1240/1331
+  Progression: 1250/1331
+  Progression: 1260/1331
+  Progression: 1270/1331
+  Progression: 1280/1331
+  Progression: 1290/1331
+  Progression: 1300/1331
+  Progression: 1310/1331
+  Progression: 1320/1331
+  ✅ 1329 persons traitées
+
+💼 Import Opportunities...
+
+  Progression: 20/1598
+  Progression: 40/1598
+  Progression: 60/1598
+  Progression: 80/1598
+  Progression: 100/1598
+  Progression: 120/1598
+  Progression: 140/1598
+  Progression: 160/1598
+  Progression: 180/1598
+  Progression: 200/1598
+  Progression: 220/1598
+  Progression: 240/1598
+  Progression: 260/1598
+  Progression: 280/1598
+  Progression: 300/1598
+  Progression: 320/1598
+  Progression: 340/1598
+  Progression: 360/1598
+  Progression: 380/1598
+  Progression: 400/1598
+  ⚠️  Company non trouvée pour opportunity: 108673-CL-25031
+  Progression: 420/1598
+  Progression: 440/1598
+  Progression: 460/1598
+  Progression: 480/1598
+  Progression: 500/1598
+  Progression: 520/1598
+  Progression: 540/1598
+  Progression: 560/1598
+  Progression: 580/1598
+  Progression: 600/1598
+  Progression: 620/1598
+  Progression: 640/1598
+  Progression: 660/1598
+  Progression: 680/1598
+  Progression: 700/1598
+  ⚠️  Company non trouvée pour opportunity: 108621-CL-24347
+  Progression: 720/1598
+  Progression: 740/1598
+  Progression: 760/1598
+  Progression: 780/1598
+  Progression: 800/1598
+  Progression: 820/1598
+  Progression: 840/1598
+  Progression: 860/1598
+  Progression: 880/1598
+  Progression: 900/1598
+  Progression: 920/1598
+  Progression: 940/1598
+  Progression: 960/1598
+  Progression: 980/1598
+  Progression: 1000/1598
+  Progression: 1020/1598
+  Progression: 1040/1598
+  Progression: 1060/1598
+  Progression: 1080/1598
+  Progression: 1100/1598
+  Progression: 1120/1598
+  Progression: 1140/1598
+  Progression: 1160/1598
+  Progression: 1180/1598
+  Progression: 1200/1598
+  Progression: 1220/1598
+  Progression: 1240/1598
+  Progression: 1260/1598
+  Progression: 1280/1598
+  Progression: 1300/1598
+  Progression: 1320/1598
+  Progression: 1340/1598
+  Progression: 1360/1598
+  Progression: 1380/1598
+  Progression: 1400/1598
+  Progression: 1420/1598
+  Progression: 1440/1598
+  Progression: 1460/1598
+  Progression: 1480/1598
+  Progression: 1500/1598
+  Progression: 1520/1598
+  Progression: 1540/1598
+  Progression: 1560/1598
+  Progression: 1580/1598
+  ✅ 1596 opportunities traitées
+
+============================================================
+✅ IMPORT TERMINÉ
+
+Companies:     1260 créées
+Persons:       1118 créées
+Opportunities: 1592 créées
+Erreurs:       214
+
+📁 Mappings sauvegardés: mappings.json
+📝 Log détaillé: import_log.json

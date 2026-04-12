@@ -1,0 +1,10 @@
+#!/bin/bash
+FILE="/private/tmp/claude-501/-Users-bahmanarson-projects-AMIPEQ-CRM-Traduction/tasks/bxf1bcmpk.output"
+echo "📊 Analyse de l'import:"
+echo ""
+echo "Total opportunities à importer: $(grep 'Total:' "$FILE" | grep -oE '[0-9]+')"
+echo ""
+echo "❌ Erreurs 'Invalid value DU': $(grep -c "Invalid value 'DU'" "$FILE")"
+echo "⚠️  Companies non trouvées: $(grep -c "Company.*non trouvée" "$FILE")"
+echo ""
+echo "Lignes totales de sortie: $(wc -l < "$FILE")"

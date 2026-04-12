@@ -1,0 +1,3 @@
+# Cloudflare Pages SPA Routing
+# Redirige toutes les routes vers index.html pour le routing React
+/*    /index.html   200
