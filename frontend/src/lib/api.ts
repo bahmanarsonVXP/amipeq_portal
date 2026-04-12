@@ -1,6 +1,12 @@
 import { GATEWAY_TOKEN_KEY } from './gatewayToken';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787';
+/** En `next dev`, base vide → fetch vers /api/... (même origine :3000), rewrite vers le gateway. */
+function getApiBaseUrl(): string {
+  if (process.env.NODE_ENV === 'development') {
+    return '';
+  }
+  return process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787';
+}
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
@@ -30,7 +36,7 @@ export async function apiFetch<T>(endpoint: string, options?: RequestInit): Prom
   const { headers: optHeaders, ...rest } = options ?? {};
   const headers = mergeFetchHeaders(lsToken, optHeaders);
 
-  const res = await fetch(`${API_URL}${endpoint}`, {
+  const res = await fetch(`${getApiBaseUrl()}${endpoint}`, {
     ...rest,
     headers,
   });
