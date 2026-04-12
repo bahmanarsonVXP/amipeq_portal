@@ -1,15 +1,15 @@
 'use client';
 import useSWR from 'swr';
 import { api } from '@/lib/api';
-import type { Opportunity } from '@/types';
+import type { OpportunityRow } from '@/types';
 
 interface OpportunitiesResponse {
-  opportunities: Opportunity[];
+  opportunities: OpportunityRow[];
 }
 
 export function useOpportunities(status?: string) {
   const endpoint = status
-    ? `/api/opportunities?status=${status}`
+    ? `/api/opportunities?status=${encodeURIComponent(status)}`
     : '/api/opportunities';
   return useSWR<OpportunitiesResponse>(endpoint, api.get);
 }

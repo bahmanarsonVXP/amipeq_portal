@@ -32,6 +32,18 @@ export interface Person {
   companyId: string;
 }
 
+/** Ligne renvoyée par GET /api/opportunities (Twenty via gateway) */
+export interface OpportunityRow {
+  id: string;
+  name: string;
+  stage: string;
+  amountEur: number | null;
+  currencyCode: string;
+  companyId: string | null;
+  companyName: string | null;
+  closeDate: string | null;
+}
+
 export interface Opportunity {
   id: string;
   name: string;

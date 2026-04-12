@@ -8,8 +8,11 @@ const app = new Hono<{ Bindings: Env }>();
 app.get('/', async (c) => {
   const search = c.req.query('search');
   const filter = search ? { name: { like: `%${search}%` } } : undefined;
-  const data = await queryTwenty(c.env, GET_COMPANIES, { filter, first: 100 });
-  return c.json(data);
+  const data = await queryTwenty<{
+    companies: { edges: { node: { id: string; name: string } }[] };
+  }>(c.env, GET_COMPANIES, { filter, first: 100 });
+  const companies = data.companies.edges.map((e) => e.node);
+  return c.json({ companies });
 });
 
 app.get('/:id', async (c) => {

@@ -1,10 +1,14 @@
 'use client';
 import useSWR from 'swr';
 import { api } from '@/lib/api';
-import type { Company } from '@/types';
+
+export interface CompanyOption {
+  id: string;
+  name: string;
+}
 
 interface CompaniesResponse {
-  companies: Company[];
+  companies: CompanyOption[];
 }
 
 export function useCompanies(search?: string) {
