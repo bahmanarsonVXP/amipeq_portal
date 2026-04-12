@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type { User, Session } from '@supabase/supabase-js';
 import { useRouter, usePathname } from 'next/navigation';
 import { supabase } from '../lib/supabase';
+import { setGatewayTokenFromSession } from '../lib/gatewayToken';
 
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
@@ -21,6 +22,7 @@ export function useAuth() {
         if (mounted) {
           setSession(session);
           setUser(session?.user ?? null);
+          setGatewayTokenFromSession(session);
           setLoading(false);
           
           if (!session && !pathname.startsWith('/login')) {
@@ -45,6 +47,7 @@ export function useAuth() {
         if (mounted) {
           setSession(session);
           setUser(session?.user ?? null);
+          setGatewayTokenFromSession(session);
           setLoading(false);
           
           if (!session && !pathname.startsWith('/login')) {
@@ -61,6 +64,7 @@ export function useAuth() {
   }, [router, pathname]);
 
   async function logout() {
+    setGatewayTokenFromSession(null);
     await supabase.auth.signOut();
     router.push('/login');
   }

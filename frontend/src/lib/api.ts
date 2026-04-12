@@ -1,3 +1,5 @@
+import { GATEWAY_TOKEN_KEY } from './gatewayToken';
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787';
 
 export class ApiError extends Error {
@@ -8,7 +10,7 @@ export class ApiError extends Error {
 }
 
 export async function apiFetch<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const token = typeof window !== 'undefined' ? localStorage.getItem('amipeq_token') : null;
+  const token = typeof window !== 'undefined' ? localStorage.getItem(GATEWAY_TOKEN_KEY) : null;
 
   const res = await fetch(`${API_URL}${endpoint}`, {
     ...options,
@@ -21,7 +23,7 @@ export async function apiFetch<T>(endpoint: string, options?: RequestInit): Prom
 
   if (res.status === 401) {
     if (typeof window !== 'undefined') {
-      localStorage.removeItem('amipeq_token');
+      localStorage.removeItem(GATEWAY_TOKEN_KEY);
       window.location.href = '/login';
     }
     throw new ApiError(401, 'Session expirée');
