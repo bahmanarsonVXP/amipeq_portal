@@ -2,12 +2,16 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { supabase } from '@/lib/supabase';
+import { setGatewayTokenFromSession } from '@/lib/gatewayToken';
 
 export default function HomePage() {
   const router = useRouter();
   useEffect(() => {
-    const token = localStorage.getItem('amipeq_token');
-    router.replace(token ? '/dashboard' : '/login');
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setGatewayTokenFromSession(session);
+      router.replace(session ? '/dashboard' : '/login');
+    });
   }, [router]);
   return null;
 }

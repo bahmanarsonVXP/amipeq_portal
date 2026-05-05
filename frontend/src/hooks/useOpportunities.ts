@@ -1,15 +1,19 @@
 'use client';
 import useSWR from 'swr';
-import { api } from '@/lib/api';
-import type { Opportunity } from '@/types';
+import { apiFetchWithSession } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
+import type { OpportunityRow } from '@/types';
 
 interface OpportunitiesResponse {
-  opportunities: Opportunity[];
+  opportunities: OpportunityRow[];
 }
 
 export function useOpportunities(status?: string) {
+  const { loading: authLoading } = useAuth();
   const endpoint = status
-    ? `/api/opportunities?status=${status}`
+    ? `/api/opportunities?status=${encodeURIComponent(status)}`
     : '/api/opportunities';
-  return useSWR<OpportunitiesResponse>(endpoint, api.get);
+  const key = authLoading ? null : endpoint;
+
+  return useSWR<OpportunitiesResponse>(key, (url: string) => apiFetchWithSession<OpportunitiesResponse>(url));
 }

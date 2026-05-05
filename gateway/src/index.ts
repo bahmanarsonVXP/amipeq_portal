@@ -19,11 +19,18 @@ export type Env = {
 
 const app = new Hono<{ Bindings: Env; Variables: { user: any } }>();
 
-// CORS
+// CORS — inclure le réseau local (Next affiche souvent http://192.168.x.x:3000)
 app.use('/*', cors({
   origin: (origin, c) => {
-    const allowed = [c.env.FRONTEND_URL, 'http://localhost:3000'];
-    return allowed.includes(origin) ? origin : '';
+    if (!origin) return c.env.FRONTEND_URL;
+    const allowed = [
+      c.env.FRONTEND_URL,
+      'http://localhost:3000',
+      'http://127.0.0.1:3000',
+    ];
+    if (allowed.includes(origin)) return origin;
+    if (/^http:\/\/192\.168\.\d{1,3}\.\d{1,3}:3000$/.test(origin)) return origin;
+    return '';
   },
   credentials: true,
   allowHeaders: ['Content-Type', 'Authorization'],

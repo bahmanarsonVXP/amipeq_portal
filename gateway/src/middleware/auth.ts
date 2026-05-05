@@ -6,7 +6,8 @@ export async function authMiddleware(
   c: Context<{ Bindings: Env; Variables: { user: any } }>,
   next: Next
 ) {
-  const auth = c.req.header('Authorization');
+  const auth =
+    c.req.header('Authorization') ?? c.req.header('authorization');
   if (!auth?.startsWith('Bearer ')) {
     return c.json({ error: 'Unauthorized' }, 401);
   }
