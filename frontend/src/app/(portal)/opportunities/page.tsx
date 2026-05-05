@@ -182,8 +182,6 @@ export default function OpportunitiesPage() {
                   const prestation = prestationFromName(o.name);
                   const isGagne = o.stage === 'GAGNE';
                   const isEnAttente = o.stage === 'EN_ATTENTE' || o.stage === 'DEVIS_ENVOYE';
-                  const shortId = o.id.slice(0, 8);
-
                   return (
                     <tr
                       key={o.id}
@@ -199,9 +197,6 @@ export default function OpportunitiesPage() {
                             {[o.companyPostcode, o.companyCity].filter(Boolean).join(' ')}
                           </p>
                         )}
-                        <p className="text-xs font-light text-gray-300">
-                          ({shortId}…)
-                        </p>
                       </td>
                       <td className="px-6 py-4 text-sm font-medium text-gray-500">
                         {dept ?? '—'}
