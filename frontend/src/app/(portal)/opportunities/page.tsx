@@ -40,8 +40,28 @@ function prestationFromName(name: string): string {
 
 function cityFromCompany(companyName: string | null): string | null {
   if (!companyName) return null;
-  const match = companyName.match(/\b\d{5}\s+(.+)$/);
+  const match = companyName.match(/\b(\d{5})\s+(.+)$/);
+  return match ? match[2] : null;
+}
+
+function postcodeFromCompany(companyName: string | null): string | null {
+  if (!companyName) return null;
+  const match = companyName.match(/\b(\d{5})\s+/);
   return match ? match[1] : null;
+}
+
+function deptFromPostcode(postcode: string | null): string | null {
+  if (!postcode) return null;
+  return postcode.startsWith('97') ? postcode.slice(0, 3) : postcode.slice(0, 2);
+}
+
+function allDepts(opportunities: { companyName: string | null }[]): string[] {
+  const set = new Set<string>();
+  for (const o of opportunities) {
+    const dept = deptFromPostcode(postcodeFromCompany(o.companyName));
+    if (dept) set.add(dept);
+  }
+  return Array.from(set).sort();
 }
 
 export default function OpportunitiesPage() {
@@ -51,6 +71,9 @@ export default function OpportunitiesPage() {
   const [search, setSearch] = useState('');
   const [stageFilter, setStageFilter] = useState('');
   const [prestationFilter, setPrestationFilter] = useState('');
+  const [deptFilter, setDeptFilter] = useState('');
+
+  const depts = useMemo(() => allDepts(data?.opportunities ?? []), [data]);
 
   const rows = useMemo(() => {
     let list = data?.opportunities ?? [];
@@ -67,8 +90,12 @@ export default function OpportunitiesPage() {
       list = list.filter((o) =>
         o.name.toUpperCase().includes(prestationFilter),
       );
+    if (deptFilter)
+      list = list.filter(
+        (o) => deptFromPostcode(postcodeFromCompany(o.companyName)) === deptFilter,
+      );
     return list;
-  }, [data, search, stageFilter, prestationFilter]);
+  }, [data, search, stageFilter, prestationFilter, deptFilter]);
 
   return (
     <div>
@@ -108,6 +135,19 @@ export default function OpportunitiesPage() {
             ))}
           </select>
 
+          <select
+            value={deptFilter}
+            onChange={(e) => setDeptFilter(e.target.value)}
+            className="h-10 rounded-lg border border-gray-200 bg-white px-3 pr-8 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+          >
+            <option value="">Tous les dép.</option>
+            {depts.map((d) => (
+              <option key={d} value={d}>
+                {d}
+              </option>
+            ))}
+          </select>
+
           <Button
             type="button"
             variant="primary"
@@ -142,6 +182,7 @@ export default function OpportunitiesPage() {
               <thead className="border-b border-gray-200 bg-gray-50 text-xs font-semibold uppercase tracking-wide text-gray-500">
                 <tr>
                   <th className="px-6 py-3">Client</th>
+                  <th className="px-6 py-3">Dep</th>
                   <th className="px-6 py-3">Prestation</th>
                   <th className="px-6 py-3">Montant</th>
                   <th className="px-6 py-3">Statut</th>
@@ -152,7 +193,7 @@ export default function OpportunitiesPage() {
                 {isLoading && (
                   <tr>
                     <td
-                      colSpan={5}
+                      colSpan={6}
                       className="px-6 py-10 text-center text-gray-400"
                     >
                       Chargement…
@@ -162,7 +203,7 @@ export default function OpportunitiesPage() {
                 {!isLoading && rows.length === 0 && (
                   <tr>
                     <td
-                      colSpan={5}
+                      colSpan={6}
                       className="px-6 py-10 text-center text-gray-400"
                     >
                       Aucune opportunité trouvée.
@@ -170,11 +211,14 @@ export default function OpportunitiesPage() {
                   </tr>
                 )}
                 {rows.map((o) => {
+                  const postcode = postcodeFromCompany(o.companyName);
                   const city = cityFromCompany(o.companyName);
+                  const dept = deptFromPostcode(postcode);
                   const prestation = prestationFromName(o.name);
                   const isGagne = o.stage === 'GAGNE';
                   const isEnAttente =
                     o.stage === 'EN_ATTENTE' || o.stage === 'DEVIS_ENVOYE';
+                  const shortId = o.id.slice(0, 8);
 
                   return (
                     <tr
@@ -186,9 +230,17 @@ export default function OpportunitiesPage() {
                         <p className="font-semibold text-gray-900">
                           {o.companyName ?? o.name}
                         </p>
-                        {city && (
-                          <p className="text-xs text-gray-400">{city}</p>
+                        {(postcode || city) && (
+                          <p className="text-xs font-light text-gray-400">
+                            {[postcode, city].filter(Boolean).join(' ')}
+                          </p>
                         )}
+                        <p className="text-xs font-light text-gray-300">
+                          ({shortId}…)
+                        </p>
+                      </td>
+                      <td className="px-6 py-4 text-sm font-medium text-gray-500">
+                        {dept ?? '—'}
                       </td>
                       <td className="px-6 py-4 text-gray-600">{prestation}</td>
                       <td className="px-6 py-4 font-semibold text-gray-900">
