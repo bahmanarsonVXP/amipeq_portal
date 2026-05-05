@@ -39,6 +39,7 @@ export interface OpportunityRow {
   stage: string;
   amountEur: number | null;
   currencyCode: string;
+  prestation: string[];
   companyId: string | null;
   companyName: string | null;
   companyPostcode: string | null;

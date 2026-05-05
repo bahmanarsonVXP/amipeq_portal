@@ -32,12 +32,6 @@ const PRESTATION_OPTIONS = [
   { value: 'RGPD', label: 'RGPD' },
 ];
 
-function prestationFromName(name: string): string {
-  const found = PRESTATION_OPTIONS.slice(1).find((p) =>
-    name.toUpperCase().includes(p.value),
-  );
-  return found ? found.label : name;
-}
 
 function deptFromPostcode(postcode: string | null): string | null {
   if (!postcode) return null;
@@ -77,7 +71,7 @@ export default function OpportunitiesPage() {
     }
     if (stageFilter) list = list.filter((o) => o.stage === stageFilter);
     if (prestationFilter)
-      list = list.filter((o) => o.name.toUpperCase().includes(prestationFilter));
+      list = list.filter((o) => o.prestation.includes(prestationFilter));
     if (deptFilter)
       list = list.filter((o) => deptFromPostcode(o.companyPostcode) === deptFilter);
     return list;
@@ -179,7 +173,7 @@ export default function OpportunitiesPage() {
                 )}
                 {rows.map((o) => {
                   const dept = deptFromPostcode(o.companyPostcode);
-                  const prestation = prestationFromName(o.name);
+                  const prestation = o.prestation.length > 0 ? o.prestation.join(' + ') : '—';
                   const isGagne = o.stage === 'GAGNE';
                   const isEnAttente = o.stage === 'EN_ATTENTE' || o.stage === 'DEVIS_ENVOYE';
                   return (
