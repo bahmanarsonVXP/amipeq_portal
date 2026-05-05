@@ -13,6 +13,7 @@ import {
   opportunityStageBadgeVariant,
   opportunityStageLabel,
 } from '@/lib/opportunityLabels';
+import type { OpportunityRow } from '@/types';
 
 const STAGE_OPTIONS = [
   { value: '', label: 'Tous les statuts' },
@@ -38,27 +39,15 @@ function prestationFromName(name: string): string {
   return found ? found.label : name;
 }
 
-function cityFromCompany(companyName: string | null): string | null {
-  if (!companyName) return null;
-  const match = companyName.match(/\b(\d{5})\s+(.+)$/);
-  return match ? match[2] : null;
-}
-
-function postcodeFromCompany(companyName: string | null): string | null {
-  if (!companyName) return null;
-  const match = companyName.match(/\b(\d{5})\s+/);
-  return match ? match[1] : null;
-}
-
 function deptFromPostcode(postcode: string | null): string | null {
   if (!postcode) return null;
   return postcode.startsWith('97') ? postcode.slice(0, 3) : postcode.slice(0, 2);
 }
 
-function allDepts(opportunities: { companyName: string | null }[]): string[] {
+function allDepts(opportunities: OpportunityRow[]): string[] {
   const set = new Set<string>();
   for (const o of opportunities) {
-    const dept = deptFromPostcode(postcodeFromCompany(o.companyName));
+    const dept = deptFromPostcode(o.companyPostcode);
     if (dept) set.add(dept);
   }
   return Array.from(set).sort();
@@ -82,18 +71,15 @@ export default function OpportunitiesPage() {
       list = list.filter(
         (o) =>
           o.name.toLowerCase().includes(q) ||
-          (o.companyName ?? '').toLowerCase().includes(q),
+          (o.companyName ?? '').toLowerCase().includes(q) ||
+          (o.companyCity ?? '').toLowerCase().includes(q),
       );
     }
     if (stageFilter) list = list.filter((o) => o.stage === stageFilter);
     if (prestationFilter)
-      list = list.filter((o) =>
-        o.name.toUpperCase().includes(prestationFilter),
-      );
+      list = list.filter((o) => o.name.toUpperCase().includes(prestationFilter));
     if (deptFilter)
-      list = list.filter(
-        (o) => deptFromPostcode(postcodeFromCompany(o.companyName)) === deptFilter,
-      );
+      list = list.filter((o) => deptFromPostcode(o.companyPostcode) === deptFilter);
     return list;
   }, [data, search, stageFilter, prestationFilter, deptFilter]);
 
@@ -117,9 +103,7 @@ export default function OpportunitiesPage() {
             className="h-10 rounded-lg border border-gray-200 bg-white px-3 pr-8 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
           >
             {STAGE_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>
-                {o.label}
-              </option>
+              <option key={o.value} value={o.value}>{o.label}</option>
             ))}
           </select>
 
@@ -129,9 +113,7 @@ export default function OpportunitiesPage() {
             className="h-10 rounded-lg border border-gray-200 bg-white px-3 pr-8 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
           >
             {PRESTATION_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>
-                {o.label}
-              </option>
+              <option key={o.value} value={o.value}>{o.label}</option>
             ))}
           </select>
 
@@ -142,9 +124,7 @@ export default function OpportunitiesPage() {
           >
             <option value="">Tous les dép.</option>
             {depts.map((d) => (
-              <option key={d} value={d}>
-                {d}
-              </option>
+              <option key={d} value={d}>{d}</option>
             ))}
           </select>
 
@@ -161,16 +141,9 @@ export default function OpportunitiesPage() {
         {error && (
           <Card className="mb-6 border-red-200 bg-red-50" padding="md">
             <p className="text-sm text-red-800">
-              Impossible de charger les opportunités. Vérifiez la session et le
-              gateway.
+              Impossible de charger les opportunités. Vérifiez la session et le gateway.
             </p>
-            <Button
-              type="button"
-              variant="secondary"
-              className="mt-3"
-              size="sm"
-              onClick={() => mutate()}
-            >
+            <Button type="button" variant="secondary" className="mt-3" size="sm" onClick={() => mutate()}>
               Réessayer
             </Button>
           </Card>
@@ -178,11 +151,11 @@ export default function OpportunitiesPage() {
 
         <Card padding="none" className="overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[700px] text-left text-sm">
+            <table className="w-full min-w-[750px] text-left text-sm">
               <thead className="border-b border-gray-200 bg-gray-50 text-xs font-semibold uppercase tracking-wide text-gray-500">
                 <tr>
                   <th className="px-6 py-3">Client</th>
-                  <th className="px-6 py-3">Dep</th>
+                  <th className="px-6 py-3 w-16">Dép.</th>
                   <th className="px-6 py-3">Prestation</th>
                   <th className="px-6 py-3">Montant</th>
                   <th className="px-6 py-3">Statut</th>
@@ -192,47 +165,38 @@ export default function OpportunitiesPage() {
               <tbody className="divide-y divide-gray-100">
                 {isLoading && (
                   <tr>
-                    <td
-                      colSpan={6}
-                      className="px-6 py-10 text-center text-gray-400"
-                    >
+                    <td colSpan={6} className="px-6 py-10 text-center text-gray-400">
                       Chargement…
                     </td>
                   </tr>
                 )}
                 {!isLoading && rows.length === 0 && (
                   <tr>
-                    <td
-                      colSpan={6}
-                      className="px-6 py-10 text-center text-gray-400"
-                    >
+                    <td colSpan={6} className="px-6 py-10 text-center text-gray-400">
                       Aucune opportunité trouvée.
                     </td>
                   </tr>
                 )}
                 {rows.map((o) => {
-                  const postcode = postcodeFromCompany(o.companyName);
-                  const city = cityFromCompany(o.companyName);
-                  const dept = deptFromPostcode(postcode);
+                  const dept = deptFromPostcode(o.companyPostcode);
                   const prestation = prestationFromName(o.name);
                   const isGagne = o.stage === 'GAGNE';
-                  const isEnAttente =
-                    o.stage === 'EN_ATTENTE' || o.stage === 'DEVIS_ENVOYE';
+                  const isEnAttente = o.stage === 'EN_ATTENTE' || o.stage === 'DEVIS_ENVOYE';
                   const shortId = o.id.slice(0, 8);
 
                   return (
                     <tr
                       key={o.id}
-                      className="group cursor-pointer hover:bg-gray-50/80"
+                      className="cursor-pointer hover:bg-gray-50/80"
                       onClick={() => router.push(`/opportunities/${o.id}`)}
                     >
                       <td className="px-6 py-4">
                         <p className="font-semibold text-gray-900">
                           {o.companyName ?? o.name}
                         </p>
-                        {(postcode || city) && (
+                        {(o.companyPostcode || o.companyCity) && (
                           <p className="text-xs font-light text-gray-400">
-                            {[postcode, city].filter(Boolean).join(' ')}
+                            {[o.companyPostcode, o.companyCity].filter(Boolean).join(' ')}
                           </p>
                         )}
                         <p className="text-xs font-light text-gray-300">
@@ -260,21 +224,13 @@ export default function OpportunitiesPage() {
                             <>
                               <button
                                 className="rounded-md border border-green-300 px-3 py-1 text-xs font-medium text-green-700 hover:bg-green-50"
-                                onClick={() =>
-                                  router.push(
-                                    `/opportunities/${o.id}?action=gagne`,
-                                  )
-                                }
+                                onClick={() => router.push(`/opportunities/${o.id}?action=gagne`)}
                               >
                                 Gagné
                               </button>
                               <button
                                 className="rounded-md border border-gray-200 px-3 py-1 text-xs font-medium text-gray-600 hover:bg-gray-50"
-                                onClick={() =>
-                                  router.push(
-                                    `/opportunities/${o.id}?action=relancer`,
-                                  )
-                                }
+                                onClick={() => router.push(`/opportunities/${o.id}?action=relancer`)}
                               >
                                 Relancer
                               </button>
@@ -283,11 +239,7 @@ export default function OpportunitiesPage() {
                           {isGagne && (
                             <button
                               className="rounded-md border border-blue-200 px-3 py-1 text-xs font-medium text-blue-700 hover:bg-blue-50"
-                              onClick={() =>
-                                router.push(
-                                  `/opportunities/${o.id}?action=duerp`,
-                                )
-                              }
+                              onClick={() => router.push(`/opportunities/${o.id}?action=duerp`)}
                             >
                               Envoyer DUERP
                             </button>
@@ -295,9 +247,7 @@ export default function OpportunitiesPage() {
                           {o.stage === 'PERDU' && (
                             <button
                               className="rounded-md border border-gray-200 px-3 py-1 text-xs font-medium text-gray-400 hover:bg-gray-50"
-                              onClick={() =>
-                                router.push(`/opportunities/${o.id}`)
-                              }
+                              onClick={() => router.push(`/opportunities/${o.id}`)}
                             >
                               Voir détail
                             </button>

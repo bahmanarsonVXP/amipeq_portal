@@ -1,6 +1,6 @@
 export type ClientType = 'ETABLISSEMENT_SCOLAIRE' | 'MAIRIE_COLLECTIVITE' | 'ENTREPRISE_TPE_PME' | 'AUTRE';
 export type ClientStatus = 'PROSPECT' | 'CLIENT_ACTIF' | 'CLIENT_INACTIF' | 'PERDU';
-export type QuoteStatus = 'GAGNE' | 'REFUSE' | 'EN_ATTENTE';
+export type QuoteStatus = 'GAGNE' | 'PERDU' | 'EN_ATTENTE';
 export type Prestation = 'DUERP' | 'PPMS' | 'RPS' | 'PSE' | 'COVID' | 'RGPD' | 'AUTRE';
 export type Nature = 'CREATION' | 'MAJ' | 'CONTRAT_MAJ';
 export type Modalite = 'SUR_SITE' | 'A_DISTANCE' | 'SUR_SITE_OU_DISTANCE';
@@ -41,6 +41,9 @@ export interface OpportunityRow {
   currencyCode: string;
   companyId: string | null;
   companyName: string | null;
+  companyPostcode: string | null;
+  companyCity: string | null;
+  companyStreet: string | null;
   closeDate: string | null;
 }
 
@@ -88,4 +91,100 @@ export interface User {
   email: string;
   name: string;
   role: 'admin' | 'franchisee';
+}
+
+// ─── Dashboard ────────────────────────────────────────────────
+
+export interface CaPeriode {
+  valeur: number
+  n1: number | null
+  n2: number | null
+  deltaN1Pct: number | null
+  deltaN2Pct: number | null
+  nomMois?: string
+  nbDevis: number
+  montantDevis: number
+  /** Variation % du nb devis vs même période N-1 / N-2 (aligné CA). */
+  deltaNbDevisN1Pct?: number | null
+  deltaNbDevisN2Pct?: number | null
+  /** Variation % du montant total des devis vs N-1 / N-2. */
+  deltaMontantDevisN1Pct?: number | null
+  deltaMontantDevisN2Pct?: number | null
+}
+
+export interface CaData {
+  dda: CaPeriode
+  glissant12M: CaPeriode
+  moisCourant: CaPeriode
+}
+
+export interface DashboardKpis {
+  ca: CaData
+  devisEnAttente: number
+  potentielEnAttente: number
+  devisEnRetard: number
+  devisARelancerAujourdhui: number
+  tauxTransformation: number
+  tauxTransformationN1: number | null
+  tauxTransformationN2: number | null
+  facturesAEnvoyer: number
+  montantFacturesAEnvoyer: number
+  facturesImpayees: number
+  montantFacturesImpayees: number
+  deplacementsAPlanifier: number
+}
+
+export interface OpportunityCard {
+  id: string
+  numeroDevis: string
+  companyName: string
+  companyId: string
+  departement: string
+  montant: number
+  prestations: string[]
+  stage: string
+  statutDevis: 'GAGNE' | 'PERDU' | 'EN_ATTENTE'
+  dateRelance: string | null
+}
+
+export interface PrioCard {
+  id: string
+  companyName: string
+  departement: string
+  montant: number
+  prestations: string[]
+  dateRelance: string
+  joursRetard: number
+}
+
+export interface PipelineColumn {
+  stage: string
+  label: string
+  count: number
+  totalMontant: number
+  cards: OpportunityCard[]
+}
+
+export interface PortefeuilleData {
+  totalActifs: number
+  totalProspects: number
+  totalInactifs: number
+  parType: { type: string; label: string; count: number }[]
+  parPrestation: { prestation: string; count: number }[]
+  topDepartements: { dept: string; count: number; ca: number }[]
+  topClients: { id: string; name: string; type: string; ca: number }[]
+}
+
+export interface PriosData {
+  enRetard: PrioCard[]
+  aujourdhui: PrioCard[]
+  realiseSemaine: PrioCard[]
+  resteSemaine: PrioCard[]
+}
+
+export interface DashboardData {
+  kpis: DashboardKpis
+  pipeline: PipelineColumn[]
+  prios: PriosData
+  portefeuille: PortefeuilleData
 }

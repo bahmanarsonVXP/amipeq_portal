@@ -26,9 +26,14 @@ export const GET_OPPORTUNITIES = `
           name
           amount { amountMicros currencyCode }
           stage
-          company { id name }
+          numeroDevis
+          statutDevis
+          dateDevis
+          dateRelance
+          prestation
+          anneeDevis
+          company { id name address { addressPostcode addressCity addressStreet1 } }
           closeDate
-          customFields
         }
       }
     }

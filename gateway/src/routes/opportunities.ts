@@ -11,7 +11,7 @@ type OppNode = {
   name: string;
   stage: string;
   amount: { amountMicros: string | number; currencyCode: string } | null;
-  company: { id: string; name: string } | null;
+  company: { id: string; name: string; address?: { addressPostcode?: string; addressCity?: string; addressStreet1?: string } | null } | null;
   closeDate: string | null;
 };
 
@@ -102,6 +102,9 @@ app.get('/', async (c) => {
       currencyCode: n.amount?.currencyCode ?? 'EUR',
       companyId: n.company?.id ?? null,
       companyName: n.company?.name ?? null,
+      companyPostcode: n.company?.address?.addressPostcode ?? null,
+      companyCity: n.company?.address?.addressCity ?? null,
+      companyStreet: n.company?.address?.addressStreet1 ?? null,
       closeDate: n.closeDate,
     };
   });
