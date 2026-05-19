@@ -22,6 +22,65 @@ export interface Company {
   prospecteur?: 'ALEX' | 'CL';
 }
 
+/** Ligne renvoyée par GET /api/companies (liste) */
+export interface CompanyListItem {
+  id: string;
+  createdAt?: string | null;
+  updatedAt?: string | null;
+  name: string;
+  numeroSociete?: string | null;
+  siret?: string | null;
+  typeClient?: string | null;
+  statutClient?: string | null;
+  prospecteur?: string | null;
+  departementNumero?: string | null;
+  phone?: string | null;
+  address: {
+    street1?: string | null;
+    city?: string | null;
+    postcode?: string | null;
+  };
+  domainUrl?: string | null;
+}
+
+export interface ClientOverviewItem extends CompanyListItem {
+  openCount: number;
+  openTotalEur: number;
+  openOpportunities: OpportunityRow[];
+  caByYear: Record<string, number>;
+}
+
+export interface ClientOverviewResponse {
+  years: number[];
+  companies: ClientOverviewItem[];
+}
+
+export interface CompanyDetailPerson {
+  id: string;
+  firstName: string;
+  lastName: string;
+  civility?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  phoneCode?: string | null;
+  jobTitle?: string | null;
+}
+
+/** GET /api/companies/:id */
+export interface CompanyDetailPayload {
+  id: string;
+  name: string;
+  phone: string | null;
+  siret?: string | null;
+  domainUrl: string | null;
+  address: {
+    street1: string | null;
+    city: string | null;
+    postcode: string | null;
+  };
+  people: CompanyDetailPerson[];
+}
+
 export interface Person {
   id: string;
   firstName: string;
@@ -32,12 +91,93 @@ export interface Person {
   companyId: string;
 }
 
+export interface OpportunityContact {
+  id: string;
+  firstName: string;
+  lastName: string;
+  civility?: string | null;
+  phone: string | null;
+  phoneCode: string | null;
+  email: string | null;
+}
+
+export interface OpportunityNote {
+  id: string;
+  title: string | null;
+  body: string | null;
+  createdAt: string | null;
+}
+
+export interface OpportunityReminder {
+  id: string;
+  title: string | null;
+  body: string | null;
+  status: 'TODO' | 'IN_PROGRESS' | 'DONE';
+  dueAt: string | null;
+  createdAt: string | null;
+  updatedAt: string | null;
+}
+
+/** Bundle multi-devis (Twenty `devisPortailBundle`, JSON) — aligné gateway */
+export type PortailQuoteDocStatus =
+  | 'Q_DRAFT_NEW'
+  | 'Q_INTERNAL_REVIEW'
+  | 'Q_READY_TO_SEND'
+  | 'Q_SENT'
+  | 'Q_SUPERSEDED'
+  | 'Q_CANCELLED';
+
+export type PortailQuoteCommercialStatus = 'EN_ATTENTE' | 'GAGNE' | 'PERDU';
+
+export interface PortailQuote {
+  id: string;
+  numero: string;
+  label: string;
+  statut: PortailQuoteDocStatus;
+  statutCommercial: PortailQuoteCommercialStatus;
+  sentAt: string | null;
+  montantBrutEur: number | null;
+  tauxRemise: number | null;
+  montantNetEur: number | null;
+  remiseTexte: string | null;
+  prestations: string[];
+  documentKey: string | null;
+  documentFileName: string | null;
+  documentUploadedAt: string | null;
+}
+
+export interface PortailStandby {
+  active: boolean;
+  until: string | null;
+  reason: string | null;
+}
+
+export interface PortailBundle {
+  version: number;
+  pilotageId: string | null;
+  quotes: PortailQuote[];
+  standby: PortailStandby;
+  lastSentInitQuoteId: string | null;
+}
+
+export interface PortailBundleDetailResponse {
+  bundle: PortailBundle;
+  stage: string;
+  bonDeCommandeRef: string | null;
+  remisePresets?: number[];
+}
+
 /** Ligne renvoyée par GET /api/opportunities (Twenty via gateway) */
 export interface OpportunityRow {
   id: string;
+  createdAt: string | null;
+  updatedAt: string | null;
   name: string;
   stage: string;
   amountEur: number | null;
+  montantInitialEur: number | null;
+  montantRemiseEur: number | null;
+  tauxRemise: number | null;
   currencyCode: string;
   prestation: string[];
   companyId: string | null;
@@ -46,6 +186,164 @@ export interface OpportunityRow {
   companyCity: string | null;
   companyStreet: string | null;
   closeDate: string | null;
+  numeroDevis: string | null;
+  statutDevis: string | null;
+  dateDevis: string | null;
+  dateRelance: string | null;
+  anneeDevis: number | null;
+  bonDeCommandeRef: string | null;
+  bcMissing: boolean;
+  portailBundle: PortailBundle;
+  portailWidgets: { d1: boolean; w1: boolean; d2: boolean; d3: boolean };
+  contact: OpportunityContact | null;
+}
+
+/** GET /api/opportunities/reports/bc-manquant */
+export interface BcManquantReportRow {
+  id: string;
+  name: string;
+  stage: string;
+  companyId: string | null;
+  companyName: string | null;
+  numeroDevis: string | null;
+  bonDeCommandeRef: string | null;
+  bcMissing: boolean;
+}
+
+export interface BcManquantReportResponse {
+  opportunities: BcManquantReportRow[];
+}
+
+export interface CompanyDetailResponse {
+  company: CompanyDetailPayload;
+  opportunities: OpportunityRow[];
+}
+
+export interface EntrepriseSearchItem {
+  name: string;
+  siret: string | null;
+  address: {
+    street1: string;
+    postcode: string;
+    city: string;
+  };
+}
+
+export interface EntrepriseSearchResponse {
+  results: EntrepriseSearchItem[];
+}
+
+export interface CompanyCreatePayload {
+  name: string;
+  typeClient?: ClientType | string | null;
+  numeroSociete?: string | null;
+  siret?: string | null;
+  address?: {
+    street1?: string | null;
+    city?: string | null;
+    postcode?: string | null;
+    country?: string | null;
+  };
+}
+
+export interface CompanyCreateResponse {
+  id: string;
+  name: string;
+  typeClient?: string | null;
+  numeroSociete?: string | null;
+  siret?: string | null;
+  address?: {
+    street1?: string | null;
+    city?: string | null;
+    postcode?: string | null;
+    country?: string | null;
+  };
+  success: boolean;
+}
+
+export interface PersonCreatePayload {
+  companyId: string;
+  firstName?: string | null;
+  lastName?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  phoneCode?: string | null;
+  city?: string | null;
+  civility?: string | null;
+  jobTitle?: string | null;
+}
+
+export interface PersonCreateResponse {
+  success: boolean;
+  person: CompanyDetailPerson & {
+    companyId: string;
+  };
+}
+
+export interface ContactListItem {
+  id: string;
+  firstName: string;
+  lastName: string;
+  civility?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  phoneCode?: string | null;
+  jobTitle?: string | null;
+  companyId: string | null;
+  companyName: string | null;
+  createdAt?: string | null;
+  updatedAt?: string | null;
+}
+
+export interface ContactsListResponse {
+  contacts: ContactListItem[];
+}
+
+export interface ContactDetailResponse {
+  contact: ContactListItem;
+}
+
+export interface PersonUpdatePayload {
+  companyId?: string;
+  firstName?: string | null;
+  lastName?: string | null;
+  email?: string | null;
+  phone?: string | null;
+  phoneCode?: string | null;
+  civility?: string | null;
+  jobTitle?: string | null;
+}
+
+export interface PersonUpdateResponse {
+  success: boolean;
+  contact: ContactListItem;
+}
+
+export interface OpportunityCreatePayload {
+  companyId: string;
+  name: string;
+  numeroDevis?: string;
+  amountEur?: number | null;
+  stage?: string;
+  dateDevis?: string | null;
+  statutDevis?: string;
+  prestation?: string[];
+  pointOfContactId?: string | null;
+  anneeDevis?: number | null;
+}
+
+export interface OpportunityContactUpdateResponse {
+  success: boolean;
+  id: string;
+  contact: OpportunityContact | null;
+}
+
+export interface OpportunityNotesResponse {
+  notes: OpportunityNote[];
+}
+
+export interface OpportunityRemindersResponse {
+  reminders: OpportunityReminder[];
 }
 
 export interface Opportunity {

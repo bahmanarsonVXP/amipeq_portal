@@ -247,7 +247,7 @@ export function Sidebar() {
         <div className="border-t border-gray-200 my-4" />
 
         <a
-          href="https://twenty-production-0500.up.railway.app"
+          href="https://twenty-production-7352.up.railway.app"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm text-gray-500 font-medium hover:bg-gray-50"

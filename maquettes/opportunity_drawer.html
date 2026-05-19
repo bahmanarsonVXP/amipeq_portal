@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maquette — Tiroir Opportunité</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { font-family: 'Montserrat', sans-serif; }
+
+    /* Tiroir */
+    #drawer {
+      transform: translateX(100%);
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #drawer.open {
+      transform: translateX(0);
+    }
+    /* Overlay */
+    #overlay {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    #overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+<!-- ── Sidebar fictive ─────────────────────────────────────── -->
+<div class="flex h-screen overflow-hidden">
+  <aside class="w-56 shrink-0 bg-gray-900 flex flex-col py-6 px-4 space-y-1">
+    <div class="mb-6 px-2">
+      <span class="text-xl font-bold text-yellow-400">AMIPEQ</span>
+    </div>
+    <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-gray-400 hover:bg-gray-800">
+      <span>🏠</span> Dashboard
+    </a>
+    <a href="#" class="flex items-center gap-3 rounded-lg bg-yellow-400/10 px-3 py-2 text-sm font-semibold text-yellow-400">
+      <span>📋</span> Opportunités
+    </a>
+    <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-gray-400 hover:bg-gray-800">
+      <span>🏢</span> Clients
+    </a>
+    <a href="#" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-gray-400 hover:bg-gray-800">
+      <span>🔔</span> Relances
+    </a>
+  </aside>
+
+  <!-- ── Main ─────────────────────────────────────────────── -->
+  <main class="flex-1 overflow-y-auto">
+
+    <!-- TopBar -->
+    <div class="sticky top-0 z-10 bg-white border-b border-gray-200 px-8 py-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-bold text-gray-900">Opportunités</h1>
+        <p class="text-xs text-gray-400 font-light">Devis et pipeline commercial</p>
+      </div>
+      <button class="rounded-lg bg-yellow-400 px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-yellow-500 shadow-sm">
+        + Nouvelle opportunité
+      </button>
+    </div>
+
+    <div class="p-8">
+      <!-- Filtres -->
+      <div class="mb-6 flex flex-wrap gap-3 items-center">
+        <input placeholder="Rechercher un client…" class="h-10 flex-1 min-w-[200px] max-w-sm rounded-lg border border-gray-200 px-3 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+        <select class="h-10 rounded-lg border border-gray-200 bg-white px-3 text-sm text-gray-700 shadow-sm">
+          <option>Tous les statuts</option>
+          <option>Gagné</option>
+          <option>Devis envoyé</option>
+          <option>Perdu</option>
+        </select>
+        <select class="h-10 rounded-lg border border-gray-200 bg-white px-3 text-sm text-gray-700 shadow-sm">
+          <option>Toutes prestations</option>
+          <option>DUERP</option>
+          <option>PPMS</option>
+          <option>RPS</option>
+        </select>
+      </div>
+
+      <!-- Tableau -->
+      <div class="rounded-xl border border-gray-200 bg-white overflow-hidden shadow-sm">
+        <table class="w-full text-left text-sm">
+          <thead class="bg-gray-50 border-b border-gray-200 text-xs font-semibold uppercase tracking-wide text-gray-500">
+            <tr>
+              <th class="px-6 py-3">Client</th>
+              <th class="px-6 py-3 w-16">Dép.</th>
+              <th class="px-6 py-3">Prestation</th>
+              <th class="px-6 py-3">Montant</th>
+              <th class="px-6 py-3">Statut</th>
+              <th class="px-6 py-3 text-right">Actions</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <!-- Ligne active (highlight) -->
+            <tr class="bg-yellow-50/60 cursor-pointer" onclick="openDrawer()">
+              <td class="px-6 py-4">
+                <p class="font-semibold text-gray-900">COLLÈGE ALBERT CAMUS</p>
+                <p class="text-xs text-gray-400">59000 Lille</p>
+              </td>
+              <td class="px-6 py-4 text-sm font-medium text-gray-500">59</td>
+              <td class="px-6 py-4 text-gray-600">DU + PPMS</td>
+              <td class="px-6 py-4 font-semibold text-gray-900">2 400 €</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-700">Gagné</span>
+              </td>
+              <td class="px-6 py-4 text-right">
+                <button class="rounded-md border border-blue-200 px-3 py-1 text-xs font-medium text-blue-700 hover:bg-blue-50">Envoyer DUERP</button>
+              </td>
+            </tr>
+            <tr class="hover:bg-gray-50/80 cursor-pointer" onclick="openDrawer()">
+              <td class="px-6 py-4">
+                <p class="font-semibold text-gray-900">ÉCOLE SAINT-JOSEPH DE ROUEN</p>
+                <p class="text-xs text-gray-400">76000 Rouen</p>
+              </td>
+              <td class="px-6 py-4 text-sm font-medium text-gray-500">76</td>
+              <td class="px-6 py-4 text-gray-600">MAJ DU</td>
+              <td class="px-6 py-4 font-semibold text-gray-900">1 150 €</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center rounded-full bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-700">Devis envoyé</span>
+              </td>
+              <td class="px-6 py-4 text-right">
+                <div class="flex items-center justify-end gap-2">
+                  <button class="rounded-md border border-green-300 px-3 py-1 text-xs font-medium text-green-700 hover:bg-green-50">Gagné</button>
+                  <button class="rounded-md border border-gray-200 px-3 py-1 text-xs font-medium text-gray-600 hover:bg-gray-50">Relancer</button>
+                </div>
+              </td>
+            </tr>
+            <tr class="hover:bg-gray-50/80 cursor-pointer" onclick="openDrawer()">
+              <td class="px-6 py-4">
+                <p class="font-semibold text-gray-900">LYCÉE PAUL LANGEVIN</p>
+                <p class="text-xs text-gray-400">62300 Lens</p>
+              </td>
+              <td class="px-6 py-4 text-sm font-medium text-gray-500">62</td>
+              <td class="px-6 py-4 text-gray-600">RPS avec Entretiens</td>
+              <td class="px-6 py-4 font-semibold text-gray-900">3 800 €</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-gray-500">Perdu</span>
+              </td>
+              <td class="px-6 py-4 text-right">
+                <button class="rounded-md border border-gray-200 px-3 py-1 text-xs font-medium text-gray-400 hover:bg-gray-50">Voir détail</button>
+              </td>
+            </tr>
+            <tr class="hover:bg-gray-50/80 cursor-pointer" onclick="openDrawer()">
+              <td class="px-6 py-4">
+                <p class="font-semibold text-gray-900">MAIRIE DE CHARTRES</p>
+                <p class="text-xs text-gray-400">28000 Chartres</p>
+              </td>
+              <td class="px-6 py-4 text-sm font-medium text-gray-500">28</td>
+              <td class="px-6 py-4 text-gray-600">DUERP</td>
+              <td class="px-6 py-4 font-semibold text-gray-900">—</td>
+              <td class="px-6 py-4">
+                <span class="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-700">En attente</span>
+              </td>
+              <td class="px-6 py-4 text-right">
+                <div class="flex items-center justify-end gap-2">
+                  <button class="rounded-md border border-green-300 px-3 py-1 text-xs font-medium text-green-700 hover:bg-green-50">Gagné</button>
+                  <button class="rounded-md border border-gray-200 px-3 py-1 text-xs font-medium text-gray-600 hover:bg-gray-50">Relancer</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-3 text-right text-xs text-gray-400">4 opportunités</p>
+    </div>
+  </main>
+</div>
+
+<!-- ── Overlay ────────────────────────────────────────────── -->
+<div id="overlay"
+     class="fixed inset-0 z-40 bg-gray-900/30 backdrop-blur-[1px]"
+     onclick="closeDrawer()">
+</div>
+
+<!-- ── Tiroir ─────────────────────────────────────────────── -->
+<aside id="drawer"
+       class="fixed right-0 top-0 z-50 h-full w-full max-w-[480px] bg-white shadow-2xl flex flex-col">
+
+  <!-- En-tête tiroir -->
+  <div class="flex items-start justify-between border-b border-gray-100 px-6 py-5">
+    <div>
+      <p class="text-xs font-medium uppercase tracking-wide text-gray-400 mb-0.5">N° 109189-CL-26178</p>
+      <h2 class="text-lg font-bold text-gray-900">COLLÈGE ALBERT CAMUS</h2>
+      <p class="text-sm text-gray-400">59000 Lille · Dép. 59</p>
+    </div>
+    <button onclick="closeDrawer()"
+            class="ml-4 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Badge statut -->
+  <div class="px-6 py-3 bg-green-50 border-b border-green-100 flex items-center gap-2">
+    <span class="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">✓ Gagné</span>
+    <span class="text-sm text-gray-400">· Devis signé</span>
+  </div>
+
+  <!-- Contenu scrollable -->
+  <div class="flex-1 overflow-y-auto px-6 py-6 space-y-6">
+
+    <!-- Bloc Montants -->
+    <div>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-3">Montants</h3>
+      <div class="grid grid-cols-2 gap-3">
+        <div class="rounded-lg bg-gray-50 px-4 py-3">
+          <p class="text-xs text-gray-400 mb-0.5">Offre initiale</p>
+          <p class="text-lg font-bold text-gray-900">2 800 €</p>
+        </div>
+        <div class="rounded-lg bg-yellow-50 px-4 py-3">
+          <p class="text-xs text-gray-400 mb-0.5">Montant final</p>
+          <p class="text-lg font-bold text-yellow-700">2 400 €</p>
+        </div>
+        <div class="rounded-lg bg-gray-50 px-4 py-3">
+          <p class="text-xs text-gray-400 mb-0.5">Remise</p>
+          <p class="text-base font-semibold text-gray-700">400 € (14%)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloc Prestation -->
+    <div>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-3">Prestation</h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">DU</span>
+        <span class="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-700">PPMS</span>
+      </div>
+      <p class="mt-2 text-xs text-gray-400">Norme originale : <span class="font-mono">DU + PPMS</span></p>
+    </div>
+
+    <!-- Bloc Dates -->
+    <div>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-3">Dates</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between">
+          <span class="text-gray-500">Date du devis</span>
+          <span class="font-medium text-gray-900">12 mars 2026</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Docs envoyés</span>
+          <span class="font-medium text-gray-900">18 mars 2026</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Année</span>
+          <span class="font-medium text-gray-900">2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloc Contact -->
+    <div>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-3">Contact</h3>
+      <div class="flex items-center gap-3 rounded-lg border border-gray-100 px-4 py-3">
+        <div class="flex h-9 w-9 items-center justify-center rounded-full bg-yellow-100 text-sm font-bold text-yellow-700">
+          ML
+        </div>
+        <div>
+          <p class="font-medium text-gray-900">Marie Leclerc</p>
+          <p class="text-xs text-gray-400">Directrice — m.leclerc@college-camus.fr</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bloc Client -->
+    <div>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-3">Client</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between">
+          <span class="text-gray-500">N° Société</span>
+          <span class="font-mono font-medium text-gray-900">109189</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Type</span>
+          <span class="font-medium text-gray-900">Établissement scolaire</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-500">Adresse</span>
+          <span class="font-medium text-gray-900 text-right">59000 Lille</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Pied du tiroir — Actions -->
+  <div class="border-t border-gray-100 px-6 py-4 bg-gray-50 flex items-center gap-3">
+    <button class="flex-1 rounded-lg bg-yellow-400 px-4 py-2.5 text-sm font-semibold text-gray-900 hover:bg-yellow-500 shadow-sm">
+      Envoyer DUERP
+    </button>
+    <button class="rounded-lg border border-gray-200 bg-white px-4 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-50">
+      Voir fiche complète
+    </button>
+  </div>
+</aside>
+
+<script>
+  function openDrawer()  {
+    document.getElementById('drawer').classList.add('open');
+    document.getElementById('overlay').classList.add('open');
+  }
+  function closeDrawer() {
+    document.getElementById('drawer').classList.remove('open');
+    document.getElementById('overlay').classList.remove('open');
+  }
+  // Fermer avec Échap
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,1823 @@
+{
+  "createdAt": "2026-05-12T12:53:13.043Z",
+  "sourceReport": "audit_types_departements_rapport_validation.json",
+  "apply": true,
+  "includeMedium": false,
+  "summary": {
+    "total": 53,
+    "updated": 53,
+    "errors": 0
+  },
+  "results": [
+    {
+      "companyId": "00d956c6-624a-4b6a-b254-cdae80090707",
+      "numeroSociete": 109116,
+      "name": "ENSEMBLE SCOLAIRE SAINT RIQUIER",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "80094"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80"
+      },
+      "after": {
+        "id": "00d956c6-624a-4b6a-b254-cdae80090707",
+        "name": "ENSEMBLE SCOLAIRE SAINT RIQUIER",
+        "numeroSociete": 109116,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80",
+        "address": {
+          "addressStreet1": "50 CHAUSSEE JULES FERRY",
+          "addressCity": "AMIENS",
+          "addressPostcode": "80094",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "011c4258-7339-4e6c-b84f-481ae4bc08b0",
+      "numeroSociete": 109118,
+      "name": "ENSEMBLE SCOLAIRE NOTRE DAME - FLIXECOURT",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "80420"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80"
+      },
+      "after": {
+        "id": "011c4258-7339-4e6c-b84f-481ae4bc08b0",
+        "name": "ENSEMBLE SCOLAIRE NOTRE DAME - FLIXECOURT",
+        "numeroSociete": 109118,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80",
+        "address": {
+          "addressStreet1": "28 RUE GAMBETTA",
+          "addressCity": "FLEXICOURT",
+          "addressPostcode": "80420",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "07624a5b-884f-4165-996b-427cdfae2a2d",
+      "numeroSociete": 109045,
+      "name": "ENSEMBLE SCOLAIRE SAINTE ANNE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_69_RH_NE",
+        "departementNumero": "69",
+        "addressPostcode": "69400"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "07624a5b-884f-4165-996b-427cdfae2a2d",
+        "name": "ENSEMBLE SCOLAIRE SAINTE ANNE",
+        "numeroSociete": 109045,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_69_RH_NE",
+        "departementNumero": "69",
+        "address": {
+          "addressStreet1": "3 RUE DES REMPARTS",
+          "addressCity": "VILLEFRANCHE SUR SAONE",
+          "addressPostcode": "69400",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "0a637e6d-4576-42cb-a051-8f1841ae34a2",
+      "numeroSociete": 109103,
+      "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - ST MAUR",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "94100"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94"
+      },
+      "after": {
+        "id": "0a637e6d-4576-42cb-a051-8f1841ae34a2",
+        "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - ST MAUR",
+        "numeroSociete": 109103,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94",
+        "address": {
+          "addressStreet1": "109 BOULEVARD DE CRETEIL",
+          "addressCity": "SAINT MAUR DES FOSSES",
+          "addressPostcode": "94100",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "0c615722-27ad-4e54-8f94-adb2891894ef",
+      "numeroSociete": 109138,
+      "name": "CLAREDIE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "37100"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37"
+      },
+      "after": {
+        "id": "0c615722-27ad-4e54-8f94-adb2891894ef",
+        "name": "CLAREDIE",
+        "numeroSociete": 109138,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37",
+        "address": {
+          "addressStreet1": "48 AVENUE GUSTAVE EIFFEL",
+          "addressCity": "TOURS",
+          "addressPostcode": "37100",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "13b47477-1bb2-4f5f-8ef2-807bc57097b1",
+      "numeroSociete": 109124,
+      "name": "INSTITUTION SAINTE ODILE - LAMBERSART",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "59130"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59"
+      },
+      "after": {
+        "id": "13b47477-1bb2-4f5f-8ef2-807bc57097b1",
+        "name": "INSTITUTION SAINTE ODILE - LAMBERSART",
+        "numeroSociete": 109124,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59",
+        "address": {
+          "addressStreet1": "244 AVENUE DE DUNKERQUE",
+          "addressCity": "LAMBERSART",
+          "addressPostcode": "59130",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "16a83718-7e5e-4b19-9306-349f3be1d689",
+      "numeroSociete": 109152,
+      "name": "MADEMOISELLE JULIE SERVICES",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "78810"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_78_YVELINES",
+        "departementNumero": "78"
+      },
+      "after": {
+        "id": "16a83718-7e5e-4b19-9306-349f3be1d689",
+        "name": "MADEMOISELLE JULIE SERVICES",
+        "numeroSociete": 109152,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_78_YVELINES",
+        "departementNumero": "78",
+        "address": {
+          "addressStreet1": "ZA DE LA BRIQUETERIE - ROUTE DEPARTEMENTALE 307",
+          "addressCity": "FEUCHEROLLES",
+          "addressPostcode": "78810",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "18557f6a-5796-46c5-a84c-6612feaf325c",
+      "numeroSociete": 108800,
+      "name": "ENSEMBLE SCOLAIRE L'ASSOMPTION",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_34_H_RAULT",
+        "departementNumero": "34",
+        "addressPostcode": "34967"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "18557f6a-5796-46c5-a84c-6612feaf325c",
+        "name": "ENSEMBLE SCOLAIRE L'ASSOMPTION",
+        "numeroSociete": 108800,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_34_H_RAULT",
+        "departementNumero": "34",
+        "address": {
+          "addressStreet1": "24 RUE DU CARRE DU ROI - CS 19017",
+          "addressCity": "MONTPELLIER CEDEX 2",
+          "addressPostcode": "34967",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "1e594b48-00fd-40ca-ac1d-e83f3dbc3c31",
+      "numeroSociete": 109099,
+      "name": "EFC",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "28800"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_28_EURE_ET_LOIR",
+        "departementNumero": "28"
+      },
+      "after": {
+        "id": "1e594b48-00fd-40ca-ac1d-e83f3dbc3c31",
+        "name": "EFC",
+        "numeroSociete": 109099,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_28_EURE_ET_LOIR",
+        "departementNumero": "28",
+        "address": {
+          "addressStreet1": "4 ROUTE DE VOVES",
+          "addressCity": "BONNEVAL",
+          "addressPostcode": "28800",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "229c5597-4c36-4a08-9879-9a023b1c64b8",
+      "numeroSociete": 109105,
+      "name": "ENSEMBLE SCOLAIRE NOTRE DAME DU VIEUX COURS",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "35000"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_35_ILLE_ET_VILAINE",
+        "departementNumero": "35"
+      },
+      "after": {
+        "id": "229c5597-4c36-4a08-9879-9a023b1c64b8",
+        "name": "ENSEMBLE SCOLAIRE NOTRE DAME DU VIEUX COURS",
+        "numeroSociete": 109105,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_35_ILLE_ET_VILAINE",
+        "departementNumero": "35",
+        "address": {
+          "addressStreet1": "11 RUE PLELO",
+          "addressCity": "RENNES",
+          "addressPostcode": "35000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "3605fa14-58a2-4099-8cea-b416d6aaafcb",
+      "numeroSociete": 107348,
+      "name": "ENSEMBLE SCOLAIRE SAINTE CATHERINE D'ALEXANDRIE (ANCIEN COLL. SACRE CŒUR)",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_53_MAYENNE",
+        "departementNumero": "53",
+        "addressPostcode": "53120"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "3605fa14-58a2-4099-8cea-b416d6aaafcb",
+        "name": "ENSEMBLE SCOLAIRE SAINTE CATHERINE D'ALEXANDRIE (ANCIEN COLL. SACRE CŒUR)",
+        "numeroSociete": 107348,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_53_MAYENNE",
+        "departementNumero": "53",
+        "address": {
+          "addressStreet1": "7 RUE ST MICHEL",
+          "addressCity": "GORRON",
+          "addressPostcode": "53120",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "3ff70299-e4b1-4944-808c-b457738a718c",
+      "numeroSociete": 109127,
+      "name": "LPP VINCENT DE PAUL",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "65000"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "LYCEE",
+        "departement": "DEPT_65_HAUTES_PYR_N_ES",
+        "departementNumero": "65"
+      },
+      "after": {
+        "id": "3ff70299-e4b1-4944-808c-b457738a718c",
+        "name": "LPP VINCENT DE PAUL",
+        "numeroSociete": 109127,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "LYCEE",
+        "departement": "DEPT_65_HAUTES_PYR_N_ES",
+        "departementNumero": "65",
+        "address": {
+          "addressStreet1": "16 RUE SAINT VINCENT DE PAUL",
+          "addressCity": "TARBES",
+          "addressPostcode": "65000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "43252013-4d1f-4cde-af56-d10638210545",
+      "numeroSociete": 108317,
+      "name": "ENSEMBLE SCOLAIRE SAINT VINCENT DE PAUL",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_93_SEINE_SAINT_DENIS",
+        "departementNumero": "93",
+        "addressPostcode": "93200"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "43252013-4d1f-4cde-af56-d10638210545",
+        "name": "ENSEMBLE SCOLAIRE SAINT VINCENT DE PAUL",
+        "numeroSociete": 108317,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_93_SEINE_SAINT_DENIS",
+        "departementNumero": "93",
+        "address": {
+          "addressStreet1": "18 BOULEVARD FELIX FAURE",
+          "addressCity": "SAINT DENIS",
+          "addressPostcode": "93200",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "43cc39ed-3da6-4708-8f61-6a4a46f1f75c",
+      "numeroSociete": 109101,
+      "name": "INSTITUTION JEANNE D'ARC",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "92700"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_92_HAUTS_DE_SEINE",
+        "departementNumero": "92"
+      },
+      "after": {
+        "id": "43cc39ed-3da6-4708-8f61-6a4a46f1f75c",
+        "name": "INSTITUTION JEANNE D'ARC",
+        "numeroSociete": 109101,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_92_HAUTS_DE_SEINE",
+        "departementNumero": "92",
+        "address": {
+          "addressStreet1": "9 BOULEVARD DE VALMY",
+          "addressCity": "COLOMBES",
+          "addressPostcode": "92700",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "46fa487c-7f60-4ed6-8f02-a713cfd18ddc",
+      "numeroSociete": null,
+      "name": "Voxperience",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": null
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE"
+      },
+      "after": {
+        "id": "46fa487c-7f60-4ed6-8f02-a713cfd18ddc",
+        "name": "Voxperience",
+        "numeroSociete": null,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": null,
+        "departementNumero": "",
+        "address": {
+          "addressStreet1": "",
+          "addressCity": "",
+          "addressPostcode": "",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "4887e860-c8ba-4920-b3e2-7bb1bd336308",
+      "numeroSociete": 109122,
+      "name": "ENSEMBLE SCOLAIRE SAINT MICHEL - SAINT MANDE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "94160"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94"
+      },
+      "after": {
+        "id": "4887e860-c8ba-4920-b3e2-7bb1bd336308",
+        "name": "ENSEMBLE SCOLAIRE SAINT MICHEL - SAINT MANDE",
+        "numeroSociete": 109122,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94",
+        "address": {
+          "addressStreet1": "10 TER RUE JEANNE D'ARC",
+          "addressCity": "SAINT MANDE",
+          "addressPostcode": "94160",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "49057b25-6106-49be-ab13-8252067a4478",
+      "numeroSociete": 109141,
+      "name": "FIDREX",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "97215"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_972_MARTINIQUE",
+        "departementNumero": "972"
+      },
+      "after": {
+        "id": "49057b25-6106-49be-ab13-8252067a4478",
+        "name": "FIDREX",
+        "numeroSociete": 109141,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_972_MARTINIQUE",
+        "departementNumero": "972",
+        "address": {
+          "addressStreet1": "ANGLE RUES PASTEUR ET FELIX EBOUE - ETAGE 2 - APPART N°4",
+          "addressCity": "RIVIERE SALEE",
+          "addressPostcode": "97215",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "4b485c83-b9ba-4016-940f-15afffac5c6d",
+      "numeroSociete": 109073,
+      "name": "ENSEMBLE SCOLAIRE SACRE CŒUR",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80",
+        "addressPostcode": "80200"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "4b485c83-b9ba-4016-940f-15afffac5c6d",
+        "name": "ENSEMBLE SCOLAIRE SACRE CŒUR",
+        "numeroSociete": 109073,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80",
+        "address": {
+          "addressStreet1": "RUE DES NAVIAGES ",
+          "addressCity": "PERONNE",
+          "addressPostcode": "80200",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "554dcd28-eed8-4e44-ab31-70b939be97e7",
+      "numeroSociete": 109091,
+      "name": "AXA ASSURANCES ET BANQUE LASSERRE RAT",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "30900"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_30_GARD",
+        "departementNumero": "30"
+      },
+      "after": {
+        "id": "554dcd28-eed8-4e44-ab31-70b939be97e7",
+        "name": "AXA ASSURANCES ET BANQUE LASSERRE RAT",
+        "numeroSociete": 109091,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_30_GARD",
+        "departementNumero": "30",
+        "address": {
+          "addressStreet1": "CENTRE NAUTIQUE - 40 AVENUE DE LA BOUVINE",
+          "addressCity": "NIMES",
+          "addressPostcode": "30900",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "5fee0bb0-7b55-467f-b7a0-8b7db3f7325c",
+      "numeroSociete": 109109,
+      "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - SEVRES",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "92310"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_92_HAUTS_DE_SEINE",
+        "departementNumero": "92"
+      },
+      "after": {
+        "id": "5fee0bb0-7b55-467f-b7a0-8b7db3f7325c",
+        "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - SEVRES",
+        "numeroSociete": 109109,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_92_HAUTS_DE_SEINE",
+        "departementNumero": "92",
+        "address": {
+          "addressStreet1": "5 RUE DE RUIEL",
+          "addressCity": "SEVRES",
+          "addressPostcode": "92310",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "60cac05a-ff4c-48f9-9240-d944136438c6",
+      "numeroSociete": 109089,
+      "name": "LA FERME DE LA CHEVROCHERE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "79200"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_79_DEUX_S_VRES",
+        "departementNumero": "79"
+      },
+      "after": {
+        "id": "60cac05a-ff4c-48f9-9240-d944136438c6",
+        "name": "LA FERME DE LA CHEVROCHERE",
+        "numeroSociete": 109089,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_79_DEUX_S_VRES",
+        "departementNumero": "79",
+        "address": {
+          "addressStreet1": "RUE SAINTE ANNE LIEUT DIT",
+          "addressCity": "POMPAIRE",
+          "addressPostcode": "79200",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "75d3ab42-c25d-40ef-adec-943014ba30ab",
+      "numeroSociete": 108706,
+      "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH LA SALLE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_72_SARTHE",
+        "departementNumero": "72",
+        "addressPostcode": "72700"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "75d3ab42-c25d-40ef-adec-943014ba30ab",
+        "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH LA SALLE",
+        "numeroSociete": 108706,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_72_SARTHE",
+        "departementNumero": "72",
+        "address": {
+          "addressStreet1": "60 ROUTE DU MANS - LE PIZIEUX",
+          "addressCity": "PRUILLE LE CHETIF",
+          "addressPostcode": "72700",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "78a3e24c-9bfd-4886-bf48-27a9039268a5",
+      "numeroSociete": 106972,
+      "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_48_LOZ_RE",
+        "departementNumero": "48",
+        "addressPostcode": "48200"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "78a3e24c-9bfd-4886-bf48-27a9039268a5",
+        "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR",
+        "numeroSociete": 106972,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_48_LOZ_RE",
+        "departementNumero": "48",
+        "address": {
+          "addressStreet1": "43 AVENUE DE LA GARE",
+          "addressCity": "ST CHELY D'APCHER",
+          "addressPostcode": "48200",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "7cd8d2d1-aa3c-479e-adcc-1d9a82eb61d7",
+      "numeroSociete": null,
+      "name": "voxperien",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": null
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE"
+      },
+      "after": {
+        "id": "7cd8d2d1-aa3c-479e-adcc-1d9a82eb61d7",
+        "name": "voxperien",
+        "numeroSociete": null,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": null,
+        "departementNumero": "",
+        "address": {
+          "addressStreet1": "",
+          "addressCity": "",
+          "addressPostcode": "",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "7f0b6e02-e82a-4169-a84a-e4dcd2e2c512",
+      "numeroSociete": 109055,
+      "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59",
+        "addressPostcode": "59250"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "7f0b6e02-e82a-4169-a84a-e4dcd2e2c512",
+        "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR",
+        "numeroSociete": 109055,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59",
+        "address": {
+          "addressStreet1": "26 RUE MARC NOLLET",
+          "addressCity": "HALLUIN",
+          "addressPostcode": "59250",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "824d9753-0032-416e-a522-76ce1030a57a",
+      "numeroSociete": 109120,
+      "name": "ENSEMBLE SCOLAIRE SAINTE FAMILLE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "44190"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_44_LOIRE_ATLANTIQUE",
+        "departementNumero": "44"
+      },
+      "after": {
+        "id": "824d9753-0032-416e-a522-76ce1030a57a",
+        "name": "ENSEMBLE SCOLAIRE SAINTE FAMILLE",
+        "numeroSociete": 109120,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_44_LOIRE_ATLANTIQUE",
+        "departementNumero": "44",
+        "address": {
+          "addressStreet1": "3 PLACE DE LA TRINITE",
+          "addressCity": "CLISSON",
+          "addressPostcode": "44190",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "8806c047-3274-4887-9908-23f760637b61",
+      "numeroSociete": 109145,
+      "name": "ENSEMBLE SCOLAIRE SAINTE THERESE - SAINT VINCENT",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "80500"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80"
+      },
+      "after": {
+        "id": "8806c047-3274-4887-9908-23f760637b61",
+        "name": "ENSEMBLE SCOLAIRE SAINTE THERESE - SAINT VINCENT",
+        "numeroSociete": 109145,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_80_SOMME",
+        "departementNumero": "80",
+        "address": {
+          "addressStreet1": "5 RUE CHARLES MANGOT",
+          "addressCity": "MONTIDIER",
+          "addressPostcode": "80500",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "8dd17584-5b73-486f-b1a8-7afb5d32600c",
+      "numeroSociete": 109115,
+      "name": "ENSEMBLE SCOLAIRE SAINT DRUON",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "62220"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_62_PAS_DE_CALAIS",
+        "departementNumero": "62"
+      },
+      "after": {
+        "id": "8dd17584-5b73-486f-b1a8-7afb5d32600c",
+        "name": "ENSEMBLE SCOLAIRE SAINT DRUON",
+        "numeroSociete": 109115,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_62_PAS_DE_CALAIS",
+        "departementNumero": "62",
+        "address": {
+          "addressStreet1": "24 RUE EMILE ZOLA",
+          "addressCity": "CARVIN",
+          "addressPostcode": "62220",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "8f710b08-a0aa-49a2-936e-1b57276eac57",
+      "numeroSociete": 109150,
+      "name": "ABP MENUISERIES",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "65300"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_65_HAUTES_PYR_N_ES",
+        "departementNumero": "65"
+      },
+      "after": {
+        "id": "8f710b08-a0aa-49a2-936e-1b57276eac57",
+        "name": "ABP MENUISERIES",
+        "numeroSociete": 109150,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_65_HAUTES_PYR_N_ES",
+        "departementNumero": "65",
+        "address": {
+          "addressStreet1": "45 IMPASSE DU GYPAETE",
+          "addressCity": "LANNEMEZAN",
+          "addressPostcode": "65300",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "90481534-79b0-4406-a87e-58e2eb9e80f6",
+      "numeroSociete": 109149,
+      "name": "CITE SCOLAIRE JEAN JAURES",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "12400"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_12_AVEYRON",
+        "departementNumero": "12"
+      },
+      "after": {
+        "id": "90481534-79b0-4406-a87e-58e2eb9e80f6",
+        "name": "CITE SCOLAIRE JEAN JAURES",
+        "numeroSociete": 109149,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_12_AVEYRON",
+        "departementNumero": "12",
+        "address": {
+          "addressStreet1": "625 AVENUE JEAN JAURES",
+          "addressCity": "SAINT AFFRIQUE",
+          "addressPostcode": "12400",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "912d7c8d-d601-4fd8-b218-29e51a75c4d0",
+      "numeroSociete": 109095,
+      "name": "ENSEMBLE SCOLAIRE THERESE D'AVILA",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "59011"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59"
+      },
+      "after": {
+        "id": "912d7c8d-d601-4fd8-b218-29e51a75c4d0",
+        "name": "ENSEMBLE SCOLAIRE THERESE D'AVILA",
+        "numeroSociete": 109095,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_59_NORD",
+        "departementNumero": "59",
+        "address": {
+          "addressStreet1": "124 BOULEVARD VAUBAN - BP 41077",
+          "addressCity": "LILLE CEDEX",
+          "addressPostcode": "59011",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "91d03418-4ca5-4b80-bf62-fe8ed6102e40",
+      "numeroSociete": 109083,
+      "name": "LV RENOVATION",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": null
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE"
+      },
+      "after": {
+        "id": "91d03418-4ca5-4b80-bf62-fe8ed6102e40",
+        "name": "LV RENOVATION",
+        "numeroSociete": 109083,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": null,
+        "departementNumero": "",
+        "address": {
+          "addressStreet1": "",
+          "addressCity": "",
+          "addressPostcode": "",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "960c0c1e-0482-4215-afa8-b356d861c0f7",
+      "numeroSociete": 109070,
+      "name": "ENSEMBLE SCOLAIRE SAINTE ANGELE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_14_CALVADOS",
+        "departementNumero": "14",
+        "addressPostcode": "14000"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "960c0c1e-0482-4215-afa8-b356d861c0f7",
+        "name": "ENSEMBLE SCOLAIRE SAINTE ANGELE",
+        "numeroSociete": 109070,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_14_CALVADOS",
+        "departementNumero": "14",
+        "address": {
+          "addressStreet1": "4 RUE D'AUTHIE",
+          "addressCity": "CAEN",
+          "addressPostcode": "14000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "9b158d7b-e890-4ffa-b870-515967c3dfc2",
+      "numeroSociete": 109082,
+      "name": "FORMATSUD",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "13011"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13"
+      },
+      "after": {
+        "id": "9b158d7b-e890-4ffa-b870-515967c3dfc2",
+        "name": "FORMATSUD",
+        "numeroSociete": 109082,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13",
+        "address": {
+          "addressStreet1": "110 ROUTE DE LA VALENTINE",
+          "addressCity": "MARSEILLE",
+          "addressPostcode": "13011",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "a81304f6-3468-4c01-afe2-edb69fb78fce",
+      "numeroSociete": 109110,
+      "name": "ENSEMBLE SCOLAIRE NOTRE DAME SAINT LOUIS - LOUVIERS",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "27400"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_27_EURE",
+        "departementNumero": "27"
+      },
+      "after": {
+        "id": "a81304f6-3468-4c01-afe2-edb69fb78fce",
+        "name": "ENSEMBLE SCOLAIRE NOTRE DAME SAINT LOUIS - LOUVIERS",
+        "numeroSociete": 109110,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_27_EURE",
+        "departementNumero": "27",
+        "address": {
+          "addressStreet1": "6 RUE FRANCOIS LE CAMUS",
+          "addressCity": "LOUVIERS",
+          "addressPostcode": "27400",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "b0f15dca-bcc2-47c8-8995-b2f679923318",
+      "numeroSociete": 108464,
+      "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR + ECOLE STE FAMILLE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ECOLE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37",
+        "addressPostcode": "37000"
+      },
+      "patch": {
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "b0f15dca-bcc2-47c8-8995-b2f679923318",
+        "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR + ECOLE STE FAMILLE",
+        "numeroSociete": 108464,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37",
+        "address": {
+          "addressStreet1": "104 RUE MARCEL TRIBUT",
+          "addressCity": "TOURS",
+          "addressPostcode": "37000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "b481d290-3d13-47a7-bb25-a16ea85972a4",
+      "numeroSociete": 109151,
+      "name": "QUALIS TECHNOLOGIE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "26600"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_26_DR_ME",
+        "departementNumero": "26"
+      },
+      "after": {
+        "id": "b481d290-3d13-47a7-bb25-a16ea85972a4",
+        "name": "QUALIS TECHNOLOGIE",
+        "numeroSociete": 109151,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_26_DR_ME",
+        "departementNumero": "26",
+        "address": {
+          "addressStreet1": "445 ROUTE DE TRAIN",
+          "addressCity": "CHANOS-CURSON",
+          "addressPostcode": "26600",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "c2ac5f77-ec79-486d-a381-26d494f0753e",
+      "numeroSociete": 108464,
+      "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR + ECOLE STE FAMILLE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ECOLE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37",
+        "addressPostcode": "37000"
+      },
+      "patch": {
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "c2ac5f77-ec79-486d-a381-26d494f0753e",
+        "name": "ENSEMBLE SCOLAIRE SACRÉ CŒUR + ECOLE STE FAMILLE",
+        "numeroSociete": 108464,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_37_INDRE_ET_LOIRE",
+        "departementNumero": "37",
+        "address": {
+          "addressStreet1": "104 RUE MARCEL TRIBUT",
+          "addressCity": "TOURS",
+          "addressPostcode": "37000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "c3d1716f-9dbe-423f-b0e0-ea4f317251b8",
+      "numeroSociete": 108727,
+      "name": "ENSEMBLE SCOLAIRE TOUR SAINTE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13",
+        "addressPostcode": "13014"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "c3d1716f-9dbe-423f-b0e0-ea4f317251b8",
+        "name": "ENSEMBLE SCOLAIRE TOUR SAINTE",
+        "numeroSociete": 108727,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13",
+        "address": {
+          "addressStreet1": "12 AVENUE DE TOUR SAINTE",
+          "addressCity": "MARSEILLE",
+          "addressPostcode": "13014",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "c67da3d8-0767-4107-9023-21f653900858",
+      "numeroSociete": 109114,
+      "name": "ENSEMBLE SCOLAIRE SAINT FRANCOIS - MAISON SALFORT",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "94700"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94"
+      },
+      "after": {
+        "id": "c67da3d8-0767-4107-9023-21f653900858",
+        "name": "ENSEMBLE SCOLAIRE SAINT FRANCOIS - MAISON SALFORT",
+        "numeroSociete": 109114,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94",
+        "address": {
+          "addressStreet1": "40 BIS RUE VICTOR HUGO",
+          "addressCity": "MAISONS ALFORT",
+          "addressPostcode": "94700",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "c6ed1394-771c-477d-927b-bee2eabf2634",
+      "numeroSociete": 107199,
+      "name": "ENSEMBLE SCOLAIRE PIC LA SALLE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_34_H_RAULT",
+        "departementNumero": "34",
+        "addressPostcode": "34500"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "c6ed1394-771c-477d-927b-bee2eabf2634",
+        "name": "ENSEMBLE SCOLAIRE PIC LA SALLE",
+        "numeroSociete": 107199,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_34_H_RAULT",
+        "departementNumero": "34",
+        "address": {
+          "addressStreet1": "5 PLACE ST APHRODISE",
+          "addressCity": "BEZIERS",
+          "addressPostcode": "34500",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "d15ee419-2667-4c66-ab75-77fb8d905be2",
+      "numeroSociete": 109090,
+      "name": "CDEF DE HAUTE GARONNE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "31200"
+      },
+      "patch": {
+        "typeClient": "MAIRIE_COLLECTIVITE",
+        "sousType": "ETABLISSEMENT_PUBLIC",
+        "departement": "DEPT_31_HAUTE_GARONNE",
+        "departementNumero": "31"
+      },
+      "after": {
+        "id": "d15ee419-2667-4c66-ab75-77fb8d905be2",
+        "name": "CDEF DE HAUTE GARONNE",
+        "numeroSociete": 109090,
+        "typeClient": "MAIRIE_COLLECTIVITE",
+        "sousType": "ETABLISSEMENT_PUBLIC",
+        "departement": "DEPT_31_HAUTE_GARONNE",
+        "departementNumero": "31",
+        "address": {
+          "addressStreet1": "ROUTE DE LAUNAGUET",
+          "addressCity": "TOULOUSE",
+          "addressPostcode": "31200",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "d6d5f60b-d080-4984-b9d8-3f7e4ae93386",
+      "numeroSociete": null,
+      "name": "IZEM Capital Invest",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": "DEPT_93_SEINE_SAINT_DENIS",
+        "departementNumero": "93",
+        "addressPostcode": "93460"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE"
+      },
+      "after": {
+        "id": "d6d5f60b-d080-4984-b9d8-3f7e4ae93386",
+        "name": "IZEM Capital Invest",
+        "numeroSociete": null,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_93_SEINE_SAINT_DENIS",
+        "departementNumero": "93",
+        "address": {
+          "addressStreet1": "15 avenue Maréchal Joffres",
+          "addressCity": "Gourney",
+          "addressPostcode": "93460",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "daf1a49e-85fc-4c2b-b9c6-47f1f1ab16a7",
+      "numeroSociete": 107830,
+      "name": "ENSEMBLE SCOLAIRE STE ANNE - ST PIERRE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_56_MORBIHAN",
+        "departementNumero": "56",
+        "addressPostcode": "56290"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "daf1a49e-85fc-4c2b-b9c6-47f1f1ab16a7",
+        "name": "ENSEMBLE SCOLAIRE STE ANNE - ST PIERRE",
+        "numeroSociete": 107830,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_56_MORBIHAN",
+        "departementNumero": "56",
+        "address": {
+          "addressStreet1": "16 RUE DE LA CITADELLE",
+          "addressCity": "PORT LOUIS",
+          "addressPostcode": "56290",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "db77d454-71b0-4d91-80e0-c811308c9d03",
+      "numeroSociete": 109104,
+      "name": "ENSEMBLE SCOLAIRE DE MAILLÉ",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "94000"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94"
+      },
+      "after": {
+        "id": "db77d454-71b0-4d91-80e0-c811308c9d03",
+        "name": "ENSEMBLE SCOLAIRE DE MAILLÉ",
+        "numeroSociete": 109104,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94",
+        "address": {
+          "addressStreet1": "11 RUE OCTAVE DUMESNIL",
+          "addressCity": "CRETEIL",
+          "addressPostcode": "94000",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "dbe2f11a-b704-4363-bc22-577cbe5faca4",
+      "numeroSociete": 109143,
+      "name": "GARAGE MERCIER AUTOMOBILE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "56420"
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_56_MORBIHAN",
+        "departementNumero": "56"
+      },
+      "after": {
+        "id": "dbe2f11a-b704-4363-bc22-577cbe5faca4",
+        "name": "GARAGE MERCIER AUTOMOBILE",
+        "numeroSociete": 109143,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": "DEPT_56_MORBIHAN",
+        "departementNumero": "56",
+        "address": {
+          "addressStreet1": "ZA DE MAIGRIS",
+          "addressCity": "BULEON",
+          "addressPostcode": "56420",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "dec5596c-62ed-4ae3-97ca-d107baa38043",
+      "numeroSociete": 109133,
+      "name": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - COLLEGE CHOISY",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "COLLEGE",
+        "departement": "DEPT_35_ILLE_ET_VILAINE",
+        "departementNumero": "35",
+        "addressPostcode": "35400"
+      },
+      "patch": {
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "dec5596c-62ed-4ae3-97ca-d107baa38043",
+        "name": "ENSEMBLE SCOLAIRE NOTRE DAME DES CHÊNES - COLLEGE CHOISY",
+        "numeroSociete": 109133,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_35_ILLE_ET_VILAINE",
+        "departementNumero": "35",
+        "address": {
+          "addressStreet1": "3 AVENUE DE LA BORDERIE",
+          "addressCity": "SAINT MALO",
+          "addressPostcode": "35400",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "e7c2e9a7-c072-4c2d-a8b5-87bfac83d4d7",
+      "numeroSociete": 109106,
+      "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - KREMLIN BICETRE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "94270"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94"
+      },
+      "after": {
+        "id": "e7c2e9a7-c072-4c2d-a8b5-87bfac83d4d7",
+        "name": "ENSEMBLE SCOLAIRE JEANNE D'ARC - KREMLIN BICETRE",
+        "numeroSociete": 109106,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_94_VAL_DE_MARNE",
+        "departementNumero": "94",
+        "address": {
+          "addressStreet1": "2 AVENUE DU REPOS",
+          "addressCity": "KREMLIN-BICÊTRE",
+          "addressPostcode": "94270",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "eaf670bb-3e2d-42a3-85a5-20edf9c8323a",
+      "numeroSociete": 109121,
+      "name": "ENSEMBLE SCOLAIRE LE RONDEAU-MONTFLEURY",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "38700"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_38_IS_RE",
+        "departementNumero": "38"
+      },
+      "after": {
+        "id": "eaf670bb-3e2d-42a3-85a5-20edf9c8323a",
+        "name": "ENSEMBLE SCOLAIRE LE RONDEAU-MONTFLEURY",
+        "numeroSociete": 109121,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_38_IS_RE",
+        "departementNumero": "38",
+        "address": {
+          "addressStreet1": "CHEMIN DE LA CROIX DE MONTFLEURY",
+          "addressCity": "CORENC",
+          "addressPostcode": "38700",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "eb229071-b64c-41cf-89fa-4838aaaf95ba",
+      "numeroSociete": null,
+      "name": "voxy",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": null
+      },
+      "patch": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE"
+      },
+      "after": {
+        "id": "eb229071-b64c-41cf-89fa-4838aaaf95ba",
+        "name": "voxy",
+        "numeroSociete": null,
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "ENTREPRISE",
+        "departement": null,
+        "departementNumero": "",
+        "address": {
+          "addressStreet1": "",
+          "addressCity": "",
+          "addressPostcode": "",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "f7f540eb-a2c8-440d-9c76-1d33ed13d379",
+      "numeroSociete": 109134,
+      "name": "LP SAINT PIERRE FOURIER",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "70100"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "LYCEE",
+        "departement": "DEPT_70_HAUTE_SA_NE",
+        "departementNumero": "70"
+      },
+      "after": {
+        "id": "f7f540eb-a2c8-440d-9c76-1d33ed13d379",
+        "name": "LP SAINT PIERRE FOURIER",
+        "numeroSociete": 109134,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "LYCEE",
+        "departement": "DEPT_70_HAUTE_SA_NE",
+        "departementNumero": "70",
+        "address": {
+          "addressStreet1": "10 RUE DES CASERNES",
+          "addressCity": "GRAY",
+          "addressPostcode": "70100",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "fd206d9d-8523-45f2-8a5b-1a028e4f6e7e",
+      "numeroSociete": 109113,
+      "name": "ENSEMBLE SCOLAIRE SAINT CHARLES - SAINT AUBRIN",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "AUTRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "42600"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_42_LOIRE",
+        "departementNumero": "42"
+      },
+      "after": {
+        "id": "fd206d9d-8523-45f2-8a5b-1a028e4f6e7e",
+        "name": "ENSEMBLE SCOLAIRE SAINT CHARLES - SAINT AUBRIN",
+        "numeroSociete": 109113,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_42_LOIRE",
+        "departementNumero": "42",
+        "address": {
+          "addressStreet1": "17 RUE DU PUY DE LA BATIE",
+          "addressCity": "MONTBRISON",
+          "addressPostcode": "42600",
+          "addressCountry": "France"
+        }
+      }
+    },
+    {
+      "companyId": "ff76828d-f0e3-43e7-84e6-7dd56a429ba0",
+      "numeroSociete": 109041,
+      "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH - SAINTE ANNE",
+      "status": "updated",
+      "action": "update_mismatch",
+      "before": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_22_C_TES_D_ARMOR",
+        "departementNumero": "22",
+        "addressPostcode": "22600"
+      },
+      "patch": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE"
+      },
+      "after": {
+        "id": "ff76828d-f0e3-43e7-84e6-7dd56a429ba0",
+        "name": "ENSEMBLE SCOLAIRE SAINT JOSEPH - SAINTE ANNE",
+        "numeroSociete": 109041,
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "ENSEMBLE_SCOLAIRE",
+        "departement": "DEPT_22_C_TES_D_ARMOR",
+        "departementNumero": "22",
+        "address": {
+          "addressStreet1": "42 RUE DE LA CHEZE",
+          "addressCity": "LOUDEAC",
+          "addressPostcode": "22600",
+          "addressCountry": "France"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-05-12T13:06:09.626Z",
+  "sourceReport": "audit_types_departements_rapport_validation_final.json",
+  "apply": true,
+  "includeMedium": false,
+  "summary": {
+    "total": 0,
+    "updated": 0,
+    "errors": 0
+  },
+  "results": []
+}

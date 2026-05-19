@@ -1,0 +1,1516 @@
+{
+  "date": "2026-05-11T21:12:18.546Z",
+  "dry_run": false,
+  "progress": "224/224",
+  "stats": {
+    "total": 224,
+    "foundExisting": 142,
+    "created": 73,
+    "oppsLinked": 201,
+    "skippedNoExcel": 0,
+    "skippedNoCompany": 0,
+    "errors": 9
+  },
+  "details": [
+    {
+      "key": "108124|VIVES-TORRENS Sébastien",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "05f50c67-fab2-48b8-94eb-230220451bbe"
+    },
+    {
+      "key": "108127|OUITRE",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "0375611b-b351-4c57-a108-eea0fe2cd6c3"
+    },
+    {
+      "key": "108050|FRANCOURT",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "7d4f79cf-4d1c-4f80-80fb-091c38a0fb4f"
+    },
+    {
+      "key": "105987|AMANDÉ",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f15f0780-80d7-458c-8431-03511fe45db6"
+    },
+    {
+      "key": "108128|Sandrine SOULAS-ROUX",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "b7c3fec3-f2d9-49d0-94f7-4f4f13ff2134"
+    },
+    {
+      "key": "108129|SCHMIDT Mickaël",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "738cf173-83ee-4fc0-b7ee-8270d0c885e2"
+    },
+    {
+      "key": "106974|VERGNAUD",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "a2859656-c59f-4cff-a714-1bd850425170"
+    },
+    {
+      "key": "106865|MARTIAS Eddie",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "8e688afc-5901-4231-931d-9d7e40ac0a63"
+    },
+    {
+      "key": "104934|CAZALON",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "1293b322-a613-4ae5-87f1-bcb78842ad7f"
+    },
+    {
+      "key": "108138|GOÏTA Salimata",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "867b6bc2-d4e3-4e6e-9bae-354a61204707"
+    },
+    {
+      "key": "106122|REINE-ADELAIDE Jocia",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "4f927333-3009-48d0-a890-0a4f941a563c"
+    },
+    {
+      "key": "106992|VINTER (se dit VINTère)",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "810ffd2d-1904-462a-9e13-7806e55e0c99"
+    },
+    {
+      "key": "106413|SIMON",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "c6b8dffc-f478-4b69-a4e6-0377272c2b9e"
+    },
+    {
+      "key": "105319|VIGON",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "6b78bb36-589a-4422-b871-87946dbac0d3"
+    },
+    {
+      "key": "108146|PAPAYA Clémence",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ea2b48c5-70e0-40ac-a465-3de4462a6ca7"
+    },
+    {
+      "key": "108147|PAPAYA Clémence",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ea2b48c5-70e0-40ac-a465-3de4462a6ca7"
+    },
+    {
+      "key": "108148|PAPAYA Clémence",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ea2b48c5-70e0-40ac-a465-3de4462a6ca7"
+    },
+    {
+      "key": "107434|Patrick FABREGUE",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "556cd90a-95c4-4140-9c72-4ffa8685dda4"
+    },
+    {
+      "key": "108151|EUCHIN",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "7bcc1789-0a1e-4086-891d-f368fd4ed132"
+    },
+    {
+      "key": "106771|DUBOIS",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "dd3ec516-81df-4d8c-91af-0f653fe47ceb"
+    },
+    {
+      "key": "108152|SMAOUI Racem",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "eca3eb03-66e3-4430-baa5-73a8dd54b0d2"
+    },
+    {
+      "key": "108160|PERIAN Sylvie",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "38f2d55c-6aaf-45da-85b3-8ed552aeed5c"
+    },
+    {
+      "key": "108161|GAGNEUL Mickaël",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "b98da0de-973f-4e5f-abca-540faedfe279"
+    },
+    {
+      "key": "106312|BAJAZET",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "e1022463-655f-41cd-a6db-b16770217ebd"
+    },
+    {
+      "key": "108162|ELMALEH Ruben",
+      "result": "created",
+      "personId": "97c2a63d-3ee8-4641-ae39-85c4b6dd1387",
+      "companyId": "fdb7f39b-ce07-4e1f-b206-51c9f5cb24f1",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108052|SIARRAS",
+      "result": "created",
+      "personId": "75b3b994-49b3-44c1-9c0b-c8ef2ffb8736",
+      "companyId": "2fd28de7-468b-46f9-80e4-42c1421bda96",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107295|CORBEAUX",
+      "result": "created",
+      "personId": "e62739e3-0927-44c1-b4cc-e57b9e16e906",
+      "companyId": "e85f653a-1054-4aa2-af51-183eb849c773",
+      "oppsLinked": 3
+    },
+    {
+      "key": "105075|GOFF",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "d6fb85cb-52f6-41a5-8aa0-0c7659e01d39",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108173|DUPONT Raphaël",
+      "result": "created",
+      "personId": "f57113f8-a338-482d-b3ed-b9b8b79b6468",
+      "companyId": "cd3c617a-90d7-4a53-84e9-a827fd4dfdff",
+      "oppsLinked": 3
+    },
+    {
+      "key": "108179|MARQUES",
+      "result": "created",
+      "personId": "ed21a058-c380-4aad-ab0c-b5466f2d9cad",
+      "companyId": "5bcd1b2f-04c3-4133-a37c-8d16d4500088",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108180|MARQUES",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "ed21a058-c380-4aad-ab0c-b5466f2d9cad",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108185|LALOI Agnès",
+      "result": "created",
+      "personId": "db425065-3bcb-47d8-8ee6-237df41eba63",
+      "companyId": "93882136-d2c9-4148-888b-c5895dcf212a",
+      "oppsLinked": 4
+    },
+    {
+      "key": "108186|CAMU Jérome",
+      "result": "created",
+      "personId": "06469386-5631-4cbf-aaaa-749c278ea5bd",
+      "companyId": "afde72cf-bedd-4853-b3c6-bccfe05d5554",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107709|AUDEMARD D'ALANCON",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "36b7fb87-0553-4549-94a9-7c96f4c566c6",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108196|DESSAUX",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "c6d99ceb-fa7f-4bfa-9e4f-bfa9f2e6c799",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108203|BOULAI Andy Williams",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "728e950f-1313-4905-8290-3e5c4601f991",
+      "oppsLinked": 3
+    },
+    {
+      "key": "108204|BOULAI Andy Williams",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "728e950f-1313-4905-8290-3e5c4601f991",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108206|ROBILLARD",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "7a55da18-5e9e-4807-b1b6-8fc98edaa5ba"
+    },
+    {
+      "key": "108207|BATTAIRE Thomas",
+      "result": "created",
+      "personId": "46ba4cc4-de25-4681-840d-495e14ab527f",
+      "companyId": "057237d7-a209-4e77-9dfb-c5b8b6512645",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108215|MARQUET Delhpine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "55d7e93c-2401-48c9-a3c6-2f3134904489",
+      "oppsLinked": 1
+    },
+    {
+      "key": "104928|DUBO Marie Pierre",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"cd3ce60a-5c4f-478f-"
+    },
+    {
+      "key": "107131|LECHEVALIER",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "8d5ebbcf-1067-4c41-9fb8-0c9cd6ee1812"
+    },
+    {
+      "key": "108238|BOUILLY",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "389bfa56-2dad-443b-9570-a598e7dce994"
+    },
+    {
+      "key": "108243|BONHOURE",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ae9b3648-a1d2-4306-9220-253980c28464",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108248|THOMAS Nathalie",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "9ddec9c5-2b34-45c4-acff-637f11dc4d62"
+    },
+    {
+      "key": "107749|GILBERT Antoine",
+      "result": "created",
+      "personId": "3c06c184-78ea-4579-8fc6-7457556e797e",
+      "companyId": "d0281059-6984-46bb-bb16-146b0d7dd754",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107745|GILBERT Antoine",
+      "result": "created",
+      "personId": "d6831eca-92f7-4f4e-97ec-9f1bf538e97d",
+      "companyId": "a557998d-15e0-42f9-8d01-4928b823216c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107746|GILBERT Antoine",
+      "result": "created",
+      "personId": "68efacd5-1735-4034-a7e3-b6c97f6f4cda",
+      "companyId": "45f263b8-a431-425f-a4f3-9fd6224b5876",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107747|GILBERT Antoine",
+      "result": "created",
+      "personId": "259c09f9-076c-4f56-8cf2-c14fd3fdf256",
+      "companyId": "2a96e2e4-c4ee-411e-98ea-0af8da5f178a",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107748|GILBERT Antoine",
+      "result": "created",
+      "personId": "11cf1fba-86ba-4ba7-ba30-efe6dfe613d1",
+      "companyId": "b9ce1c7e-0796-4dbd-8006-e217056a92b3",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107750|GILBERT Antoine",
+      "result": "created",
+      "personId": "4cefd304-9d99-4e5f-b44c-c3ae34e42496",
+      "companyId": "bda7e5a0-5f48-41ff-9811-d28bf38df31e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108251|GILBERT Antoine",
+      "result": "created",
+      "personId": "be32c1e6-bf1d-4d21-aa3b-9f2705bc797b",
+      "companyId": "f45fd461-bf30-499d-badb-47ccb6087ace",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108259|FLORENT",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "67747f5a-8282-4dc2-840d-e020353ba5a7"
+    },
+    {
+      "key": "107518|TRIOUX Coralie",
+      "result": "created",
+      "personId": "70e90542-b081-41a2-a3d0-a41d830d8a0e",
+      "companyId": "89523944-7423-495e-a50c-913fe7627dea",
+      "oppsLinked": 4
+    },
+    {
+      "key": "108262|RICHARD Benjamin",
+      "result": "created",
+      "personId": "c87aeda4-d597-4dda-8748-788a19cf2a32",
+      "companyId": "58ee76de-4918-4232-89df-bbfcb5bdc6cd",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108267|SIMONNET Philippe",
+      "result": "created",
+      "personId": "7b008a1c-2d63-4e0e-b4ae-bb78c3301b78",
+      "companyId": "b297050a-c0e4-4881-a35d-a80ad77bfd98",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106794|GUILHAUMAUD",
+      "result": "created",
+      "personId": "81d5bc5a-23ae-4ba6-ae73-75b03f5768b4",
+      "companyId": "6d80c838-7238-411d-abfa-cefbeed94ed0",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108277|Steven VAN DER VEN",
+      "result": "created",
+      "personId": "d7530182-379b-44c1-b33e-93d9ccfb9875",
+      "companyId": "aea5623c-4124-4d33-a6b1-705be23de27f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107201|GAYET Michel",
+      "result": "created",
+      "personId": "29b45072-26a3-4ba9-83f1-79793becc872",
+      "companyId": "296507c5-8015-41fe-9679-f50223670217",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108283|FRANCOUAL",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "70bc26e7-5c37-431d-97b6-f7157cb70115"
+    },
+    {
+      "key": "108075|ROSINE Didier",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b7685a35-4237-45a3-88ab-963370e99981",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106695|COURIOL",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "8752381d-210f-4e15-af1c-722fb3bd13d6",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108304|BOUNABI",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "d08d7df5-ffae-436e-9ede-1bebd6bd8d50"
+    },
+    {
+      "key": "108308|BENOIT Laurence",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ec11a969-8ffe-49b6-ad15-c1032c973617"
+    },
+    {
+      "key": "108314|TIMBERT",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b224f08f-6866-44e7-8508-f046fd6f4158"
+    },
+    {
+      "key": "108317|LADJAL",
+      "result": "created",
+      "personId": "e6f582b9-f157-4859-9bb3-8271d1736a97",
+      "companyId": "43252013-4d1f-4cde-af56-d10638210545",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108328|JAQUET",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "1157fc50-5b81-4673-a789-956ed60a0c56"
+    },
+    {
+      "key": "108331|BONDU Jean Francois",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "227c15dd-4812-41f8-857c-bdd6423bdd3c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106765|KADRI",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b196f2ca-7f70-472a-a82c-c47f6b501ff4",
+      "oppsLinked": 2
+    },
+    {
+      "key": "105710|BOURDON",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "1f968270-d8ea-407c-9bdf-0dce05210354",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108335|TRIOUX Coralie",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "70e90542-b081-41a2-a3d0-a41d830d8a0e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107894|DESRAVINES",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "e99dfdfd-7d0d-43e6-8fc5-b3b015669694",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106817|MARCINIAK",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "59f34838-95b2-4adf-9b72-3a2bc2cfa102",
+      "oppsLinked": 2
+    },
+    {
+      "key": "107948|BOUGET Laurence",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"635c097a-77b9-4bb9-"
+    },
+    {
+      "key": "105608|CHARLETON GUITTEAUD",
+      "result": "error",
+      "error": "[{\"message\":\"Provided phone number is invalid Madame CHARLETON-GUITTEAUD\",\"extensions\":{\"subCode\":\"INVALID_PHONE_NUMBER\",\"userFriendlyMessage\":\"Provided phone number is invalid Madame CHARLETON-GUITTE"
+    },
+    {
+      "key": "108446|PATARACH Franck",
+      "result": "created",
+      "personId": "8f451470-f122-4288-9c58-27959756e114",
+      "companyId": "265dba3f-8b90-4635-b69b-35d77dd642ab",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108453|MBA EKOUAGHE",
+      "result": "created",
+      "personId": "3efc9f64-dace-41be-be55-ed055a66ee5e",
+      "companyId": "f8a5c863-c071-4b9f-841d-f1a663cd3684",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108454|CAROFF Sébastien",
+      "result": "created",
+      "personId": "eca6d5d2-209e-418c-9bfa-78cbb77c8f24",
+      "companyId": "f2d57a27-cecf-4cb6-9b22-b5bcf66bb947",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106107|WEBER Maël",
+      "result": "created",
+      "personId": "20709e69-1bb5-4570-adb6-84616e2cf645",
+      "companyId": "5f494af7-76cc-4bdc-99b2-9dec8c2e3005",
+      "oppsLinked": 2
+    },
+    {
+      "key": "107439|CARGOUET Jean Michel",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "c8e04cb6-69fd-4bd8-a342-a4e6584bad00",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108459|VERSLYPPE",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "d4fd3822-3c3b-4b9b-bb5f-6d9e84ac63cd",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108460|VERSLYPPE",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "d4fd3822-3c3b-4b9b-bb5f-6d9e84ac63cd",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108464|Claudine ABRAIM",
+      "result": "created",
+      "personId": "d0b994dd-ab70-4ac4-bae2-195880335ea8",
+      "companyId": "c2ac5f77-ec79-486d-a381-26d494f0753e",
+      "oppsLinked": 2
+    },
+    {
+      "key": "105710|TAMARIN",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "1f968270-d8ea-407c-9bdf-0dce05210354"
+    },
+    {
+      "key": "108471|PERROT Sylvere",
+      "result": "created",
+      "personId": "8a914960-2247-4496-a91c-a0c0574336bd",
+      "companyId": "ce5e861c-6a2f-4531-a02f-45ebe6fd44b1",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108472|PAGÈS Jean Francois",
+      "result": "created",
+      "personId": "96b4bab5-26f7-4744-af7e-f67945af532e",
+      "companyId": "56b52b03-e55a-4e8c-b297-fe0b1b3c4327",
+      "oppsLinked": 2
+    },
+    {
+      "key": "107967|DECHATRE Nadège",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "088e19ac-ce09-4b51-b6df-f08d78625050",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107968|DECHATRE Nadège",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "088e19ac-ce09-4b51-b6df-f08d78625050",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108489|DANIS Fabien",
+      "result": "created",
+      "personId": "74d999c6-a7ab-45f8-a3f6-844045905ce1",
+      "companyId": "f19038ef-61b2-465e-b80d-65158c6235a9",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108494|ANIKIN",
+      "result": "created",
+      "personId": "a3000600-202e-484b-8116-acf516c8f2dc",
+      "companyId": "da1459cb-6a24-42ae-8ee4-d550675dd0a9",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108495|DANIS Fabien",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "74d999c6-a7ab-45f8-a3f6-844045905ce1",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108496|LACHIHEB Mohamed",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f0484949-c5a1-4cb8-b6ff-1924b74e0eee"
+    },
+    {
+      "key": "107191|GELOT",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "6c09f87f-58f4-46df-8d68-7a086a5aedfb",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108514|XXX",
+      "result": "created",
+      "personId": "c436d3b0-48ce-481b-8668-c2c357843a39",
+      "companyId": "f71cfb95-22b8-43af-baea-9c9b52b97be5",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108184|DAVID Antoine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "80005771-321c-427d-85c7-baa17daa0dea",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108526|Yasmina MAHROUG",
+      "result": "created",
+      "personId": "7a8e9335-c417-4487-bf24-9c532646af9c",
+      "companyId": "0ba7f1c3-b88f-4e86-a3bf-5dc3cb69955c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108552|BROUSSAIL Xavier",
+      "result": "created",
+      "personId": "3d92c47d-7dfe-42e6-b30e-7aca3ed6ab1b",
+      "companyId": "09d18953-e492-42f3-9113-27c941766247",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108553|DESCOUDES Anne",
+      "result": "created",
+      "personId": "c7172e52-7a05-40c3-bfa6-ab7b3aaac933",
+      "companyId": "816a83af-b556-47da-9a54-403e60a0b3e4",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108815|GUILBAULT",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "4b64ccc7-0ffc-4bfc-90c3-1459a842d2a7"
+    },
+    {
+      "key": "106700|BENNOIN Cathy",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b680f669-d1c1-463d-b18a-c37f929f64ba",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108580|RODRIGUEZ",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "b6370c62-a5b2-4872-bdd2-8d2ba87272d7",
+      "oppsLinked": 2
+    },
+    {
+      "key": "106718|DECROCK Sandrine",
+      "result": "created",
+      "personId": "764d6e5c-fd40-4909-abb7-0615eadfd519",
+      "companyId": "333d693c-2fab-4eb8-92c1-da8fe2a931f1",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108599|ROSILIO Maurice",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "3e3580b1-c3df-4ebb-be53-f6d8bddcdddc",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107311|CONDEVAUX",
+      "result": "created",
+      "personId": "c587c41f-adbd-4309-a301-83465c795a4a",
+      "companyId": "a5109d4f-4264-4265-b532-726241a40225",
+      "oppsLinked": 2
+    },
+    {
+      "key": "107261|GUILLET",
+      "result": "created",
+      "personId": "3290a213-78b3-4705-bc51-0a312717afea",
+      "companyId": "901eb95b-8235-4b46-9a39-fd01dab80f8a",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107084|MOISAN",
+      "result": "created",
+      "personId": "6453b850-8988-4e49-8892-4546ffd21f67",
+      "companyId": "117070ff-054a-4209-ab48-ca6d5b4b87f3",
+      "oppsLinked": 1
+    },
+    {
+      "key": "104934|NICOLSON Carine",
+      "result": "created",
+      "personId": "bb9ca5f4-618d-408e-88e0-9897805b36f5",
+      "companyId": "e251de85-822d-4452-a7ac-6a4bf6c3f4c0"
+    },
+    {
+      "key": "104550|BERCHEL",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "94264a7c-5eeb-4656-909c-6cc8502ab478",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108623|LE BRONNEC",
+      "result": "created",
+      "personId": "b654f1e1-1cff-4224-a5b1-68dd4b79546c",
+      "companyId": "e93c8637-a0fd-46e9-a776-275cdc4784ee",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108624|COCHET",
+      "result": "created",
+      "personId": "8e41a291-3f0a-4b83-baa3-a380a68ca9c4",
+      "companyId": "8a386516-d863-4cae-8982-bd4b6b4eb04b",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108627|VENON Jérôme",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "4700cba7-d2e6-4f79-aa70-210a51132804",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108514|RAGUENEAU Patricia",
+      "result": "created",
+      "personId": "cf8a9e46-8229-4e66-a77c-11e6d3673040",
+      "companyId": "f71cfb95-22b8-43af-baea-9c9b52b97be5"
+    },
+    {
+      "key": "108632|AOUN",
+      "result": "created",
+      "personId": "da1d33e5-3ed1-4521-82cb-76d490212abb",
+      "companyId": "d7c732fd-95fc-46fc-adbd-0edc62e3876c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106990|BENDEDDOUCHE Nacim",
+      "result": "created",
+      "personId": "20399de1-b7d0-4ae5-ab9a-18dc711d6f22",
+      "companyId": "032149e6-2cf1-4a10-a5d0-5a98ff51cc81",
+      "oppsLinked": 3
+    },
+    {
+      "key": "108653|DURAND",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "94288ab3-19ca-4635-a3b4-61f6b5be5941"
+    },
+    {
+      "key": "108658|MAISON Christophe",
+      "result": "created",
+      "personId": "2ef99d5c-62c6-4235-b03c-fb0c79bee1df",
+      "companyId": "63e9c6c4-9011-4a2d-90b3-0e8b392b0d51",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106122|VAN HOLT",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"4f927333-3009-48d0-"
+    },
+    {
+      "key": "107349|VORIN",
+      "result": "created",
+      "personId": "9709bab8-aa05-4267-9ace-445fb64e5a4b",
+      "companyId": "17ce613b-ae29-43b7-ad65-36fa6077b798",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106413|POLYDORE Carole",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"c6b8dffc-f478-4b69-"
+    },
+    {
+      "key": "106313|Pascale DELHERM",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "c6b8dffc-f478-4b69-a4e6-0377272c2b9e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108673|MARTIGNONI",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b9ccfb50-65b1-41fa-90c2-2367134d79b4",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108684|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108685|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108686|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108687|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108688|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108689|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108690|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108691|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108692|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108693|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108694|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108695|CRESSON Ludivine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f6ab6338-f760-4b7d-8793-3b9f10661650",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107350|LOMPECH",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108707|CAZOTTES Mélanie",
+      "result": "created",
+      "personId": "94b8589c-ea76-4775-82e5-d55607da8e12",
+      "companyId": "13c5214a-3524-4092-aea7-e0aaf210f0af",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107295|BIETRY",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"e62739e3-0927-44c1-"
+    },
+    {
+      "key": "105509|ROMUALD Michel",
+      "result": "created",
+      "personId": "406715dd-637c-4518-a3fb-c68c3b1019e0",
+      "companyId": "d72ce637-d83d-49d2-83fc-16c064c85a3f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108711|BEAU",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "d6fa3136-d892-483d-969a-39efcfe346c6"
+    },
+    {
+      "key": "108712|BEAU",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "d6fa3136-d892-483d-969a-39efcfe346c6",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108722|LONMPECH",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108723|LONMPECH",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108724|LONMPECH",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108725|LONMPECH",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108726|LONMPECH",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "955a0e42-1515-4e44-8b12-378e697f9355",
+      "oppsLinked": 1
+    },
+    {
+      "key": "104847|GINA Valérie",
+      "result": "created",
+      "personId": "175c94d5-4bcd-42d8-9543-d1f3fa639ec7",
+      "companyId": "dfc49fb3-0602-41dc-968a-df8e06e80d8f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108727|BADY",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "9e7982c0-a75b-40ff-8043-e438e0c526d7"
+    },
+    {
+      "key": "108751|ACH Élise",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "c111cac4-37c5-4822-bcb9-fe4fa14b2c17",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108756|BENIS Patrick",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "2609e8f3-b592-4765-804c-b6df7cce2e7f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108758|LEVASSOR Marie",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "94593893-2610-4359-b7d7-8140dc2cb60b",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108761|EGINER Christophe",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "fafc637d-918c-4004-9693-e4536dc14529",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108762|EGINER Christophe",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "fafc637d-918c-4004-9693-e4536dc14529",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108476|PETRILLI Sara",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "0f337695-0c0f-486b-9854-987f3aba803a",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108776|GUENASSIA Laurent",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "b326a849-54f5-4503-927c-918d327bb2d1",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108780|PATREAU Karine",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "f0f6fcab-182b-4aa2-860c-d4ed9dfddb0c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108790|REGIS Keina",
+      "result": "created",
+      "personId": "f4e893e8-83a6-4084-9a1d-97509f225a09",
+      "companyId": "e41cb0f5-4eee-416b-9153-c90b5362adf7",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108503|POIDEVIN Morgane",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "655ac604-5c72-4e75-b656-9eed5186e90c",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108816|EGINER Christophe",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "fafc637d-918c-4004-9693-e4536dc14529",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108817|EGINER Christophe",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "fafc637d-918c-4004-9693-e4536dc14529",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108748|ALLO",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b0825e22-912f-459f-be8f-c64d8607d84d",
+      "oppsLinked": 2
+    },
+    {
+      "key": "106413|POLYDORE",
+      "result": "created",
+      "personId": "98179448-704c-4b1d-8492-76dfd2574c6c",
+      "companyId": "f741cb89-e43d-445c-81fe-9ce280a4a027"
+    },
+    {
+      "key": "108828|SEMMACHE",
+      "result": "created",
+      "personId": "63539786-099e-40ca-94d2-d914901b0f70",
+      "companyId": "97ad2a26-8c6d-4667-a6f3-08592268ced5",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108831|NUBRET Nadine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "945e4bc2-8294-4537-839e-52051d7cce91",
+      "oppsLinked": 2
+    },
+    {
+      "key": "108833|Gérard MARIOU",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "d4c1ace4-0055-4bd3-a30b-9032a30cd900",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106990|COURVOISIER",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"20399de1-b7d0-4ae5-"
+    },
+    {
+      "key": "108834|PETIT CHARLES Nathalie",
+      "result": "created",
+      "personId": "01433338-3040-4df1-8773-0c90212b672c",
+      "companyId": "9ee94db8-0cc8-4ab4-98e6-f719e9a8477b",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106918|Denis CARRON",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "52438a68-fe03-4571-bc3e-2f32d0f12a9e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107510|LEDELAS Sophie",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "37bb400f-1391-40da-a2d3-b9c8670123df"
+    },
+    {
+      "key": "108853|LANNES",
+      "result": "created",
+      "personId": "5cf0c158-e1f7-461d-99a2-90901e55f29a",
+      "companyId": "abaa4e5d-1cf8-429f-9746-38629ff773d1",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108858|Loïc TONTON",
+      "result": "created",
+      "personId": "e9c3684a-2348-44f3-9c16-5334f882cef8",
+      "companyId": "81caad80-efe3-4fb1-a002-a109bbdba2d2",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106060|KLEINMANN Christine",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ff8230ac-1d7b-4e0e-a77f-699ce33baacc",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108580|Sophie F.",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "b6370c62-a5b2-4872-bdd2-8d2ba87272d7"
+    },
+    {
+      "key": "108565|ORMES Isabelle",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"a5e0f63f-1b86-43b4-"
+    },
+    {
+      "key": "108867|Gérard MARIOU",
+      "result": "created",
+      "personId": "94d426d0-3f2c-4557-b2c2-393c5173e86d",
+      "companyId": "dea525ee-103e-45f1-88d6-31166e5e5e5e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108870|COLVIL",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "ac466320-ead2-4a64-b4ac-0aaa6675eca7",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108894|COUVREUR",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "71c36eb8-66f4-439f-a541-863abb7a7f35",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108895|COUVREUR",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "71c36eb8-66f4-439f-a541-863abb7a7f35",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108898|TIREL",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "7c7c08c1-6b44-4bb1-aa34-2aa35ce5713c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108899|TIREL",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "7c7c08c1-6b44-4bb1-aa34-2aa35ce5713c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108908|PIEL",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "24d5e453-07aa-495f-a4a0-425f3bdf5bca",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108909|MOREAU Mathilde",
+      "result": "created",
+      "personId": "ce3013aa-fc8d-4ebb-a750-b1358a320d73",
+      "companyId": "5e21da0e-e48d-4c98-8ec2-e5cda9fca642",
+      "oppsLinked": 1
+    },
+    {
+      "key": "105534|KITOU",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "b5b9a9c1-bdcb-46c5-9444-1d6c5afea61e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108788|TARLIÉ",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "23d5a0d5-7fb3-409b-b10e-ab60a9ca03d4",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108928|COLLAS",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "3f1b4f6c-2c57-4c0e-bfe8-b2b4d16e87c3",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108930|BIDAL",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "785d628b-3154-4b9c-a181-1958790a982f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108935|EUDE",
+      "result": "created",
+      "personId": "d4ec4775-ffbe-4472-8dab-edd7f321a67f",
+      "companyId": "a410b6bc-59d5-41e1-85a9-9a9f35335486",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108936|GICQUEL Céline",
+      "result": "created",
+      "personId": "4d4632c7-a0a9-4901-a952-873b5fd9731c",
+      "companyId": "89578101-ba4a-44db-80c3-d26aab8d6edc",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108937|GICQUEL Céline",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "4d4632c7-a0a9-4901-a952-873b5fd9731c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108938|PETIT Marie Pauline",
+      "result": "created",
+      "personId": "9a955167-5ad0-4666-9665-7121e8b0a3e0",
+      "companyId": "8b4e225f-0d40-4d01-ad5c-58d5bc5ecd26",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108942|GASNIER Anne Florence",
+      "result": "created",
+      "personId": "c892283c-93f3-4da0-ab91-e4fd1ab0d70f",
+      "companyId": "59e83e7f-2f41-4a58-b2d5-cdcfaa7b667c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108948|GASNIER",
+      "result": "created",
+      "personId": "d64ba0c0-0de7-40aa-a416-3aaa4a055447",
+      "companyId": "e120584b-35ac-4a49-8a4c-ae803e9ebb08",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108949|MARQUER",
+      "result": "created",
+      "personId": "ed926352-25bf-4052-bcce-092a6078d8ae",
+      "companyId": "d7ab4300-6f34-4481-9dd1-7647d388a57d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108950|FEREZ",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "96beb7b5-675c-4e10-b219-4dbe3704aa3f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108954|PERAIS Lucie",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "cfdd0db7-4577-4afc-a7a4-4df5ceff6b5d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108971|DOUGUET Angélique",
+      "result": "created",
+      "personId": "7b7589f5-5f87-48e3-b3b3-0d6af068cb97",
+      "companyId": "1de2495e-8d38-4d25-bb8a-7c9f84f6d5f5",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108972|DOUGUET Angélique",
+      "result": "created",
+      "personId": "5b0cb166-ab7f-4702-b965-bf0c2209cb35",
+      "companyId": "e09237fa-320c-46b8-be75-3bc93dc93bc5",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108973|JULIEN Arlène",
+      "result": "created",
+      "personId": "39120b2a-341e-4aa0-9fe2-e5279c339019",
+      "companyId": "8612891f-bdf6-437c-b74f-619048ca566f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108980|MEURO",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "d1a37d49-131e-46e6-8530-f7ef1e7cdcae",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108975|CHOPLIN Loriane",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "fa7ebe2c-e9a0-47e9-b3c1-12880f60703d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108976|CHOPLIN Loriane",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "fa7ebe2c-e9a0-47e9-b3c1-12880f60703d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108977|CHOPLIN Loriane",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "fa7ebe2c-e9a0-47e9-b3c1-12880f60703d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108978|CHOPLIN Loriane",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "fa7ebe2c-e9a0-47e9-b3c1-12880f60703d",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108084|GARCIA",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "6a0b4b0c-0d0b-42cb-a534-912b401759ec"
+    },
+    {
+      "key": "108991|JOUAN",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ed328f3e-00ab-435f-8eea-52ed53ff2103",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108994|BOHALOUA Fadoua",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "aa553fa3-2908-4b0b-9054-1637f379555f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108997|POISSON Margaux",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "e43c7e56-3a3a-439b-90ba-dbd65aef4a82",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109001|VOBA Rachelle",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "440dd95c-fddb-4f33-9b23-cc7792b02fff",
+      "oppsLinked": 1
+    },
+    {
+      "key": "104550|BERCHEL Christelle",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "94264a7c-5eeb-4656-909c-6cc8502ab478"
+    },
+    {
+      "key": "109005|LELIEVRE Dominique",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "e306e519-81c7-4e5d-89e3-ba23813407cd",
+      "oppsLinked": 1
+    },
+    {
+      "key": "107075|REUZÉ",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "3231ffd6-fd6a-4b66-b75f-521cd7b38676",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109013|DRIEU Hervé",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "19f08f05-7d3c-4582-804d-3f18dc6ca94e",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108228|ZOZIME",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "8af2989f-1af3-4bb1-b258-17d8d92b2d9f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "105319|BOLOGNE Jacqueline",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "6b78bb36-589a-4422-b871-87946dbac0d3"
+    },
+    {
+      "key": "109031|GIORGETTI Alexia",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "4ba8f7d3-53c5-45a2-ab9a-05769d2cffdc",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109032|GIORGETTI Alexia",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "4ba8f7d3-53c5-45a2-ab9a-05769d2cffdc",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109036|CHARPENTIER David",
+      "result": "created",
+      "personId": "22ebb646-508a-43ea-b81f-8515a2e5a461",
+      "companyId": "2e56af87-a090-44de-b8db-835a79607103",
+      "oppsLinked": 1
+    },
+    {
+      "key": "106713|DIDRY La Jeune",
+      "result": "created",
+      "personId": "3f381cd4-57d7-495d-bb6e-0a465bf61c5a",
+      "companyId": "b033daea-04a2-44ab-9fcf-2ce844617b3c",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109038|PONCIN Marie",
+      "result": "used_existing",
+      "source": "cache",
+      "personId": "ed7add7c-ba54-421a-87ea-e1593ab37b43"
+    },
+    {
+      "key": "107965|DECHARTRE Nadège",
+      "result": "error",
+      "error": "[{\"message\":\"A duplicate entry was detected\",\"extensions\":{\"userFriendlyMessage\":\"This Emails value is already in use. Please check your data and try again.\",\"conflictingRecordId\":\"8ac89b0e-1b59-48e1-"
+    },
+    {
+      "key": "109043|DUROCHER",
+      "result": "created",
+      "personId": "6be14f62-501a-4df4-910b-9e3ba14291da",
+      "companyId": "782c958c-1b05-4444-b668-137a88a86f25",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109044|NAVARRO",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "237a32e8-eb03-4037-abbb-a21331b5ca81"
+    },
+    {
+      "key": "109046|DUBOIS Benjamin",
+      "result": "created",
+      "personId": "9c43bff8-322c-41ad-a647-1ef82400e83f",
+      "companyId": "85c907ac-6265-46af-9f8c-77e52c0352f8",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109047|LEFEUVRE",
+      "result": "created",
+      "personId": "624cb76a-b801-4ddd-8def-0a1b500da04f",
+      "companyId": "9e7570d7-b556-4420-9f7f-0fcdd2964d50",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109060|DUPEY",
+      "result": "created",
+      "personId": "b480e19d-e889-40e5-93f3-bfc131f8afa3",
+      "companyId": "8d722f89-26c9-4ed4-96b3-ac71f5fb39f7",
+      "oppsLinked": 1
+    },
+    {
+      "key": "109063|LOTH",
+      "result": "used_existing",
+      "source": "email_lookup",
+      "personId": "3f747e27-626b-4c84-b916-ac39781d6acc",
+      "oppsLinked": 1
+    }
+  ]
+}

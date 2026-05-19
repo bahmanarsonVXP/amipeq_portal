@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-11T20:52:14.240Z",
+  "dry_run": true,
+  "progress": "10/10",
+  "stats": {
+    "total": 10,
+    "foundExisting": 5,
+    "created": 5,
+    "oppsLinked": 4,
+    "skippedNoExcel": 0,
+    "skippedNoCompany": 0,
+    "errors": 0
+  },
+  "details": [
+    {
+      "key": "108124|VIVES-TORRENS Sébastien",
+      "result": "would_create",
+      "companyId": "b7cf164a-88f6-4567-a585-f1b7bcc5087e",
+      "email": "s.vives-torrens@ch-beaurepaire.fr",
+      "tel": "04 74 79 11 11"
+    },
+    {
+      "key": "108127|OUITRE",
+      "result": "would_use_existing",
+      "source": "email_lookup",
+      "personId": "0375611b-b351-4c57-a108-eea0fe2cd6c3",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108050|FRANCOURT",
+      "result": "would_create",
+      "companyId": "cccb5516-f54e-42b5-af57-de464669b418",
+      "email": "dgsmairiemacouba@gmail.com",
+      "tel": "05 96 78 53 68"
+    },
+    {
+      "key": "105987|AMANDÉ",
+      "result": "would_create",
+      "companyId": "4f356bf7-435f-4570-888f-52f436abf836",
+      "email": "intendant.9710030f@ac-guadeloupe.fr",
+      "tel": "05 90 88 40 14"
+    },
+    {
+      "key": "108128|Sandrine SOULAS-ROUX",
+      "result": "would_create",
+      "companyId": "0728aca4-79de-40d7-ad26-1491c27327aa",
+      "email": "contact@labastidedevirac.org",
+      "tel": "04 75 38 64 88"
+    },
+    {
+      "key": "108129|SCHMIDT Mickaël",
+      "result": "would_create",
+      "companyId": "a951ac3a-b0b0-423e-b452-11f1877fabcb",
+      "email": "schmidt.auto@outlook.fr",
+      "tel": "09 52 91 68 75"
+    },
+    {
+      "key": "106974|VERGNAUD",
+      "result": "would_use_existing",
+      "source": "email_lookup",
+      "personId": "a2859656-c59f-4cff-a714-1bd850425170"
+    },
+    {
+      "key": "106865|MARTIAS Eddie",
+      "result": "would_use_existing",
+      "source": "email_lookup",
+      "personId": "8e688afc-5901-4231-931d-9d7e40ac0a63",
+      "oppsLinked": 2
+    },
+    {
+      "key": "104934|CAZALON",
+      "result": "would_use_existing",
+      "source": "email_lookup",
+      "personId": "1293b322-a613-4ae5-87f1-bcb78842ad7f",
+      "oppsLinked": 1
+    },
+    {
+      "key": "108138|GOÏTA Salimata",
+      "result": "would_use_existing",
+      "source": "email_lookup",
+      "personId": "867b6bc2-d4e3-4e6e-9bae-354a61204707"
+    }
+  ]
+}

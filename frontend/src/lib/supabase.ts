@@ -1,3 +1,7 @@
+/**
+ * Client Supabase Auth — projet partagé avec l'application RPS.
+ * Le portail n'a pas d'identité propre : voir docs/authentification.md
+ */
 import { createBrowserClient } from '@supabase/ssr';
 
 export function createClient() {

@@ -7,7 +7,7 @@
  *   node export_metadata.js <TWENTY_URL> <API_KEY>
  * 
  * Exemple:
- *   node export_metadata.js https://twenty-production-0500.up.railway.app "eyJhbG..."
+ *   node export_metadata.js https://twenty-production-7352.up.railway.app "eyJhbG..."
  * 
  * Génère: twenty_metadata_fr.tsv + twenty_metadata_backup.json
  */

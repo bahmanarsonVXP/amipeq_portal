@@ -6,7 +6,7 @@
  *   node import_translations.js <TWENTY_URL> <API_KEY> [fichier.tsv]
  * 
  * Exemple:
- *   node import_translations.js https://twenty-production-0500.up.railway.app "eyJhbG..." twenty_metadata_fr.tsv
+ *   node import_translations.js https://twenty-production-7352.up.railway.app "eyJhbG..." twenty_metadata_fr.tsv
  * 
  * Lit la colonne "Label FR" du TSV et renomme les objets/champs via l'API Metadata GraphQL.
  */

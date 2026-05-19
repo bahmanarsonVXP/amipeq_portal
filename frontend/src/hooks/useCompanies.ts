@@ -2,14 +2,12 @@
 import useSWR from 'swr';
 import { apiFetchWithSession } from '@/lib/api';
 import { useAuth } from '@/hooks/useAuth';
+import type { CompanyListItem } from '@/types';
 
-export interface CompanyOption {
-  id: string;
-  name: string;
-}
+export type CompanyOption = Pick<CompanyListItem, 'id' | 'name'>;
 
 interface CompaniesResponse {
-  companies: CompanyOption[];
+  companies: CompanyListItem[];
 }
 
 export function useCompanies(search?: string) {

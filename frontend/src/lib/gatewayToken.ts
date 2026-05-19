@@ -1,6 +1,6 @@
 import type { Session } from '@supabase/supabase-js';
 
-/** Clé alignée sur `api.ts` : JWT envoyé au gateway (vérifié avec SUPABASE_JWT_SECRET). */
+/** JWT Supabase (auth app RPS), miroir pour fetch — vérifié gateway via SUPABASE_JWT_SECRET. Voir docs/authentification.md */
 export const GATEWAY_TOKEN_KEY = 'amipeq_token';
 
 export function setGatewayTokenFromSession(session: Session | null) {

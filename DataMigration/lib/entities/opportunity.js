@@ -1,6 +1,7 @@
-const { restRequest, graphqlRequest } = require('../core/http');
+const { graphqlRequest } = require('../core/http');
 const { parseNorme } = require('../parsers/norme');
 const { parseExcelDate } = require('../parsers/excel');
+const { OPP } = require('../core/opportunity-stages');
 
 /**
  * Calculate stage and statutDevis based on cell color and date age
@@ -13,12 +14,12 @@ const { parseExcelDate } = require('../parsers/excel');
 function calculerStageEtStatut(couleurDevis, dateDevis, annee) {
   // VERT → Won
   if (couleurDevis === 'VERT') {
-    return { stage: 'GAGNE', statutDevis: 'GAGNE' };
+    return { stage: OPP.WON, statutDevis: 'GAGNE' };
   }
 
   // GRIS → Lost
   if (couleurDevis === 'GRIS') {
-    return { stage: 'PERDU', statutDevis: 'PERDU' };
+    return { stage: OPP.LOST, statutDevis: 'PERDU' };
   }
 
   // BLANC → Check age (if > 120 days, consider lost)
@@ -29,14 +30,14 @@ function calculerStageEtStatut(couleurDevis, dateDevis, annee) {
       const now = new Date();
       const diffJours = Math.floor((now - dateDevisObj) / (1000 * 60 * 60 * 24));
       if (diffJours > 120) {
-        return { stage: 'DEVIS_ENVOYE', statutDevis: 'PERDU' };
+        return { stage: OPP.CLIENT_PENDING, statutDevis: 'PERDU' };
       }
     }
-    return { stage: 'DEVIS_ENVOYE', statutDevis: 'EN_ATTENTE' };
+    return { stage: OPP.CLIENT_PENDING, statutDevis: 'EN_ATTENTE' };
   }
 
   // Default
-  return { stage: 'DEVIS_ENVOYE', statutDevis: 'EN_ATTENTE' };
+  return { stage: OPP.CLIENT_PENDING, statutDevis: 'EN_ATTENTE' };
 }
 
 /**
@@ -92,7 +93,7 @@ async function createOpportunity(oppData, companyId, personId, annee, options = 
   }
 
   // Parse norme field
-  const { prestations, nature, modalite } = parseNorme(oppData.norme);
+  const prestations = parseNorme(oppData.norme); // retourne string[]
 
   // Calculate discount
   let tauxRemise = null;
@@ -123,46 +124,41 @@ async function createOpportunity(oppData, companyId, personId, annee, options = 
   // Parse date devis
   const parsedDateDevis = parseExcelDate(oppData.dateDevis || oppData.date, annee);
 
-  // Build request body
-  const body = {
-    name: oppData.numeroDevis || `${oppData.numeroSociete}-${annee}`,
-    companyId,
-    pointOfContactId: personId,
-    amount: montantPrincipal ? {
-      amountMicros: Math.round(Number(montantPrincipal) * 1000000),
-      currencyCode: 'EUR'
-    } : null,
-    stage,
-    numeroDevis: oppData.numeroDevis,
-    dateDevis: parsedDateDevis,
-    prestation: prestations,
-    naturePrestation: nature,  // null (not supported by TWENTY schema)
-    modalite,                  // null (not supported by TWENTY schema)
-    montantRemise,
-    tauxRemise,
-    statutDevis,
-    anneeDevis: Number(annee),
-    normeOriginale: oppData.norme,
-    dateEnvoiDocs: oppData.dateDocsEnvoyes || null,
-    createdAt: parsedDateDevis,  // Use quote date as creation date
-    createdBy: {
-      source: "IMPORT",
-      workspaceMemberId: null,
-      name: "Alexandra",
-      context: {}
-    }
-  };
+  const name = oppData.numeroDevis || `${oppData.numeroSociete}-${annee}`;
+  const amountMicros = montantPrincipal ? Math.round(Number(montantPrincipal) * 1_000_000) : null;
 
-  // Create opportunity via REST API
+  const optionalFields = [
+    companyId                        ? `companyId: "${companyId}"`                                                      : null,
+    personId                         ? `pointOfContactId: "${personId}"`                                                : null,
+    amountMicros                     ? `amount: { amountMicros: ${amountMicros}, currencyCode: EUR }`                   : null,
+    oppData.numeroDevis              ? `numeroDevis: ${JSON.stringify(oppData.numeroDevis)}`                            : null,
+    parsedDateDevis                  ? `dateDevis: "${parsedDateDevis}"`                                                : null,
+    parsedDateDevis                  ? `createdAt: "${parsedDateDevis}"`                                                : null,
+    prestations.length               ? `prestation: [${prestations.map(p => p).join(', ')}]`                           : null,
+    oppData.norme                    ? `normeOriginale: ${JSON.stringify(oppData.norme)}`                               : null,
+    tauxRemise != null               ? `tauxRemise: ${tauxRemise}`                                                      : null,
+    montantRemise                    ? `montantRemise: { amountMicros: ${montantRemise.amountMicros}, currencyCode: EUR }` : null,
+    oppData.dateDocsEnvoyes          ? `dateEnvoiDocs: "${oppData.dateDocsEnvoyes}"`                                    : null,
+    annee                            ? `anneeDevis: ${Number(annee)}`                                                   : null,
+  ].filter(Boolean).join('\n      ');
+
+  const mutation = `mutation {
+    createOpportunity(data: {
+      name: ${JSON.stringify(name)}
+      stage: ${stage}
+      statutDevis: ${statutDevis}
+      ${optionalFields}
+    }) { id }
+  }`;
+
   try {
-    const result = await restRequest('POST', '/rest/opportunities', body);
+    const result = await graphqlRequest(mutation);
+    const id = result?.createOpportunity?.id;
 
-    if (result.statusCode === 201 || result.statusCode === 200) {
-      const id = result.data.data?.createOpportunity?.id || result.data.data?.id;
+    if (id) {
       return { status: 'created', id, error: null };
     } else {
-      const errorMsg = JSON.stringify(result.data).substring(0, 200);
-      return { status: 'error', id: null, error: errorMsg };
+      return { status: 'error', id: null, error: 'ID absent de la réponse GraphQL' };
     }
   } catch (error) {
     return { status: 'error', id: null, error: error.message };

@@ -18,14 +18,15 @@ Migration de données Excel → **TWENTY CRM** (instance Railway).
 ```bash
 cd DataMigration
 
-# Import de nouvelles lignes (création uniquement, dédup automatique)
-node import-master.js --file "Fichiers de suivi/MON_FICHIER.xlsx" --sheets 2026
+# ★ Import complet d'un onglet (Company + Person + Opportunity)
+node import_fichier_suivi_par_onglet.js --sheet 2026
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/MON_FICHIER.xlsx"
+node import_fichier_suivi_par_onglet.js --sheet 2026 --dry-run  # validation sans écriture
+node import_fichier_suivi_par_onglet.js --sheet 2026 --limit 10  # test 10 lignes
 
-# Import multi-onglets
-node import-master.js --file "..." --sheets "2025,2026"
-
-# Dry-run (validation sans écriture)
-node import-master.js --file "..." --sheets 2026 --dry-run
+# IMPORTANT
+# import_fichier_suivi_par_onglet.js est le seul point d'entrée supporté.
+# import-master.js est abandonné et ne doit plus être utilisé.
 
 # Mise à jour des statuts (script one-shot à adapter)
 node update_statuts_2025_2026.js
@@ -70,7 +71,7 @@ Patcher uniquement les devis où `offre1` ou `offre2` a **vraiment changé de va
 ### 4. Importer les nouveaux devis
 
 ```bash
-node import-master.js --file "Fichiers de suivi/NOUVEAU.xlsx" --sheets 2026
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/NOUVEAU.xlsx"
 ```
 
 La déduplication GraphQL sur `numeroDevis` ignore automatiquement les doublons.
@@ -80,18 +81,20 @@ La déduplication GraphQL sur `numeroDevis` ignore automatiquement les doublons.
 ## Architecture de l'import
 
 ```
-import-master.js          ← orchestration CLI
-└── lib/import-core.js    ← processExcelRow() : company → person → opportunity
+import_fichier_suivi_par_onglet.js  ← seul CLI d'import supporté
+└── lib/import-core.js              ← processExcelRow() : company → person → opportunity
     ├── lib/entities/company.js      ← ensureCompanyExists() avec cache mappings.json
     ├── lib/entities/person.js       ← ensurePersonExists() avec cache mappings.json
     └── lib/entities/opportunity.js  ← createOpportunity() avec dédup GraphQL
 
 lib/core/http.js          ← restRequest() + graphqlRequest() avec rate limit 650ms
 lib/core/mappings.js      ← cache UUID crash-safe (écriture immédiate à chaque création)
+lib/core/company-schema.js← introspection du schéma Twenty + options réelles
+lib/core/company-derived.js← déduction centralisée type/sous-type/département
 lib/parsers/
   ├── excel.js            ← parseExcelDate(), getCellColor()
-  ├── departement.js      ← extractDepartement() → code enum TWENTY
-  ├── client-classifier.js← classifyClient() → typeClient
+  ├── departement.js      ← extractDepartement() → numero + code canonique
+  ├── client-classifier.js← classifyClient() → typeClient + sousType + confiance
   └── norme.js            ← parseNorme() → prestation (DUERP/FORMATION/AUDIT)
 ```
 
@@ -105,19 +108,38 @@ lib/parsers/
 |-----|-------|-------|-------------|
 | C | 2 | N° Sté | `numeroSociete` (clé company) |
 | D | 3 | CLIENTS | `nom` (company name) |
-| E | 4 | Titre | `cpRaw` ← **ATTENTION** : c'est "Titre" (civilité), pas le CP réel |
+| E | 4 | Titre | `titre` (civilité contact) |
 | F | 5 | CONTACT | `contact` (person name) |
-| H | 7 | N° DEVIS | `numeroDevis` ET `telephone` ← **bug historique dans import-master.js** |
+| H | 7 | N° DEVIS | `numeroDevis` |
 | I | 8 | Date Devis | `dateDevis`, `createdAt` |
 | J | 9 | OFFRE N°1 | `offre1` |
 | K | 10 | OFFRE N°2 | `offre2` |
 | L | 11 | NORME | `norme` |
-| S | 18 | CP | CP réel — **non utilisé par import-master.js** (utilise col E à la place) |
+| S | 18 | CP | `cp` / `cpRaw` |
 | T | 19 | VILLE | `ville` |
-| W | 22 | E-mail | email réel — **non utilisé** |
+| U | 20 | TELEPHONE | `telephone` |
+| W | 22 | E-mail | `email` |
 | X | 23 | Date Docs Envoyés | `dateDocsEnvoyes` |
 
-**Note :** la détection du département se base sur `cpRaw` (col E = Titre), souvent non numérique. Si invalide, `extractDepartement` retourne `null` et le champ est omis — sans erreur.
+**Note :** le chemin supporté utilise bien le CP réel (col S) et la civilité (col E).
+
+---
+
+## API TWENTY — Priorité GraphQL sur REST
+
+**Toujours utiliser GraphQL (`graphqlRequest`) en priorité pour toute opération sur TWENTY CRM.**
+
+L'API REST (`/rest/...`) est instable et retourne des erreurs 500 "No data sources found" sur certains types d'objets (notamment `Person`). GraphQL est l'interface officielle et fiable.
+
+```js
+// ✅ Correct
+const { graphqlRequest } = require('./lib/core/http');
+await graphqlRequest(`mutation { updatePerson(id: "...", data: { ... }) { id } }`);
+
+// ❌ À éviter — REST peut échouer silencieusement sur Person
+const { restRequest } = require('./lib/core/http');
+await restRequest('PATCH', '/rest/people/...', { ... });
+```
 
 ---
 
@@ -128,7 +150,17 @@ Ces champs **n'existent pas** dans le schéma TWENTY actuel — ne pas les envoy
 - `naturePrestation` sur opportunity
 - `modalite` sur opportunity
 
-Le champ `departement` attend le format enum complet : `DEPT_62_PAS_DE_CALAIS` (pas `'62'`). Le parser `extractDepartement()` retourne déjà ce format depuis avril 2026.
+Les champs company utilisés pour le rattrapage actuel sont :
+- `typeClient`
+- `sousType`
+- `departement`
+- `departementNumero`
+
+Important :
+- ne pas deviner les valeurs API des enums à la main ;
+- introspecter le schéma live avant les corrections massives ;
+- l'instance actuelle utilise par exemple `COMMUNAUTE_COMMUNES` pour le sous-type "Communauté de communes" ;
+- certaines valeurs API de `departement` reflètent la normalisation des labels accentués, elles doivent donc être résolues via `lib/core/company-schema.js`.
 
 ---
 

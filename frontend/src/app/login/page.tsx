@@ -130,7 +130,7 @@ export default function LoginPage() {
                   <span className="text-[10px] font-bold font-serif leading-none italic">i</span>
                 </div>
                 <p>
-                  La création de compte est réservée aux administrateurs. Contactez <a href="mailto:admin@amipeq.fr" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 font-medium">admin@amipeq.fr</a> pour obtenir un compte.
+                  Connexion avec le même compte que l&apos;application RPS. La création de compte est réservée aux administrateurs — contactez <a href="mailto:admin@amipeq.fr" className="text-blue-700 underline underline-offset-2 hover:text-blue-800 font-medium">admin@amipeq.fr</a>.
                 </p>
               </div>
             </div>

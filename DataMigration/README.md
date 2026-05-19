@@ -15,35 +15,25 @@ Architecture modulaire pour l'import de données Excel vers TWENTY CRM avec:
 
 ## 🚀 Usage Rapide
 
-### Import complet (tous les onglets 2023-2026)
+### Script supporté
 ```bash
-node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx"
-```
-
-### Import onglet spécifique
-```bash
-node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx" --sheets 2026
-```
-
-### Import multi-onglets
-```bash
-node import-master.js --file "..." --sheets 2025,2026
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx"
 ```
 
 ### Dry run (validation sans création)
 ```bash
-node import-master.js --file "..." --dry-run
-```
-
-### Import opportunities uniquement (skip companies/persons)
-```bash
-node import-master.js --file "..." --skip-companies --skip-persons
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx" --dry-run
 ```
 
 ### Limite de lignes (testing)
 ```bash
-node import-master.js --file "..." --limit 50
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx" --limit 50
 ```
+
+### Politique projet
+- `import_fichier_suivi_par_onglet.js` est le **seul** script d'import supporté.
+- `import-master.js` est **abandonné** et bloque désormais son exécution.
+- les anciens scripts d'import restent au mieux comme archive technique, pas comme point d'entrée opérationnel.
 
 ---
 
@@ -55,6 +45,8 @@ DataMigration/
 │   ├── core/
 │   │   ├── http.js              # REST & GraphQL requests + rate limiting
 │   │   ├── mappings.js          # Cache mappings.json (crash-safe)
+│   │   ├── company-schema.js    # Introspection du schéma Twenty + enums réels
+│   │   ├── company-derived.js   # Déduction centralisée type/sous-type/département
 │   │   └── rate-limiter.js      # Rate limiting (650ms entre requêtes)
 │   │
 │   ├── parsers/
@@ -64,13 +56,16 @@ DataMigration/
 │   │   └── client-classifier.js # classifyClient (type et sous-type)
 │   │
 │   ├── entities/
-│   │   ├── company.js           # ensureCompanyExists (cache + création)
+│   │   ├── company.js           # ensureCompanyExists (cache + création + sync dérivé)
 │   │   ├── person.js            # ensurePersonExists (cache + création)
 │   │   └── opportunity.js       # createOpportunity (GraphQL check)
 │   │
 │   └── import-core.js           # processExcelRow() - fonction principale
 │
-├── import-master.js             # Script CLI d'orchestration
+├── import_fichier_suivi_par_onglet.js  # Seul script d'import supporté
+├── import-master.js             # DEPRECATED - bloqué volontairement
+├── audit_types_departements.js  # Audit JSON/CSV des sociétés existantes
+├── backfill_types_departements.js # Correction contrôlée depuis un audit
 │
 ├── [DEPRECATED] Scripts historiques (conservés pour référence)
 │   ├── import_clients.js
@@ -110,6 +105,7 @@ async function processExcelRow(rowData, sheetName, options)
 - Companies: clé = `numeroSociete`
 - Persons: clé = `"numeroSociete|contact"`
 - Lecture rapide (O(1))
+- Les companies déjà présentes dans le cache peuvent maintenant être resynchronisées à la volée pour combler les champs dérivés manquants (`typeClient`, `sousType`, `departement`, `departementNumero`)
 
 **Opportunities:** GraphQL check
 - Requête: `opportunities(filter: { numeroDevis: { eq: "..." } })`
@@ -175,18 +171,21 @@ parseNorme(norme)
 ```javascript
 extractDepartement(cpRaw)
 ```
-- DOM-TOM: 971-974 (avec code DEPT_XXX)
+- Validation stricte du CP sur 5 chiffres
+- DOM-TOM supportés: 971, 972, 973, 974, 976
 - Corse: 2A/2B selon CP
-- Métropole: 01-95 (numéro seulement)
+- Retourne `numero`, `canonicalCode`, `code`, `normalizedPostcode`
+- Les valeurs réellement envoyées à Twenty sont résolues depuis les options live du schéma
 
 ### Classification client
 ```javascript
 classifyClient(name)
 ```
-- ETABLISSEMENT_SCOLAIRE: Lycée, Collège, École
-- MAIRIE_COLLECTIVITE: Mairie, Communauté
-- ENTREPRISE_TPE_PME: par défaut
-- Sous-types: COLLEGE, LYCEE, ECOLE, MAIRIE, etc.
+- ETABLISSEMENT_SCOLAIRE: Collège, Lycée, École
+- MAIRIE_COLLECTIVITE: mairie, communauté, agglo, métropole, CCAS/CIAS
+- AUTRE: association, EHPAD, cas non métiers
+- ENTREPRISE_TPE_PME: formes juridiques explicites + fallback contrôlé
+- Retourne aussi `confidence`, `reason`, `ruleId` pour l'audit et le backfill
 
 ---
 
@@ -194,28 +193,28 @@ classifyClient(name)
 
 ### Test 1: Dry run
 ```bash
-node import-master.js --file "..." --dry-run --limit 50
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx" --dry-run --limit 50
 ```
 Validation sans création
 
 ### Test 2: Import partiel
 ```bash
-node import-master.js --file "..." --sheets 2026 --limit 50
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx" --limit 50
 ```
 Import limité pour vérification
 
 ### Test 3: Ré-import (déduplication)
 ```bash
-node import-master.js --file "..." --sheets 2026
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx"
 # Puis ré-exécuter la même commande
 ```
 Résultat attendu: 0 créé, tout skippé (déduplication fonctionne)
 
-### Test 4: Import complet
+### Test 4: Import réel
 ```bash
-node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx"
+node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx"
 ```
-Import des 4 onglets (2023-2026)
+Import de l'onglet sélectionné uniquement
 
 ---
 

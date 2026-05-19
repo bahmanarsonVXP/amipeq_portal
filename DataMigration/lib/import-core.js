@@ -80,7 +80,8 @@ async function processExcelRow(rowData, sheetName, options = {}) {
         rowData.telephone,
         rowData.ville,
         result.company.id,
-        options
+        options,
+        rowData.titre
       );
 
       if (result.person.status === 'error') {

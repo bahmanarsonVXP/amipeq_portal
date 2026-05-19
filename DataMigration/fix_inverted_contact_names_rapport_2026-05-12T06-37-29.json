@@ -1,0 +1,687 @@
+{
+  "generatedAt": "2026-05-12T06:37:39.002Z",
+  "dryRun": true,
+  "file": "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx",
+  "sheets": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "companyFilter": null,
+  "stats": {
+    "total": 50,
+    "matchedByMapping": 49,
+    "matchedByEmail": 0,
+    "matchedByPhone": 0,
+    "matchedByName": 0,
+    "fixed": 18,
+    "unchanged": 28,
+    "skippedNoCompany": 0,
+    "skippedNoPerson": 1,
+    "skippedAmbiguous": 0,
+    "skippedUnsafe": 3,
+    "errors": 0
+  },
+  "details": [
+    {
+      "key": "108122|CLAUDE Marie",
+      "personId": "80dce6b7-d581-435f-bf0b-cc01a096c9c4",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Marie",
+        "lastName": "CLAUDE"
+      },
+      "expected": {
+        "firstName": "Marie",
+        "lastName": "CLAUDE"
+      }
+    },
+    {
+      "key": "107695|Pierre DEFRANCE",
+      "personId": "5eab1a91-edf2-4b81-9dbe-3b4f45aa86c5",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Pierre",
+        "lastName": "DEFRANCE"
+      },
+      "expected": {
+        "firstName": "Pierre",
+        "lastName": "DEFRANCE"
+      }
+    },
+    {
+      "key": "105681|NABIS Frantz",
+      "personId": "bf6e634f-a719-4334-8979-26d634e0e2ae",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Frantz",
+        "lastName": "NABIS"
+      },
+      "expected": {
+        "firstName": "Frantz",
+        "lastName": "NABIS"
+      }
+    },
+    {
+      "key": "108123|PECORARI Carole",
+      "personId": "ce5ea692-c539-4c9d-8c05-582f0d29f228",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Carole",
+        "lastName": "PECORARI"
+      },
+      "expected": {
+        "firstName": "Carole",
+        "lastName": "PECORARI"
+      }
+    },
+    {
+      "key": "108124|VIVES-TORRENS Sébastien",
+      "personId": "05f50c67-fab2-48b8-94eb-230220451bbe",
+      "result": "dry_run_fix",
+      "reason": "swapped",
+      "current": {
+        "firstName": "VIVES-TORRENS",
+        "lastName": "Sébastien"
+      },
+      "expected": {
+        "firstName": "Sébastien",
+        "lastName": "VIVES-TORRENS"
+      }
+    },
+    {
+      "key": "108125|LOQUET",
+      "personId": "d9673c09-4df6-4a24-b6a8-0d9a8d771c46",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "LOQUET",
+        "lastName": "LOQUET"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "LOQUET"
+      }
+    },
+    {
+      "key": "107486|JOFFROY Arnaud",
+      "personId": "bde12344-e219-418e-8434-1878add7f23c",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Arnaud",
+        "lastName": "JOFFROY"
+      },
+      "expected": {
+        "firstName": "Arnaud",
+        "lastName": "JOFFROY"
+      }
+    },
+    {
+      "key": "108046|MORIN",
+      "personId": "d0d5653f-cfc4-4cb5-a434-b08885e63faf",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "MORIN",
+        "lastName": "MORIN"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "MORIN"
+      }
+    },
+    {
+      "key": "108035|OUITRE",
+      "personId": "0375611b-b351-4c57-a108-eea0fe2cd6c3",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "OUITRE",
+        "lastName": "OUITRE"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "OUITRE"
+      }
+    },
+    {
+      "key": "108126|DE LA MORANDIERE",
+      "personId": "d28093e7-e1c0-4814-855d-011f95d70b6a",
+      "result": "dry_run_fix",
+      "reason": "raw_split",
+      "current": {
+        "firstName": "DE",
+        "lastName": "LA MORANDIERE"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "DE LA MORANDIERE"
+      }
+    },
+    {
+      "key": "108127|OUITRE",
+      "result": "skipped_no_person"
+    },
+    {
+      "key": "108108|Jean Jacques CHARTON",
+      "personId": "da4d0eef-65bf-4a4c-aa05-5545b3df29b5",
+      "result": "dry_run_fix",
+      "reason": "raw_split",
+      "current": {
+        "firstName": "Jean",
+        "lastName": "Jacques CHARTON"
+      },
+      "expected": {
+        "firstName": "Jean Jacques",
+        "lastName": "CHARTON"
+      }
+    },
+    {
+      "key": "105993|CANON Patrick",
+      "personId": "f5889c06-3f51-4846-a393-4e92c72fd40a",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Patrick",
+        "lastName": "CANON"
+      },
+      "expected": {
+        "firstName": "Patrick",
+        "lastName": "CANON"
+      }
+    },
+    {
+      "key": "108075|MISANTROPE Maxime",
+      "personId": "a03ca20b-7b85-46ee-93f7-7171ac561ee7",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Maxime",
+        "lastName": "MISANTROPE"
+      },
+      "expected": {
+        "firstName": "Maxime",
+        "lastName": "MISANTROPE"
+      }
+    },
+    {
+      "key": "105622|BERAL",
+      "personId": "b090a1e5-fcc9-48ff-a90c-07eaaff1fdf5",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "BERAL",
+        "lastName": "BERAL"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "BERAL"
+      }
+    },
+    {
+      "key": "108050|FRANCOURT",
+      "personId": "7d4f79cf-4d1c-4f80-80fb-091c38a0fb4f",
+      "result": "dry_run_fix",
+      "reason": "swapped",
+      "current": {
+        "firstName": "FRANCOURT",
+        "lastName": ""
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "FRANCOURT"
+      }
+    },
+    {
+      "key": "106632|MOGESTERNE",
+      "personId": "279d57d7-c5c8-475a-bf32-d9b61d73fee0",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "MOGESTERNE",
+        "lastName": "MOGESTERNE"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "MOGESTERNE"
+      }
+    },
+    {
+      "key": "105987|AMANDÉ",
+      "personId": "f15f0780-80d7-458c-8431-03511fe45db6",
+      "result": "dry_run_fix",
+      "reason": "swapped",
+      "current": {
+        "firstName": "AMANDÉ",
+        "lastName": ""
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "AMANDÉ"
+      }
+    },
+    {
+      "key": "108128|Sandrine SOULAS-ROUX",
+      "personId": "b7c3fec3-f2d9-49d0-94f7-4f4f13ff2134",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Sandrine",
+        "lastName": "SOULAS-ROUX"
+      },
+      "expected": {
+        "firstName": "Sandrine",
+        "lastName": "SOULAS-ROUX"
+      }
+    },
+    {
+      "key": "108129|SCHMIDT Mickaël",
+      "personId": "738cf173-83ee-4fc0-b7ee-8270d0c885e2",
+      "result": "dry_run_fix",
+      "reason": "swapped",
+      "current": {
+        "firstName": "SCHMIDT",
+        "lastName": "Mickaël"
+      },
+      "expected": {
+        "firstName": "Mickaël",
+        "lastName": "SCHMIDT"
+      }
+    },
+    {
+      "key": "107275|LOUIS-FRANCOIS Christel",
+      "personId": "c9c7a44d-ede3-495b-92f2-8051ce89edf1",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Christel",
+        "lastName": "LOUIS-FRANCOIS"
+      },
+      "expected": {
+        "firstName": "Christel",
+        "lastName": "LOUIS-FRANCOIS"
+      }
+    },
+    {
+      "key": "107910|DERRIER",
+      "personId": "ce706d85-f8dc-4040-b74f-afe486d5ef6e",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "DERRIER",
+        "lastName": "DERRIER"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "DERRIER"
+      }
+    },
+    {
+      "key": "106715|REMBLIERE",
+      "personId": "4cce8637-203e-4f8f-b285-3ca8eb80645f",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "REMBLIERE",
+        "lastName": "REMBLIERE"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "REMBLIERE"
+      }
+    },
+    {
+      "key": "106100|LONGO Fabienne",
+      "personId": "70d4277b-c488-434f-baba-68b2c49c9387",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Fabienne",
+        "lastName": "LONGO"
+      },
+      "expected": {
+        "firstName": "Fabienne",
+        "lastName": "LONGO"
+      }
+    },
+    {
+      "key": "108130|GLOWACZ",
+      "personId": "7251a35a-b157-49c7-bffc-643851cc821a",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "GLOWACZ",
+        "lastName": "GLOWACZ"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "GLOWACZ"
+      }
+    },
+    {
+      "key": "108120|Delphine CAZAUBON",
+      "personId": "943a1fba-be58-4ffa-96ad-a23e7ded4d94",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Delphine",
+        "lastName": "CAZAUBON"
+      },
+      "expected": {
+        "firstName": "Delphine",
+        "lastName": "CAZAUBON"
+      }
+    },
+    {
+      "key": "108131|BURIN Anne Sophie",
+      "personId": "13afe953-673b-4d83-8d82-1ce054f8a714",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Anne Sophie",
+        "lastName": "BURIN"
+      },
+      "expected": {
+        "firstName": "Anne Sophie",
+        "lastName": "BURIN"
+      }
+    },
+    {
+      "key": "108053|PALENNE Mélanie",
+      "personId": "e02926c1-7080-439e-8eb9-94bb2d7e7b3e",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Mélanie",
+        "lastName": "PALENNE"
+      },
+      "expected": {
+        "firstName": "Mélanie",
+        "lastName": "PALENNE"
+      }
+    },
+    {
+      "key": "106974|VERGNAUD",
+      "personId": "a2859656-c59f-4cff-a714-1bd850425170",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "VERGNAUD",
+        "lastName": "VERGNAUD"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "VERGNAUD"
+      }
+    },
+    {
+      "key": "106865|MARTIAS Eddie",
+      "personId": "8e688afc-5901-4231-931d-9d7e40ac0a63",
+      "result": "mismatch_not_safe",
+      "current": {
+        "firstName": "Eddie (Se dit Marcias)",
+        "lastName": "MARTIAS"
+      },
+      "expected": {
+        "firstName": "Eddie",
+        "lastName": "MARTIAS"
+      }
+    },
+    {
+      "key": "107950|Dominique BLANCKE",
+      "personId": "1e7144fd-e4dc-486d-8099-91603c01be3d",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Dominique",
+        "lastName": "BLANCKE"
+      },
+      "expected": {
+        "firstName": "Dominique",
+        "lastName": "BLANCKE"
+      }
+    },
+    {
+      "key": "108132|Bernard LEBLANC",
+      "personId": "ab797325-05cc-422a-bb14-68fd50855978",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Bernard",
+        "lastName": "LEBLANC"
+      },
+      "expected": {
+        "firstName": "Bernard",
+        "lastName": "LEBLANC"
+      }
+    },
+    {
+      "key": "106712|SIEJA",
+      "personId": "3c18edef-7310-4b83-97bc-7cb5eda62db8",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "SIEJA",
+        "lastName": "SIEJA"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "SIEJA"
+      }
+    },
+    {
+      "key": "108133|THIBAUT Julien",
+      "personId": "71714bf2-0298-4fff-a5da-94f693e064d2",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Julien",
+        "lastName": "THIBAUT"
+      },
+      "expected": {
+        "firstName": "Julien",
+        "lastName": "THIBAUT"
+      }
+    },
+    {
+      "key": "108134|ROBINET ROUSSEL Jérome",
+      "personId": "1d4a8957-be98-4bca-a890-ba4ad241bfac",
+      "result": "mismatch_not_safe",
+      "current": {
+        "firstName": "ROUSSEL Jérome",
+        "lastName": "ROBINET"
+      },
+      "expected": {
+        "firstName": "Jérome",
+        "lastName": "ROBINET ROUSSEL"
+      }
+    },
+    {
+      "key": "106866|ARNAULD Annick",
+      "personId": "6be43c49-cd82-485a-aa7f-ebc38b5f9df7",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Annick",
+        "lastName": "ARNAULD"
+      },
+      "expected": {
+        "firstName": "Annick",
+        "lastName": "ARNAULD"
+      }
+    },
+    {
+      "key": "105629|BERMONT Francette",
+      "personId": "9dce1536-3384-4dbb-90ed-d910ec138efc",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Francette",
+        "lastName": "BERMONT"
+      },
+      "expected": {
+        "firstName": "Francette",
+        "lastName": "BERMONT"
+      }
+    },
+    {
+      "key": "108135|EME Juliette",
+      "personId": "c54a41d8-90fd-43b3-a533-0c51dfe058aa",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Juliette",
+        "lastName": "EME"
+      },
+      "expected": {
+        "firstName": "Juliette",
+        "lastName": "EME"
+      }
+    },
+    {
+      "key": "108136|Stéphanie PORTANGUEN",
+      "personId": "95a9c25d-84ae-40f4-9f79-2a285bff5d93",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Stéphanie",
+        "lastName": "PORTANGUEN"
+      },
+      "expected": {
+        "firstName": "Stéphanie",
+        "lastName": "PORTANGUEN"
+      }
+    },
+    {
+      "key": "108137|FAURE Nathalie",
+      "personId": "0fdc02aa-5e26-480f-8c9d-1ae5b099cab7",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Nathalie",
+        "lastName": "FAURE"
+      },
+      "expected": {
+        "firstName": "Nathalie",
+        "lastName": "FAURE"
+      }
+    },
+    {
+      "key": "104934|CAZALON",
+      "personId": "1293b322-a613-4ae5-87f1-bcb78842ad7f",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "CAZALON",
+        "lastName": "CAZALON"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "CAZALON"
+      }
+    },
+    {
+      "key": "106804|RICHOL Solange",
+      "personId": "a394b95b-b953-4cff-8b5a-24897a53a8eb",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Solange",
+        "lastName": "RICHOL"
+      },
+      "expected": {
+        "firstName": "Solange",
+        "lastName": "RICHOL"
+      }
+    },
+    {
+      "key": "106917|JEAN LOUIS Nadine",
+      "personId": "064e9ebb-0027-4259-939b-2ec1d5c0e69f",
+      "result": "mismatch_not_safe",
+      "current": {
+        "firstName": "LOUIS Nadine",
+        "lastName": "JEAN"
+      },
+      "expected": {
+        "firstName": "Nadine",
+        "lastName": "JEAN LOUIS"
+      }
+    },
+    {
+      "key": "108138|GOÏTA Salimata",
+      "personId": "867b6bc2-d4e3-4e6e-9bae-354a61204707",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Salimata",
+        "lastName": "GOÏTA"
+      },
+      "expected": {
+        "firstName": "Salimata",
+        "lastName": "GOÏTA"
+      }
+    },
+    {
+      "key": "107525|PHILOCLES David",
+      "personId": "651e8341-6f49-498f-b2d4-7aad5f1a6f4e",
+      "result": "unchanged",
+      "current": {
+        "firstName": "David",
+        "lastName": "PHILOCLES"
+      },
+      "expected": {
+        "firstName": "David",
+        "lastName": "PHILOCLES"
+      }
+    },
+    {
+      "key": "105706|DUNON Sandrine",
+      "personId": "e6a8e20d-293a-4385-87ec-778856e58ba2",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Sandrine",
+        "lastName": "DUNON"
+      },
+      "expected": {
+        "firstName": "Sandrine",
+        "lastName": "DUNON"
+      }
+    },
+    {
+      "key": "105722|ALEXANDRE",
+      "personId": "35fe1ebf-e452-4efb-805a-d0a2ffb2bd4f",
+      "result": "dry_run_fix",
+      "reason": "duplicated_single_token",
+      "current": {
+        "firstName": "ALEXANDRE",
+        "lastName": "ALEXANDRE"
+      },
+      "expected": {
+        "firstName": "",
+        "lastName": "ALEXANDRE"
+      }
+    },
+    {
+      "key": "108139|RAFFE David",
+      "personId": "9e6777bb-6792-475a-883b-628db7c0727b",
+      "result": "unchanged",
+      "current": {
+        "firstName": "David",
+        "lastName": "RAFFE"
+      },
+      "expected": {
+        "firstName": "David",
+        "lastName": "RAFFE"
+      }
+    },
+    {
+      "key": "108140|BOUCHET Maxime",
+      "personId": "b61ee95e-5b35-4384-a8c6-c518879e4b88",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Maxime",
+        "lastName": "BOUCHET"
+      },
+      "expected": {
+        "firstName": "Maxime",
+        "lastName": "BOUCHET"
+      }
+    },
+    {
+      "key": "106222|LOUISON Régis",
+      "personId": "0bb57293-7233-4370-8445-47188612b35d",
+      "result": "unchanged",
+      "current": {
+        "firstName": "Régis",
+        "lastName": "LOUISON"
+      },
+      "expected": {
+        "firstName": "Régis",
+        "lastName": "LOUISON"
+      }
+    }
+  ]
+}

@@ -433,7 +433,7 @@ main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
 [vars]
-TWENTY_API_URL = "https://twenty-production-0500.up.railway.app"
+TWENTY_API_URL = "https://twenty-production-7352.up.railway.app"
 FRONTEND_URL = "https://amipeq.pages.dev"
 ```
 

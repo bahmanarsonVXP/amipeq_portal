@@ -1,11 +1,14 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
+import { trimTrailingSlash } from 'hono/trailing-slash';
 import { authMiddleware } from './middleware/auth';
 import { companiesRoutes } from './routes/companies';
 import { opportunitiesRoutes } from './routes/opportunities';
+import { personsRoutes } from './routes/persons';
 import { relancesRoutes } from './routes/relances';
 import { statsRoutes } from './routes/stats';
 import { documentsRoutes } from './routes/documents';
+import { entreprisesRoutes } from './routes/entreprises';
 
 export type Env = {
   TWENTY_API_URL: string;
@@ -15,9 +18,14 @@ export type Env = {
   SUPABASE_URL: string;
   SUPABASE_JWT_SECRET: string;
   FRONTEND_URL: string;
+  /** URL publique du gateway (liens document dans notes Twenty). Optionnel en dev. */
+  PUBLIC_GATEWAY_URL?: string;
+  DEVIS_DOCUMENTS: R2Bucket;
 };
 
 const app = new Hono<{ Bindings: Env; Variables: { user: any } }>();
+
+app.use(trimTrailingSlash());
 
 // CORS — inclure le réseau local (Next affiche souvent http://192.168.x.x:3000)
 app.use('/*', cors({
@@ -33,7 +41,7 @@ app.use('/*', cors({
     return '';
   },
   credentials: true,
-  allowHeaders: ['Content-Type', 'Authorization'],
+  allowHeaders: ['Content-Type', 'Authorization', 'Accept'],
   allowMethods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
 }));
 
@@ -46,8 +54,10 @@ app.get('/api/me', (c) => c.json(c.get('user')));
 
 app.route('/api/companies', companiesRoutes);
 app.route('/api/opportunities', opportunitiesRoutes);
+app.route('/api/persons', personsRoutes);
 app.route('/api/relances', relancesRoutes);
 app.route('/api/stats', statsRoutes);
 app.route('/api/documents', documentsRoutes);
+app.route('/api/entreprises', entreprisesRoutes);
 
 export default app;

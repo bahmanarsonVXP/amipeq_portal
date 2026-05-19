@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-11T15:54:44.600Z",
+  "fichier": "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx",
+  "onglets": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "dry_run": true,
+  "stats": {
+    "total": 30,
+    "genre_updated": 0,
+    "email_updated": 0,
+    "phone_updated": 0,
+    "notFound": 8,
+    "errors": 22
+  },
+  "not_found": [
+    "108124|VIVES-TORRENS Sébastien",
+    "108127|OUITRE",
+    "108050|FRANCOURT",
+    "105987|AMANDÉ",
+    "108128|Sandrine SOULAS-ROUX",
+    "108129|SCHMIDT Mickaël",
+    "106974|VERGNAUD",
+    "106865|MARTIAS Eddie"
+  ],
+  "errors": [
+    {
+      "contact": "CLAUDE Marie",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "Pierre DEFRANCE",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "NABIS Frantz",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "PECORARI Carole",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "LOQUET",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "JOFFROY Arnaud",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "MORIN",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "OUITRE",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "DE LA MORANDIERE",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "Jean Jacques CHARTON",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "CANON Patrick",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "MISANTROPE Maxime",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "BERAL",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "MOGESTERNE",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "LOUIS-FRANCOIS Christel",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "DERRIER",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "REMBLIERE",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "LONGO Fabienne",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "GLOWACZ",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "Delphine CAZAUBON",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "BURIN Anne Sophie",
+      "error": "telephone is not defined"
+    },
+    {
+      "contact": "PALENNE Mélanie",
+      "error": "telephone is not defined"
+    }
+  ]
+}

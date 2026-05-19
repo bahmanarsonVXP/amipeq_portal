@@ -2,6 +2,7 @@ import type { Context, Next } from 'hono';
 import { verifyToken } from '../lib/jwt';
 import type { Env } from '../index';
 
+/** JWT émis par Supabase Auth (application RPS). Voir docs/authentification.md */
 export async function authMiddleware(
   c: Context<{ Bindings: Env; Variables: { user: any } }>,
   next: Next

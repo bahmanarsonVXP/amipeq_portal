@@ -10,8 +10,10 @@
 
 const XLSX = require('xlsx');
 const path = require('path');
-const { graphqlRequest, restRequest } = require('./lib/core/http');
+const { graphqlRequest } = require('./lib/core/http');
 const mappings = require('./lib/core/mappings');
+const { deriveCompanyFields } = require('./lib/core/company-derived');
+const { getField } = require('./lib/core/company-schema');
 
 const EXCEL_FILE = path.join(__dirname, 'Fichiers de suivi', 'SUIVIS_CLIENTS_2026_20260402.xlsx');
 
@@ -26,11 +28,35 @@ function formatCP(cp) {
 async function getCompanyAddress(id) {
   const q = `query {
     companies(filter: { id: { eq: "${id}" } }) {
-      edges { node { address { addressStreet1 addressCity addressPostcode } } }
+      edges {
+        node {
+          id
+          typeClient
+          sousType
+          departement
+          departementNumero
+          address { addressStreet1 addressCity addressPostcode addressCountry }
+        }
+      }
     }
   }`;
   const r = await graphqlRequest(q);
-  return r.companies.edges[0]?.node?.address;
+  return r.companies.edges[0]?.node || null;
+}
+
+async function patchCompany(companyId, patch) {
+  const mutation = `
+    mutation UpdateCompanyAddress($id: ID!, $data: CompanyUpdateInput!) {
+      updateCompany(id: $id, data: $data) {
+        id
+      }
+    }
+  `;
+
+  return graphqlRequest(mutation, {
+    id: companyId,
+    data: patch,
+  });
 }
 
 async function main() {
@@ -61,6 +87,7 @@ async function main() {
     const adresse1 = row[16] || '';
     const cp       = formatCP(row[18]);
     const ville    = row[19] || '';
+    const nomSociete = String(row[3] || '').trim();
 
     // Pas de données d'adresse dans ce fichier pour cette société
     if (!adresse1 && !cp && !ville) {
@@ -70,7 +97,7 @@ async function main() {
 
     // Vérifier si l'adresse est déjà renseignée dans TWENTY
     const existing = await getCompanyAddress(companyId);
-    if (existing?.addressStreet1) {
+    if (existing?.address?.addressStreet1) {
       stats.alreadyHas++;
       continue;
     }
@@ -79,22 +106,38 @@ async function main() {
     process.stdout.write(`  ${numeroSociete} | ${nom} | ${adresse1}, ${cp} ${ville} ... `);
 
     try {
-      const result = await restRequest('PATCH', `/rest/companies/${companyId}`, {
+      const { schema, derived } = await deriveCompanyFields({
+        name: nomSociete,
+        cpRaw: cp,
+        numeroSociete,
+        companyId,
+      });
+
+      const patch = {
         address: {
           addressStreet1: adresse1 || null,
           addressCity:    ville || null,
           addressPostcode: cp || null,
           addressCountry: 'France'
         }
-      });
+      };
 
-      if (result.statusCode === 200 || result.statusCode === 201) {
-        console.log('OK');
-        stats.patched++;
-      } else {
-        console.log(`ERROR ${result.statusCode}: ${JSON.stringify(result.data).substring(0, 100)}`);
-        stats.error++;
+      if (derived.typeClient && getField(schema, 'typeClient') && !existing?.typeClient) {
+        patch.typeClient = derived.typeClient;
       }
+      if (derived.sousType && getField(schema, 'sousType') && !existing?.sousType) {
+        patch.sousType = derived.sousType;
+      }
+      if (derived.departement && getField(schema, 'departement')) {
+        patch.departement = derived.departement;
+      }
+      if (derived.departementNumero && getField(schema, 'departementNumero')) {
+        patch.departementNumero = derived.departementNumero;
+      }
+
+      await patchCompany(companyId, patch);
+      console.log('OK');
+      stats.patched++;
     } catch (err) {
       console.log(`EXCEPTION: ${err.message}`);
       stats.error++;

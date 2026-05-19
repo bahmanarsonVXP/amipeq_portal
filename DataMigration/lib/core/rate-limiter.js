@@ -26,4 +26,4 @@ class RateLimiter {
 }
 
 // Export singleton instance
-module.exports = new RateLimiter(650);
+module.exports = new RateLimiter(200);

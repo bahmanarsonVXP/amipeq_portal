@@ -1,0 +1,214 @@
+{
+  "companies": {
+    "109082": {
+      "name": "FORMATSUD",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109083": {
+      "name": "LV RENOVATION",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109089": {
+      "name": "LA FERME DE LA CHEVROCHERE",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109090": {
+      "name": "CDEF DE HAUTE GARONNE",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "MAIRIE_COLLECTIVITE",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "MAIRIE_COLLECTIVITE",
+      "sousType": "ETABLISSEMENT_PUBLIC",
+      "comment": ""
+    },
+    "109091": {
+      "name": "AXA ASSURANCES ET BANQUE LASSERRE RAT",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109099": {
+      "name": "EFC",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109101": {
+      "name": "INSTITUTION JEANNE D'ARC",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": ""
+    },
+    "109124": {
+      "name": "INSTITUTION SAINTE ODILE - LAMBERSART",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": ""
+    },
+    "109127": {
+      "name": "LPP VINCENT DE PAUL",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "LYCEE",
+      "comment": ""
+    },
+    "109134": {
+      "name": "LP SAINT PIERRE FOURIER",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "LYCEE",
+      "comment": ""
+    },
+    "109138": {
+      "name": "CLAREDIE",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109141": {
+      "name": "FIDREX",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109143": {
+      "name": "GARAGE MERCIER AUTOMOBILE",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109149": {
+      "name": "CITE SCOLAIRE JEAN JAURES",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": ""
+    },
+    "109150": {
+      "name": "ABP MENUISERIES",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109151": {
+      "name": "QUALIS TECHNOLOGIE",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "109152": {
+      "name": "MADEMOISELLE JULIE SERVICES",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "46fa487c-7f60-4ed6-8f02-a713cfd18ddc": {
+      "name": "Voxperience",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "",
+      "comment": ""
+    },
+    "7cd8d2d1-aa3c-479e-adcc-1d9a82eb61d7": {
+      "name": "voxperien",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "",
+      "comment": ""
+    },
+    "d6d5f60b-d080-4984-b9d8-3f7e4ae93386": {
+      "name": "IZEM Capital Invest",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    },
+    "eb229071-b64c-41cf-89fa-4838aaaf95ba": {
+      "name": "voxy",
+      "currentTypeClient": "AUTRE",
+      "currentSousType": null,
+      "suggestedTypeClient": "ENTREPRISE_TPE_PME",
+      "suggestedSousType": "AUTRE",
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": ""
+    }
+  }
+}

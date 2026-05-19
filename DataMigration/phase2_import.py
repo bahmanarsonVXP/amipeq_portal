@@ -23,7 +23,7 @@ if os.path.exists(env_path):
                 key, val = line.strip().split('=', 1)
                 os.environ[key.strip()] = val.strip()
 
-BASE_URL = os.environ.get('TWENTY_BASE_URL', 'https://twenty-production-0500.up.railway.app')
+BASE_URL = os.environ.get('TWENTY_BASE_URL', 'https://twenty-production-7352.up.railway.app')
 API_KEY = os.environ.get('TWENTY_API_KEY', '')
 TEST_LIMIT = 50  # Mode test: 50 lignes max
 EXCEL_FILE = os.path.join(os.path.dirname(__file__), 'SUIVIS CLIENTS 2026.xlsx')

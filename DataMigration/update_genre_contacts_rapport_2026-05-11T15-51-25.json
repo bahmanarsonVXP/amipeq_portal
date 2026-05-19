@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-11T15:51:25.405Z",
+  "fichier": "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx",
+  "onglets": [
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "dry_run": true,
+  "stats": {
+    "total": 30,
+    "genre_updated": 22,
+    "email_updated": 1,
+    "notFound": 8,
+    "errors": 0
+  },
+  "not_found": [
+    "108124|VIVES-TORRENS Sébastien",
+    "108127|OUITRE",
+    "108050|FRANCOURT",
+    "105987|AMANDÉ",
+    "108128|Sandrine SOULAS-ROUX",
+    "108129|SCHMIDT Mickaël",
+    "106974|VERGNAUD",
+    "106865|MARTIAS Eddie"
+  ],
+  "errors": []
+}

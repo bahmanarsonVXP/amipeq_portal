@@ -18,9 +18,11 @@ export default function PortalLayout({ children }: { children: React.ReactNode }
   if (!session) return null;
 
   return (
-    <div className="flex h-screen flex-col overflow-hidden bg-gray-50">
-      <TopBar />
-      <main className="min-h-0 flex-1 overflow-y-auto">{children}</main>
+    <div className="flex min-h-dvh flex-col bg-gray-50">
+      <div className="sticky top-0 z-30 shrink-0">
+        <TopBar />
+      </div>
+      <main className="flex-1">{children}</main>
     </div>
   );
 }

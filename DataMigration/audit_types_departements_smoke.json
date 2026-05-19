@@ -1,0 +1,822 @@
+{
+  "createdAt": "2026-05-12T11:34:32.468Z",
+  "summary": {
+    "total": 5,
+    "autofixable": 1,
+    "byAction": {
+      "fill_missing": 5
+    }
+  },
+  "schema": {
+    "typeClient": {
+      "exists": true,
+      "type": "SELECT",
+      "options": [
+        {
+          "value": "ETABLISSEMENT_SCOLAIRE",
+          "label": "Établissement scolaire"
+        },
+        {
+          "value": "MAIRIE_COLLECTIVITE",
+          "label": "Mairie-Collectivité"
+        },
+        {
+          "value": "ENTREPRISE_TPE_PME",
+          "label": "Entreprise TPE-PME"
+        },
+        {
+          "value": "AUTRE",
+          "label": "Autre"
+        }
+      ]
+    },
+    "sousType": {
+      "exists": true,
+      "type": "SELECT",
+      "options": [
+        {
+          "value": "COLLEGE",
+          "label": "Collège"
+        },
+        {
+          "value": "LYCEE",
+          "label": "Lycée"
+        },
+        {
+          "value": "ECOLE",
+          "label": "École"
+        },
+        {
+          "value": "MAIRIE",
+          "label": "Mairie"
+        },
+        {
+          "value": "COMMUNAUTE_COMMUNES",
+          "label": "Communauté de communes"
+        },
+        {
+          "value": "EHPAD",
+          "label": "EHPAD"
+        },
+        {
+          "value": "ASSOCIATION",
+          "label": "Association"
+        },
+        {
+          "value": "AUTRE",
+          "label": "Autre"
+        }
+      ]
+    },
+    "departement": {
+      "exists": true,
+      "type": "SELECT",
+      "options": [
+        {
+          "value": "DEPT_01_AIN",
+          "label": "01 - Ain"
+        },
+        {
+          "value": "DEPT_02_AISNE",
+          "label": "02 - Aisne"
+        },
+        {
+          "value": "DEPT_03_ALLIER",
+          "label": "03 - Allier"
+        },
+        {
+          "value": "DEPT_04_ALPES_DE_HAUTE_PROVENCE",
+          "label": "04 - Alpes-de-Haute-Provence"
+        },
+        {
+          "value": "DEPT_05_HAUTES_ALPES",
+          "label": "05 - Hautes-Alpes"
+        },
+        {
+          "value": "DEPT_06_ALPES_MARITIMES",
+          "label": "06 - Alpes-Maritimes"
+        },
+        {
+          "value": "DEPT_07_ARD_CHE",
+          "label": "07 - Ardèche"
+        },
+        {
+          "value": "DEPT_08_ARDENNES",
+          "label": "08 - Ardennes"
+        },
+        {
+          "value": "DEPT_09_ARI_GE",
+          "label": "09 - Ariège"
+        },
+        {
+          "value": "DEPT_10_AUBE",
+          "label": "10 - Aube"
+        },
+        {
+          "value": "DEPT_11_AUDE",
+          "label": "11 - Aude"
+        },
+        {
+          "value": "DEPT_12_AVEYRON",
+          "label": "12 - Aveyron"
+        },
+        {
+          "value": "DEPT_13_BOUCHES_DU_RH_NE",
+          "label": "13 - Bouches-du-Rhône"
+        },
+        {
+          "value": "DEPT_14_CALVADOS",
+          "label": "14 - Calvados"
+        },
+        {
+          "value": "DEPT_15_CANTAL",
+          "label": "15 - Cantal"
+        },
+        {
+          "value": "DEPT_16_CHARENTE",
+          "label": "16 - Charente"
+        },
+        {
+          "value": "DEPT_17_CHARENTE_MARITIME",
+          "label": "17 - Charente-Maritime"
+        },
+        {
+          "value": "DEPT_18_CHER",
+          "label": "18 - Cher"
+        },
+        {
+          "value": "DEPT_19_CORR_ZE",
+          "label": "19 - Corrèze"
+        },
+        {
+          "value": "DEPT_2A_CORSE_DU_SUD",
+          "label": "2A - Corse-du-Sud"
+        },
+        {
+          "value": "DEPT_2B_HAUTE_CORSE",
+          "label": "2B - Haute-Corse"
+        },
+        {
+          "value": "DEPT_21_C_TE_D_OR",
+          "label": "21 - Côte-d'Or"
+        },
+        {
+          "value": "DEPT_22_C_TES_D_ARMOR",
+          "label": "22 - Côtes-d'Armor"
+        },
+        {
+          "value": "DEPT_23_CREUSE",
+          "label": "23 - Creuse"
+        },
+        {
+          "value": "DEPT_24_DORDOGNE",
+          "label": "24 - Dordogne"
+        },
+        {
+          "value": "DEPT_25_DOUBS",
+          "label": "25 - Doubs"
+        },
+        {
+          "value": "DEPT_26_DR_ME",
+          "label": "26 - Drôme"
+        },
+        {
+          "value": "DEPT_27_EURE",
+          "label": "27 - Eure"
+        },
+        {
+          "value": "DEPT_28_EURE_ET_LOIR",
+          "label": "28 - Eure-et-Loir"
+        },
+        {
+          "value": "DEPT_29_FINIST_RE",
+          "label": "29 - Finistère"
+        },
+        {
+          "value": "DEPT_30_GARD",
+          "label": "30 - Gard"
+        },
+        {
+          "value": "DEPT_31_HAUTE_GARONNE",
+          "label": "31 - Haute-Garonne"
+        },
+        {
+          "value": "DEPT_32_GERS",
+          "label": "32 - Gers"
+        },
+        {
+          "value": "DEPT_33_GIRONDE",
+          "label": "33 - Gironde"
+        },
+        {
+          "value": "DEPT_34_H_RAULT",
+          "label": "34 - Hérault"
+        },
+        {
+          "value": "DEPT_35_ILLE_ET_VILAINE",
+          "label": "35 - Ille-et-Vilaine"
+        },
+        {
+          "value": "DEPT_36_INDRE",
+          "label": "36 - Indre"
+        },
+        {
+          "value": "DEPT_37_INDRE_ET_LOIRE",
+          "label": "37 - Indre-et-Loire"
+        },
+        {
+          "value": "DEPT_38_IS_RE",
+          "label": "38 - Isère"
+        },
+        {
+          "value": "DEPT_39_JURA",
+          "label": "39 - Jura"
+        },
+        {
+          "value": "DEPT_40_LANDES",
+          "label": "40 - Landes"
+        },
+        {
+          "value": "DEPT_41_LOIR_ET_CHER",
+          "label": "41 - Loir-et-Cher"
+        },
+        {
+          "value": "DEPT_42_LOIRE",
+          "label": "42 - Loire"
+        },
+        {
+          "value": "DEPT_43_HAUTE_LOIRE",
+          "label": "43 - Haute-Loire"
+        },
+        {
+          "value": "DEPT_44_LOIRE_ATLANTIQUE",
+          "label": "44 - Loire-Atlantique"
+        },
+        {
+          "value": "DEPT_45_LOIRET",
+          "label": "45 - Loiret"
+        },
+        {
+          "value": "DEPT_46_LOT",
+          "label": "46 - Lot"
+        },
+        {
+          "value": "DEPT_47_LOT_ET_GARONNE",
+          "label": "47 - Lot-et-Garonne"
+        },
+        {
+          "value": "DEPT_48_LOZ_RE",
+          "label": "48 - Lozère"
+        },
+        {
+          "value": "DEPT_49_MAINE_ET_LOIRE",
+          "label": "49 - Maine-et-Loire"
+        },
+        {
+          "value": "DEPT_50_MANCHE",
+          "label": "50 - Manche"
+        },
+        {
+          "value": "DEPT_51_MARNE",
+          "label": "51 - Marne"
+        },
+        {
+          "value": "DEPT_52_HAUTE_MARNE",
+          "label": "52 - Haute-Marne"
+        },
+        {
+          "value": "DEPT_53_MAYENNE",
+          "label": "53 - Mayenne"
+        },
+        {
+          "value": "DEPT_54_MEURTHE_ET_MOSELLE",
+          "label": "54 - Meurthe-et-Moselle"
+        },
+        {
+          "value": "DEPT_55_MEUSE",
+          "label": "55 - Meuse"
+        },
+        {
+          "value": "DEPT_56_MORBIHAN",
+          "label": "56 - Morbihan"
+        },
+        {
+          "value": "DEPT_57_MOSELLE",
+          "label": "57 - Moselle"
+        },
+        {
+          "value": "DEPT_58_NI_VRE",
+          "label": "58 - Nièvre"
+        },
+        {
+          "value": "DEPT_59_NORD",
+          "label": "59 - Nord"
+        },
+        {
+          "value": "DEPT_60_OISE",
+          "label": "60 - Oise"
+        },
+        {
+          "value": "DEPT_61_ORNE",
+          "label": "61 - Orne"
+        },
+        {
+          "value": "DEPT_62_PAS_DE_CALAIS",
+          "label": "62 - Pas-de-Calais"
+        },
+        {
+          "value": "DEPT_63_PUY_DE_D_ME",
+          "label": "63 - Puy-de-Dôme"
+        },
+        {
+          "value": "DEPT_64_PYR_N_ES_ATLANTIQUES",
+          "label": "64 - Pyrénées-Atlantiques"
+        },
+        {
+          "value": "DEPT_65_HAUTES_PYR_N_ES",
+          "label": "65 - Hautes-Pyrénées"
+        },
+        {
+          "value": "DEPT_66_PYR_N_ES_ORIENTALES",
+          "label": "66 - Pyrénées-Orientales"
+        },
+        {
+          "value": "DEPT_67_BAS_RHIN",
+          "label": "67 - Bas-Rhin"
+        },
+        {
+          "value": "DEPT_68_HAUT_RHIN",
+          "label": "68 - Haut-Rhin"
+        },
+        {
+          "value": "DEPT_69_RH_NE",
+          "label": "69 - Rhône"
+        },
+        {
+          "value": "DEPT_70_HAUTE_SA_NE",
+          "label": "70 - Haute-Saône"
+        },
+        {
+          "value": "DEPT_71_SA_NE_ET_LOIRE",
+          "label": "71 - Saône-et-Loire"
+        },
+        {
+          "value": "DEPT_72_SARTHE",
+          "label": "72 - Sarthe"
+        },
+        {
+          "value": "DEPT_73_SAVOIE",
+          "label": "73 - Savoie"
+        },
+        {
+          "value": "DEPT_74_HAUTE_SAVOIE",
+          "label": "74 - Haute-Savoie"
+        },
+        {
+          "value": "DEPT_75_PARIS",
+          "label": "75 - Paris"
+        },
+        {
+          "value": "DEPT_76_SEINE_MARITIME",
+          "label": "76 - Seine-Maritime"
+        },
+        {
+          "value": "DEPT_77_SEINE_ET_MARNE",
+          "label": "77 - Seine-et-Marne"
+        },
+        {
+          "value": "DEPT_78_YVELINES",
+          "label": "78 - Yvelines"
+        },
+        {
+          "value": "DEPT_79_DEUX_S_VRES",
+          "label": "79 - Deux-Sèvres"
+        },
+        {
+          "value": "DEPT_80_SOMME",
+          "label": "80 - Somme"
+        },
+        {
+          "value": "DEPT_81_TARN",
+          "label": "81 - Tarn"
+        },
+        {
+          "value": "DEPT_82_TARN_ET_GARONNE",
+          "label": "82 - Tarn-et-Garonne"
+        },
+        {
+          "value": "DEPT_83_VAR",
+          "label": "83 - Var"
+        },
+        {
+          "value": "DEPT_84_VAUCLUSE",
+          "label": "84 - Vaucluse"
+        },
+        {
+          "value": "DEPT_85_VEND_E",
+          "label": "85 - Vendée"
+        },
+        {
+          "value": "DEPT_86_VIENNE",
+          "label": "86 - Vienne"
+        },
+        {
+          "value": "DEPT_87_HAUTE_VIENNE",
+          "label": "87 - Haute-Vienne"
+        },
+        {
+          "value": "DEPT_88_VOSGES",
+          "label": "88 - Vosges"
+        },
+        {
+          "value": "DEPT_89_YONNE",
+          "label": "89 - Yonne"
+        },
+        {
+          "value": "DEPT_90_TERRITOIRE_DE_BELFORT",
+          "label": "90 - Territoire de Belfort"
+        },
+        {
+          "value": "DEPT_91_ESSONNE",
+          "label": "91 - Essonne"
+        },
+        {
+          "value": "DEPT_92_HAUTS_DE_SEINE",
+          "label": "92 - Hauts-de-Seine"
+        },
+        {
+          "value": "DEPT_93_SEINE_SAINT_DENIS",
+          "label": "93 - Seine-Saint-Denis"
+        },
+        {
+          "value": "DEPT_94_VAL_DE_MARNE",
+          "label": "94 - Val-de-Marne"
+        },
+        {
+          "value": "DEPT_95_VAL_D_OISE",
+          "label": "95 - Val-d'Oise"
+        },
+        {
+          "value": "DEPT_971_GUADELOUPE",
+          "label": "971 - Guadeloupe"
+        },
+        {
+          "value": "DEPT_972_MARTINIQUE",
+          "label": "972 - Martinique"
+        },
+        {
+          "value": "DEPT_973_GUYANE",
+          "label": "973 - Guyane"
+        },
+        {
+          "value": "DEPT_974_LA_R_UNION",
+          "label": "974 - La Réunion"
+        }
+      ]
+    },
+    "departementNumero": {
+      "exists": true,
+      "type": "TEXT",
+      "options": []
+    }
+  },
+  "records": [
+    {
+      "companyId": "003db1c4-a081-4654-b489-92a1de986d7a",
+      "numeroSociete": 107448,
+      "name": "DPM THERMIQUE",
+      "current": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_33_GIRONDE",
+        "departementNumero": "33",
+        "addressPostcode": "33540"
+      },
+      "derived": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": "DEPT_33_GIRONDE",
+        "departementNumero": "33",
+        "addressPostcode": "33540"
+      },
+      "classification": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "confidence": "medium",
+        "reason": "Aucun marqueur métier explicite: classement par défaut en entreprise/TPE-PME.",
+        "ruleId": "default_enterprise",
+        "normalizedName": "DPM THERMIQUE"
+      },
+      "departement": {
+        "numero": "33",
+        "code": "DEPT_33_GIRONDE",
+        "canonicalCode": "DEPT_33_GIRONDE",
+        "isValid": true,
+        "reason": "Département déduit à partir du code postal."
+      },
+      "fieldDiffs": [
+        {
+          "field": "typeClient",
+          "status": "unchanged",
+          "current": "ENTREPRISE_TPE_PME",
+          "derived": "ENTREPRISE_TPE_PME"
+        },
+        {
+          "field": "sousType",
+          "status": "missing",
+          "current": null,
+          "derived": "AUTRE"
+        },
+        {
+          "field": "departement",
+          "status": "unchanged",
+          "current": "DEPT_33_GIRONDE",
+          "derived": "DEPT_33_GIRONDE"
+        },
+        {
+          "field": "departementNumero",
+          "status": "unchanged",
+          "current": "33",
+          "derived": "33"
+        }
+      ],
+      "needsAddressPostcodeNormalization": false,
+      "proposedPatch": {
+        "sousType": "AUTRE"
+      },
+      "action": "fill_missing",
+      "eligibleForAutofix": false,
+      "overallConfidence": "medium"
+    },
+    {
+      "companyId": "003ef248-56d1-45b9-aa43-8a8e753a8388",
+      "numeroSociete": 107808,
+      "name": "ASSURANCES LES SABLONS",
+      "current": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_45_LOIRET",
+        "departementNumero": "45",
+        "addressPostcode": "45000"
+      },
+      "derived": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": "DEPT_45_LOIRET",
+        "departementNumero": "45",
+        "addressPostcode": "45000"
+      },
+      "classification": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "confidence": "medium",
+        "reason": "Aucun marqueur métier explicite: classement par défaut en entreprise/TPE-PME.",
+        "ruleId": "default_enterprise",
+        "normalizedName": "ASSURANCES LES SABLONS"
+      },
+      "departement": {
+        "numero": "45",
+        "code": "DEPT_45_LOIRET",
+        "canonicalCode": "DEPT_45_LOIRET",
+        "isValid": true,
+        "reason": "Département déduit à partir du code postal."
+      },
+      "fieldDiffs": [
+        {
+          "field": "typeClient",
+          "status": "unchanged",
+          "current": "ENTREPRISE_TPE_PME",
+          "derived": "ENTREPRISE_TPE_PME"
+        },
+        {
+          "field": "sousType",
+          "status": "missing",
+          "current": null,
+          "derived": "AUTRE"
+        },
+        {
+          "field": "departement",
+          "status": "unchanged",
+          "current": "DEPT_45_LOIRET",
+          "derived": "DEPT_45_LOIRET"
+        },
+        {
+          "field": "departementNumero",
+          "status": "unchanged",
+          "current": "45",
+          "derived": "45"
+        }
+      ],
+      "needsAddressPostcodeNormalization": false,
+      "proposedPatch": {
+        "sousType": "AUTRE"
+      },
+      "action": "fill_missing",
+      "eligibleForAutofix": false,
+      "overallConfidence": "medium"
+    },
+    {
+      "companyId": "005080bf-fa16-4e29-afdc-68f7504c7b3c",
+      "numeroSociete": 109153,
+      "name": "COLLEGE GEORGES BRASSENS",
+      "current": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": null,
+        "departement": null,
+        "departementNumero": "",
+        "addressPostcode": "13700"
+      },
+      "derived": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "COLLEGE",
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13",
+        "addressPostcode": "13700"
+      },
+      "classification": {
+        "typeClient": "ETABLISSEMENT_SCOLAIRE",
+        "sousType": "COLLEGE",
+        "confidence": "high",
+        "reason": "Nom contenant un marqueur explicite de collège.",
+        "ruleId": "school_college",
+        "normalizedName": "COLLEGE GEORGES BRASSENS"
+      },
+      "departement": {
+        "numero": "13",
+        "code": "DEPT_13_BOUCHES_DU_RH_NE",
+        "canonicalCode": "DEPT_13_BOUCHES_DU_RHONE",
+        "isValid": true,
+        "reason": "Département déduit à partir du code postal."
+      },
+      "fieldDiffs": [
+        {
+          "field": "typeClient",
+          "status": "unchanged",
+          "current": "ETABLISSEMENT_SCOLAIRE",
+          "derived": "ETABLISSEMENT_SCOLAIRE"
+        },
+        {
+          "field": "sousType",
+          "status": "missing",
+          "current": null,
+          "derived": "COLLEGE"
+        },
+        {
+          "field": "departement",
+          "status": "missing",
+          "current": null,
+          "derived": "DEPT_13_BOUCHES_DU_RH_NE"
+        },
+        {
+          "field": "departementNumero",
+          "status": "missing",
+          "current": "",
+          "derived": "13"
+        }
+      ],
+      "needsAddressPostcodeNormalization": false,
+      "proposedPatch": {
+        "sousType": "COLLEGE",
+        "departement": "DEPT_13_BOUCHES_DU_RH_NE",
+        "departementNumero": "13"
+      },
+      "action": "fill_missing",
+      "eligibleForAutofix": true,
+      "overallConfidence": "high"
+    },
+    {
+      "companyId": "0078910e-3a76-4ebc-9610-e044b97e541a",
+      "numeroSociete": 108490,
+      "name": "CAMPARY BRASSERIE HECTOR",
+      "current": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_75_PARIS",
+        "departementNumero": "75",
+        "addressPostcode": "75016"
+      },
+      "derived": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": "DEPT_75_PARIS",
+        "departementNumero": "75",
+        "addressPostcode": "75016"
+      },
+      "classification": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "confidence": "medium",
+        "reason": "Aucun marqueur métier explicite: classement par défaut en entreprise/TPE-PME.",
+        "ruleId": "default_enterprise",
+        "normalizedName": "CAMPARY BRASSERIE HECTOR"
+      },
+      "departement": {
+        "numero": "75",
+        "code": "DEPT_75_PARIS",
+        "canonicalCode": "DEPT_75_PARIS",
+        "isValid": true,
+        "reason": "Département déduit à partir du code postal."
+      },
+      "fieldDiffs": [
+        {
+          "field": "typeClient",
+          "status": "unchanged",
+          "current": "ENTREPRISE_TPE_PME",
+          "derived": "ENTREPRISE_TPE_PME"
+        },
+        {
+          "field": "sousType",
+          "status": "missing",
+          "current": null,
+          "derived": "AUTRE"
+        },
+        {
+          "field": "departement",
+          "status": "unchanged",
+          "current": "DEPT_75_PARIS",
+          "derived": "DEPT_75_PARIS"
+        },
+        {
+          "field": "departementNumero",
+          "status": "unchanged",
+          "current": "75",
+          "derived": "75"
+        }
+      ],
+      "needsAddressPostcodeNormalization": false,
+      "proposedPatch": {
+        "sousType": "AUTRE"
+      },
+      "action": "fill_missing",
+      "eligibleForAutofix": false,
+      "overallConfidence": "medium"
+    },
+    {
+      "companyId": "00a4457e-f7af-467a-b5b2-eabe507776ac",
+      "numeroSociete": 107812,
+      "name": "CHAMBRE DES METIERS ET DE L'ARTISANAT",
+      "current": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": null,
+        "departement": "DEPT_971_GUADELOUPE",
+        "departementNumero": "971",
+        "addressPostcode": "97100"
+      },
+      "derived": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "departement": "DEPT_971_GUADELOUPE",
+        "departementNumero": "971",
+        "addressPostcode": "97100"
+      },
+      "classification": {
+        "typeClient": "ENTREPRISE_TPE_PME",
+        "sousType": "AUTRE",
+        "confidence": "medium",
+        "reason": "Aucun marqueur métier explicite: classement par défaut en entreprise/TPE-PME.",
+        "ruleId": "default_enterprise",
+        "normalizedName": "CHAMBRE DES METIERS ET DE L ARTISANAT"
+      },
+      "departement": {
+        "numero": "971",
+        "code": "DEPT_971_GUADELOUPE",
+        "canonicalCode": "DEPT_971_GUADELOUPE",
+        "isValid": true,
+        "reason": "Département déduit à partir du code postal."
+      },
+      "fieldDiffs": [
+        {
+          "field": "typeClient",
+          "status": "unchanged",
+          "current": "ENTREPRISE_TPE_PME",
+          "derived": "ENTREPRISE_TPE_PME"
+        },
+        {
+          "field": "sousType",
+          "status": "missing",
+          "current": null,
+          "derived": "AUTRE"
+        },
+        {
+          "field": "departement",
+          "status": "unchanged",
+          "current": "DEPT_971_GUADELOUPE",
+          "derived": "DEPT_971_GUADELOUPE"
+        },
+        {
+          "field": "departementNumero",
+          "status": "unchanged",
+          "current": "971",
+          "derived": "971"
+        }
+      ],
+      "needsAddressPostcodeNormalization": false,
+      "proposedPatch": {
+        "sousType": "AUTRE"
+      },
+      "action": "fill_missing",
+      "eligibleForAutofix": false,
+      "overallConfidence": "medium"
+    }
+  ]
+}

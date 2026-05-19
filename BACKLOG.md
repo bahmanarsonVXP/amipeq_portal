@@ -78,12 +78,12 @@ amipeq-portal/
 ├── package.json
 └── .env.example
 
-#### Supabase
-- Projet : `nkxcegxgjwugqxpsfnka`
-- URL : `https://nkxcegxgjwugqxpsfnka.supabase.co`
-- Pas de table `users` custom — utiliser `auth.users` natif
-- Méthode : `supabase.auth.signInWithPassword({ email, password })`
-- Session : cookies HTTP-only via `@supabase/ssr` (package adapté au SSR/Static)
+#### Supabase — auth partagée avec l’application RPS
+- **Pas d’auth propre au portail** : réutilisation de Supabase Auth de l’**application RPS** (audits).
+- Projet : `nkxcegxgjwugqxpsfnka` — URL : `https://nkxcegxgjwugqxpsfnka.supabase.co`
+- Comptes : `auth.users` du projet RPS (création via dashboard Supabase / app RPS, pas via le portail)
+- Méthode portail : `supabase.auth.signInWithPassword({ email, password })`
+- Doc canonique : [`docs/authentification.md`](docs/authentification.md)
 
 #### Variables d'environnement frontend
 NEXT_PUBLIC_SUPABASE_URL=https://nkxcegxgjwugqxpsfnka.supabase.co
@@ -115,9 +115,148 @@ const { payload } = await jwtVerify(token, secret);
 - Un seul CTA principal : bouton "Se connecter"
 - Focus rings visibles (accessibilité)
 
-#### Note architecture future
-Le projet Supabase `nkxcegxgjwugqxpsfnka` est dédié à l'auth uniquement.
-Une future instance Supabase distincte hébergera : devis, audits RPS, données franchisés.
-Le Gateway devra à terme router vers les deux instances — cette US pose uniquement
-les fondations de la vérification JWT, sans coupler le code à une seule instance.
+#### Note architecture
+- **Auth** : toujours celle de l’application RPS (ce projet Supabase). Le portail n’émet pas ses propres utilisateurs.
+- **Données métier portail** : Twenty (+ backend Railway) ; une future instance Supabase **métier** (devis, franchisés) resterait **sans remplacer** l’auth RPS — le gateway continuerait à valider le JWT Supabase RPS.
+- Ne pas confondre la **prestation** « RPS » (enum CRM) avec l’**application RPS** (fournisseur d’identité).
+<!--US:END-->
+
+<!--US:START id="US-008"-->
+---
+id: "US-008"
+title: "Clients overview — snapshot agrégé persistant côté Railway + cron de recalcul"
+status: "Todo"
+mode: "interactive"
+priority: "medium"
+created_at: "2026-05-12"
+updated_at: "2026-05-12"
+depends_on:
+  - "US-007"
+blocks:
+context_files:
+  - "CLAUDE.md"
+  - "BACKLOG.md"
+tags: ["clients", "gateway", "railway", "cron", "cache", "twenty", "performance"]
+---
+
+### En tant que
+Développeur AMIPEQ (Bahman)
+
+### Je veux
+Déplacer le calcul des agrégats de l'écran `Clients` vers un snapshot persistant calculé côté Railway,
+avec un cron de recalcul et une stratégie d'invalidation légère.
+
+### Afin de
+Fiabiliser le CA clients, éviter les limites du cache mémoire du Gateway Cloudflare, réduire les appels
+répétés à Twenty CRM, et garantir des données cohérentes même après redéploiement du Worker.
+
+### Contexte
+Une première version a été mise en place dans le Gateway Cloudflare avec l'endpoint
+`GET /api/companies/overview`.
+
+Cette version corrige le bug métier principal :
+- le CA n'est plus calculé depuis un simple `top 300` d'opportunités,
+- le calcul est fait côté Gateway en batch,
+- les opportunités en cours et le CA 4 ans sont agrégés proprement.
+
+Limite actuelle :
+- le cache utilisé par le Gateway est un `Map` mémoire local au Worker,
+- ce cache n'est ni persistant, ni partagé entre instances,
+- il peut disparaître à un redéploiement Cloudflare ou à un recyclage d'isolat.
+
+Cette US décrit la V2 cible : snapshot persistant côté Railway.
+
+### Acceptance Criteria
+- [ ] Un job cron Railway recalcule un snapshot complet des agrégats clients à fréquence définie (`5 min` ou `10 min`)
+- [ ] Le snapshot contient au minimum : identité client, type, département, opportunités en cours, CA des 4 années glissantes
+- [ ] Le snapshot est stocké dans un support persistant côté Railway (Redis ou Postgres JSONB)
+- [ ] Le Gateway Cloudflare ne recalcule plus les agrégats complets à chaque warm/cold start
+- [ ] Le Gateway lit d'abord le snapshot persistant pour servir `GET /api/companies/overview`
+- [ ] Une stratégie de fallback existe si le snapshot est absent ou obsolète
+- [ ] Une stratégie d'invalidation ou de marquage `stale` est prévue après mutation importante (opportunity create/update/delete, company delete)
+- [ ] Le contrat JSON renvoyé au frontend reste compatible avec l'écran `Clients`
+- [ ] La stratégie est documentée : source de vérité, fraîcheur des données, fréquence de recalcul, procédure d'incident
+
+### Requirements techniques
+
+#### Architecture cible
+- Frontend → Gateway Cloudflare → Backend Railway → snapshot persistant
+- Le frontend continue d'appeler uniquement le Gateway
+- Le backend Railway devient le producteur du snapshot métier
+- Twenty CRM reste la source de vérité métier brute
+
+#### Données à inclure dans le snapshot
+- `years`: tableau des 4 années glissantes
+- `companies[]`
+- pour chaque company :
+  - `id`
+  - `name`
+  - `typeClient`
+  - `departementNumero`
+  - `address.postcode`
+  - `address.city`
+  - `createdAt`
+  - `updatedAt`
+  - `openCount`
+  - `openTotalEur`
+  - `openOpportunities[]` (au moins les champs utiles à la modale actuelle)
+  - `caByYear`
+
+#### Périmètre métier des agrégats
+- Opportunités en cours :
+  - `NOUVEAU`
+  - `DEVIS_EN_COURS`
+  - `DEVIS_EN_RELECTURE`
+  - `DEVIS_ENVOYE`
+  - `RELANCE`
+- CA :
+  - uniquement `statutDevis = GAGNE`
+  - agrégé par `companyId`
+  - agrégé par `anneeDevis`
+  - limité aux 4 années glissantes affichées dans la table
+
+#### Source de calcul
+- Éviter absolument le N+1 par client
+- Préférer 2 à 3 requêtes batch maximum vers Twenty :
+  - companies visibles / actives
+  - opportunities gagnées des 4 années
+  - opportunities en cours
+- Agrégation réalisée côté backend Railway
+
+#### Stockage persistant candidat
+Option A — Redis :
+- simple cache JSON (`clients:overview:v1`)
+- rapide
+- adapté si l'objectif principal est le cache
+
+Option B — Postgres JSONB :
+- snapshot plus durable et auditable
+- plus simple à inspecter en SQL
+- adapté si l'on veut historiser ou diagnostiquer facilement
+
+Décision à prendre lors de l'implémentation.
+
+#### Stratégie de fraîcheur
+- Recalcul complet par cron toutes les `5` ou `10` minutes
+- En complément :
+  - soit invalidation de la clé snapshot après mutation critique
+  - soit marquage `stale`
+  - soit refresh async déclenché après mutation
+
+#### Migration recommandée
+1. Garder `GET /api/companies/overview` comme contrat stable pour le frontend
+2. Déplacer progressivement la production des agrégats vers Railway
+3. Faire lire par le Gateway le snapshot persistant
+4. Retirer ensuite le calcul batch côté Gateway si le snapshot Railway est jugé fiable
+
+#### Risques / points d'attention
+- Décalage temporel entre une mutation Twenty et le prochain cron
+- Besoin de stratégie claire en cas d'échec du job de recalcul
+- Taille potentielle du snapshot si `openOpportunities[]` devient trop riche
+- Gestion de la cohérence si plusieurs producteurs de snapshot existent
+
+#### Note d'architecture
+Le cache mémoire actuel du Gateway Cloudflare reste acceptable comme solution transitoire.
+Cette US formalise la cible moyen terme : un snapshot persistant côté Railway, plus robuste
+vis-à-vis des redéploiements Cloudflare et de la montée en charge.
 <!--US:END-->

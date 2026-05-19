@@ -1,0 +1,109 @@
+{
+  "companies": {
+    "108610": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ECOLE",
+      "comment": "Validation manuelle - SIVU des écoles"
+    },
+    "108536": {
+      "typeClient": "MAIRIE_COLLECTIVITE",
+      "sousType": "COMMUNAUTE_COMMUNES",
+      "comment": "Validation manuelle - communauté de communes"
+    },
+    "109138": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (CLAREDIE)"
+    },
+    "109124": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": "Conserver la valeur actuelle (INSTITUTION SAINTE ODILE - LAMBERSART)"
+    },
+    "109152": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (MADEMOISELLE JULIE SERVICES)"
+    },
+    "109099": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (EFC)"
+    },
+    "109127": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "LYCEE",
+      "comment": "Conserver la valeur actuelle (LPP VINCENT DE PAUL)"
+    },
+    "109101": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": "Conserver la valeur actuelle (INSTITUTION JEANNE D'ARC)"
+    },
+    "109141": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (FIDREX)"
+    },
+    "109091": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (AXA ASSURANCES ET BANQUE LASSERRE RAT)"
+    },
+    "109089": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (LA FERME DE LA CHEVROCHERE)"
+    },
+    "109150": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (ABP MENUISERIES)"
+    },
+    "109149": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "ENSEMBLE_SCOLAIRE",
+      "comment": "Conserver la valeur actuelle (CITE SCOLAIRE JEAN JAURES)"
+    },
+    "109083": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (LV RENOVATION)"
+    },
+    "109082": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (FORMATSUD)"
+    },
+    "109151": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (QUALIS TECHNOLOGIE)"
+    },
+    "109090": {
+      "typeClient": "MAIRIE_COLLECTIVITE",
+      "sousType": "ETABLISSEMENT_PUBLIC",
+      "comment": "Conserver la valeur actuelle (CDEF DE HAUTE GARONNE)"
+    },
+    "d6d5f60b-d080-4984-b9d8-3f7e4ae93386": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (IZEM Capital Invest)"
+    },
+    "109143": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (GARAGE MERCIER AUTOMOBILE)"
+    },
+    "eb229071-b64c-41cf-89fa-4838aaaf95ba": {
+      "typeClient": "ENTREPRISE_TPE_PME",
+      "sousType": "ENTREPRISE",
+      "comment": "Conserver la valeur actuelle (voxy)"
+    },
+    "109134": {
+      "typeClient": "ETABLISSEMENT_SCOLAIRE",
+      "sousType": "LYCEE",
+      "comment": "Conserver la valeur actuelle (LP SAINT PIERRE FOURIER)"
+    }
+  }
+}

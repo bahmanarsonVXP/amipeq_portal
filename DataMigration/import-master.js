@@ -1,28 +1,25 @@
 #!/usr/bin/env node
 /**
- * AMIPEQ CRM Excel Import - Master Orchestration Script
+ * DEPRECATED — ne plus utiliser.
  *
- * Modular architecture for flexible Excel imports to TWENTY CRM
+ * Le seul point d'entrée supporté pour l'import du fichier de suivi est :
+ *   node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/..."
  *
- * Usage:
- *   # Import full file (all sheets 2023-2026)
- *   node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx"
- *
- *   # Import specific sheets only
- *   node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx" --sheets "2025,2026"
- *
- *   # Dry run (validation only)
- *   node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx" --dry-run
- *
- *   # Skip existing companies/persons (opportunities only)
- *   node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx" --skip-companies --skip-persons
- *
- *   # Limit to N rows (testing)
- *   node import-master.js --file "SUIVISCLIENTS_2026_V2.xlsx" --limit 50
+ * Ce script est conservé uniquement comme référence historique.
  */
+
+console.error('');
+console.error('ERREUR: import-master.js est abandonné.');
+console.error('Utiliser exclusivement import_fichier_suivi_par_onglet.js.');
+console.error('');
+console.error('Exemple:');
+console.error('  node import_fichier_suivi_par_onglet.js --sheet 2026 --file "Fichiers de suivi/SUIVIS_CLIENTS_2026_20260413.xlsx"');
+console.error('');
+process.exit(1);
 
 const xlsx = require('xlsx');
 const minimist = require('minimist');
+const { normalizePhone } = require('./lib/parsers/phone');
 const { processExcelRow } = require('./lib/import-core');
 const { getCellColor } = require('./lib/parsers/excel');
 
@@ -95,9 +92,10 @@ async function main() {
         numeroSociete: String(Math.floor(Number(row[2]))),
         nom: row[3] || '',
         cpRaw: row[18] || '',       // col 18 = CP réel (corrigé, était col 4 = Titre)
+        titre: row[4] || '',        // col 4  = Titre (civilité : M., Mme, Mlle)
         contact: row[5] || '',
         email: row[22] || '',       // col 22 = E-mail réel (corrigé, était col 6 = CIAL)
-        telephone: row[20] || '',   // col 20 = TELEPHONE réel (corrigé, était col 7 = N° DEVIS)
+        telephone: normalizePhone(row[20]),   // col 20 = TELEPHONE réel (corrigé, était col 7 = N° DEVIS)
         numeroDevis: row[7] || '',
         dateDevis: row[8] || '',
         offre1: row[9] || '',

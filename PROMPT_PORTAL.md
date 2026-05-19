@@ -421,7 +421,7 @@ main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
 [vars]
-TWENTY_API_URL = "https://twenty-production-0500.up.railway.app"
+TWENTY_API_URL = "https://twenty-production-7352.up.railway.app"
 BACKEND_URL = "https://backend-amipeq.up.railway.app"
 FRONTEND_URL = "https://amipeq-portal.pages.dev"
 ```
@@ -436,7 +436,7 @@ wrangler secret put JWT_SECRET
 ```env
 PORT=4000
 NODE_ENV=production
-TWENTY_API_URL=https://twenty-production-0500.up.railway.app
+TWENTY_API_URL=https://twenty-production-7352.up.railway.app
 TWENTY_API_KEY=eyJhbGciOiJIUzI1NiIs...
 GATEWAY_URL=https://gateway-amipeq.workers.dev
 INTERNAL_SECRET=shared-secret-gateway-backend

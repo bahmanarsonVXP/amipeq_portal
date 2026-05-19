@@ -8,10 +8,28 @@ interface OpportunitiesResponse {
   opportunities: OpportunityRow[];
 }
 
-export function useOpportunities(status?: string) {
+interface UseOpportunitiesOptions {
+  status?: string;
+  search?: string;
+  extended?: boolean;
+  limit?: number;
+}
+
+export function useOpportunities(statusOrOptions?: string | UseOpportunitiesOptions) {
   const { loading: authLoading } = useAuth();
-  const endpoint = status
-    ? `/api/opportunities?status=${encodeURIComponent(status)}`
+  const options: UseOpportunitiesOptions =
+    typeof statusOrOptions === 'string'
+      ? { status: statusOrOptions }
+      : (statusOrOptions ?? {});
+
+  const params = new URLSearchParams();
+  if (options.status) params.set('status', options.status);
+  if (options.extended) params.set('extended', '1');
+  if (options.search?.trim()) params.set('search', options.search.trim());
+  if (options.limit != null) params.set('limit', String(options.limit));
+
+  const endpoint = params.toString()
+    ? `/api/opportunities?${params.toString()}`
     : '/api/opportunities';
   const key = authLoading ? null : endpoint;
 

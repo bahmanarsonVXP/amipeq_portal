@@ -8,7 +8,12 @@ app.get('/', async (c) => {
   const query = `
     query GetRelances {
       opportunities(
-        filter: { stage: { eq: "EN_ATTENTE" }, dateRelance: { lte: { date: "${new Date().toISOString().slice(0, 10)}" } } }
+        filter: {
+          and: [
+            { stage: { in: ["OPP_CLIENT_PENDING", "OPP_FOLLOWUP"] } },
+            { dateRelance: { lte: { date: "${new Date().toISOString().slice(0, 10)}" } } }
+          ]
+        }
         orderBy: { dateRelance: AscNullsLast }
         first: 100
       ) {

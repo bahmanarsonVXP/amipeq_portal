@@ -50,8 +50,9 @@ export async function apiFetch<T>(endpoint: string, options?: RequestInit): Prom
   const lsToken = typeof window !== 'undefined' ? localStorage.getItem(GATEWAY_TOKEN_KEY) : null;
   const { headers: optHeaders, ...rest } = options ?? {};
   const headers = mergeFetchHeaders(lsToken, optHeaders);
+  const path = endpoint.replace(/\/+$/, '') || '/';
 
-  const res = await fetch(`${getApiBaseUrl()}${endpoint}`, {
+  const res = await fetch(`${getApiBaseUrl()}${path}`, {
     ...rest,
     headers,
   });

@@ -7,7 +7,7 @@
 ## Étape 1 — Exporter les métadonnées
 
 ```bash
-node export_metadata.js https://twenty-production-0500.up.railway.app "TA_CLE_API"
+node export_metadata.js https://twenty-production-7352.up.railway.app "TA_CLE_API"
 ```
 
 Ça génère :
@@ -33,7 +33,7 @@ node export_metadata.js https://twenty-production-0500.up.railway.app "TA_CLE_AP
 ## Étape 3 — Appliquer les traductions
 
 ```bash
-node import_translations.js https://twenty-production-0500.up.railway.app "TA_CLE_API" twenty_metadata_fr.tsv
+node import_translations.js https://twenty-production-7352.up.railway.app "TA_CLE_API" twenty_metadata_fr.tsv
 ```
 
 Le script :
