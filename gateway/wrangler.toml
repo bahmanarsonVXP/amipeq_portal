@@ -1,4 +1,4 @@
-name = "gateway-amipeq"
+name = "amipeqportalgateway"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
@@ -10,7 +10,7 @@ FRONTEND_URL   = "https://amipeq-portal.pages.dev"
 # Secrets (set via wrangler secret put):
 # TWENTY_API_KEY
 # SUPABASE_JWT_SECRET  (JWT Secret du projet Supabase application RPS — voir docs/authentification.md)
-# PUBLIC_GATEWAY_URL  (ex. https://gateway-amipeq.workers.dev — notes Twenty)
+# PUBLIC_GATEWAY_URL  (ex. https://amipeqportalgateway.arsonbahman.workers.dev — notes Twenty)
 
 [[r2_buckets]]
 binding = "DEVIS_DOCUMENTS"
