@@ -1,3 +1,6 @@
+# Claude Code (worktrees locaux — ne pas versionner comme submodule)
+.claude/worktrees/
+
 # Environments
 .env
 .env.local
