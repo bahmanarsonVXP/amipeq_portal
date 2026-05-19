@@ -1,3 +1,10 @@
 name = "amipeq-portal"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "out"
+
+# Injectées au build Pages (le dashboard « Environment variables » n’est pas toujours
+# exposé à `next build` — le log affiche alors « Build environment variables: (none found) »).
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://nkxcegxgjwugqxpsfnka.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_PCbWmCc0jtuEM8OqyTn3Jg_95SE8g4W"
+NEXT_PUBLIC_API_URL = "https://amipeqportalgateway.arsonbahman.workers.dev"
